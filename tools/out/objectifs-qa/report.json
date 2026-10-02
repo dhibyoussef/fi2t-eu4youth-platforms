@@ -1,0 +1,455 @@
+[
+  {
+    "viewport": "desktop-1920",
+    "width": 1920,
+    "zoom": "0.75",
+    "rootFs": "7.5px",
+    "overflow": 0,
+    "issues": [],
+    "checks": {
+      "h1": {
+        "fontSize": "40.5px",
+        "text": "OBJECTIFS DU PROGRAMME"
+      },
+      "h2Vision": {
+        "fontSize": "42px",
+        "text": "UNE VISION COMMUNE"
+      },
+      "heroLead": {
+        "fontSize": "24px",
+        "text": "EU4Youth part d’une conviction fondament"
+      },
+      "heroPrinciple": {
+        "fontSize": "19.875px",
+        "text": "Créer des opportunités réelles de dévelo"
+      },
+      "objHeading": {
+        "fontSize": "86.25px",
+        "text": "OBJECTIFSDU PROGRAMME"
+      },
+      "objKicker": {
+        "fontSize": "28.5px",
+        "text": "OBJECTIF SPÉCIFIQUE 1"
+      },
+      "objTitle": {
+        "fontSize": "45px",
+        "text": "OBJECTIF GÉNÉRAL"
+      },
+      "objPanel": {
+        "fontSize": "24px",
+        "text": "Renforcer l'accès des jeunes à des emplo"
+      },
+      "actionH2": {
+        "fontSize": "64.5px",
+        "text": "COMMENTLE PROGRAMME AGIT"
+      },
+      "axeTab": {
+        "fontSize": "15.75px",
+        "text": "AXE 1"
+      },
+      "axePanel": {
+        "fontSize": "24px",
+        "text": "Le programme renforce l'accès des jeunes"
+      },
+      "projetsTitle": {
+        "fontSize": "86.25px",
+        "text": "SIX PROJETSUNE VISION COMMUNE."
+      },
+      "composanteLink": {
+        "fontSize": "18.75px",
+        "text": "Jeun'ESS"
+      }
+    },
+    "worst": [],
+    "outsideParent": [
+      {
+        "sel": ".obj-axes__tabs",
+        "leftDiff": 1474,
+        "rightDiff": 1800
+      }
+    ],
+    "brokenImgs": [],
+    "links": [
+      {
+        "text": "Jeun'ESS",
+        "textDecoration": "underline",
+        "underlineOffset": "2.625px"
+      },
+      {
+        "text": "GO4Youth",
+        "textDecoration": "underline",
+        "underlineOffset": "2.625px"
+      },
+      {
+        "text": "SWAFY",
+        "textDecoration": "underline",
+        "underlineOffset": "2.625px"
+      },
+      {
+        "text": "IRADA4YOUTH",
+        "textDecoration": "underline",
+        "underlineOffset": "2.625px"
+      },
+      {
+        "text": "Maghroum'IN",
+        "textDecoration": "underline",
+        "underlineOffset": "2.625px"
+      },
+      {
+        "text": "Fe3il.a",
+        "textDecoration": "underline",
+        "underlineOffset": "2.625px"
+      }
+    ],
+    "compact": [
+      {
+        "sel": ".obj-objective__title",
+        "lineHeight": "45px",
+        "fontSize": "45px"
+      },
+      {
+        "sel": ".obj-axes__panel h3",
+        "lineHeight": "35.25px",
+        "fontSize": "35.25px"
+      }
+    ],
+    "headingLayout": {
+      "height": 182,
+      "flexDirection": "row",
+      "alignItems": "flex-end",
+      "iconWidth": 179,
+      "overflow": "visible"
+    },
+    "closingInfo": {
+      "width": 885,
+      "right": 1005,
+      "viewport": 1920,
+      "fontSize": "19.875px"
+    },
+    "axesLayout": {
+      "actionDisplay": "grid",
+      "tabsTop": 2368,
+      "actionTop": 2226,
+      "tabsRight": 1800,
+      "actionRight": 1920
+    },
+    "scrollHeight": 4529
+  },
+  {
+    "viewport": "tablet-768",
+    "width": 768,
+    "zoom": "1",
+    "rootFs": "10px",
+    "overflow": 0,
+    "issues": [],
+    "checks": {
+      "h1": {
+        "fontSize": "54px",
+        "text": "OBJECTIFS DU PROGRAMME"
+      },
+      "h2Vision": {
+        "fontSize": "32px",
+        "text": "UNE VISION COMMUNE"
+      },
+      "heroLead": {
+        "fontSize": "32px",
+        "text": "EU4Youth part d’une conviction fondament"
+      },
+      "heroPrinciple": {
+        "fontSize": "26.5px",
+        "text": "Créer des opportunités réelles de dévelo"
+      },
+      "objHeading": {
+        "fontSize": "76.8px",
+        "text": "OBJECTIFSDU PROGRAMME"
+      },
+      "objKicker": {
+        "fontSize": "38px",
+        "text": "OBJECTIF SPÉCIFIQUE 1"
+      },
+      "objTitle": {
+        "fontSize": "60px",
+        "text": "OBJECTIF GÉNÉRAL"
+      },
+      "objPanel": {
+        "fontSize": "32px",
+        "text": "Renforcer l'accès des jeunes à des emplo"
+      },
+      "actionH2": {
+        "fontSize": "64px",
+        "text": "COMMENTLE PROGRAMME AGIT"
+      },
+      "axeTab": {
+        "fontSize": "21px",
+        "text": "AXE 1"
+      },
+      "axePanel": {
+        "fontSize": "32px",
+        "text": "Le programme renforce l'accès des jeunes"
+      },
+      "projetsTitle": {
+        "fontSize": "76.8px",
+        "text": "SIX PROJETSUNE VISION COMMUNE."
+      },
+      "composanteLink": {
+        "fontSize": "25px",
+        "text": "Jeun'ESS"
+      }
+    },
+    "worst": [],
+    "outsideParent": [],
+    "brokenImgs": [],
+    "links": [
+      {
+        "text": "Jeun'ESS",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      },
+      {
+        "text": "GO4Youth",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      },
+      {
+        "text": "SWAFY",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      },
+      {
+        "text": "IRADA4YOUTH",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      },
+      {
+        "text": "Maghroum'IN",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      },
+      {
+        "text": "Fe3il.a",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      }
+    ],
+    "compact": [
+      {
+        "sel": ".obj-objective__title",
+        "lineHeight": "60px",
+        "fontSize": "60px"
+      },
+      {
+        "sel": ".obj-axes__panel h3",
+        "lineHeight": "47px",
+        "fontSize": "47px"
+      }
+    ],
+    "headingLayout": {
+      "height": 242,
+      "flexDirection": "row",
+      "alignItems": "flex-end",
+      "iconWidth": 140,
+      "overflow": "visible"
+    },
+    "closingInfo": {
+      "width": 704,
+      "right": 736,
+      "viewport": 768,
+      "fontSize": "26.5px"
+    },
+    "axesLayout": {
+      "actionDisplay": "block",
+      "tabsTop": 4707,
+      "actionTop": 4462,
+      "tabsRight": 736,
+      "actionRight": 768
+    },
+    "scrollHeight": 9301
+  },
+  {
+    "viewport": "mobile-375",
+    "width": 375,
+    "zoom": "1",
+    "rootFs": "10px",
+    "overflow": 0,
+    "issues": [],
+    "checks": {
+      "h1": {
+        "fontSize": "54px",
+        "text": "OBJECTIFS DU PROGRAMME"
+      },
+      "h2Vision": {
+        "fontSize": "32px",
+        "text": "UNE VISION COMMUNE"
+      },
+      "heroLead": {
+        "fontSize": "25px",
+        "text": "EU4Youth part d’une conviction fondament"
+      },
+      "heroPrinciple": {
+        "fontSize": "26.5px",
+        "text": "Créer des opportunités réelles de dévelo"
+      },
+      "objHeading": {
+        "fontSize": "62px",
+        "text": "OBJECTIFSDU PROGRAMME"
+      },
+      "objKicker": {
+        "fontSize": "30px",
+        "text": "OBJECTIF SPÉCIFIQUE 1"
+      },
+      "objTitle": {
+        "fontSize": "60px",
+        "text": "OBJECTIF GÉNÉRAL"
+      },
+      "objPanel": {
+        "fontSize": "25px",
+        "text": "Renforcer l'accès des jeunes à des emplo"
+      },
+      "actionH2": {
+        "fontSize": "64px",
+        "text": "COMMENTLE PROGRAMME AGIT"
+      },
+      "axeTab": {
+        "fontSize": "18px",
+        "text": "AXE 1"
+      },
+      "axePanel": {
+        "fontSize": "25px",
+        "text": "Le programme renforce l'accès des jeunes"
+      },
+      "projetsTitle": {
+        "fontSize": "62px",
+        "text": "SIX PROJETSUNE VISION COMMUNE."
+      },
+      "composanteLink": {
+        "fontSize": "25px",
+        "text": "Jeun'ESS"
+      }
+    },
+    "worst": [
+      {
+        "what": "article.obj-objective",
+        "over": 131,
+        "left": 21,
+        "right": 506,
+        "width": 486
+      },
+      {
+        "what": "button.obj-objective__button",
+        "over": 131,
+        "left": 21,
+        "right": 506,
+        "width": 486
+      },
+      {
+        "what": "article.obj-objective.obj-objective--open",
+        "over": 131,
+        "left": 21,
+        "right": 506,
+        "width": 486
+      },
+      {
+        "what": "div.obj-objective__panel",
+        "over": 131,
+        "left": 21,
+        "right": 506,
+        "width": 486
+      },
+      {
+        "what": "span.obj-objective__chevron",
+        "over": 107,
+        "left": 440,
+        "right": 482,
+        "width": 43
+      },
+      {
+        "what": "p",
+        "over": 101,
+        "left": 51,
+        "right": 476,
+        "width": 426
+      },
+      {
+        "what": "span",
+        "over": 72,
+        "left": 38,
+        "right": 447,
+        "width": 409
+      },
+      {
+        "what": "span.obj-objective__labels",
+        "over": 35,
+        "left": 80,
+        "right": 410,
+        "width": 330
+      }
+    ],
+    "outsideParent": [],
+    "brokenImgs": [],
+    "links": [
+      {
+        "text": "Jeun'ESS",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      },
+      {
+        "text": "GO4Youth",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      },
+      {
+        "text": "SWAFY",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      },
+      {
+        "text": "IRADA4YOUTH",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      },
+      {
+        "text": "Maghroum'IN",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      },
+      {
+        "text": "Fe3il.a",
+        "textDecoration": "underline",
+        "underlineOffset": "3.5px"
+      }
+    ],
+    "compact": [
+      {
+        "sel": ".obj-objective__title",
+        "lineHeight": "60px",
+        "fontSize": "60px"
+      },
+      {
+        "sel": ".obj-axes__panel h3",
+        "lineHeight": "38px",
+        "fontSize": "38px"
+      }
+    ],
+    "headingLayout": {
+      "height": 242,
+      "flexDirection": "row",
+      "alignItems": "center",
+      "iconWidth": 90,
+      "overflow": "visible"
+    },
+    "closingInfo": {
+      "width": 334,
+      "right": 354,
+      "viewport": 375,
+      "fontSize": "25px"
+    },
+    "axesLayout": {
+      "actionDisplay": "block",
+      "tabsTop": 7044,
+      "actionTop": 6567,
+      "tabsRight": 354,
+      "actionRight": 375
+    },
+    "scrollHeight": 12509
+  }
+]

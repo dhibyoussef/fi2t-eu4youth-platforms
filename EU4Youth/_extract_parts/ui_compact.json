@@ -1,0 +1,268 @@
+{
+  "ui_Accueil": {
+    "pages": 4,
+    "lines": [
+      "EU4Youth accompagne",
+      "les jeunes dans leurs",
+      "parcours, leurs projets",
+      "et leur engagement.",
+      "Vous avez entre 18 et 35 ans. Vous avez une idée, un projet, une",
+      "envie de faire quelque chose pour votre quartier, votre commune",
+      "ou votre gouvernorat. EU4Youth Tunisie vous accompagne.",
+      "Découvrir les projets",
+      "Voir les opportunités ouvertes",
+      "Explorer la carte des initiatives",
+      "LA JEUNESSE TUNISIENNE PORTE LES SOLUTIONS DE DEMAIN.",
+      "JEUN",
+      "SIX PROJETS",
+      "UNE VISION COMMUNE.",
+      "OPPORTUNITÉS"
+    ]
+  },
+  "ui_Actualité": {
+    "pages": 3,
+    "lines": [
+      "République Tunisienne",
+      "À propos EU4Youth",
+      "Gouvernance et pilotage",
+      "Financement Union européenne",
+      "Partenaires",
+      "Contact",
+      "et ne reflète pas nécessairement les opinions de l’Union européenne.",
+      "FR  |    |  ﻋﺮﺑﻲEN",
+      "LE PROGRAMME",
+      "EXPLORER",
+      "INFORMATIONS LÉGALES",
+      "Les projets",
+      "Carte des initiatives",
+      "Opportunités",
+      "Publications et ressources"
+    ]
+  },
+  "ui_a_propos": {
+    "pages": 4,
+    "lines": [
+      "EU4Youth accompagne les jeunes",
+      "dans leurs parcours, leurs projets",
+      "et leur engagement.",
+      "ans, dans toutes les régions du pays.",
+      "ressources, aux soutiens et aux opportunités..",
+      "PROGRAMME D'APPUI À LA JEUNESSE TUNISIENNE",
+      "POURQUOI",
+      "EU4YOUTH ?",
+      "OBJECTIFS",
+      "DU PROGRAMME",
+      "LES PARTENAIRES",
+      "UNE VISION COMMUNE",
+      "COMMENT",
+      "LE PROGRAMME AGIT",
+      "La Tunisie est un pays jeune. Les moins de 35 ans"
+    ]
+  },
+  "ui_BUTTON_GUIDLINE": {
+    "pages": 1,
+    "lines": [
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1",
+      "BUTTON 1"
+    ]
+  },
+  "ui_carte_v2": {
+    "pages": 7,
+    "lines": [
+      "CARTOGRAPHIE",
+      "DES INTERVENTIONS TERRITORIALES",
+      "EU4YOUTH",
+      "De Bizerte à Ben Guerdane, de Jendouba à Tataouine, EU4Youth",
+      "accompagne les jeunes Tunisiennes et Tunisiens dans les 24",
+      "gouvernorats de la Tunisie.",
+      "près de chez vous.",
+      "BEJA",
+      "BIZERTE",
+      "ZAGHOUAN",
+      "NABEUL",
+      "JENDOUBA",
+      "SFAX",
+      "KAIROUAN",
+      "GABES"
+    ]
+  },
+  "ui_COLOR_GUIDLINE": {
+    "pages": 1,
+    "lines": [
+      "JEUN"
+    ]
+  },
+  "ui_Contact": {
+    "pages": 4,
+    "lines": [
+      "République Tunisienne",
+      "Nom",
+      "Prénom",
+      "Organisation / Structure",
+      "Fonction",
+      "Adresse e-mail",
+      "Objet",
+      "Téléphone",
+      "Vous êtes...",
+      "Projet concerné",
+      "Zone géographique concernée",
+      "Objet de la demande",
+      "100 caractères maximum",
+      "Message",
+      "2 000  caractères maximum"
+    ]
+  },
+  "ui_Glossaire": {
+    "pages": 2,
+    "lines": [
+      "République Tunisienne",
+      "À propos EU4Youth",
+      "Gouvernance et pilotage",
+      "Financement Union européenne",
+      "Partenaires",
+      "Contact",
+      "et ne reflète pas nécessairement les opinions de l’Union européenne.",
+      "FR  |    |  ﻋﺮﺑﻲEN",
+      "LE PROGRAMME",
+      "EXPLORER",
+      "INFORMATIONS LÉGALES",
+      "Les projets",
+      "Carte des initiatives",
+      "Opportunités",
+      "Publications et ressources"
+    ]
+  },
+  "ui_opportunités": {
+    "pages": 3,
+    "lines": [
+      "République Tunisienne",
+      "À propos EU4Youth",
+      "Gouvernance et pilotage",
+      "Financement Union européenne",
+      "Partenaires",
+      "Contact",
+      "et ne reflète pas nécessairement les opinions de l’Union européenne.",
+      "FR  |    |  ﻋﺮﺑﻲEN",
+      "LE PROGRAMME",
+      "EXPLORER",
+      "INFORMATIONS LÉGALES",
+      "Les projets",
+      "Carte des initiatives",
+      "Opportunités",
+      "Publications et ressources"
+    ]
+  },
+  "ui_Page_Publications_Ressources": {
+    "pages": 2,
+    "lines": [
+      "République Tunisienne",
+      "À propos EU4Youth",
+      "Gouvernance et pilotage",
+      "Financement Union européenne",
+      "Partenaires",
+      "Contact",
+      "et ne reflète pas nécessairement les opinions de l’Union européenne.",
+      "FR  |    |  ﻋﺮﺑﻲEN",
+      "LE PROGRAMME",
+      "EXPLORER",
+      "INFORMATIONS LÉGALES",
+      "Les projets",
+      "Carte des initiatives",
+      "Opportunités",
+      "Publications et ressources"
+    ]
+  },
+  "ui_projet": {
+    "pages": 2,
+    "lines": [
+      "République Tunisienne",
+      "À propos EU4Youth",
+      "Gouvernance et pilotage",
+      "Financement Union européenne",
+      "Partenaires",
+      "Contact",
+      "et ne reflète pas nécessairement les opinions de l’Union européenne.",
+      "FR  |    |  ﻋﺮﺑﻲEN",
+      "LE PROGRAMME",
+      "EXPLORER",
+      "INFORMATIONS LÉGALES",
+      "Les projets",
+      "Carte des initiatives",
+      "Opportunités",
+      "Publications et ressources"
+    ]
+  },
+  "ui_projet_banner": {
+    "pages": 6,
+    "lines": [
+      "République Tunisienne",
+      "PRGRAMME",
+      "MÉDIAS ET",
+      "RESSOURCES",
+      "EU EN TUNISIE",
+      "PROJETS",
+      "CARTE",
+      "ACTUALITÉS",
+      "ET OPPORTUNITÉS",
+      "YOUTH STORIES",
+      "PROJET DE PROMOTION DE L’ÉCONOMIE SOCIALE",
+      "ET SOLIDAIRE ET DE CRÉATION D’EMPLOIS DÉCENTS",
+      "POUR LA JEUNESSE TUNISIENNE",
+      "République Tunisienne",
+      "JEUN"
+    ]
+  },
+  "ui_root_projet banner": {
+    "pages": 6,
+    "lines": [
+      "République Tunisienne",
+      "PRGRAMME",
+      "MÉDIAS ET",
+      "RESSOURCES",
+      "EU EN TUNISIE",
+      "PROJETS",
+      "CARTE",
+      "ACTUALITÉS",
+      "ET OPPORTUNITÉS",
+      "YOUTH STORIES",
+      "PROJET DE PROMOTION DE L’ÉCONOMIE SOCIALE",
+      "ET SOLIDAIRE ET DE CRÉATION D’EMPLOIS DÉCENTS",
+      "POUR LA JEUNESSE TUNISIENNE",
+      "JEUN’ESS",
+      "République Tunisienne"
+    ]
+  },
+  "ui_root_projet": {
+    "pages": 2,
+    "lines": [
+      "République Tunisienne",
+      "À propos EU4Youth",
+      "Gouvernance et pilotage",
+      "Financement Union européenne",
+      "Partenaires",
+      "Contact",
+      "et ne reflète pas nécessairement les opinions de l’Union européenne.",
+      "FR  |    |  ﻋﺮﺑﻲEN",
+      "LE PROGRAMME",
+      "EXPLORER",
+      "INFORMATIONS LÉGALES",
+      "Les projets",
+      "Carte des initiatives",
+      "Opportunités",
+      "Publications et ressources"
+    ]
+  }
+}

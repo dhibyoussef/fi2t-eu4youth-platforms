@@ -1,0 +1,263 @@
+PAGE_COUNT=3
+
+===== PAGE 1 =====
+
+République Tunisienne
+À propos EU4Youth
+Gouvernance et pilotage
+Financement Union européenne
+Partenaires
+Contact
+Ce site a été produit avec le soutien financier de l’Union européenne. Son 
+contenu relève de la seule responsabilité du programme EU4Youth Tunisie 
+et ne reflète pas nécessairement les opinions de l’Union européenne.
+FR  |    |  ﻋﺮﺑﻲEN
+LE PROGRAMME
+EXPLORER
+INFORMATIONS LÉGALES 
+Les projets
+Carte des initiatives
+Opportunités
+Publications et ressources
+Stories
+Actualités et Agenda
+Glossaire
+Politique de confidentialité
+Mentions légales
+Accessibilité
+Gestion des cookies
+JEUN
+République Tunisienne
+PRGRAMME
+MÉDIAS ET 
+RESSOURCES
+EU EN TUNISIE
+PROJETS
+CARTE
+ACTUALITÉS
+ET OPPORTUNITÉS  
+YOUTH STORIES
+Cette rubrique rassemble les appels à projets, appels à candidatures, offres de stage ou d'emploi, 
+bourses et formations ouverts par les projets de l'écosystème EU4Youth. Chaque opportunité précise 
+son porteur, son public cible et sa date limite, pour permettre aux jeunes, aux associations et aux 
+structures partenaires d'identifier rapidement les dispositifs auxquels ils peuvent prétendre.
+Type d'opportunité
+Filtrer Par
+Thématique
+Statut
+Projet associé
+Public cible
+Localisation / éligibilité 
+géographique
+Tri par
+Titre 
+Badge type 
+jj/mm/aaaa
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+Titre 
+Badge type 
+jj/mm/aaaa
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+Titre 
+Badge type 
+jj/mm/aaaa
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+Titre 
+Badge type 
+jj/mm/aaaa
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+
+
+===== PAGE 2 =====
+
+Thématique
+Statut
+Projet associé
+Public cible
+Localisation / éligibilité 
+géographique
+Toutes
+Appels à projets
+Appels à candidatures
+Stages / emplois
+Bourses
+Formations
+République Tunisienne
+À propos EU4Youth
+Gouvernance et pilotage
+Financement Union européenne
+Partenaires
+Contact
+Ce site a été produit avec le soutien financier de l’Union européenne. Son 
+contenu relève de la seule responsabilité du programme EU4Youth Tunisie 
+et ne reflète pas nécessairement les opinions de l’Union européenne.
+FR  |    |  ﻋﺮﺑﻲEN
+LE PROGRAMME
+EXPLORER
+INFORMATIONS LÉGALES 
+Les projets
+Carte des initiatives
+Opportunités
+Publications et ressources
+Stories
+Actualités et Agenda
+Glossaire
+Politique de confidentialité
+Mentions légales
+Accessibilité
+Gestion des cookies
+JEUN
+République Tunisienne
+PRGRAMME
+MÉDIAS ET 
+RESSOURCES
+EU EN TUNISIE
+PROJETS
+CARTE
+ACTUALITÉS
+ET OPPORTUNITÉS  
+YOUTH STORIES
+Cette rubrique rassemble les appels à projets, appels à candidatures, offres de stage ou d'emploi, 
+bourses et formations ouverts par les projets de l'écosystème EU4Youth. Chaque opportunité précise 
+son porteur, son public cible et sa date limite, pour permettre aux jeunes, aux associations et aux 
+structures partenaires d'identifier rapidement les dispositifs auxquels ils peuvent prétendre.
+Filtrer Par
+Titre 
+Badge type 
+jj/mm/aaaa
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+Titre 
+Badge type 
+jj/mm/aaaa
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+Titre 
+Badge type 
+jj/mm/aaaa
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+Titre 
+Badge type 
+jj/mm/aaaa
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+Type d'opportunité
+par défaut
+opportunités ouvertes en 
+tête
+plus récentes
+pertinence
+Tri par
+
+
+===== PAGE 3 =====
+
+Titre informatif
+jj/mm/aaaa
+République Tunisienne
+À propos EU4Youth
+Gouvernance et pilotage
+Financement Union européenne
+Partenaires
+Contact
+Ce site a été produit avec le soutien financier de l’Union européenne. Son 
+contenu relève de la seule responsabilité du programme EU4Youth Tunisie 
+et ne reflète pas nécessairement les opinions de l’Union européenne.
+FR  |    |  ﻋﺮﺑﻲEN
+LE PROGRAMME
+EXPLORER
+INFORMATIONS LÉGALES 
+Les projets
+Carte des initiatives
+Opportunités
+Publications et ressources
+Stories
+Actualités et Agenda
+Glossaire
+Politique de confidentialité
+Mentions légales
+Accessibilité
+Gestion des cookies
+JEUN
+République Tunisienne
+PRGRAMME
+MÉDIAS ET 
+RESSOURCES
+EU EN TUNISIE
+PROJETS
+CARTE
+ACTUALITÉS
+ET OPPORTUNITÉS  
+YOUTH STORIES
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed 
+diam nonummy nibh euismod Lorem ipsum dolor sit amet, 
+consectetuer adipiscing elit, sed diam nonummy nibh euismod 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed 
+diam nonummy nibh euismod Lorem ipsum dolor sit amet, 
+consectetuer adipiscing elit, sed diam nonummy nibh euismod 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed 
+diam nonummy nibh euismod Lorem ipsum dolor sit amet, 
+consectetuer adipiscing elit, sed diam nonummy nibh euismod 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed 
+diam nonummy nibh euismod 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed 
+diam nonummy nibh euismod Lorem ipsum dolor sit amet, 
+consectetuer adipiscing elit, sed diam nonummy nibh euismod 
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed 
+diam nonummy nibh euismod Lorem ipsum dolor sit amet, 
+Location
+Appliquer
+Date limite : jj/mm/aaaa

@@ -1,0 +1,12 @@
+{
+  "html_chars": 68068,
+  "dt": 0,
+  "h": 2,
+  "bold_p": 0,
+  "strongs": 1,
+  "term_estimate": 1,
+  "sample": [
+    "Dans EU4Youth :"
+  ],
+  "snippet_start": "\n<style>\n* { box-sizing: border-box; margin: 0; padding: 0; }\nbody { font-family: var(--font-sans); }\n\n.gloss-header {\n  padding: 1.5rem 0 1rem;\n  border-bottom: 0.5px solid var(--border);\n  margin-bottom: 1rem;\n}\n.gloss-header h1 {\n  font-size: 20px; font-weight: 500; color: var(--text-primary);\n  margin-bottom: 0.25rem;\n}\n.gloss-header p {\n  font-size: 13px; color: var(--text-secondary);\n}\n.search-bar {\n  margin: 0.75rem 0 1rem;\n  position: relative;\n}\n.search-bar input {\n  width: 100%;\n  padding: 8px 8px 8px 34px;\n  font-size: 14px;\n  border: 0.5px solid var(--border-strong);\n  border-radius: var(--radius);\n  background: var(--surface-2);\n  color: var(--text-primary);\n}\n.search-bar i {\n  position: absolute; left: 10px; top: 50%; transform: translateY(-50%);\n  color: var(--text-muted); font-size: 16px;\n}\n.stats-row {\n  display: flex; gap: 8px; margin-bottom: 1rem; flex-wrap: wrap;\n}\n.stat-pill {\n  font-size: 12px; padding: 3px 10px;\n  background: var(--surface-1); border: 0.5px solid var(--border);\n  border-radius: 20px; color: var(--text-secondary);\n}\n.stat-pill span { font-weight: 500; color: var(--text-primary); }\n\n.nav-tabs {\n  display: flex; gap: 4px; overflow-x: auto; padding-bottom: 4px;\n  scrollbar-width: none; margin-bottom: 1rem;\n}\n.nav-tabs::-webkit-scrollbar { display: none; }\n.tab-btn {\n  flex-shrink: 0;\n  padding: 5px 12px;\n  font-size: 12px; font-weight: 400;\n  border: 0.5px solid var(--border);\n  border-radius: 20px;\n  background: var(--surface-2);\n  color: "
+}

@@ -1,0 +1,135 @@
+.funder-flags {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 1.6rem;
+  flex: none;
+}
+
+.funder-flags__item {
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: start;
+  justify-items: center;
+  gap: 0.4rem;
+  /* Wide enough for “Financé par l’Union européenne” at caption size. */
+  width: 18rem;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.funder-flags__flag-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9rem;
+  height: 4.4rem;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+}
+
+.funder-flags__flag {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  background: transparent;
+}
+
+.funder-flags__caption {
+  display: grid;
+  gap: 0.05rem;
+  width: 100%;
+  min-height: 0;
+  font-family: var(--font-body);
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: rgb(0 0 0 / 78%);
+  overflow-wrap: break-word;
+  hyphens: none;
+}
+
+.funder-flags__caption span {
+  display: block;
+}
+
+.funder-flags--header .funder-flags__item,
+.funder-flags--footer .funder-flags__item {
+  width: 19rem;
+}
+
+.funder-flags--header .funder-flags__flag-wrap,
+.funder-flags--footer .funder-flags__flag-wrap {
+  width: 8.6rem;
+  height: 4.2rem;
+}
+
+.funder-flags--header .funder-flags__caption,
+.funder-flags--footer .funder-flags__caption {
+  font-size: 1.9rem;
+  line-height: 1.2;
+}
+
+.header__inst .funder-flags {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+  z-index: 3;
+  max-height: none;
+  overflow: visible;
+  align-items: flex-start;
+}
+
+.footer .footer__funders,
+.footer .funder-flags {
+  z-index: 4;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  padding: 0;
+}
+
+.footer .funder-flags {
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+
+.footer .funder-flags__flag-wrap,
+.footer .funder-flags__flag {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  border-radius: 0;
+  filter: none;
+}
+
+.footer .funder-flags__caption {
+  color: rgb(255 255 255 / 92%);
+}
+
+@media (max-width: 1099px) {
+  .funder-flags {
+    gap: 1.2rem;
+  }
+
+  .funder-flags__item,
+  .funder-flags--header .funder-flags__item,
+  .footer .funder-flags__item {
+    width: min(16rem, 42vw);
+  }
+
+  .funder-flags__caption,
+  .funder-flags--header .funder-flags__caption,
+  .funder-flags--footer .funder-flags__caption {
+    font-size: 2.2rem;
+    line-height: 1.25;
+  }
+}

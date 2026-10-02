@@ -1,0 +1,85 @@
+# ------------------------------------------------------------------------------
+# Dependencies
+# ------------------------------------------------------------------------------
+**/node_modules/
+**/vendor/
+.pnp
+.pnp.js
+
+# ------------------------------------------------------------------------------
+# Environment & Sensitive Credentials (STRICT)
+# ------------------------------------------------------------------------------
+**/.env
+**/.env.*
+!**/.env.example
+**/SERVER-ACCESS*.md
+**/acces-*.md
+**/SFTP-INSTRUCTIONS*.txt
+**/deploy/.env
+**/*password*
+**/*credential*
+**/*.pem
+**/*.key
+
+# Data snapshots containing user accounts / password hashes, and user uploads
+**/backend/data/store.json
+**/backend/data/store.json.bak*
+**/backend/data/store.preprod-patched.json
+**/backend/uploads/
+
+# ------------------------------------------------------------------------------
+# Build & Distribution Artifacts
+# ------------------------------------------------------------------------------
+**/dist/
+**/dist-*/
+**/dist-staging/
+**/dist-deploy/
+**/build/
+.output/
+
+# ------------------------------------------------------------------------------
+# Temporary Audit Scripts Containing Server Credentials or Host IPs
+# ------------------------------------------------------------------------------
+**/tools/_*
+**/tools/deploy-*.ps1
+EU4Youth/eu4youth-website/tools/sync-trilingue-store.mjs
+fi2T/deploy/PREPROD-PRODEXO.md
+
+# ------------------------------------------------------------------------------
+# Large raw client design archives & Google Drive dumps (>50MB / 100MB limits)
+# ------------------------------------------------------------------------------
+**/UI Web Design*
+**/web eu4youth - Charte graphique et logos*
+**/site web EU4Youth.org*
+*.zip
+*.tar.gz
+
+.npm
+.cache
+.pdf-preview/
+**/tools/out/npm-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# ------------------------------------------------------------------------------
+# Storage & Database Local Files
+# ------------------------------------------------------------------------------
+*.sqlite
+*.sqlite3
+backend/storage/*.key
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+
+# ------------------------------------------------------------------------------
+# OS & Editor Files
+# ------------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

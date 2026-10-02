@@ -1,0 +1,410 @@
+{
+  "a-propos|objectifs|items": {
+    "en": [
+      {
+        "kicker": "",
+        "title": "OVERALL OBJECTIVE",
+        "body": "Contribute to improving the economic, social and civic inclusion of young Tunisian women and men, through an approach rooted in the territories and in local dynamics."
+      },
+      {
+        "kicker": "SPECIFIC OBJECTIVE 1",
+        "title": "EMPLOYMENT, EMPLOYABILITY AND ENTREPRENEURSHIP",
+        "body": "Strengthen young people's access to decent jobs, develop their skills and entrepreneurial capacities, and support promising economic sectors in the targeted regions.\n\nThis involves supporting the social and solidarity economy, modernising public labour-market intermediation services, supporting research and creativity among young researchers, and funding economic projects in locally identified sectors."
+      },
+      {
+        "kicker": "SPECIFIC OBJECTIVE 2",
+        "title": "CULTURE AND SPORT FOR INCLUSION",
+        "body": "Strengthen young people's inclusion and participation through access to culture and sport, by reinforcing the capacities of cultural and sports operators, improving practice spaces and developing employability in these sectors.\n\nCulture and sport are not accessories in a young person's life; they are fundamental conditions for fulfilment, self-confidence and social belonging."
+      },
+      {
+        "kicker": "SPECIFIC OBJECTIVE 3",
+        "title": "PUBLIC POLICIES AND YOUTH PARTICIPATION",
+        "body": "Strengthen the place of young people in the design and implementation of public policies, at both local and national levels.\n\nYouth policies can only be effective if young people themselves take part in them. EU4Youth works with Tunisian municipalities and the Ministry of Youth and Sports to create real spaces for consultation, representation and participation."
+      }
+    ],
+    "ar": [
+      {
+        "kicker": "",
+        "title": "الهدف العام",
+        "body": "المساهمة في تحسين الإدماج الاقتصادي والاجتماعي والمواطني للشبان والشابات التونسيين، عبر مقاربة متجذّرة في الأقاليم وفي الديناميات المحلية."
+      },
+      {
+        "kicker": "الهدف الخاص 1",
+        "title": "التشغيل والقابلية للتشغيل وريادة الأعمال",
+        "body": "تعزيز ولوج الشباب إلى شغل لائق، وتطوير كفاءاتهم وقدراتهم المقاولاتية، ودعم القطاعات الاقتصادية الواعدة في الجهات المستهدفة.\n\nويشمل ذلك دعم الاقتصاد الاجتماعي والتضامني، وتحديث الخدمات العمومية للوساطة في سوق الشغل، ودعم البحث والإبداع لدى الباحثين الشباب، وتمويل المشاريع الاقتصادية في قطاعات محدّدة محلياً."
+      },
+      {
+        "kicker": "الهدف الخاص 2",
+        "title": "الثقافة والرياضة من أجل الإدماج",
+        "body": "تعزيز إدماج الشباب ومشاركتهم عبر الولوج إلى الثقافة والرياضة، بتعزيز قدرات الفاعلين الثقافيين والرياضيين، وتحسين فضاءات الممارسة، وتطوير القابلية للتشغيل في هذه القطاعات.\n\nالثقافة والرياضة ليستا ملحقين في حياة الشاب؛ بل هما شرطان أساسيان للازدهار والثقة بالنفس والانتماء الاجتماعي."
+      },
+      {
+        "kicker": "الهدف الخاص 3",
+        "title": "السياسات العمومية ومشاركة الشباب",
+        "body": "تعزيز مكانة الشباب في تصميم وتنفيذ السياسات العمومية، على المستوى المحلي كما على المستوى الوطني.\n\nلا يمكن أن تكون السياسات لفائدة الشباب فعّالة إلا إذا شارك الشباب أنفسهم فيها. ويعمل EU4Youth مع البلديات التونسية ووزارة الشباب والرياضة لخلق فضاءات حقيقية للتشاور والتمثيل والمشاركة."
+      }
+    ]
+  },
+  "a-propos|comment|items": {
+    "en": [
+      {
+        "kicker": "AXIS 1",
+        "title": "EMPLOYMENT AND ECONOMIC OPPORTUNITIES",
+        "body": "The programme strengthens young people's access to economic opportunities, whether through business creation, salaried employment or developing projects in promising sectors. It acts on several complementary levers: support for social and collective entrepreneurship, modernisation of guidance and labour-market intermediation services, promotion of research and creativity as pathways to employment, and funding of economic projects rooted in the territories."
+      },
+      {
+        "kicker": "AXIS 2",
+        "title": "CULTURE, SPORT AND PARTICIPATION",
+        "body": "EU4Youth considers culture and sport as full inclusion levers. The programme strengthens cultural and sports operators, improves access for vulnerable young people to creative and sports practices, and develops employability in these sectors. In parallel, it creates the conditions for authentic civic participation by young people — in their municipalities, their associations, and the public policies that concern them."
+      },
+      {
+        "kicker": "AXIS 3",
+        "title": "INNOVATION, RESEARCH AND TERRITORIAL DEVELOPMENT",
+        "body": "The programme invests in research and innovation as resources for young researchers' employment and for society's development. It also supports a territorial development logic based on the emergence of dynamic local ecosystems — networks of actors who know each other, cooperate and create opportunities together for young people in their regions. This territorial logic is at the heart of EU4Youth's design, from the selection of intervention areas to its implementation modalities."
+      }
+    ],
+    "ar": [
+      {
+        "kicker": "المحور 1",
+        "title": "التشغيل والفرص الاقتصادية",
+        "body": "يعزّز البرنامج ولوج الشباب إلى الفرص الاقتصادية، سواء عبر إنشاء المؤسسات أو التشغيل المأجور أو تطوير مشاريع في قطاعات واعدة. ويعمل على عدة رافعات متكاملة: دعم المقاولة الاجتماعية والجماعية، وتحديث خدمات التوجيه والوساطة في سوق الشغل، وتعزيز البحث والإبداع كمسارات نحو التشغيل، وتمويل المشاريع الاقتصادية المتجذّرة في الأقاليم."
+      },
+      {
+        "kicker": "المحور 2",
+        "title": "الثقافة والرياضة والمشاركة",
+        "body": "يعتبر EU4Youth الثقافة والرياضة رافعتين كاملتين للإدماج. فيعزّز البرنامج الفاعلين الثقافيين والرياضيين، ويحسّن ولوج الشباب في وضعية هشاشة إلى الممارسات الإبداعية والرياضية، ويطوّر القابلية للتشغيل في هذه القطاعات. وفي موازاة ذلك، يهيّئ شروط مشاركة مواطنية أصيلة للشباب — على مستوى بلدياتهم وجمعياتهم والسياسات العمومية التي تعنيهم."
+      },
+      {
+        "kicker": "المحور 3",
+        "title": "الابتكار والبحث والتنمية الترابية",
+        "body": "يستثمر البرنامج في البحث والابتكار كمورد لتشغيل الباحثين الشباب وتنمية المجتمع. كما يدعم منطقاً للتنمية الترابية قائماً على بروز منظومات محلية ديناميكية — شبكات فاعلين يتعارفون ويتعاونون ويخلقون معاً فرصاً لشباب مناطقهم. وهذا المنطق الترابي في صميم تصميم EU4Youth، من اختيار مناطق التدخل إلى صيغ التنفيذ."
+      }
+    ]
+  },
+  "a-propos|partners|tabs": {
+    "en": [
+      {
+        "line1": "THE EUROPEAN",
+        "line2": "UNION",
+        "body": "EU4Youth Tunisia is funded by the European Union. The Delegation of the European Union in Tunisia provides strategic supervision of all six projects, ensures programme coherence and is the reference institutional interlocutor with the Tunisian authorities. This programme falls within the EU–Tunisia Youth Partnership, announced jointly in December 2016, and reflects the European Union's commitment to placing youth at the heart of its cooperation relationship with Tunisia."
+      },
+      {
+        "line1": "TUNISIAN",
+        "line2": "INSTITUTIONS",
+        "body": "Tunisian ministries and institutions are central partners of the programme. They chair consultation frameworks, support implementation and carry institutional ownership of the results. Their engagement is the guarantee of the sustainability of the results produced."
+      },
+      {
+        "line1": "IMPLEMENTING",
+        "line2": "PARTNERS",
+        "body": "Partner international organisations implement the six projects. Their sectoral expertise and experience in international cooperation guarantee the quality of interventions."
+      }
+    ],
+    "ar": [
+      {
+        "line1": "الاتحاد",
+        "line2": "الأوروبي",
+        "body": "يموّل الاتحاد الأوروبي برنامج EU4Youth تونس. وتتولى بعثة الاتحاد الأوروبي في تونس الإشراف الاستراتيجي على المشاريع الستة، وتسهر على تماسك البرنامج، وتمثّل المحاور المؤسسي المرجعي لدى السلطات التونسية. ويندرج هذا البرنامج في إطار الشراكة بين الاتحاد الأوروبي وتونس من أجل الشباب، المعلن عنها بشكل مشترك في ديسمبر 2016، ويعكس التزام الاتحاد الأوروبي بوضع الشباب في صميم علاقة التعاون مع تونس."
+      },
+      {
+        "line1": "المؤسسات",
+        "line2": "التونسية",
+        "body": "الوزارات والمؤسسات التونسية شركاء مركزيون للبرنامج. فهي ترأس أطر التشاور، وترافق التنفيذ، وتحمل التملّك المؤسسي للمكتسبات. وانخراطها ضمان لاستدامة النتائج المحققة."
+      },
+      {
+        "line1": "شركاء",
+        "line2": "التنفيذ",
+        "body": "تتولى المنظمات الدولية الشريكة تنفيذ المشاريع الستة. وخبرتها القطاعية وتجربتها في التعاون الدولي تضمنان جودة التدخلات."
+      }
+    ]
+  },
+  "a-propos|avenir|items": {
+    "en": [
+      {
+        "kicker": "",
+        "title": "SOLID ACHIEVEMENTS",
+        "body": "The programme has built lasting foundations: an interministerial governance architecture that brings ministries and partners together, in a formal and regular framework, around youth issues. Strengthened capacities in dozens of organisations, institutions, municipalities and associations. Youth participation spaces that can become permanent in municipalities, steering committees and consultation processes."
+      },
+      {
+        "kicker": "",
+        "title": "SHARED KNOWLEDGE",
+        "body": "EU4Youth has invested in producing useful knowledge. Mapping of youth programmes in Tunisia, studies on youth participation mechanisms, sectoral analyses on culture, sport and employment, studies on the specific vulnerabilities of certain groups. This knowledge is made freely available and accessible to all actors working with young people."
+      },
+      {
+        "kicker": "",
+        "title": "LIVING NETWORKS",
+        "body": "EU4Youth has enabled actors who did not know each other to meet, cooperate and build together. The networks formed among cultural and sports operators, entrepreneurship support structures, municipalities and civil society organisations have a life of their own that will continue beyond the programme. The Youth Group bringing together national and international actors in the sector under the aegis of the ONJ is one example."
+      },
+      {
+        "kicker": "",
+        "title": "INITIATIVES THAT CONTINUE",
+        "body": "Social and solidarity economy enterprises created with Jeun'ESS support, and culture and sports operators supported by Maghroum'IN, will continue to produce. Young researchers accompanied by SWAFY will continue to work. Youth strategies developed in Fe3il.a partner municipalities will continue to guide municipal action. Scientific, sports and cultural clubs created or strengthened will continue to operate. Modernised ANETI offices will continue to serve jobseekers. These dynamics have their own momentum."
+      },
+      {
+        "kicker": "",
+        "title": "A TRAINED GENERATION",
+        "body": "EU4Youth has contributed to training a generation of practitioners who have integrated participatory and multi-actor approaches into their way of working. This transformation of professional practices may be the programme’s most lasting legacy."
+      }
+    ],
+    "ar": [
+      {
+        "kicker": "",
+        "title": "مكتسبات راسخة",
+        "body": "بنى البرنامج أسساً دائمة: هندسة حوكمة وزارية مشتركة تجمع، في إطار رسمي ومنتظم، الوزارات والشركاء حول قضايا الشباب. وقدرات معزّزة في عشرات المنظمات والمؤسسات والبلديات والجمعيات. وفضاءات مشاركة للشباب يمكن أن تصبح دائمة في البلديات ولجان القيادة وعمليات التشاور."
+      },
+      {
+        "kicker": "",
+        "title": "معارف مشتركة",
+        "body": "استثمر EU4Youth في إنتاج معارف مفيدة. خريطة برامج الشباب في تونس، ودراسات حول آليات مشاركة الشباب، وتحليلات قطاعية حول الثقافة والرياضة والتشغيل، ودراسات حول هشاشة فئات معيّنة. وتُوضع هذه المعارف بحرية في متناول كل الفاعلين العاملين مع الشباب."
+      },
+      {
+        "kicker": "",
+        "title": "شبكات حيّة",
+        "body": "مكّن EU4Youth فاعلين لم يكونوا يتعارفون من الالتقاء والتعاون والبناء معاً. وللشبكات المتكوّنة بين الفاعلين الثقافيين والرياضيين، وبين هياكل دعم المقاولة، وبين البلديات، وبين منظمات المجتمع المدني حياة خاصة ستمتد إلى ما بعد البرنامج. ومجموعة الشباب التي تجمع الفاعلين الوطنيين والدوليين في القطاع تحت رعاية المرصد الوطني للشباب مثال على ذلك."
+      },
+      {
+        "kicker": "",
+        "title": "مبادرات تتواصل",
+        "body": "ستواصل مؤسسات الاقتصاد الاجتماعي والتضامني المحدثة بدعم Jeun'ESS، والفاعلون الثقافيون والرياضيون المدعومون من Maghroum'IN، الإنتاج. وسيواصل الباحثون الشباب المرافَقون من SWAFY العمل. وستواصل استراتيجيات الشباب الموضوعة في البلديات الشريكة لـ Fe3il.a توجيه العمل البلدي. وستواصل النوادي العلمية والرياضية والثقافية المحدثة أو المعزّزة العمل. وستواصل مكاتب الوكالة الوطنية للتشغيل المحدَّثة خدمة طالبي الشغل. ولهذه الديناميات زخمها الخاص."
+      },
+      {
+        "kicker": "",
+        "title": "جيل مكوَّن",
+        "body": "ساهم EU4Youth في تكوين جيل من الممارسين أدمجوا المقاربات التشاركية ومتعددة الفاعلين في طريقة عملهم. وقد يكون هذا التحوّل في الممارسات المهنية الإرث الأطول أثراً للبرنامج."
+      }
+    ]
+  },
+  "a-propos|impact|items": {
+    "en": [
+      {
+        "value": "60 M€",
+        "label": "TOTAL BUDGET",
+        "note": "Funded by the European Union",
+        "featured": ""
+      },
+      {
+        "value": "24",
+        "label": "GOVERNORATES",
+        "note": "National presence",
+        "featured": ""
+      },
+      {
+        "value": "2019–2027",
+        "label": "PERIOD",
+        "note": "Agreement signed June 2019",
+        "featured": ""
+      },
+      {
+        "value": "6",
+        "label": "COMPLEMENTARY\nPROJECTS",
+        "note": "3 thematic components",
+        "featured": ""
+      },
+      {
+        "value": "+ 300",
+        "label": "YOUTH-LED\nPROJECTS",
+        "note": "Economic, cultural, social, scientific",
+        "featured": "1"
+      },
+      {
+        "value": "+ 100",
+        "label": "ASSOCIATIVE\nINITIATIVES",
+        "note": "Supported in all regions",
+        "featured": ""
+      },
+      {
+        "value": "+ 300",
+        "label": "CLUBS CREATED\nOR SUPPORTED",
+        "note": "SSE, scientific, cultural, sports",
+        "featured": ""
+      }
+    ],
+    "ar": [
+      {
+        "value": "60 M€",
+        "label": "الميزانية الإجمالية",
+        "note": "بتمويل من الاتحاد الأوروبي",
+        "featured": ""
+      },
+      {
+        "value": "24",
+        "label": "ولايات",
+        "note": "حضور وطني",
+        "featured": ""
+      },
+      {
+        "value": "2019–2027",
+        "label": "الفترة",
+        "note": "اتفاقية موقعة يونيو 2019",
+        "featured": ""
+      },
+      {
+        "value": "6",
+        "label": "مشاريع\nمتكاملة",
+        "note": "3 مكونات موضوعية",
+        "featured": ""
+      },
+      {
+        "value": "+ 300",
+        "label": "مشاريع يقودها\nالشباب",
+        "note": "اقتصادية، ثقافية، اجتماعية، علمية",
+        "featured": "1"
+      },
+      {
+        "value": "+ 100",
+        "label": "مبادرات\nجمعياتية",
+        "note": "مدعومة في كل الجهات",
+        "featured": ""
+      },
+      {
+        "value": "+ 300",
+        "label": "نوادي محدثة\nأو مدعومة",
+        "note": "اقتصاد اجتماعي، علمية، ثقافية، رياضية",
+        "featured": ""
+      }
+    ]
+  },
+  "a-propos|impact|pending": {
+    "en": [
+      {
+        "value": "—",
+        "label": "Young people accompanied"
+      },
+      {
+        "value": "—",
+        "label": "of whom women"
+      },
+      {
+        "value": "—",
+        "label": "Jobs created or consolidated"
+      },
+      {
+        "value": "—",
+        "label": "Municipalities mobilised"
+      },
+      {
+        "value": "—",
+        "label": "Direct beneficiaries"
+      },
+      {
+        "value": "—",
+        "label": "Vulnerable young people"
+      },
+      {
+        "value": "—",
+        "label": "Organisations supported"
+      },
+      {
+        "value": "—",
+        "label": "Doctoral students supported"
+      }
+    ],
+    "ar": [
+      {
+        "value": "—",
+        "label": "شباب مرافَقون"
+      },
+      {
+        "value": "—",
+        "label": "منهم نساء"
+      },
+      {
+        "value": "—",
+        "label": "وظائف محدثة أو موطَّدة"
+      },
+      {
+        "value": "—",
+        "label": "بلديات معبَّأة"
+      },
+      {
+        "value": "—",
+        "label": "مستفيدون مباشرون"
+      },
+      {
+        "value": "—",
+        "label": "شباب في وضعية هشاشة"
+      },
+      {
+        "value": "—",
+        "label": "منظمات مدعومة"
+      },
+      {
+        "value": "—",
+        "label": "طلبة دكتوراه مدعومون"
+      }
+    ]
+  },
+  "a-propos|impact|pendingNote": {
+    "en": "Additional data will be integrated as soon as they are available and validated by the project teams.",
+    "ar": "ستُدمج معطيات إضافية فور توفرها والتحقق منها من قبل فرق المشاريع."
+  },
+  "a-propos|pourquoi|photos": {
+    "en": [
+      {
+        "src": "/img/apropos-atelier.webp",
+        "alt": "Laser-engraved objects made by a young Tunisian workshop"
+      },
+      {
+        "src": "/img/apropos-plongee.webp",
+        "alt": "Young diver under the surface off the Tunisian coast"
+      }
+    ],
+    "ar": [
+      {
+        "src": "/img/apropos-atelier.webp",
+        "alt": "قطع منقوشة بالليزر أنجزها ورشة شباب تونسية"
+      },
+      {
+        "src": "/img/apropos-plongee.webp",
+        "alt": "شاب غواص تحت السطح قبالة السواحل التونسية"
+      }
+    ]
+  },
+  "a-propos|vision|principles": {
+    "en": [
+      {
+        "text": "Create real opportunities for personal and professional development for young people, where they live."
+      },
+      {
+        "text": "Prioritise those who face the greatest barriers: geographic remoteness, precariousness, unemployment, discrimination."
+      },
+      {
+        "text": "Involve young people in the design and implementation of the activities that concern them not only as beneficiaries, but as actors."
+      },
+      {
+        "text": "Anchor interventions in the territories, at municipal, governorate and local ecosystem levels."
+      },
+      {
+        "text": "Build lasting mechanisms for young people’s representation and participation in civic life and public action."
+      },
+      {
+        "text": "Build on past experience and dynamics already under way, to build on what works."
+      },
+      {
+        "text": "Coordinate the six projects with each other and with other European programmes in Tunisia to produce a coherent and multiplied impact."
+      }
+    ],
+    "ar": [
+      {
+        "text": "خلق فرص حقيقية للتنمية الشخصية والمهنية للشباب، حيث يعيشون."
+      },
+      {
+        "text": "إعطاء الأولوية لمن يواجهون أكبر العقبات: البعد الجغرافي، الهشاشة، البطالة، التمييز."
+      },
+      {
+        "text": "إشراك الشباب في تصميم وتنفيذ الأنشطة التي تعنيهم لا كمستفيدين فحسب، بل كفاعلين."
+      },
+      {
+        "text": "ترسيخ التدخلات في الأقاليم، على مستوى البلديات والولايات والمنظومات المحلية."
+      },
+      {
+        "text": "بناء آليات دائمة لتمثيل الشباب ومشاركتهم في الحياة المواطنية والعمل العمومي."
+      },
+      {
+        "text": "الاستفادة من التجارب السابقة والديناميات الجارية، للبناء على ما ينجح."
+      },
+      {
+        "text": "تنسيق المشاريع الستة فيما بينها ومع البرامج الأوروبية الأخرى في تونس لإنتاج أثر متماسك ومضاعَف."
+      }
+    ]
+  }
+}

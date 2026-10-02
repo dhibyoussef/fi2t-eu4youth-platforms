@@ -1,0 +1,39 @@
+[
+  {
+    "id": "irada-2aap-2026",
+    "slug": "irada-2e-appel-a-propositions-2026",
+    "title": "Irada4Youth — 2e appel à propositions",
+    "type": "Appel à projets",
+    "summary": "Financement de projets créateurs d’emplois dans six gouvernorats prioritaires, avec le CGDR. Subvention moyenne de 21 000 €, jusqu’à 90 % du budget.",
+    "opensAt": "2026-06-26",
+    "deadline": "2026-07-24",
+    "deadlineLabel": "24 juillet 2026",
+    "locations": [
+      "Zaghouan",
+      "Mahdia",
+      "Le Kef",
+      "Kairouan",
+      "Kébili",
+      "Tozeur"
+    ],
+    "locationLabel": "Zaghouan · Mahdia · Le Kef · Kairouan · Kébili · Tozeur",
+    "project": "Irada4Youth",
+    "projectSlug": "irada4youth",
+    "themes": [
+      "Emploi et entrepreneuriat",
+      "Agriculture et agroalimentaire"
+    ],
+    "audiences": [
+      "Jeunes diplômés",
+      "Certifiés professionnels",
+      "Porteuses de projets"
+    ],
+    "image": "/img/photo-entretien.webp",
+    "applyLabel": "Voir l’appel complet",
+    "contactEmail": "question-2aap-irada4youth@cgdr.nat.tn",
+    "dataGaps": [
+      "Titre éditorial long non fourni dans la source (intitulé officiel : 2è APPEL À PROPOSITIONS).",
+      "Lien public de dépôt en ligne non fourni ; le PPT distingue une adresse de questions de l’adresse réservée aux soumissions."
+    ]
+  }
+]

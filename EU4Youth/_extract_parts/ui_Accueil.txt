@@ -1,0 +1,246 @@
+PAGE_COUNT=4
+
+===== PAGE 1 =====
+
+EU4Youth accompagne 
+les jeunes dans leurs 
+parcours, leurs projets 
+et leur engagement.
+Vous avez entre 18 et 35 ans. Vous avez une idée, un projet, une 
+envie de faire quelque chose pour votre quartier, votre commune 
+ou votre gouvernorat. EU4Youth Tunisie vous accompagne.
+Découvrir les projets
+Voir les opportunités ouvertes
+Explorer la carte des initiatives 
+LA JEUNESSE TUNISIENNE PORTE LES SOLUTIONS DE DEMAIN.
+JEUN
+SIX PROJETS
+UNE VISION COMMUNE.
+OPPORTUNITÉS
+EN COURS
+DERNIÈRES 
+ACTUALITÉS
+EU4YOUTH
+PARTOUT EN TUNISIE
+YOUTH PORTRAITS
+DES JEUNES QUI AGISSENT. 
+DES TERRITOIRES QUI 
+CHANGENT.
+EU4Youth Tunisie s’organise en trois composantes thématiques portées par six projets complémentaires. 
+Chaque projet intervient sur une dimension spécifique de l’inclusion des jeunes tunisiennes et tunisiens. 
+Ensemble, ils couvrent l’intégralité du parcours : de l’emploi et de l’entrepreneuriat à la participation 
+citoyenne, en passant par la culture, le sport et les sciences.
+De Bizerte à Ben Guerdane, de Jendouba 
+à Tataouine, EU4Youth accompagne les 
+jeunes Tunisiennes et Tunisiens dans les 
+24 gouvernorats de la Tunisie.
+Découvrez les initiatives, les projets et les 
+histoires qui prennent vie près de chez 
+vous.
+Découvrir toutes les stories
+Voir toutes les opportunités 
+disponibles
+Voir toutes les actualités
+Voir l’agenda complet
+Explorer la carte
+Titre 
+Badge type 
+jj/mm/aaaa
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+Titre 
+Badge type 
+jj/mm/aaaa
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+Titre informatif — maximum 15 
+Fe3il.a
+jj/mm/aaaa
+Lire l’article
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Titre informatif — maximum 15 
+Fe3il.a
+jj/mm/aaaa
+Lire l’article
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+PROCHAINS 
+ÉVÉNEMENTS
+Titre informatif — maximum 15 
+Fe3il.a
+jj/mm/aaaa
+En savoir plus 
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+Titre informatif — maximum 15 
+Fe3il.a
+jj/mm/aaaa
+En savoir plus 
+Lorem 
+ipsum 
+dolor 
+sit 
+amet, 
+consectetuer adipiscing elit, sed diam 
+nonummy nibh euismod 
+Location
+RESSOURCES ET 
+PUBLICATIONS
+EU4Youth produit des connaissances et les met à 
+disposition 
+de 
+tous. 
+Rapports 
+de 
+suivi, 
+études 
+sectorielles, guides pratiques, notes de politique 
+publique, 
+outils 
+méthodologiques 
+: 
+téléchargez 
+librement les documents du programme.
+Accéder à toutes les publications
+RESTEZ INFORMÉ.ES
+Inscrivez-vous à la newsletter du programme et 
+recevez en avant-première les appels à projets, 
+formations, bourses et événements ouverts aux 
+jeunes tunisiennes et tunisiens.
+Votre adresse e-mail
+Je m’inscris 
+En vous inscrivant, vous acceptez de recevoir des communications du 
+programme EU4Youth Tunisie. Vous pouvez vous désinscrire à tout moment. 
+Vos données ne seront pas partagées avec des tiers.
+République Tunisienne
+EU4YOUTH EN CHIFFRES
+2019 – 2027
+60 M€
+BUDGET
+6
+PROJETS
++ 300 
+PROJETS
++ 100 
+INITIATIVES
+24
+GOUVERNORATS
++ 300
+CLUBS
+À propos EU4Youth
+Gouvernance et pilotage
+Financement Union européenne
+Partenaires
+Contact
+Ce site a été produit avec le soutien financier de l’Union européenne. Son 
+contenu relève de la seule responsabilité du programme EU4Youth Tunisie 
+et ne reflète pas nécessairement les opinions de l’Union européenne.
+FR  |    |  ﻋﺮﺑﻲEN
+LE PROGRAMME
+EXPLORER
+INFORMATIONS LÉGALES 
+Les projets
+Carte des initiatives
+Opportunités
+Publications et ressources
+Stories
+Actualités et Agenda
+Glossaire
+Politique de confidentialité
+Mentions légales
+Accessibilité
+Gestion des cookies
+JEUN
+République Tunisienne
+PRGRAMME
+MÉDIAS ET 
+RESSOURCES
+EU EN TUNISIE
+PROJETS
+CARTE
+ACTUALITÉS
+ET OPPORTUNITÉS  
+YOUTH STORIES
+
+
+===== PAGE 2 =====
+
+EU4Youth accompagne 
+les jeunes dans leurs 
+parcours, leurs projets 
+et leur engagement.
+Vous avez entre 18 et 35 ans. Vous avez une idée, un projet, une 
+envie de faire quelque chose pour votre quartier, votre commune 
+ou votre gouvernorat. EU4Youth Tunisie vous accompagne.
+Découvrir les projets
+Voir les opportunités ouvertes
+Explorer la carte des initiatives 
+LA JEUNESSE TUNISIENNE PORTE LES SOLUTIONS DE DEMAIN.
+République Tunisienne
+PRGRAMME
+MÉDIAS ET 
+RESSOURCES
+EU EN TUNISIE
+CARTE
+ACTUALITÉS
+ET OPPORTUNITÉS  
+YOUTH STORIES
+PROJETS
+JEUN
+
+
+===== PAGE 3 =====
+
+EU4Youth accompagne 
+les jeunes dans leurs 
+parcours, leurs projets 
+et leur engagement.
+Vous avez entre 18 et 35 ans. Vous avez une idée, un projet, une 
+envie de faire quelque chose pour votre quartier, votre commune 
+ou votre gouvernorat. EU4Youth Tunisie vous accompagne.
+Découvrir les projets
+Voir les opportunités ouvertes
+Explorer la carte des initiatives 
+LA JEUNESSE TUNISIENNE PORTE LES SOLUTIONS DE DEMAIN.
+République Tunisienne
+PRGRAMME
+MÉDIAS ET 
+RESSOURCES
+EU EN TUNISIE
+CARTE
+YOUTH STORIES
+PROJETS
+ACTUALITÉS
+ET OPPORTUNITÉS  
+ACTUALITÉS 
+OPPORTUNITÉS
+ÉVENEMENTS

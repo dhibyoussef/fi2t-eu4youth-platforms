@@ -1,0 +1,46 @@
+{
+  "interesting_classes": [
+    "entry-body",
+    "entry-context",
+    "entry-def",
+    "entry-head",
+    "entry-tag",
+    "entry-term",
+    "gloss-header",
+    "ti ti-chevron-right entry-arrow"
+  ],
+  "patterns": {
+    "gloss-term": 0,
+    "term-card": 0,
+    "term-name": 0,
+    "entry": 7,
+    "details": 0,
+    "data-term": 0,
+    "letter-section": 0
+  },
+  "title_hits": 4,
+  "sample_titles": [
+    [
+      "entry-head",
+      "${e.term}"
+    ],
+    [
+      "entry-tag",
+      "${e.tag}"
+    ],
+    [
+      "entry-body",
+      "${e.def}"
+    ],
+    [
+      "entry-context",
+      "Dans EU4Youth :"
+    ]
+  ],
+  "js_term_count": null,
+  "js_sample": [],
+  "script_term_strings": 0,
+  "script_sample": [],
+  "data_letters": [],
+  "snippet": "stat-pill {\n  font-size: 12px; padding: 3px 10px;\n  background: var(--surface-1); border: 0.5px solid var(--border);\n  border-radius: 20px; color: var(--text-secondary);\n}\n.stat-pill span { font-weight: 500; color: var(--text-primary); }\n\n.nav-tabs {\n  display: flex; gap: 4px; overflow-x: auto; padding-bottom: 4px;\n  scrollbar-width: none; margin-bottom: 1rem;\n}\n.nav-tabs::-webkit-scrollbar { display: none; }\n.tab-btn {\n  flex-shrink: 0;\n  padding: 5px 12px;\n  font-size: 12px; font-weight: 400;\n  border: 0.5px solid var(--border);\n  border-radius: 20px;\n  background: var(--surface-2);\n  color: var(--text-secondary);\n  cursor: pointer;\n  transition: all 0.15s;\n  white-space: nowrap;\n}\n.tab-btn:hover { border-color: var(--border-strong); color: var(--text-primary); }\n.tab-btn.active {\n  background: var(--text-primary); color: var(--surface-2);\n  border-color: var(--text-primary);\n}\n\n.section-header {\n  display: flex; align-items: center; gap: 8px;\n  padding: 0.5rem 0 0.75rem;\n  border-bottom: 0.5px solid var(--border);\n  margin-bottom: 0.75rem;\n}\n.section-dot {\n  width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0;\n}\n.section-header h2 { font-size: 15px; font-weight: 500; color: var(--text-primary); }\n.section-count {\n  margin-left: auto;\n  font-size: 11px; color: var(--text-muted);\n  background: var(--surface-1); border: 0.5px solid var(--border);\n  border-radius: 20px; padding: 2px 8px;\n}\n\n.entries-grid { display: flex; flex-direction: column; gap: 0; }\n.entry {\n  p"
+}

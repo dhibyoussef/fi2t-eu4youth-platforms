@@ -1,0 +1,914 @@
+{
+  "actualites|browser|types": {
+    "en": [
+      {
+        "id": "Toutes",
+        "label": "All"
+      },
+      {
+        "id": "Communiqué",
+        "label": "Press release"
+      },
+      {
+        "id": "Événement",
+        "label": "Event"
+      },
+      {
+        "id": "Partenariat",
+        "label": "Partnership"
+      },
+      {
+        "id": "Résultat / succès de terrain",
+        "label": "Result / field success"
+      },
+      {
+        "id": "Vie du programme",
+        "label": "Programme life"
+      }
+    ],
+    "ar": [
+      {
+        "id": "Toutes",
+        "label": "الكل"
+      },
+      {
+        "id": "Communiqué",
+        "label": "بيان صحفي"
+      },
+      {
+        "id": "Événement",
+        "label": "فعالية"
+      },
+      {
+        "id": "Partenariat",
+        "label": "شراكة"
+      },
+      {
+        "id": "Résultat / succès de terrain",
+        "label": "نتيجة / نجاح ميداني"
+      },
+      {
+        "id": "Vie du programme",
+        "label": "حياة البرنامج"
+      }
+    ]
+  },
+  "opportunites|browser|types": {
+    "en": [
+      {
+        "id": "Toutes",
+        "label": "All"
+      },
+      {
+        "id": "Appel à projets",
+        "label": "Call for projects"
+      },
+      {
+        "id": "Appel à candidatures",
+        "label": "Call for applications"
+      },
+      {
+        "id": "Stage / emploi",
+        "label": "Internship / job"
+      },
+      {
+        "id": "Bourse",
+        "label": "Scholarship"
+      },
+      {
+        "id": "Formation",
+        "label": "Training"
+      }
+    ],
+    "ar": [
+      {
+        "id": "Toutes",
+        "label": "الكل"
+      },
+      {
+        "id": "Appel à projets",
+        "label": "نداء مشاريع"
+      },
+      {
+        "id": "Appel à candidatures",
+        "label": "نداء ترشح"
+      },
+      {
+        "id": "Stage / emploi",
+        "label": "تربص / شغل"
+      },
+      {
+        "id": "Bourse",
+        "label": "منحة"
+      },
+      {
+        "id": "Formation",
+        "label": "تكوين"
+      }
+    ]
+  },
+  "publications|browser|types": {
+    "en": [
+      {
+        "id": "Toutes",
+        "label": "All"
+      },
+      {
+        "id": "Newsletter",
+        "label": "Newsletter"
+      },
+      {
+        "id": "Rapport",
+        "label": "Report"
+      },
+      {
+        "id": "Module de formation",
+        "label": "Training module"
+      },
+      {
+        "id": "Appel à propositions",
+        "label": "Call for proposals"
+      },
+      {
+        "id": "Capitalisation",
+        "label": "Capitalisation"
+      }
+    ],
+    "ar": [
+      {
+        "id": "Toutes",
+        "label": "الكل"
+      },
+      {
+        "id": "Newsletter",
+        "label": "نشرة إخبارية"
+      },
+      {
+        "id": "Rapport",
+        "label": "تقرير"
+      },
+      {
+        "id": "Module de formation",
+        "label": "وحدة تكوين"
+      },
+      {
+        "id": "Appel à propositions",
+        "label": "نداء مقترحات"
+      },
+      {
+        "id": "Capitalisation",
+        "label": "رسملة"
+      }
+    ]
+  },
+  "publications|browser|sorts": {
+    "en": [
+      {
+        "id": "default",
+        "label": "default"
+      },
+      {
+        "id": "downloads",
+        "label": "most downloaded"
+      },
+      {
+        "id": "views",
+        "label": "most viewed"
+      },
+      {
+        "id": "recent",
+        "label": "most recent"
+      }
+    ],
+    "ar": [
+      {
+        "id": "default",
+        "label": "الافتراضي"
+      },
+      {
+        "id": "downloads",
+        "label": "الأكثر تحميلاً"
+      },
+      {
+        "id": "views",
+        "label": "الأكثر مشاهدة"
+      },
+      {
+        "id": "recent",
+        "label": "الأحدث"
+      }
+    ]
+  },
+  "objectifs|projets|composantes": {
+    "en": [
+      {
+        "code": "C1",
+        "title": "Employment, employability and entrepreneurship",
+        "links": "jeuness|Jeun'ESS\ngo4youth|GO4Youth\nswafy|SWAFY\nirada4youth|IRADA4YOUTH"
+      },
+      {
+        "code": "C2",
+        "title": "Culture and sport for inclusion",
+        "links": "maghroumin|Maghroum'IN"
+      },
+      {
+        "code": "C3",
+        "title": "Public policies and youth participation",
+        "links": "fe3ila|Fe3il.a"
+      }
+    ],
+    "ar": [
+      {
+        "code": "C1",
+        "title": "التشغيل والقابلية للتشغيل وريادة الأعمال",
+        "links": "jeuness|Jeun'ESS\ngo4youth|GO4Youth\nswafy|SWAFY\nirada4youth|IRADA4YOUTH"
+      },
+      {
+        "code": "C2",
+        "title": "الثقافة والرياضة من أجل الإدماج",
+        "links": "maghroumin|Maghroum'IN"
+      },
+      {
+        "code": "C3",
+        "title": "السياسات العمومية ومشاركة الشباب",
+        "links": "fe3ila|Fe3il.a"
+      }
+    ]
+  },
+  "carte|filters|stats": {
+    "en": [
+      {
+        "id": "covered",
+        "label": "Governorates covered"
+      },
+      {
+        "id": "structures",
+        "label": "Beneficiary structures"
+      },
+      {
+        "id": "projects",
+        "label": "EU4Youth projects"
+      },
+      {
+        "id": "sectors",
+        "label": "Activity sectors represented"
+      },
+      {
+        "id": "total",
+        "label": "Total territorial interventions"
+      }
+    ],
+    "ar": [
+      {
+        "id": "covered",
+        "label": "ولايات مغطاة"
+      },
+      {
+        "id": "structures",
+        "label": "هياكل مستفيدة"
+      },
+      {
+        "id": "projects",
+        "label": "مشاريع EU4Youth"
+      },
+      {
+        "id": "sectors",
+        "label": "قطاعات نشاط ممثَّلة"
+      },
+      {
+        "id": "total",
+        "label": "مجموع التدخلات الترابية"
+      }
+    ]
+  },
+  "eu-en-tunisie|explore|title": {
+    "en": "Explore European Union projects in Tunisia",
+    "ar": "استكشفوا مشاريع الاتحاد الأوروبي في تونس"
+  },
+  "eu-en-tunisie|explore|body": {
+    "en": "These themes take shape through many projects and initiatives deployed across different territories. Explore them through the mapping of European Union projects in Tunisia, or go deeper into European action on the official website of the Delegation of the European Union in Tunisia.",
+    "ar": "تتخذ هذه المواضيع شكلها عبر العديد من المشاريع والمبادرات المنتشرة في أقاليم مختلفة. استكشفوها عبر خريطة مشاريع الاتحاد الأوروبي في تونس، أو تعمّقوا في العمل الأوروبي على الموقع الرسمي لبعثة الاتحاد الأوروبي في تونس."
+  },
+  "eu-en-tunisie|facts|items": {
+    "en": [
+      {
+        "value": "60 M€",
+        "label": "funded by the European Union"
+      },
+      {
+        "value": "2019–2027",
+        "label": "programme period"
+      },
+      {
+        "value": "6",
+        "label": "complementary projects"
+      },
+      {
+        "value": "24",
+        "label": "governorates concerned"
+      }
+    ],
+    "ar": [
+      {
+        "value": "60 M€",
+        "label": "بتمويل من الاتحاد الأوروبي"
+      },
+      {
+        "value": "2019–2027",
+        "label": "فترة البرنامج"
+      },
+      {
+        "value": "6",
+        "label": "مشاريع متكاملة"
+      },
+      {
+        "value": "24",
+        "label": "ولايات معنية"
+      }
+    ]
+  },
+  "eu-en-tunisie|role|items": {
+    "en": [
+      {
+        "number": "01",
+        "title": "FUNDING",
+        "body": "The European Union funds EU4Youth and places the programme within its cooperation with Tunisia."
+      },
+      {
+        "number": "02",
+        "title": "STRATEGIC SUPERVISION",
+        "body": "The Delegation of the European Union in Tunisia supervises the six projects, ensures their coherence and monitors them."
+      },
+      {
+        "number": "03",
+        "title": "INSTITUTIONAL DIALOGUE",
+        "body": "The Delegation takes part in the interministerial consultation framework alongside Tunisian institutions and project teams."
+      }
+    ],
+    "ar": [
+      {
+        "number": "01",
+        "title": "التمويل",
+        "body": "يموّل الاتحاد الأوروبي EU4Youth ويدرج البرنامج ضمن تعاونه مع تونس."
+      },
+      {
+        "number": "02",
+        "title": "الإشراف الاستراتيجي",
+        "body": "تشرف بعثة الاتحاد الأوروبي في تونس على المشاريع الستة، وتسهر على تماسكها وتضمن متابعتها."
+      },
+      {
+        "number": "03",
+        "title": "الحوار المؤسسي",
+        "body": "تشارك البعثة في إطار التشاور الوزاري المشترك إلى جانب المؤسسات التونسية وفرق المشاريع."
+      }
+    ]
+  },
+  "eu-en-tunisie|projects|items": {
+    "en": [
+      {
+        "slug": "jeuness",
+        "acronym": "Jeun'ESS",
+        "budget": "€9 million"
+      },
+      {
+        "slug": "go4youth",
+        "acronym": "GO4Youth",
+        "budget": "€10 million"
+      },
+      {
+        "slug": "swafy",
+        "acronym": "SWAFY",
+        "budget": "€9 million"
+      },
+      {
+        "slug": "irada4youth",
+        "acronym": "IRADA4YOUTH",
+        "budget": "€5 million"
+      },
+      {
+        "slug": "maghroumin",
+        "acronym": "Maghroum'IN",
+        "budget": "€15.46 million"
+      },
+      {
+        "slug": "fe3ila",
+        "acronym": "Fe3il.a",
+        "budget": "€4 million"
+      }
+    ],
+    "ar": [
+      {
+        "slug": "jeuness",
+        "acronym": "Jeun'ESS",
+        "budget": "9 ملايين يورو"
+      },
+      {
+        "slug": "go4youth",
+        "acronym": "GO4Youth",
+        "budget": "10 ملايين يورو"
+      },
+      {
+        "slug": "swafy",
+        "acronym": "SWAFY",
+        "budget": "9 ملايين يورو"
+      },
+      {
+        "slug": "irada4youth",
+        "acronym": "IRADA4YOUTH",
+        "budget": "5 ملايين يورو"
+      },
+      {
+        "slug": "maghroumin",
+        "acronym": "Maghroum'IN",
+        "budget": "15.46 مليون يورو"
+      },
+      {
+        "slug": "fe3ila",
+        "acronym": "Fe3il.a",
+        "budget": "4 ملايين يورو"
+      }
+    ]
+  },
+  "gouvernance|accountability|items": {
+    "en": [
+      {
+        "title": "Regular reporting",
+        "body": "Implementing partners produce six-monthly and annual activity reports for the EU Delegation, using standardised templates."
+      },
+      {
+        "title": "Coordination of the six projects",
+        "body": "EU4Youth aims to coordinate the projects with each other and with other European programmes in Tunisia to produce a coherent and multiplied impact."
+      },
+      {
+        "title": "Local accountability",
+        "body": "The programme also strengthens municipalities’ accountability to their citizens, especially young people, through the participatory processes supported by Fe3il.a."
+      }
+    ],
+    "ar": [
+      {
+        "title": "تقارير منتظمة",
+        "body": "ينتج شركاء التنفيذ تقارير نشاط نصف سنوية وسنوية موجّهة إلى بعثة الاتحاد الأوروبي، وفق نماذج موحّدة."
+      },
+      {
+        "title": "تنسيق المشاريع الستة",
+        "body": "يهدف EU4Youth إلى تنسيق المشاريع فيما بينها ومع البرامج الأوروبية الأخرى في تونس لإنتاج أثر متماسك ومضاعَف."
+      },
+      {
+        "title": "المساءلة المحلية",
+        "body": "يعزّز البرنامج أيضاً مساءلة البلديات تجاه مواطنيها، لا سيما الشباب، عبر العمليات التشاركية التي يدعمها Fe3il.a."
+      }
+    ]
+  },
+  "gouvernance|framework|members": {
+    "en": [
+      {
+        "text": "Ministry of Economy and Planning (chair)"
+      },
+      {
+        "text": "Partner ministries of the programme"
+      },
+      {
+        "text": "National Youth Observatory"
+      },
+      {
+        "text": "Partner agencies (ANETI, ANPR, CGDR…)"
+      },
+      {
+        "text": "Delegation of the European Union"
+      },
+      {
+        "text": "Team leaders of the six projects"
+      }
+    ],
+    "ar": [
+      {
+        "text": "وزارة الاقتصاد والتخطيط (الرئاسة)"
+      },
+      {
+        "text": "الوزارات الشريكة للبرنامج"
+      },
+      {
+        "text": "المرصد الوطني للشباب"
+      },
+      {
+        "text": "الوكالات الشريكة (ANETI، ANPR، CGDR…)"
+      },
+      {
+        "text": "بعثة الاتحاد الأوروبي"
+      },
+      {
+        "text": "رؤساء فرق المشاريع الستة"
+      }
+    ]
+  },
+  "gouvernance|institutions|items": {
+    "en": [
+      {
+        "src": "/img/org-economie-planification.webp",
+        "alt": "Ministry of Economy and Planning"
+      },
+      {
+        "src": "/img/org-affaires-culturelles.webp",
+        "alt": "Ministry of Cultural Affairs"
+      },
+      {
+        "src": "/img/org-jeunesse-sports.webp",
+        "alt": "Ministry of Youth and Sports"
+      },
+      {
+        "src": "/img/org-aneti.webp",
+        "alt": "National Agency for Employment and Self-Employment"
+      },
+      {
+        "src": "/img/org-formation-emploi.webp",
+        "alt": "Ministry of Vocational Training and Employment"
+      },
+      {
+        "src": "/img/org-cgdr.webp",
+        "alt": "General Commissariat for Regional Development"
+      },
+      {
+        "src": "/img/org-observatoire-jeunesse.webp",
+        "alt": "National Youth Observatory"
+      },
+      {
+        "src": "/img/org-mesrs.webp",
+        "alt": "Ministry of Higher Education and Scientific Research"
+      },
+      {
+        "src": "/img/org-anpr.webp",
+        "alt": "National Agency for the Promotion of Scientific Research"
+      }
+    ],
+    "ar": [
+      {
+        "src": "/img/org-economie-planification.webp",
+        "alt": "وزارة الاقتصاد والتخطيط"
+      },
+      {
+        "src": "/img/org-affaires-culturelles.webp",
+        "alt": "وزارة الشؤون الثقافية"
+      },
+      {
+        "src": "/img/org-jeunesse-sports.webp",
+        "alt": "وزارة الشباب والرياضة"
+      },
+      {
+        "src": "/img/org-aneti.webp",
+        "alt": "الوكالة الوطنية للتشغيل والعمل المستقل"
+      },
+      {
+        "src": "/img/org-formation-emploi.webp",
+        "alt": "وزارة التكوين المهني والتشغيل"
+      },
+      {
+        "src": "/img/org-cgdr.webp",
+        "alt": "المندوبية العامة للتنمية الجهوية"
+      },
+      {
+        "src": "/img/org-observatoire-jeunesse.webp",
+        "alt": "المرصد الوطني للشباب"
+      },
+      {
+        "src": "/img/org-mesrs.webp",
+        "alt": "وزارة التعليم العالي والبحث العلمي"
+      },
+      {
+        "src": "/img/org-anpr.webp",
+        "alt": "الوكالة الوطنية للنهوض بالبحث العلمي"
+      }
+    ]
+  },
+  "gouvernance|implementation|items": {
+    "en": [
+      {
+        "slug": "jeuness",
+        "acronym": "Jeun'ESS",
+        "partner": "International Labour Organization (ILO)",
+        "composante": "Employment, employability and entrepreneurship",
+        "logo": "/img/logo-jeuness.png"
+      },
+      {
+        "slug": "go4youth",
+        "acronym": "GO4Youth",
+        "partner": "World Bank and ANETI",
+        "composante": "Employment, employability and entrepreneurship",
+        "logo": "/img/logo-go4youth.png"
+      },
+      {
+        "slug": "swafy",
+        "acronym": "SWAFY",
+        "partner": "National Agency for the Promotion of Scientific Research (ANPR)",
+        "composante": "Employment, employability and entrepreneurship",
+        "logo": "/img/logo-swafy.png"
+      },
+      {
+        "slug": "irada4youth",
+        "acronym": "IRADA4YOUTH",
+        "partner": "CGDR with ODNO, ODCO and ODS",
+        "composante": "Employment, employability and entrepreneurship",
+        "logo": "/img/logo-irada4youth.png"
+      },
+      {
+        "slug": "maghroumin",
+        "acronym": "Maghroum'IN",
+        "partner": "AECID – British Council – FIIAPP",
+        "composante": "Culture and sport for inclusion",
+        "logo": "/img/logo-maghroumin.png"
+      },
+      {
+        "slug": "fe3ila",
+        "acronym": "Fe3il.a",
+        "partner": "CILG-VNG International · Ministry of Youth and Sports",
+        "composante": "Public policies and youth participation",
+        "logo": "/img/logo-fe3ila.png"
+      }
+    ],
+    "ar": [
+      {
+        "slug": "jeuness",
+        "acronym": "Jeun'ESS",
+        "partner": "منظمة العمل الدولية (OIT)",
+        "composante": "التشغيل والقابلية للتشغيل وريادة الأعمال",
+        "logo": "/img/logo-jeuness.png"
+      },
+      {
+        "slug": "go4youth",
+        "acronym": "GO4Youth",
+        "partner": "البنك الدولي والوكالة الوطنية للتشغيل",
+        "composante": "التشغيل والقابلية للتشغيل وريادة الأعمال",
+        "logo": "/img/logo-go4youth.png"
+      },
+      {
+        "slug": "swafy",
+        "acronym": "SWAFY",
+        "partner": "الوكالة الوطنية للنهوض بالبحث العلمي (ANPR)",
+        "composante": "التشغيل والقابلية للتشغيل وريادة الأعمال",
+        "logo": "/img/logo-swafy.png"
+      },
+      {
+        "slug": "irada4youth",
+        "acronym": "IRADA4YOUTH",
+        "partner": "CGDR مع ODNO و ODCO و ODS",
+        "composante": "التشغيل والقابلية للتشغيل وريادة الأعمال",
+        "logo": "/img/logo-irada4youth.png"
+      },
+      {
+        "slug": "maghroumin",
+        "acronym": "Maghroum'IN",
+        "partner": "AECID – British Council – FIIAPP",
+        "composante": "الثقافة والرياضة من أجل الإدماج",
+        "logo": "/img/logo-maghroumin.png"
+      },
+      {
+        "slug": "fe3ila",
+        "acronym": "Fe3il.a",
+        "partner": "CILG-VNG International · وزارة الشباب والرياضة",
+        "composante": "السياسات العمومية ومشاركة الشباب",
+        "logo": "/img/logo-fe3ila.png"
+      }
+    ]
+  },
+  "gouvernance|model|items": {
+    "en": [
+      {
+        "number": "01",
+        "title": "THE EUROPEAN UNION",
+        "body": "The Delegation of the European Union in Tunisia provides strategic supervision of the six projects, ensures programme coherence and is the reference institutional interlocutor with the Tunisian authorities."
+      },
+      {
+        "number": "02",
+        "title": "INTERMINISTERIAL FRAMEWORK",
+        "body": "Chaired by the Ministry of Economy and Planning, this framework brings together the ministries concerned, the ONJ, partner agencies, the EU Delegation and project team leaders for national monitoring and coordination."
+      },
+      {
+        "number": "03",
+        "title": "IMPLEMENTING PARTNERS",
+        "body": "Each organisation signs a grant contract with the EU Delegation and is responsible for the results, financial management and reporting of its project."
+      },
+      {
+        "number": "04",
+        "title": "TERRITORIES AND YOUNG PEOPLE",
+        "body": "Municipalities, regional services, associations and young people take part in the design, implementation and monitoring of actions, notably in consultations and local committees."
+      }
+    ],
+    "ar": [
+      {
+        "number": "01",
+        "title": "الاتحاد الأوروبي",
+        "body": "تتولى بعثة الاتحاد الأوروبي في تونس الإشراف الاستراتيجي على المشاريع الستة، وتسهر على تماسك البرنامج، وتمثّل المحاور المؤسسي المرجعي لدى السلطات التونسية."
+      },
+      {
+        "number": "02",
+        "title": "الإطار الوزاري المشترك",
+        "body": "يرأسه وزارة الاقتصاد والتخطيط، ويجمع هذا الإطار الوزارات المعنية والمرصد الوطني للشباب والوكالات الشريكة وبعثة الاتحاد الأوروبي ورؤساء فرق المشاريع للمتابعة والتنسيق الوطني."
+      },
+      {
+        "number": "03",
+        "title": "شركاء التنفيذ",
+        "body": "توقّع كل منظمة عقد منحة مع بعثة الاتحاد الأوروبي وتكون مسؤولة عن نتائج مشروعها وتسييره المالي وتقاريره."
+      },
+      {
+        "number": "04",
+        "title": "الأقاليم والشباب",
+        "body": "تشارك البلديات والمصالح الجهوية والجمعيات والشباب في تصميم الأفعال وتنفيذها ومتابعتها، لا سيما في الاستشارات واللجان المحلية."
+      }
+    ]
+  },
+  "gouvernance|map|layers": {
+    "en": [
+      {
+        "id": "ue",
+        "number": "01",
+        "tab": "European Union",
+        "title": "STRATEGIC SUPERVISION",
+        "body": "The Delegation of the European Union in Tunisia supervises the whole programme from Tunis: coherence of the six projects, institutional dialogue and monitoring.",
+        "readout": "National scope — a single institutional interlocutor",
+        "national": "oui",
+        "governorates": "",
+        "nodes": "Tunis|EU Delegation"
+      },
+      {
+        "id": "cadre",
+        "number": "02",
+        "tab": "Interministerial framework",
+        "title": "NATIONAL COORDINATION",
+        "body": "The interministerial consultation framework, chaired by the Ministry of Economy and Planning, brings together ministries, ONJ, agencies, the EU Delegation and team leaders.",
+        "readout": "National scope — MEP chair, six-monthly monitoring",
+        "national": "oui",
+        "governorates": "",
+        "nodes": "Tunis|MEP — chair"
+      },
+      {
+        "id": "partenaires",
+        "number": "03",
+        "tab": "Implementation",
+        "title": "OPERATIONAL STEERING",
+        "body": "Implementing partners deploy the projects in the targeted governorates. Three projects — GO4Youth, SWAFY and Maghroum’IN — aim for broad coverage; their detailed mapping remains linked to deployment sources (BETI, regions, mapping).",
+        "readout": "14 governorates named in the project sheets",
+        "national": "non",
+        "governorates": "Jendouba, Le Kef, Kairouan, Sidi Bouzid, Kébili, Zaghouan, Mahdia, Tozeur, Sfax, Médenine, Kasserine, Manouba, Siliana, Béja",
+        "nodes": ""
+      },
+      {
+        "id": "territoires",
+        "number": "04",
+        "tab": "Territories and youth",
+        "title": "LOCAL PARTICIPATION",
+        "body": "With Fe3il.a, eight partner municipalities build participatory youth strategies: consultations, forums and decision-making spaces open to young people.",
+        "readout": "8 partner municipalities across 7 governorates",
+        "national": "non",
+        "governorates": "Sfax, Médenine, Kasserine, Manouba, Siliana, Kébili, Béja",
+        "nodes": ""
+      }
+    ],
+    "ar": [
+      {
+        "id": "ue",
+        "number": "01",
+        "tab": "الاتحاد الأوروبي",
+        "title": "إشراف استراتيجي",
+        "body": "تشرف بعثة الاتحاد الأوروبي في تونس على مجمل البرنامج من تونس: تماسك المشاريع الستة، والحوار المؤسسي، والمتابعة.",
+        "readout": "نطاق وطني — محاور مؤسسي وحيد",
+        "national": "oui",
+        "governorates": "",
+        "nodes": "تونس|بعثة الاتحاد الأوروبي"
+      },
+      {
+        "id": "cadre",
+        "number": "02",
+        "tab": "الإطار الوزاري المشترك",
+        "title": "تنسيق وطني",
+        "body": "يجمع إطار التشاور الوزاري المشترك، برئاسة وزارة الاقتصاد والتخطيط، الوزارات والمرصد الوطني للشباب والوكالات وبعثة الاتحاد الأوروبي ورؤساء الفرق.",
+        "readout": "نطاق وطني — رئاسة وزارة الاقتصاد والتخطيط، متابعة نصف سنوية",
+        "national": "oui",
+        "governorates": "",
+        "nodes": "تونس|وزارة الاقتصاد والتخطيط — الرئاسة"
+      },
+      {
+        "id": "partenaires",
+        "number": "03",
+        "tab": "التنفيذ",
+        "title": "قيادة عملياتية",
+        "body": "ينشر شركاء التنفيذ المشاريع في الولايات المستهدفة. ولثلاثة مشاريع — GO4Youth و SWAFY و Maghroum’IN — طموح تغطية واسعة؛ وتبقى خريطتها التفصيلية مرتبطة بمصادر النشر (مكاتب التشغيل، الجهات، الخرائط).",
+        "readout": "14 ولاية مذكورة في بطاقات المشاريع",
+        "national": "non",
+        "governorates": "جندوبة، الكاف، القيروان، سيدي بوزيد، قبلي، زغوان، المهدية، توزر، صفاقس، مدنين، القصرين، منوبة، سليانة، باجة",
+        "nodes": ""
+      },
+      {
+        "id": "territoires",
+        "number": "04",
+        "tab": "الأقاليم والشباب",
+        "title": "مشاركة محلية",
+        "body": "مع Fe3il.a، تبني ثماني بلديات شريكة استراتيجيات شباب تشاركية: استشارات ومنتديات وفضاءات قرار مفتوحة للشباب.",
+        "readout": "8 بلديات شريكة موزّعة على 7 ولايات",
+        "national": "non",
+        "governorates": "صفاقس، مدنين، القصرين، منوبة، سليانة، قبلي، باجة",
+        "nodes": ""
+      }
+    ]
+  },
+  "eu-en-tunisie|themes|items": {
+    "en": [
+      {
+        "title": "Gender equality",
+        "body": "European Union action helps promote equality between women and men and strengthen their participation in different areas of social and economic life. It supports initiatives aimed at equal opportunities and better integration of gender-related issues."
+      },
+      {
+        "title": "Human rights and civil society",
+        "body": "The European Union supports the promotion and protection of human rights as well as the role of civil society. This cooperation helps strengthen the capacities of associative actors and their participation in public and social life."
+      },
+      {
+        "title": "Health",
+        "body": "European cooperation works in the health field, supporting dynamics aimed at improving health systems and services. It also accompanies the actors concerned in their efforts to address health challenges."
+      },
+      {
+        "title": "Climate change and energy",
+        "body": "Faced with climate change challenges, the European Union supports transitions towards more sustainable models. Its action covers energy issues, climate adaptation and the energy transition."
+      },
+      {
+        "title": "Regional and local development",
+        "body": "The European Union contributes to balanced territorial development and the strengthening of local dynamics. Interventions in this field notably support regional development and the actors who contribute to cohesion and territorial development."
+      },
+      {
+        "title": "Environment, sustainable development and water",
+        "body": "European cooperation supports environmental protection and more sustainable development models. It also covers the management and preservation of water resources, as well as environmental issues affecting the territories."
+      },
+      {
+        "title": "Agriculture",
+        "body": "Agriculture is an important area of cooperation between the European Union and Tunisia. European action accompanies dynamics linked to agricultural development and the sustainability of the sector, in connection with economic, territorial and environmental issues."
+      },
+      {
+        "title": "Media & culture",
+        "body": "The European Union supports the media and culture sectors, which contribute to pluralism, creation and cultural diversity. Cooperation also aims to strengthen the actors and initiatives that take part in the development of these sectors."
+      },
+      {
+        "title": "Education, research, innovation",
+        "body": "The European Union supports education, research and innovation as levers of development and openness. This cooperation helps foster access to knowledge, skills development and innovation dynamics."
+      },
+      {
+        "title": "Employment and vocational training",
+        "body": "European action contributes to employment development and the strengthening of vocational training. It notably aims to support skills acquisition and a better match between skills and professional opportunities."
+      },
+      {
+        "title": "Democracy and governance",
+        "body": "The European Union accompanies dynamics linked to democracy and governance. Its action notably supports the strengthening of institutions, governance practices and participation in public life."
+      },
+      {
+        "title": "Economic development and private-sector support",
+        "body": "The European Union supports economic development and private-sector actors in Tunisia. Cooperation notably helps create an environment favourable to economic activity, entrepreneurship and business development."
+      }
+    ],
+    "ar": [
+      {
+        "title": "المساواة بين النساء والرجال",
+        "body": "تساهم أعمال الاتحاد الأوروبي في تعزيز المساواة بين النساء والرجال وتقوية مشاركتهن ومشاركتهم في مجالات الحياة الاجتماعية والاقتصادية المختلفة. وتدعم مبادرات تهدف إلى تكافؤ الفرص وتحسين مراعاة القضايا المرتبطة بالنوع الاجتماعي."
+      },
+      {
+        "title": "حقوق الإنسان والمجتمع المدني",
+        "body": "يدعم الاتحاد الأوروبي تعزيز حقوق الإنسان وحمايتها وكذلك دور المجتمع المدني. وتساهم هذه التعاونية في تعزيز قدرات الفاعلين الجمعياتيين ومشاركتهم في الحياة العامة والاجتماعية."
+      },
+      {
+        "title": "الصحة",
+        "body": "يتدخل التعاون الأوروبي في مجال الصحة، دعماً للديناميات الرامية إلى تحسين المنظومات والخدمات الصحية. كما يرافق الفاعلين المعنيين في جهودهم للاستجابة للتحديات الصحية."
+      },
+      {
+        "title": "تغير المناخ والطاقة",
+        "body": "أمام تحديات تغير المناخ، يدعم الاتحاد الأوروبي ديناميات الانتقال نحو نماذج أكثر استدامة. وتشمل أعماله مسائل الطاقة والتكيّف مع تغير المناخ والانتقال الطاقي."
+      },
+      {
+        "title": "التنمية الجهوية والمحلية",
+        "body": "يساهم الاتحاد الأوروبي في التنمية المتوازنة للأقاليم وتعزيز الديناميات المحلية. وتهدف التدخلات في هذا المجال خاصة إلى دعم التنمية الجهوية والفاعلين الذين يساهمون في التماسك وتنمية الأقاليم."
+      },
+      {
+        "title": "البيئة والتنمية المستدامة والماء",
+        "body": "يدعم التعاون الأوروبي حماية البيئة وتعزيز أنماط تنمية أكثر استدامة. كما يشمل تدبير الموارد المائية والحفاظ عليها، وكذلك القضايا البيئية التي تهم الأقاليم."
+      },
+      {
+        "title": "الفلاحة",
+        "body": "تشكّل الفلاحة مجالاً مهماً للتعاون بين الاتحاد الأوروبي وتونس. وترافق الأعمال الأوروبية الديناميات المرتبطة بالتنمية الفلاحية واستدامة القطاع، بالارتباط مع القضايا الاقتصادية والترابية والبيئية."
+      },
+      {
+        "title": "الإعلام والثقافة",
+        "body": "يدعم الاتحاد الأوروبي قطاعي الإعلام والثقافة اللذين يساهمان في التعددية والإبداع والتنوع الثقافي. ويهدف التعاون أيضاً إلى تعزيز الفاعلين والمبادرات التي تشارك في تنمية هذين القطاعين."
+      },
+      {
+        "title": "التعليم والبحث والابتكار",
+        "body": "يدعم الاتحاد الأوروبي التعليم والبحث والابتكار كرافعات للتنمية والانفتاح. ويساهم هذا التعاون في تيسير الولوج إلى المعارف وتنمية الكفاءات وديناميات الابتكار."
+      },
+      {
+        "title": "التشغيل والتكوين المهني",
+        "body": "تساهم الأعمال الأوروبية في تنمية التشغيل وتعزيز التكوين المهني. وتهدف خاصة إلى دعم اكتساب الكفاءات وتسهيل مواءمة أفضل بين الكفاءات والفرص المهنية."
+      },
+      {
+        "title": "الديمقراطية والحوكمة",
+        "body": "يرافق الاتحاد الأوروبي الديناميات المرتبطة بالديمقراطية والحوكمة. وتدعم أعماله خاصة تعزيز المؤسسات وممارسات الحوكمة والمشاركة في الحياة العامة."
+      },
+      {
+        "title": "التنمية الاقتصادية ودعم القطاع الخاص",
+        "body": "يدعم الاتحاد الأوروبي التنمية الاقتصادية وفاعلي القطاع الخاص في تونس. ويساهم التعاون خاصة في خلق بيئة مواتية للنشاط الاقتصادي وريادة الأعمال وتنمية المؤسسات."
+      }
+    ]
+  }
+}

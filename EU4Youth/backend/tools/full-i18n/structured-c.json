@@ -1,0 +1,542 @@
+{
+  "projets|grid|composantes": {
+    "en": [
+      {
+        "kicker": "COMPONENT 1",
+        "name": "Employment, employability and entrepreneurship"
+      },
+      {
+        "kicker": "COMPONENT 2",
+        "name": "Culture and sport for inclusion"
+      },
+      {
+        "kicker": "COMPONENT 3",
+        "name": "Public policies and youth participation"
+      }
+    ],
+    "ar": [
+      {
+        "kicker": "المكونة 1",
+        "name": "التشغيل والقابلية للتشغيل وريادة الأعمال"
+      },
+      {
+        "kicker": "المكونة 2",
+        "name": "الثقافة والرياضة من أجل الإدماج"
+      },
+      {
+        "kicker": "المكونة 3",
+        "name": "السياسات العمومية ومشاركة الشباب"
+      }
+    ]
+  },
+  "projets|grid|items": {
+    "en": [
+      {
+        "slug": "jeuness",
+        "acronym": "Jeun'ESS",
+        "tagline": "The social and solidarity economy, a lever for decent employment for young Tunisians.",
+        "partner": "International Labour Organization (ILO)",
+        "budget": "€9 million",
+        "period": "September 2019 – August 2024",
+        "territory": "5 governorates in the project sheet: Jendouba, Le Kef, Kairouan, Sidi Bouzid, Kébili",
+        "composante": "Employment, employability and entrepreneurship"
+      },
+      {
+        "slug": "go4youth",
+        "acronym": "GO4Youth",
+        "tagline": "Strengthen employment services to improve young people’s access to decent professional opportunities.",
+        "partner": "World Bank and ANETI",
+        "budget": "€10 million",
+        "period": "September 2021 – June 2027",
+        "territory": "Progressive rollout in the BETIs concerned — 6 pilot BETIs then 48 selected BETIs",
+        "composante": "Employment, employability and entrepreneurship"
+      },
+      {
+        "slug": "swafy",
+        "acronym": "SWAFY",
+        "tagline": "Strengthen the contribution of research and innovation to economic and social development with and for young people.",
+        "partner": "National Agency for the Promotion of Scientific Research (ANPR)",
+        "budget": "€9 million",
+        "period": "June 2022 – June 2027",
+        "territory": "All regions",
+        "composante": "Employment, employability and entrepreneurship"
+      },
+      {
+        "slug": "irada4youth",
+        "acronym": "IRADA4YOUTH",
+        "tagline": "Improve the economic and social inclusion of young people through a locally designed approach.",
+        "partner": "CGDR with ODNO, ODCO and ODS",
+        "budget": "€5 million",
+        "period": "2022 – 2027 · 60 months",
+        "territory": "6 priority governorates",
+        "composante": "Employment, employability and entrepreneurship"
+      },
+      {
+        "slug": "maghroumin",
+        "acronym": "Maghroum'IN",
+        "tagline": "Strengthen the inclusion and participation of vulnerable young Tunisians through creation, culture and sport.",
+        "partner": "AECID – British Council – FIIAPP",
+        "budget": "€15.46 million",
+        "period": "From 1 January 2022 — 60 months",
+        "territory": "National coverage",
+        "composante": "Culture and sport for inclusion"
+      },
+      {
+        "slug": "fe3ila",
+        "acronym": "Fe3il.a",
+        "tagline": "Make young people actors of change in their territories.",
+        "partner": "CILG-VNG International · Ministry of Youth and Sports",
+        "budget": "€9.1 million",
+        "period": "2021 – 2026",
+        "territory": "8 partner municipalities",
+        "composante": "Public policies and youth participation"
+      }
+    ],
+    "ar": [
+      {
+        "slug": "jeuness",
+        "acronym": "Jeun'ESS",
+        "tagline": "الاقتصاد الاجتماعي والتضامني رافعة لشغل لائق للشباب التونسي.",
+        "partner": "منظمة العمل الدولية (OIT)",
+        "budget": "9 ملايين يورو",
+        "period": "سبتمبر 2019 – أغسطس 2024",
+        "territory": "5 ولايات في بطاقة المشروع: جندوبة، الكاف، القيروان، سيدي بوزيد، قبلي",
+        "composante": "التشغيل والقابلية للتشغيل وريادة الأعمال"
+      },
+      {
+        "slug": "go4youth",
+        "acronym": "GO4Youth",
+        "tagline": "تعزيز خدمات التشغيل لتحسين ولوج الشباب إلى فرص مهنية لائقة.",
+        "partner": "البنك الدولي والوكالة الوطنية للتشغيل",
+        "budget": "10 ملايين يورو",
+        "period": "سبتمبر 2021 – يونيو 2027",
+        "territory": "تعميم تدريجي في مكاتب التشغيل المعنية — 6 مكاتب تجريبية ثم 48 مكتباً مختاراً",
+        "composante": "التشغيل والقابلية للتشغيل وريادة الأعمال"
+      },
+      {
+        "slug": "swafy",
+        "acronym": "SWAFY",
+        "tagline": "تعزيز مساهمة البحث والابتكار في التنمية الاقتصادية والاجتماعية مع الشباب ومن أجلهم.",
+        "partner": "الوكالة الوطنية للنهوض بالبحث العلمي (ANPR)",
+        "budget": "9 ملايين يورو",
+        "period": "يونيو 2022 – يونيو 2027",
+        "territory": "كل الجهات",
+        "composante": "التشغيل والقابلية للتشغيل وريادة الأعمال"
+      },
+      {
+        "slug": "irada4youth",
+        "acronym": "IRADA4YOUTH",
+        "tagline": "تحسين الإدماج الاقتصادي والاجتماعي للشباب عبر مقاربة مصمَّمة محلياً.",
+        "partner": "CGDR مع ODNO و ODCO و ODS",
+        "budget": "5 ملايين يورو",
+        "period": "2022 – 2027 · 60 شهراً",
+        "territory": "6 ولايات ذات أولوية",
+        "composante": "التشغيل والقابلية للتشغيل وريادة الأعمال"
+      },
+      {
+        "slug": "maghroumin",
+        "acronym": "Maghroum'IN",
+        "tagline": "تعزيز إدماج ومشاركة الشباب التونسي في وضعية هشاشة عبر الإبداع والثقافة والرياضة.",
+        "partner": "AECID – British Council – FIIAPP",
+        "budget": "15.46 مليون يورو",
+        "period": "ابتداء من 1 يناير 2022 — 60 شهراً",
+        "territory": "تغطية وطنية",
+        "composante": "الثقافة والرياضة من أجل الإدماج"
+      },
+      {
+        "slug": "fe3ila",
+        "acronym": "Fe3il.a",
+        "tagline": "جعل الشباب فاعلين في التغيير في أقاليمهم.",
+        "partner": "CILG-VNG International · وزارة الشباب والرياضة",
+        "budget": "9.1 ملايين يورو",
+        "period": "2021 – 2026",
+        "territory": "8 بلديات شريكة",
+        "composante": "السياسات العمومية ومشاركة الشباب"
+      }
+    ]
+  },
+  "partenaires|implementers|items": {
+    "en": [
+      {
+        "slug": "jeuness",
+        "acronym": "Jeun'ESS",
+        "partner": "International Labour Organization (ILO)",
+        "tagline": "The social and solidarity economy, a lever for decent employment for young Tunisians.",
+        "logo": "/img/logo-jeuness.png"
+      },
+      {
+        "slug": "go4youth",
+        "acronym": "GO4Youth",
+        "partner": "World Bank and ANETI",
+        "tagline": "Strengthen employment services to improve young people’s access to decent professional opportunities.",
+        "logo": "/img/logo-go4youth.png"
+      },
+      {
+        "slug": "swafy",
+        "acronym": "SWAFY",
+        "partner": "National Agency for the Promotion of Scientific Research (ANPR)",
+        "tagline": "Strengthen the contribution of research and innovation to economic and social development with and for young people.",
+        "logo": "/img/logo-swafy.png"
+      },
+      {
+        "slug": "irada4youth",
+        "acronym": "IRADA4YOUTH",
+        "partner": "CGDR with ODNO, ODCO and ODS",
+        "tagline": "Improve the economic and social inclusion of young people through a locally designed approach.",
+        "logo": "/img/logo-irada4youth.png"
+      },
+      {
+        "slug": "maghroumin",
+        "acronym": "Maghroum'IN",
+        "partner": "AECID – British Council – FIIAPP",
+        "tagline": "Strengthen the inclusion and participation of vulnerable young Tunisians through creation, culture and sport.",
+        "logo": "/img/logo-maghroumin.png"
+      },
+      {
+        "slug": "fe3ila",
+        "acronym": "Fe3il.a",
+        "partner": "CILG-VNG International · Ministry of Youth and Sports",
+        "tagline": "Make young people actors of change in their territories.",
+        "logo": "/img/logo-fe3ila.png"
+      }
+    ],
+    "ar": [
+      {
+        "slug": "jeuness",
+        "acronym": "Jeun'ESS",
+        "partner": "منظمة العمل الدولية (OIT)",
+        "tagline": "الاقتصاد الاجتماعي والتضامني رافعة لشغل لائق للشباب التونسي.",
+        "logo": "/img/logo-jeuness.png"
+      },
+      {
+        "slug": "go4youth",
+        "acronym": "GO4Youth",
+        "partner": "البنك الدولي والوكالة الوطنية للتشغيل",
+        "tagline": "تعزيز خدمات التشغيل لتحسين ولوج الشباب إلى فرص مهنية لائقة.",
+        "logo": "/img/logo-go4youth.png"
+      },
+      {
+        "slug": "swafy",
+        "acronym": "SWAFY",
+        "partner": "الوكالة الوطنية للنهوض بالبحث العلمي (ANPR)",
+        "tagline": "تعزيز مساهمة البحث والابتكار في التنمية الاقتصادية والاجتماعية مع الشباب ومن أجلهم.",
+        "logo": "/img/logo-swafy.png"
+      },
+      {
+        "slug": "irada4youth",
+        "acronym": "IRADA4YOUTH",
+        "partner": "CGDR مع ODNO و ODCO و ODS",
+        "tagline": "تحسين الإدماج الاقتصادي والاجتماعي للشباب عبر مقاربة مصمَّمة محلياً.",
+        "logo": "/img/logo-irada4youth.png"
+      },
+      {
+        "slug": "maghroumin",
+        "acronym": "Maghroum'IN",
+        "partner": "AECID – British Council – FIIAPP",
+        "tagline": "تعزيز إدماج ومشاركة الشباب التونسي في وضعية هشاشة عبر الإبداع والثقافة والرياضة.",
+        "logo": "/img/logo-maghroumin.png"
+      },
+      {
+        "slug": "fe3ila",
+        "acronym": "Fe3il.a",
+        "partner": "CILG-VNG International · وزارة الشباب والرياضة",
+        "tagline": "جعل الشباب فاعلين في التغيير في أقاليمهم.",
+        "logo": "/img/logo-fe3ila.png"
+      }
+    ]
+  },
+  "partenaires|institutions|items": {
+    "en": [
+      {
+        "src": "/img/org-economie-planification.webp",
+        "alt": "Ministry of Economy and Planning"
+      },
+      {
+        "src": "/img/org-affaires-culturelles.webp",
+        "alt": "Ministry of Cultural Affairs"
+      },
+      {
+        "src": "/img/org-jeunesse-sports.webp",
+        "alt": "Ministry of Youth and Sports"
+      },
+      {
+        "src": "/img/org-aneti.webp",
+        "alt": "National Agency for Employment and Self-Employment"
+      },
+      {
+        "src": "/img/org-formation-emploi.webp",
+        "alt": "Ministry of Vocational Training and Employment"
+      },
+      {
+        "src": "/img/org-cgdr.webp",
+        "alt": "General Commissariat for Regional Development"
+      },
+      {
+        "src": "/img/org-observatoire-jeunesse.webp",
+        "alt": "National Youth Observatory"
+      },
+      {
+        "src": "/img/org-mesrs.webp",
+        "alt": "Ministry of Higher Education and Scientific Research"
+      },
+      {
+        "src": "/img/org-anpr.webp",
+        "alt": "National Agency for the Promotion of Scientific Research"
+      }
+    ],
+    "ar": [
+      {
+        "src": "/img/org-economie-planification.webp",
+        "alt": "وزارة الاقتصاد والتخطيط"
+      },
+      {
+        "src": "/img/org-affaires-culturelles.webp",
+        "alt": "وزارة الشؤون الثقافية"
+      },
+      {
+        "src": "/img/org-jeunesse-sports.webp",
+        "alt": "وزارة الشباب والرياضة"
+      },
+      {
+        "src": "/img/org-aneti.webp",
+        "alt": "الوكالة الوطنية للتشغيل والعمل المستقل"
+      },
+      {
+        "src": "/img/org-formation-emploi.webp",
+        "alt": "وزارة التكوين المهني والتشغيل"
+      },
+      {
+        "src": "/img/org-cgdr.webp",
+        "alt": "المندوبية العامة للتنمية الجهوية"
+      },
+      {
+        "src": "/img/org-observatoire-jeunesse.webp",
+        "alt": "المرصد الوطني للشباب"
+      },
+      {
+        "src": "/img/org-mesrs.webp",
+        "alt": "وزارة التعليم العالي والبحث العلمي"
+      },
+      {
+        "src": "/img/org-anpr.webp",
+        "alt": "الوكالة الوطنية للنهوض بالبحث العلمي"
+      }
+    ]
+  },
+  "partenaires|tabs|items": {
+    "en": [
+      {
+        "tab": "European Union",
+        "line1": "THE EUROPEAN",
+        "line2": "UNION",
+        "body": "The European Union funds the programme and places it within its cooperation with Tunisia. Its delegation in Tunis provides strategic steering and monitoring of the six projects."
+      },
+      {
+        "tab": "Tunisian institutions",
+        "line1": "TUNISIAN",
+        "line2": "INSTITUTIONS",
+        "body": "Tunisian ministries and institutions are central partners of the programme. They chair consultation frameworks, support implementation and carry institutional ownership of the results."
+      },
+      {
+        "tab": "Implementation",
+        "line1": "IMPLEMENTING",
+        "line2": "PARTNERS",
+        "body": "United Nations agencies, European cooperation agencies and civil society organisations implement the six projects alongside Tunisian institutions and territorial actors."
+      }
+    ],
+    "ar": [
+      {
+        "tab": "الاتحاد الأوروبي",
+        "line1": "الاتحاد",
+        "line2": "الأوروبي",
+        "body": "يموّل الاتحاد الأوروبي البرنامج ويدمجه في تعاونه مع تونس. وتتولى بعثته في تونس القيادة الاستراتيجية ومتابعة المشاريع الستة."
+      },
+      {
+        "tab": "المؤسسات التونسية",
+        "line1": "المؤسسات",
+        "line2": "التونسية",
+        "body": "الوزارات والمؤسسات التونسية شركاء مركزيون للبرنامج. فهي ترأس أطر التشاور، وترافق التنفيذ، وتحمل التملّك المؤسسي للمكتسبات."
+      },
+      {
+        "tab": "التنفيذ",
+        "line1": "شركاء",
+        "line2": "التنفيذ",
+        "body": "تنفّذ وكالات الأمم المتحدة ووكالات التعاون الأوروبية ومنظمات المجتمع المدني المشاريع الستة إلى جانب المؤسسات التونسية وفاعلي الأقاليم."
+      }
+    ]
+  },
+  "partenaires|figures|items": {
+    "en": [
+      {
+        "value": "01",
+        "label": "Delegation of the European Union"
+      },
+      {
+        "value": "9",
+        "label": "Partner Tunisian institutions"
+      },
+      {
+        "value": "6",
+        "label": "Implementing organisations"
+      },
+      {
+        "value": "6",
+        "label": "Coordinated projects"
+      }
+    ],
+    "ar": [
+      {
+        "value": "01",
+        "label": "بعثة الاتحاد الأوروبي"
+      },
+      {
+        "value": "9",
+        "label": "مؤسسات تونسية شريكة"
+      },
+      {
+        "value": "6",
+        "label": "منظمات تنفيذ"
+      },
+      {
+        "value": "6",
+        "label": "مشاريع منسَّقة"
+      }
+    ]
+  },
+  "objectifs|objectives|items": {
+    "en": [
+      {
+        "kicker": "",
+        "title": "OVERALL\nOBJECTIVE",
+        "body": "Contribute to improving the economic, social and civic inclusion of young Tunisian women and men, through an approach rooted in the territories and in local dynamics."
+      },
+      {
+        "kicker": "SPECIFIC OBJECTIVE 1",
+        "title": "EMPLOYMENT, EMPLOYABILITY AND ENTREPRENEURSHIP",
+        "body": "Strengthen young people's access to decent jobs, develop their skills and entrepreneurial capacities, and support promising economic sectors in the targeted regions.\n\nThis involves supporting the social and solidarity economy, modernising public labour-market intermediation services, supporting research and creativity among young researchers, and funding economic projects in locally identified sectors."
+      },
+      {
+        "kicker": "SPECIFIC OBJECTIVE 2",
+        "title": "CULTURE AND SPORT FOR INCLUSION",
+        "body": "Strengthen young people's inclusion and participation through access to culture and sport.\n\nCulture and sport are not accessories in a young person's life; they are fundamental conditions for fulfilment."
+      },
+      {
+        "kicker": "SPECIFIC OBJECTIVE 3",
+        "title": "PUBLIC POLICIES AND YOUTH PARTICIPATION",
+        "body": "Strengthen the place of young people in the design and implementation of public policies, at both local and national levels.\n\nYouth policies can only be effective if young people themselves take part in them."
+      }
+    ],
+    "ar": [
+      {
+        "kicker": "",
+        "title": "الهدف\nالعام",
+        "body": "المساهمة في تحسين الإدماج الاقتصادي والاجتماعي والمواطني للشبان والشابات التونسيين، عبر مقاربة متجذّرة في الأقاليم وفي الديناميات المحلية."
+      },
+      {
+        "kicker": "الهدف الخاص 1",
+        "title": "التشغيل والقابلية للتشغيل وريادة الأعمال",
+        "body": "تعزيز ولوج الشباب إلى شغل لائق، وتطوير كفاءاتهم وقدراتهم المقاولاتية، ودعم القطاعات الاقتصادية الواعدة في الجهات المستهدفة.\n\nويشمل ذلك دعم الاقتصاد الاجتماعي والتضامني، وتحديث الخدمات العمومية للوساطة في سوق الشغل، ودعم البحث والإبداع لدى الباحثين الشباب، وتمويل المشاريع الاقتصادية في قطاعات محدّدة محلياً."
+      },
+      {
+        "kicker": "الهدف الخاص 2",
+        "title": "الثقافة والرياضة من أجل الإدماج",
+        "body": "تعزيز إدماج الشباب ومشاركتهم عبر الولوج إلى الثقافة والرياضة.\n\nالثقافة والرياضة ليستا ملحقين في حياة الشاب؛ بل هما شرطان أساسيان للازدهار."
+      },
+      {
+        "kicker": "الهدف الخاص 3",
+        "title": "السياسات العمومية ومشاركة الشباب",
+        "body": "تعزيز مكانة الشباب في تصميم وتنفيذ السياسات العمومية، على المستوى المحلي كما على المستوى الوطني.\n\nلا يمكن أن تكون السياسات لفائدة الشباب فعّالة إلا إذا شارك الشباب أنفسهم فيها."
+      }
+    ]
+  },
+  "objectifs|action|items": {
+    "en": [
+      {
+        "kicker": "AXIS 1",
+        "icon": "/img/icon-axe-1.webp",
+        "title": "EMPLOYMENT AND ECONOMIC OPPORTUNITIES",
+        "body": "The programme strengthens young people's access to economic opportunities, whether through business creation, salaried employment or developing projects in promising sectors. It acts on several complementary levers: support for social and collective entrepreneurship, modernisation of guidance and labour-market intermediation services, promotion of research and creativity as pathways to employment, and funding of economic projects rooted in the territories."
+      },
+      {
+        "kicker": "AXIS 2",
+        "icon": "/img/icon-axe-2.webp",
+        "title": "CULTURE, SPORT AND PARTICIPATION",
+        "body": "EU4Youth considers culture and sport as full inclusion levers. The programme strengthens cultural and sports operators, improves access for vulnerable young people to creative and sports practices, and develops employability in these sectors. In parallel, it creates the conditions for authentic civic participation by young people — in their municipalities, their associations, and the public policies that concern them."
+      },
+      {
+        "kicker": "AXIS 3",
+        "icon": "/img/icon-axe-3.webp",
+        "title": "INNOVATION, RESEARCH AND TERRITORIAL DEVELOPMENT",
+        "body": "The programme invests in research and innovation as resources for young researchers' employment and for society's development. It also supports a territorial development logic based on the emergence of dynamic local ecosystems — networks of actors who know each other, cooperate and create opportunities together for young people in their regions. This territorial logic is at the heart of EU4Youth's design, from the selection of intervention areas to its implementation modalities."
+      }
+    ],
+    "ar": [
+      {
+        "kicker": "المحور 1",
+        "icon": "/img/icon-axe-1.webp",
+        "title": "التشغيل والفرص الاقتصادية",
+        "body": "يعزّز البرنامج ولوج الشباب إلى الفرص الاقتصادية، سواء عبر إنشاء المؤسسات أو التشغيل المأجور أو تطوير مشاريع في قطاعات واعدة. ويعمل على عدة رافعات متكاملة: دعم المقاولة الاجتماعية والجماعية، وتحديث خدمات التوجيه والوساطة في سوق الشغل، وتعزيز البحث والإبداع كمسارات نحو التشغيل، وتمويل المشاريع الاقتصادية المتجذّرة في الأقاليم."
+      },
+      {
+        "kicker": "المحور 2",
+        "icon": "/img/icon-axe-2.webp",
+        "title": "الثقافة والرياضة والمشاركة",
+        "body": "يعتبر EU4Youth الثقافة والرياضة رافعتين كاملتين للإدماج. فيعزّز البرنامج الفاعلين الثقافيين والرياضيين، ويحسّن ولوج الشباب في وضعية هشاشة إلى الممارسات الإبداعية والرياضية، ويطوّر القابلية للتشغيل في هذه القطاعات. وفي موازاة ذلك، يهيّئ شروط مشاركة مواطنية أصيلة للشباب — على مستوى بلدياتهم وجمعياتهم والسياسات العمومية التي تعنيهم."
+      },
+      {
+        "kicker": "المحور 3",
+        "icon": "/img/icon-axe-3.webp",
+        "title": "الابتكار والبحث والتنمية الترابية",
+        "body": "يستثمر البرنامج في البحث والابتكار كمورد لتشغيل الباحثين الشباب وتنمية المجتمع. كما يدعم منطقاً للتنمية الترابية قائماً على بروز منظومات محلية ديناميكية — شبكات فاعلين يتعارفون ويتعاونون ويخلقون معاً فرصاً لشباب مناطقهم. وهذا المنطق الترابي في صميم تصميم EU4Youth، من اختيار مناطق التدخل إلى صيغ التنفيذ."
+      }
+    ]
+  },
+  "objectifs|hero|principles": {
+    "en": [
+      {
+        "text": "Create real opportunities for personal and professional development for young people, where they live."
+      },
+      {
+        "text": "Prioritise those who face the greatest barriers: geographic remoteness, precariousness, unemployment, discrimination."
+      },
+      {
+        "text": "Involve young people in the design and implementation of the activities that concern them not only as beneficiaries, but as actors."
+      },
+      {
+        "text": "Anchor interventions in the territories, at municipal, governorate and local ecosystem levels."
+      },
+      {
+        "text": "Build lasting mechanisms for young people’s representation and participation in civic life and public action."
+      },
+      {
+        "text": "Build on past experience and dynamics already under way, to build on what works."
+      },
+      {
+        "text": "Coordinate the six projects with each other and with other European programmes in Tunisia to produce a coherent and multiplied impact."
+      }
+    ],
+    "ar": [
+      {
+        "text": "خلق فرص حقيقية للتنمية الشخصية والمهنية للشباب، حيث يعيشون."
+      },
+      {
+        "text": "إعطاء الأولوية لمن يواجهون أكبر العقبات: البعد الجغرافي، الهشاشة، البطالة، التمييز."
+      },
+      {
+        "text": "إشراك الشباب في تصميم وتنفيذ الأنشطة التي تعنيهم لا كمستفيدين فحسب، بل كفاعلين."
+      },
+      {
+        "text": "ترسيخ التدخلات في الأقاليم، على مستوى البلديات والولايات والمنظومات المحلية."
+      },
+      {
+        "text": "بناء آليات دائمة لتمثيل الشباب ومشاركتهم في الحياة المواطنية والعمل العمومي."
+      },
+      {
+        "text": "الاستفادة من التجارب السابقة والديناميات الجارية، للبناء على ما ينجح."
+      },
+      {
+        "text": "تنسيق المشاريع الستة فيما بينها ومع البرامج الأوروبية الأخرى في تونس لإنتاج أثر متماسك ومضاعَف."
+      }
+    ]
+  }
+}

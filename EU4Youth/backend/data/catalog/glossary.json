@@ -1,0 +1,2554 @@
+[
+  {
+    "id": "programme",
+    "label": {
+      "fr": "Cadres de programmation de l'UE",
+      "en": "EU Programming Frameworks",
+      "ar": "أطر البرمجة لدى الاتحاد الأوروبي"
+    },
+    "color": "#1D9E75",
+    "entries": [
+      {
+        "term": {
+          "fr": "EU4Youth",
+          "en": "EU4Youth",
+          "ar": "برنامج EU4Youth"
+        },
+        "tag": {
+          "fr": "Programme",
+          "en": "Programme",
+          "ar": "برنامج"
+        },
+        "def": {
+          "fr": "Programme-cadre de coopération de l'Union européenne, doté d'un budget de 60 millions d'euros pour la période 2019–2027, réunissant six projets complémentaires organisés autour de trois objectifs : l'emploi et l'entrepreneuriat, la culture et le sport, et les politiques publiques pour la jeunesse.",
+          "en": "A European Union cooperation framework programme, with a budget of €60 million for the period 2019–2027, bringing together six complementary projects organised around three objectives: employment and entrepreneurship, culture and sport, and youth public policy.",
+          "ar": "برنامج إطاري للتعاون تابع للاتحاد الأوروبي، بميزانية قدرها 60 مليون يورو للفترة 2019–2027، يجمع ستة مشاريع متكاملة منظّمة حول ثلاثة أهداف: التشغيل وريادة الأعمال، والثقافة والرياضة، والسياسات العمومية الموجهة للشباب."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Programme-cadre",
+          "en": "Framework programme",
+          "ar": "البرنامج الإطاري"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Mécanisme de financement et de coordination qui regroupe plusieurs projets distincts sous une vision commune et des principes d'intervention partagés. Le programme-cadre fixe les objectifs globaux et la gouvernance d'ensemble, tandis que chaque projet dispose de son propre budget, de son partenaire de mise en œuvre et de son périmètre d'action.",
+          "en": "A financing and coordination mechanism that brings together several distinct projects under a shared vision and common intervention principles. The framework programme sets overall objectives and governance arrangements, while each project has its own budget, implementing partner and scope of action.",
+          "ar": "آلية تمويل وتنسيق تجمع عدة مشاريع متمايزة ضمن رؤية مشتركة ومبادئ تدخل موحدة. يحدد البرنامج الإطاري الأهداف الشاملة والحوكمة العامة، في حين يمتلك كل مشروع ميزانيته الخاصة وشريك التنفيذ الخاص به ومجال عمله المحدد."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Convention de financement",
+          "en": "Financing agreement",
+          "ar": "اتفاقية التمويل"
+        },
+        "tag": {
+          "fr": "Juridique",
+          "en": "Legal",
+          "ar": "قانوني"
+        },
+        "def": {
+          "fr": "Accord juridique signé entre un bailleur (par exemple la Commission européenne) et un gouvernement bénéficiaire, formalisant les engagements des deux parties sur le budget, la durée, les objectifs et les conditions de mise en œuvre d'un programme de coopération. Elle constitue la base contractuelle de tout programme d'aide extérieure.",
+          "en": "A legal agreement signed between a donor (for example the European Commission) and a beneficiary government, formalising both parties' commitments regarding the budget, duration, objectives and implementation conditions of a cooperation programme. It forms the contractual basis of any external assistance programme.",
+          "ar": "اتفاق قانوني يُبرم بين جهة مانحة (كالمفوضية الأوروبية مثلاً) وحكومة مستفيدة، يُضفي طابعًا رسميًا على التزامات الطرفين فيما يخص الميزانية والمدة والأهداف وشروط تنفيذ برنامج التعاون. تشكّل هذه الاتفاقية الأساس التعاقدي لأي برنامج مساعدة خارجية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Composante",
+          "en": "Component",
+          "ar": "المكوّن"
+        },
+        "tag": {
+          "fr": "Architecture",
+          "en": "Structure",
+          "ar": "هيكلة"
+        },
+        "def": {
+          "fr": "Subdivision thématique d'un programme regroupant un ou plusieurs projets autour d'un objectif spécifique commun. La composante constitue un niveau intermédiaire entre le programme-cadre et le projet.",
+          "en": "A thematic subdivision of a programme grouping one or more projects around a shared specific objective. The component is an intermediate level between the framework programme and the individual project.",
+          "ar": "تقسيم موضوعي داخل برنامج يجمع مشروعًا واحدًا أو أكثر حول هدف نوعي مشترك. يمثّل المكوّن مستوى وسيطًا بين البرنامج الإطاري والمشروع."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Objectif spécifique (OS)",
+          "en": "Specific objective (SO)",
+          "ar": "الهدف النوعي"
+        },
+        "tag": {
+          "fr": "Logique d'intervention",
+          "en": "Intervention logic",
+          "ar": "منطق التدخل"
+        },
+        "def": {
+          "fr": "Résultat de niveau intermédiaire qu'un programme cherche à atteindre, plus concret que l'objectif global et directement mesurable. L'objectif spécifique délimite le périmètre d'une composante et structure les résultats attendus.",
+          "en": "An intermediate-level result that a programme seeks to achieve, more concrete than the overall objective and directly measurable. The specific objective defines the scope of a component and structures its expected results.",
+          "ar": "نتيجة على مستوى وسيط يسعى البرنامج إلى تحقيقها، وهي أكثر تحديدًا من الهدف العام وقابلة للقياس المباشر. يحدد الهدف النوعي مجال المكوّن وينظّم النتائج المرتقبة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Partenaire de mise en œuvre",
+          "en": "Implementing partner",
+          "ar": "شريك التنفيذ"
+        },
+        "tag": {
+          "fr": "Acteur",
+          "en": "Actor",
+          "ar": "فاعل"
+        },
+        "def": {
+          "fr": "Organisation — internationale, nationale ou de la société civile — chargée de la gestion opérationnelle d'un projet. Elle signe un contrat ou un accord de subvention avec le bailleur et est responsable de l'atteinte des résultats, de la gestion financière et du reporting.",
+          "en": "An organisation — international, national or civil-society — responsible for the operational management of a project. It signs a contract or grant agreement with the donor and is accountable for achieving results, financial management and reporting.",
+          "ar": "منظمة — دولية أو وطنية أو من منظمات المجتمع المدني — مكلّفة بالإدارة التنفيذية لمشروع ما. توقّع عقدًا أو اتفاقية منحة مع الجهة المانحة وتكون مسؤولة عن تحقيق النتائج والإدارة المالية وتقديم التقارير."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Avenant",
+          "en": "Amendment / Addendum",
+          "ar": "الملحق التعديلي"
+        },
+        "tag": {
+          "fr": "Juridique",
+          "en": "Legal",
+          "ar": "قانوني"
+        },
+        "def": {
+          "fr": "Modification formelle apportée à un accord ou contrat existant, permettant d'en ajuster certains éléments (durée, budget, objectifs) sans rédiger un nouveau document contractuel. L'avenant doit être signé par toutes les parties originelles.",
+          "en": "A formal modification made to an existing agreement or contract, allowing certain elements (duration, budget, objectives) to be adjusted without drafting a new contractual document. It must be signed by all original parties.",
+          "ar": "تعديل رسمي يُدخل على اتفاق أو عقد قائم، يتيح تعديل بعض عناصره (المدة، الميزانية، الأهداف) دون تحرير وثيقة تعاقدية جديدة. ويجب أن يوقّعه جميع الأطراف الأصليين للاتفاق."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Cadre de coopération bilatérale",
+          "en": "Bilateral cooperation framework",
+          "ar": "إطار التعاون الثنائي"
+        },
+        "tag": {
+          "fr": "Cadre politique",
+          "en": "Policy framework",
+          "ar": "إطار سياسي"
+        },
+        "def": {
+          "fr": "Accord ou déclaration conjointe entre deux États (ou un État et une organisation internationale) fixant les grandes orientations, priorités et principes de leur coopération dans un ou plusieurs domaines donnés, sur une période déterminée.",
+          "en": "A joint agreement or declaration between two states (or a state and an international organisation) setting out the broad orientations, priorities and principles of their cooperation in one or more given fields, over a defined period.",
+          "ar": "اتفاق أو إعلان مشترك بين دولتين (أو دولة ومنظمة دولية) يحدد التوجهات الكبرى والأولويات ومبادئ التعاون بينهما في مجال أو أكثر، خلال فترة زمنية محددة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "projets",
+    "label": {
+      "fr": "Repères des six projets",
+      "en": "The Six Projects — Key Facts",
+      "ar": "معطيات حول المشاريع الستة"
+    },
+    "color": "#378ADD",
+    "entries": [
+      {
+        "term": {
+          "fr": "Fe3il.a",
+          "en": "Fe3il.a",
+          "ar": "فعيلة"
+        },
+        "tag": {
+          "fr": "Projet",
+          "en": "Project",
+          "ar": "مشروع"
+        },
+        "def": {
+          "fr": "Nom, en arabe dialectal tunisien, signifiant « il/elle agit ». Projet mis en œuvre par CILG-VNG International, portant sur l'intégration des jeunes dans la conception et la mise en œuvre des politiques publiques, aux niveaux local et national.",
+          "en": "A name in Tunisian dialectal Arabic meaning \"he/she acts\". A project implemented by CILG-VNG International, focused on integrating young people into the design and implementation of public policy, at local and national level.",
+          "ar": "اسم بالعامية التونسية يعني «هو/هي يفعل». مشروع تنفّذه منظمة CILG-VNG الدولية، يُعنى بإدماج الشباب في تصميم السياسات العمومية وتنفيذها على المستويين المحلي والوطني."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Irada4Youth",
+          "en": "Irada4Youth",
+          "ar": "إرادة فور يوث"
+        },
+        "tag": {
+          "fr": "Projet",
+          "en": "Project",
+          "ar": "مشروع"
+        },
+        "def": {
+          "fr": "Extension ciblée du programme IRADA, mise en œuvre par le CGDR et les Offices de Développement Régional (ODRs), soutenant des projets économiques créateurs d'emploi pour les jeunes dans des gouvernorats prioritaires.",
+          "en": "A targeted extension of the IRADA programme, implemented by the CGDR and the Regional Development Offices (ODRs), supporting job-creating economic projects for young people in priority governorates.",
+          "ar": "امتداد موجّه لبرنامج إرادة، ينفّذه المندوبية العامة للتنمية الجهوية ومكاتب التنمية الجهوية، ويدعم مشاريع اقتصادية مُحدثة لمواطن الشغل لفائدة الشباب في ولايات ذات أولوية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Go4Youth",
+          "en": "Go4Youth",
+          "ar": "غو فور يوث"
+        },
+        "tag": {
+          "fr": "Projet",
+          "en": "Project",
+          "ar": "مشروع"
+        },
+        "def": {
+          "fr": "Nom signifiant « Gates for Opportunities ». Projet mis en œuvre par la Banque mondiale et l'ANETI, visant à moderniser les services publics d'intermédiation sur le marché du travail, notamment par la transformation numérique.",
+          "en": "A name meaning \"Gates for Opportunities\". A project implemented by the World Bank and ANETI, aiming to modernise public labour-market intermediation services, notably through digital transformation.",
+          "ar": "اسمه يعني «بوابات للفرص». مشروع تنفّذه البنك الدولي والوكالة الوطنية للتشغيل والعمل المستقل، يهدف إلى تحديث الخدمات العمومية للوساطة في سوق الشغل، لا سيما عبر التحول الرقمي."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Jeun'ESS",
+          "en": "Jeun'ESS",
+          "ar": "جون إس إس"
+        },
+        "tag": {
+          "fr": "Projet",
+          "en": "Project",
+          "ar": "مشروع"
+        },
+        "def": {
+          "fr": "Projet mis en œuvre par le BIT/OIT, ciblant le développement de l'économie sociale et solidaire (ESS) comme vecteur d'emploi et d'inclusion pour les jeunes, à travers des mécanismes de financement et d'accompagnement dédiés.",
+          "en": "A project implemented by the ILO, targeting the development of the social and solidarity economy (SSE) as a vehicle for youth employment and inclusion, through dedicated financing and support mechanisms.",
+          "ar": "مشروع تنفّذه منظمة العمل الدولية، يستهدف تطوير الاقتصاد الاجتماعي والتضامني كرافعة للتشغيل والإدماج لفائدة الشباب، عبر آليات تمويل ومرافقة مخصّصة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "SWAFY",
+          "en": "SWAFY",
+          "ar": "سوافي"
+        },
+        "tag": {
+          "fr": "Projet",
+          "en": "Project",
+          "ar": "مشروع"
+        },
+        "def": {
+          "fr": "Nom signifiant « Science With and For Youth ». Projet mis en œuvre par l'ANPR, soutenant l'employabilité des jeunes chercheurs via des bourses de recherche partenariale, la culture scientifique et le dialogue jeunesse-science.",
+          "en": "A name meaning \"Science With and For Youth\". A project implemented by ANPR, supporting the employability of young researchers through partnership research grants, scientific culture and youth–science dialogue.",
+          "ar": "اسمه يعني «العلم مع الشباب ومن أجله». مشروع تنفّذه الوكالة الوطنية للنهوض بالبحث العلمي، يدعم قابلية تشغيل الباحثين الشبان عبر منح بحث شراكي، ونشر الثقافة العلمية، وحوار الشباب والعلوم."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Maghroum'IN",
+          "en": "Maghroum'IN",
+          "ar": "مغروم إن"
+        },
+        "tag": {
+          "fr": "Projet",
+          "en": "Project",
+          "ar": "مشروع"
+        },
+        "def": {
+          "fr": "Nom évoquant l'aspiration en arabe tunisien. Projet mis en œuvre par un consortium (AECID, FIIAPP, British Council), portant sur le renforcement de l'inclusion des jeunes vulnérables par la culture et le sport.",
+          "en": "A name evoking aspiration in Tunisian Arabic. A project implemented by a consortium (AECID, FIIAPP, British Council), focused on strengthening the inclusion of vulnerable young people through culture and sport.",
+          "ar": "اسم يوحي بالطموح بالعامية التونسية. مشروع ينفّذه ائتلاف يضم الوكالة الإسبانية للتعاون الدولي من أجل التنمية ومؤسسة FIIAPP والمجلس الثقافي البريطاني، يُعنى بتعزيز إدماج الشباب في وضعية هشاشة عبر الثقافة والرياضة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Tfanen",
+          "en": "Tfanen",
+          "ar": "تفنن"
+        },
+        "tag": {
+          "fr": "Programme",
+          "en": "Programme",
+          "ar": "برنامج"
+        },
+        "def": {
+          "fr": "Programme antérieur d'appui à la culture, ayant financé plus de 70 actions culturelles à travers des appels à projets réguliers, mobilisant des associations et des jeunes sur l'ensemble du territoire.",
+          "en": "An earlier cultural support programme that funded more than 70 cultural initiatives through regular calls for projects, mobilising associations and young people nationwide.",
+          "ar": "برنامج سابق لدعم الثقافة، موّل أكثر من 70 نشاطًا ثقافيًا عبر دعوات دورية لتقديم المشاريع، وحرّك جمعيات وشبابًا على كامل التراب الوطني."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "cooperation",
+    "label": {
+      "fr": "Coopération internationale",
+      "en": "International Cooperation",
+      "ar": "التعاون الدولي"
+    },
+    "color": "#534AB7",
+    "entries": [
+      {
+        "term": {
+          "fr": "Coopération internationale au développement",
+          "en": "International development cooperation",
+          "ar": "التعاون الدولي من أجل التنمية"
+        },
+        "tag": {
+          "fr": "Fondamental",
+          "en": "Core concept",
+          "ar": "مفهوم أساسي"
+        },
+        "def": {
+          "fr": "Ensemble des mécanismes par lesquels des États, des organisations internationales ou des institutions supranationales mobilisent des ressources financières, techniques et humaines pour soutenir le développement économique, social et humain de pays partenaires, sur la base du principe de partenariat.",
+          "en": "The set of mechanisms through which states, international organisations or supranational institutions mobilise financial, technical and human resources to support the economic, social and human development of partner countries, based on the principle of partnership.",
+          "ar": "مجموع الآليات التي تعبّئ من خلالها الدول والمنظمات الدولية أو المؤسسات فوق الوطنية موارد مالية وتقنية وبشرية لدعم التنمية الاقتصادية والاجتماعية والبشرية في البلدان الشريكة، استنادًا إلى مبدأ الشراكة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Aide publique au développement (APD)",
+          "en": "Official development assistance (ODA)",
+          "ar": "المساعدة الإنمائية الرسمية"
+        },
+        "tag": {
+          "fr": "Fondamental",
+          "en": "Core concept",
+          "ar": "مفهوم أساسي"
+        },
+        "def": {
+          "fr": "Flux financiers fournis par des organismes publics à des pays en développement ou à des organisations multilatérales dans le but de promouvoir le développement économique et le bien-être, comptabilisés par l'OCDE selon des critères précis de concessionnalité.",
+          "en": "Financial flows provided by official agencies to developing countries or multilateral organisations with the promotion of economic development and welfare as the main objective, recorded by the OECD according to defined concessionality criteria.",
+          "ar": "تدفقات مالية تقدّمها هيئات رسمية إلى بلدان نامية أو منظمات متعددة الأطراف بهدف تعزيز التنمية الاقتصادية والرفاه، وتحتسبها منظمة التعاون والتنمية الاقتصادية وفق معايير دقيقة للتساهل."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Logique de résultats / cadre logique",
+          "en": "Results chain / logical framework",
+          "ar": "سلسلة النتائج / الإطار المنطقي"
+        },
+        "tag": {
+          "fr": "Méthode",
+          "en": "Method",
+          "ar": "منهجية"
+        },
+        "def": {
+          "fr": "Approche méthodologique qui structure une intervention selon une hiérarchie causale : activités → extrants (outputs) → résultats (outcomes) → impact. Elle clarifie la chaîne de causalité entre ce qu'un programme fait et les changements qu'il cherche à produire, et sert de base au suivi-évaluation.",
+          "en": "A methodological approach that structures an intervention according to a causal hierarchy: activities → outputs → outcomes → impact. It clarifies the causal chain between what a programme does and the changes it seeks to produce, and underpins monitoring and evaluation.",
+          "ar": "منهجية تنظّم التدخل وفق تسلسل سببي: أنشطة ← مخرجات ← نتائج ← أثر. توضّح هذه السلسلة العلاقة السببية بين ما ينجزه البرنامج والتغييرات التي يسعى إلى إحداثها، وتشكّل أساس المتابعة والتقييم."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Extrant (output)",
+          "en": "Output",
+          "ar": "المخرج"
+        },
+        "tag": {
+          "fr": "Logique de projet",
+          "en": "Project logic",
+          "ar": "منطق المشروع"
+        },
+        "def": {
+          "fr": "Produit direct d'une activité : formation dispensée, document produit, infrastructure réhabilitée, bourse accordée. L'extrant est immédiatement mesurable à l'issue d'une activité et se distingue du résultat (outcome), qui mesure le changement induit chez les bénéficiaires.",
+          "en": "The direct product of an activity: a training delivered, a document produced, infrastructure rehabilitated, a grant awarded. An output is immediately measurable upon completion of an activity, and is distinct from an outcome, which measures the change induced among beneficiaries.",
+          "ar": "المنتج المباشر لنشاط ما: تكوين مقدَّم، وثيقة منجزة، بنية تحتية مُعاد تأهيلها، منحة مسندة. يكون المخرج قابلاً للقياس فور انتهاء النشاط، ويختلف عن النتيجة التي تقيس التغيير الحاصل لدى المستفيدين."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Résultat (outcome)",
+          "en": "Outcome",
+          "ar": "النتيجة"
+        },
+        "tag": {
+          "fr": "Logique de projet",
+          "en": "Project logic",
+          "ar": "منطق المشروع"
+        },
+        "def": {
+          "fr": "Changement observable dans le comportement, les capacités, les conditions ou le statut des bénéficiaires, induit par les activités d'une intervention. Le résultat est le niveau de mesure qui reflète l'effet réel d'une intervention sur les personnes ciblées.",
+          "en": "An observable change in the behaviour, capacities, conditions or status of beneficiaries, brought about by an intervention's activities. Outcome is the level of measurement that reflects the actual effect of an intervention on the people targeted.",
+          "ar": "تغيير قابل للملاحظة في سلوك المستفيدين أو قدراتهم أو أوضاعهم أو وضعيتهم، ناجم عن أنشطة التدخل. تمثّل النتيجة مستوى القياس الذي يعكس الأثر الفعلي للتدخل على الفئة المستهدفة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Impact",
+          "en": "Impact",
+          "ar": "الأثر"
+        },
+        "tag": {
+          "fr": "Logique de projet",
+          "en": "Project logic",
+          "ar": "منطق المشروع"
+        },
+        "def": {
+          "fr": "Changement de long terme dans la situation globale d'une population ou d'un système, partiellement attribuable à une intervention. L'impact est difficile à mesurer directement et s'observe sur le long terme, au-delà de la fin du financement.",
+          "en": "A long-term change in the overall situation of a population or system, partly attributable to an intervention. Impact is difficult to measure directly and is observed over the long term, beyond the end of funding.",
+          "ar": "تغيير بعيد المدى في الوضع العام لمجموعة سكانية أو منظومة ما، يُعزى جزئيًا إلى تدخل معيّن. يصعب قياس الأثر مباشرة ويُلاحظ على المدى الطويل، بعد انتهاء التمويل."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Indicateur de performance",
+          "en": "Performance indicator",
+          "ar": "مؤشر الأداء"
+        },
+        "tag": {
+          "fr": "Suivi-évaluation",
+          "en": "Monitoring & evaluation",
+          "ar": "المتابعة والتقييم"
+        },
+        "def": {
+          "fr": "Mesure quantitative ou qualitative permettant d'apprécier le degré d'atteinte d'un objectif ou d'un résultat. Un bon indicateur est SMART : Spécifique, Mesurable, Atteignable, Réaliste et Temporellement défini.",
+          "en": "A quantitative or qualitative measure used to assess the degree of achievement of an objective or result. A good indicator is SMART: Specific, Measurable, Achievable, Realistic and Time-bound.",
+          "ar": "قياس كمي أو نوعي يتيح تقدير درجة بلوغ هدف أو نتيجة ما. يتميز المؤشر الجيد بخاصية SMART: محدد، قابل للقياس، قابل للتحقيق، واقعي، ومحدد زمنيًا."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Évaluation à mi-parcours",
+          "en": "Mid-term evaluation",
+          "ar": "التقييم منتصف المدة"
+        },
+        "tag": {
+          "fr": "Suivi-évaluation",
+          "en": "Monitoring & evaluation",
+          "ar": "المتابعة والتقييم"
+        },
+        "def": {
+          "fr": "Évaluation indépendante conduite à la moitié de la durée d'un programme pour apprécier sa pertinence, son efficacité, son efficience, son impact attendu et sa durabilité, et produire des recommandations pour ajuster la mise en œuvre.",
+          "en": "An independent evaluation conducted halfway through a programme's duration to assess its relevance, effectiveness, efficiency, expected impact and sustainability, and to produce recommendations for adjusting implementation.",
+          "ar": "تقييم مستقل يُجرى في منتصف مدة البرنامج لتقدير مدى ملاءمته وفعاليته ونجاعته وأثره المتوقع واستدامته، وتقديم توصيات لتعديل التنفيذ."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Durabilité (sustainability)",
+          "en": "Sustainability",
+          "ar": "الاستدامة"
+        },
+        "tag": {
+          "fr": "Concept clé",
+          "en": "Key concept",
+          "ar": "مفهوم أساسي"
+        },
+        "def": {
+          "fr": "Capacité des résultats et des changements produits par une intervention à se maintenir au-delà de la fin du financement extérieur, dépendant de l'appropriation institutionnelle, de la structuration des acteurs locaux et de la continuité des politiques publiques.",
+          "en": "The ability of the results and changes produced by an intervention to be maintained beyond the end of external funding, depending on institutional ownership, the structuring of local actors and the continuity of public policies.",
+          "ar": "قدرة النتائج والتغييرات الناتجة عن تدخل ما على الاستمرار بعد انتهاء التمويل الخارجي، وهي مرتبطة بالتملك المؤسساتي وتنظيم الفاعلين المحليين واستمرارية السياسات العمومية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Capitalisation",
+          "en": "Knowledge capitalisation",
+          "ar": "الرسملة المعرفية"
+        },
+        "tag": {
+          "fr": "Méthode",
+          "en": "Method",
+          "ar": "منهجية"
+        },
+        "def": {
+          "fr": "Processus systématique par lequel une intervention documente, analyse et diffuse les leçons tirées de ses expériences et pratiques, pour les rendre utiles à d'autres acteurs et alimenter les politiques publiques. Elle transforme l'expérience en connaissance partageable.",
+          "en": "A systematic process through which an intervention documents, analyses and disseminates the lessons learned from its experiences and practices, to make them useful to other actors and inform public policy. It turns experience into shareable knowledge.",
+          "ar": "عملية منهجية يوثّق من خلالها تدخل ما تجاربه وممارساته ويحلّلها وينشرها، بهدف الاستفادة منها من قبل فاعلين آخرين وإثراء السياسات العمومية. تحوّل هذه العملية التجربة إلى معرفة قابلة للتقاسم."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Délégation de l'Union européenne (DUE)",
+          "en": "Delegation of the European Union",
+          "ar": "وفد الاتحاد الأوروبي"
+        },
+        "tag": {
+          "fr": "Acteur",
+          "en": "Actor",
+          "ar": "فاعل"
+        },
+        "def": {
+          "fr": "Représentation officielle de la Commission européenne dans un pays tiers, assurant la mise en œuvre de la politique extérieure de l'UE sur place : gestion des programmes de coopération, suivi de leur mise en œuvre et dialogue politique avec les autorités du pays partenaire.",
+          "en": "The official representation of the European Commission in a third country, implementing EU external policy locally: managing cooperation programmes, monitoring their implementation and conducting political dialogue with partner-country authorities.",
+          "ar": "التمثيل الرسمي للمفوضية الأوروبية في بلد ثالث، يتولى تنفيذ السياسة الخارجية للاتحاد الأوروبي محليًا: إدارة برامج التعاون، ومتابعة تنفيذها، والحوار السياسي مع سلطات البلد الشريك."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Conditionnalité",
+          "en": "Conditionality",
+          "ar": "المشروطية"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Principe selon lequel le versement d'une aide ou le maintien d'un financement est subordonné au respect de certaines conditions par le bénéficiaire (réformes, critères économiques, atteinte de résultats). Elle peut être ex ante (avant versement) ou ex post (basée sur les résultats).",
+          "en": "The principle whereby the disbursement of aid or the continuation of funding is made conditional on the beneficiary meeting certain conditions (reforms, economic criteria, achievement of results). It can be applied ex ante (before disbursement) or ex post (results-based).",
+          "ar": "مبدأ يقضي بأن صرف المساعدة أو مواصلة التمويل مرهون باستيفاء الجهة المستفيدة شروطًا معينة (إصلاحات، معايير اقتصادية، بلوغ نتائج). ويمكن أن تكون المشروطية قبلية (قبل الصرف) أو بعدية (مبنية على النتائج)."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Appropriation (ownership)",
+          "en": "Ownership",
+          "ar": "التملّك"
+        },
+        "tag": {
+          "fr": "Concept clé",
+          "en": "Key concept",
+          "ar": "مفهوم أساسي"
+        },
+        "def": {
+          "fr": "Principe selon lequel les pays et institutions bénéficiaires doivent exercer un contrôle et une responsabilité réels sur leurs stratégies de développement et sur les programmes qui les soutiennent. C'est une condition de la durabilité des résultats.",
+          "en": "The principle that beneficiary countries and institutions must exercise real control and responsibility over their own development strategies and the programmes that support them. It is a condition for the sustainability of results.",
+          "ar": "مبدأ يقضي بأن تمارس البلدان والمؤسسات المستفيدة سيطرة ومسؤولية حقيقيتين على استراتيجياتها التنموية والبرامج الداعمة لها. ويُعدّ شرطًا لاستدامة النتائج."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Genre et développement (GED)",
+          "en": "Gender and development (GAD)",
+          "ar": "النوع الاجتماعي والتنمية"
+        },
+        "tag": {
+          "fr": "Approche",
+          "en": "Approach",
+          "ar": "مقاربة"
+        },
+        "def": {
+          "fr": "Approche qui intègre systématiquement l'analyse des rapports sociaux entre femmes et hommes dans les programmes de développement, reconnaissant que l'inégalité de genre est un obstacle structurel au développement, et qui interroge les systèmes produisant ces inégalités.",
+          "en": "An approach that systematically integrates the analysis of social relations between women and men into development programmes, recognising gender inequality as a structural obstacle to development, and questioning the systems that produce these inequalities.",
+          "ar": "مقاربة تدمج بشكل منهجي تحليل العلاقات الاجتماعية بين النساء والرجال ضمن برامج التنمية، وتقرّ بأن عدم المساواة بين الجنسين يشكّل عائقًا هيكليًا أمام التنمية، وتتساءل عن الأنظمة المنتِجة لهذه اللامساواة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Approche territoriale",
+          "en": "Territorial/place-based approach",
+          "ar": "المقاربة الترابية"
+        },
+        "tag": {
+          "fr": "Méthode",
+          "en": "Method",
+          "ar": "منهجية"
+        },
+        "def": {
+          "fr": "Modalité d'intervention qui prend en compte les spécificités géographiques, économiques et sociales d'un territoire donné, et qui mobilise les acteurs locaux plutôt que d'imposer des solutions standardisées définies de manière centralisée.",
+          "en": "A mode of intervention that takes into account the geographic, economic and social specificities of a given territory, and mobilises local actors rather than imposing standardised, centrally-designed solutions.",
+          "ar": "أسلوب تدخل يراعي الخصوصيات الجغرافية والاقتصادية والاجتماعية لمنطقة معينة، ويعتمد على تعبئة الفاعلين المحليين عوضًا عن فرض حلول موحّدة مُعدّة مركزيًا."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "emploi",
+    "label": {
+      "fr": "Emploi & entrepreneuriat",
+      "en": "Employment & Entrepreneurship",
+      "ar": "التشغيل وريادة الأعمال"
+    },
+    "color": "#BA7517",
+    "entries": [
+      {
+        "term": {
+          "fr": "Emploi décent",
+          "en": "Decent work",
+          "ar": "العمل اللائق"
+        },
+        "tag": {
+          "fr": "OIT",
+          "en": "ILO",
+          "ar": "منظمة العمل الدولية"
+        },
+        "def": {
+          "fr": "Concept développé par l'Organisation internationale du travail (OIT) désignant un travail productif générant un revenu équitable, assurant la sécurité du travailleur, garantissant une protection sociale, favorisant le développement personnel et l'intégration sociale, dans le respect de la non-discrimination et de la liberté d'expression au travail.",
+          "en": "A concept developed by the International Labour Organization (ILO) denoting productive work that delivers a fair income, provides workplace security, guarantees social protection, fosters personal development and social integration, and upholds non-discrimination and freedom of expression at work.",
+          "ar": "مفهوم وضعته منظمة العمل الدولية يشير إلى عمل منتج يوفّر دخلاً عادلاً، ويضمن الأمان للعامل، ويكفل الحماية الاجتماعية، ويعزّز التطور الشخصي والاندماج الاجتماعي، في ظل عدم التمييز وحرية التعبير في مكان العمل."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Employabilité",
+          "en": "Employability",
+          "ar": "قابلية التشغيل"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Ensemble des compétences, connaissances, attitudes et attributs qui permettent à un individu d'accéder à un emploi, de s'y maintenir et d'évoluer professionnellement — combinant compétences techniques (hard skills) et compétences transversales (soft skills) comme la communication ou l'adaptabilité.",
+          "en": "The set of skills, knowledge, attitudes and attributes that enable an individual to obtain a job, remain in employment and progress professionally — combining technical (hard) skills and transversal (soft) skills such as communication or adaptability.",
+          "ar": "مجموع المهارات والمعارف والمواقف والسمات التي تمكّن الفرد من الحصول على عمل والبقاء فيه والتطور المهني، وتجمع بين المهارات التقنية والمهارات الناعمة كالتواصل والقدرة على التكيّف."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "NEET",
+          "en": "NEET",
+          "ar": "نيت (NEET)"
+        },
+        "tag": {
+          "fr": "Statistique",
+          "en": "Statistical category",
+          "ar": "فئة إحصائية"
+        },
+        "def": {
+          "fr": "Acronyme anglais de « Not in Education, Employment or Training », désignant les jeunes qui ne sont ni en emploi, ni en études, ni en formation. Catégorie statistique utilisée internationalement (OIT, Eurostat, OCDE) pour identifier le segment de jeunes le plus exposé au risque d'exclusion durable.",
+          "en": "An acronym for \"Not in Education, Employment or Training\", designating young people who are neither employed nor in education or training. An internationally used statistical category (ILO, Eurostat, OECD) to identify the youth segment most exposed to the risk of lasting exclusion.",
+          "ar": "اختصار إنجليزي يعني «لا يعمل ولا يدرس ولا يتكوّن»، ويشير إلى الشباب الذين ليسوا في وضعية تشغيل أو تعليم أو تكوين. فئة إحصائية معتمدة دوليًا (منظمة العمل الدولية، يوروستات، منظمة التعاون والتنمية) لتحديد شريحة الشباب الأكثر عرضة لخطر الإقصاء الدائم."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Intermédiation sur le marché du travail",
+          "en": "Labour market intermediation",
+          "ar": "الوساطة في سوق الشغل"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Ensemble des activités visant à mettre en relation l'offre (les employeurs) et la demande (les chercheurs d'emploi) sur le marché du travail, assurées par des structures publiques (agences nationales pour l'emploi) ou privées (associations d'accompagnement, cabinets de recrutement).",
+          "en": "The set of activities aimed at matching labour supply (employers) and demand (job seekers) on the labour market, carried out by public bodies (national employment agencies) or private ones (support associations, recruitment firms).",
+          "ar": "مجموع الأنشطة التي تهدف إلى الربط بين العرض (أصحاب العمل) والطلب (الباحثين عن عمل) في سوق الشغل، تضطلع بها هياكل عمومية (وكالات وطنية للتشغيل) أو خاصة (جمعيات مرافقة، مكاتب توظيف)."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Entrepreneuriat",
+          "en": "Entrepreneurship",
+          "ar": "ريادة الأعمال"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Démarche par laquelle un individu ou un collectif identifie une opportunité, mobilise des ressources et prend un risque calculé pour créer une activité économique nouvelle. On distingue l'entrepreneuriat individuel, l'entrepreneuriat social et l'entrepreneuriat collectif.",
+          "en": "The process by which an individual or a group identifies an opportunity, mobilises resources and takes a calculated risk to create a new economic activity. Individual, social and collective entrepreneurship are commonly distinguished.",
+          "ar": "مسار يحدد من خلاله فرد أو جماعة فرصة معينة، ويعبّئ الموارد، ويتحمّل مخاطرة محسوبة لإحداث نشاط اقتصادي جديد. ويُميَّز بين ريادة الأعمال الفردية والاجتماعية والجماعية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Entrepreneuriat social",
+          "en": "Social entrepreneurship",
+          "ar": "ريادة الأعمال الاجتماعية"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Forme d'entrepreneuriat qui poursuit une mission sociale, environnementale ou culturelle en utilisant les mécanismes du marché pour produire des changements positifs dans la société. L'entreprise sociale génère des revenus mais réinvestit ses excédents dans sa mission.",
+          "en": "A form of entrepreneurship that pursues a social, environmental or cultural mission using market mechanisms to produce positive change in society. A social enterprise generates revenue but reinvests its surplus into its mission.",
+          "ar": "شكل من أشكال ريادة الأعمال يسعى لتحقيق رسالة اجتماعية أو بيئية أو ثقافية باستخدام آليات السوق لإحداث تغيير إيجابي في المجتمع. تحقق المؤسسة الاجتماعية عائدات لكنها تعيد استثمار فائضها في خدمة رسالتها."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Secteur informel",
+          "en": "Informal sector",
+          "ar": "القطاع غير المنظم"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Ensemble des activités économiques se déroulant en dehors du cadre légal et réglementaire : travailleurs sans contrat formel, activités non déclarées, absence de protection sociale — exposant les travailleurs concernés à une forte précarité.",
+          "en": "The set of economic activities carried out outside the legal and regulatory framework: workers without a formal contract, undeclared activities, absence of social protection — exposing the workers concerned to significant precariousness.",
+          "ar": "مجموع الأنشطة الاقتصادية التي تجري خارج الإطار القانوني والتنظيمي: عمال دون عقد رسمي، أنشطة غير مصرّح بها، وانعدام الحماية الاجتماعية، مما يعرّض العمال المعنيين لهشاشة كبيرة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Filière",
+          "en": "Value chain / sector",
+          "ar": "السلسلة القطاعية"
+        },
+        "tag": {
+          "fr": "Économie",
+          "en": "Economics",
+          "ar": "اقتصاد"
+        },
+        "def": {
+          "fr": "Chaîne de valeur sectorielle regroupant l'ensemble des acteurs économiques (producteurs, transformateurs, distributeurs, prestataires) intervenant dans la production et la mise en marché d'un produit ou service. L'approche filière analyse les interdépendances entre acteurs.",
+          "en": "A sector-wide value chain bringing together all the economic actors (producers, processors, distributors, service providers) involved in producing and marketing a product or service. The value-chain approach analyses the interdependencies between actors.",
+          "ar": "سلسلة قيمة قطاعية تجمع كافة الفاعلين الاقتصاديين (المنتجين، المحوّلين، الموزّعين، مقدّمي الخدمات) المتدخلين في إنتاج منتج أو خدمة وتسويقها. تحلّل مقاربة السلسلة القطاعية الترابط بين هؤلاء الفاعلين."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Recherche partenariale",
+          "en": "Partnership-based / collaborative research",
+          "ar": "البحث الشراكي"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Mode de production de la recherche scientifique associant des chercheurs et des acteurs socioéconomiques (entreprises, associations, institutions) autour d'une problématique d'intérêt commun, visant à rapprocher la recherche académique des besoins du monde productif.",
+          "en": "A mode of producing scientific research that involves researchers and socio-economic actors (businesses, associations, institutions) around a shared issue, aiming to bring academic research closer to the needs of the productive sector.",
+          "ar": "نمط لإنتاج البحث العلمي يجمع الباحثين وفاعلين اقتصاديين واجتماعيين (مؤسسات، جمعيات، هياكل) حول إشكالية ذات اهتمام مشترك، بهدف تقريب البحث الأكاديمي من احتياجات القطاع الإنتاجي."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Business plan / plan d'affaires",
+          "en": "Business plan",
+          "ar": "خطة العمل (بزنس بلان)"
+        },
+        "tag": {
+          "fr": "Outil",
+          "en": "Tool",
+          "ar": "أداة"
+        },
+        "def": {
+          "fr": "Document formalisé décrivant un projet entrepreneurial : modèle économique, analyse de marché, stratégie commerciale, plan financier, structure juridique et équipe. Il sert d'outil de planification interne et de support de communication vers les financeurs.",
+          "en": "A formal document describing an entrepreneurial project: business model, market analysis, commercial strategy, financial plan, legal structure and team. It serves as both an internal planning tool and a communication document for financiers.",
+          "ar": "وثيقة رسمية تصف مشروعًا ريادياً: النموذج الاقتصادي، تحليل السوق، الاستراتيجية التجارية، الخطة المالية، الهيكل القانوني والفريق. تُستخدم كأداة تخطيط داخلية ووسيلة تواصل مع الممولين."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Étude de faisabilité",
+          "en": "Feasibility study",
+          "ar": "دراسة الجدوى"
+        },
+        "tag": {
+          "fr": "Outil",
+          "en": "Tool",
+          "ar": "أداة"
+        },
+        "def": {
+          "fr": "Analyse préalable au lancement d'un projet visant à évaluer sa viabilité technique, économique, financière, juridique et opérationnelle, permettant d'identifier les risques, les ressources nécessaires et les conditions de succès avant l'engagement.",
+          "en": "An analysis conducted prior to launching a project to assess its technical, economic, financial, legal and operational viability, identifying risks, required resources and success conditions before commitment.",
+          "ar": "تحليل يُجرى قبل إطلاق مشروع ما لتقييم جدواه التقنية والاقتصادية والمالية والقانونية والتشغيلية، بما يتيح تحديد المخاطر والموارد اللازمة وشروط النجاح قبل الالتزام بالمشروع."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Mapping stratégique / cartographie des acteurs",
+          "en": "Stakeholder mapping",
+          "ar": "خارطة الفاعلين"
+        },
+        "tag": {
+          "fr": "Outil",
+          "en": "Tool",
+          "ar": "أداة"
+        },
+        "def": {
+          "fr": "Méthode d'analyse qui identifie, catégorise et visualise l'ensemble des parties prenantes d'un secteur ou d'un territoire, leurs rôles, leurs relations et leurs influences mutuelles — outil de base pour toute stratégie d'intervention.",
+          "en": "An analytical method that identifies, categorises and visualises all stakeholders in a sector or territory, their roles, relationships and mutual influence — a basic tool for any intervention strategy.",
+          "ar": "منهجية تحليل تحدد وتصنّف وتُظهر بصريًا مجمل الأطراف المعنية في قطاع أو منطقة معينة، وأدوارهم وعلاقاتهم وتأثيرهم المتبادل — وهي أداة أساسية لأي استراتيجية تدخل."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Modèle économique (business model)",
+          "en": "Business model",
+          "ar": "النموذج الاقتصادي (بزنس موديل)"
+        },
+        "tag": {
+          "fr": "Outil",
+          "en": "Tool",
+          "ar": "أداة"
+        },
+        "def": {
+          "fr": "Description de la façon dont une organisation crée, délivre et capture de la valeur : sources de revenus, coûts principaux, ressources clés, partenariats et segments de clientèle. Le Canvas de Business Model (Osterwalder) est l'outil de formalisation le plus répandu.",
+          "en": "A description of how an organisation creates, delivers and captures value: revenue streams, main costs, key resources, partnerships and customer segments. The Business Model Canvas (Osterwalder) is the most widely used formalisation tool.",
+          "ar": "وصف للطريقة التي تخلق بها المؤسسة القيمة وتقدّمها وتحقّق منها عائدًا: مصادر الدخل، التكاليف الرئيسية، الموارد الأساسية، الشراكات وشرائح الزبائن. يُعد نموذج Business Model Canvas (أوسترفالدر) الأداة الأكثر شيوعًا لصياغته."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "SWOT / FFOM",
+          "en": "SWOT analysis",
+          "ar": "تحليل سوات (SWOT)"
+        },
+        "tag": {
+          "fr": "Outil",
+          "en": "Tool",
+          "ar": "أداة"
+        },
+        "def": {
+          "fr": "Outil d'analyse stratégique identifiant les Forces (Strengths), Faiblesses (Weaknesses), Opportunités (Opportunities) et Menaces (Threats) d'une organisation ou d'un projet, articulant analyse interne et analyse externe pour orienter les choix stratégiques.",
+          "en": "A strategic analysis tool identifying the Strengths, Weaknesses, Opportunities and Threats of an organisation or project, combining internal and external analysis to guide strategic choices.",
+          "ar": "أداة تحليل استراتيجي تحدد نقاط القوة والضعف والفرص والتهديدات لمؤسسة أو مشروع ما، وتجمع بين التحليل الداخلي والخارجي لتوجيه الخيارات الاستراتيجية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "ess",
+    "label": {
+      "fr": "Économie sociale & solidaire",
+      "en": "Social & Solidarity Economy",
+      "ar": "الاقتصاد الاجتماعي والتضامني"
+    },
+    "color": "#0F6E56",
+    "entries": [
+      {
+        "term": {
+          "fr": "Économie sociale et solidaire (ESS)",
+          "en": "Social and solidarity economy (SSE)",
+          "ar": "الاقتصاد الاجتماعي والتضامني"
+        },
+        "tag": {
+          "fr": "Secteur",
+          "en": "Sector",
+          "ar": "قطاع"
+        },
+        "def": {
+          "fr": "Ensemble des entreprises et organisations (coopératives, mutuelles, associations, fondations) qui poursuivent des objectifs économiques et sociaux simultanément, plaçant la solidarité, la démocratie interne et la finalité sociale avant la maximisation du profit.",
+          "en": "The set of enterprises and organisations (cooperatives, mutual societies, associations, foundations) that pursue economic and social objectives simultaneously, placing solidarity, internal democracy and social purpose above profit maximisation.",
+          "ar": "مجموع المؤسسات والمنظمات (تعاونيات، تعاضديات، جمعيات، مؤسسات) التي تجمع بين أهداف اقتصادية واجتماعية في آن واحد، وتضع التضامن والديمقراطية الداخلية والغاية الاجتماعية فوق مبدأ تعظيم الربح."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Coopérative",
+          "en": "Cooperative",
+          "ar": "التعاونية"
+        },
+        "tag": {
+          "fr": "Forme juridique",
+          "en": "Legal form",
+          "ar": "شكل قانوني"
+        },
+        "def": {
+          "fr": "Entreprise dont les membres sont à la fois associés et usagers, producteurs ou salariés, fonctionnant selon le principe démocratique « une personne, une voix », conformément aux principes coopératifs internationaux de l'Alliance coopérative internationale.",
+          "en": "An enterprise whose members are simultaneously associates and users, producers or employees, operating on the democratic principle of \"one member, one vote\", in line with the international cooperative principles of the International Co-operative Alliance.",
+          "ar": "مؤسسة يكون أعضاؤها في آن واحد منخرطين ومنتفعين أو منتجين أو أجراء، وتعمل وفق المبدأ الديمقراطي «شخص واحد، صوت واحد»، تماشياً مع المبادئ التعاونية الدولية للتحالف التعاوني الدولي."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Gouvernance participative",
+          "en": "Participatory governance",
+          "ar": "الحوكمة التشاركية"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Mode de gestion d'une organisation qui associe l'ensemble des parties prenantes (membres, salariés, bénéficiaires, partenaires) aux prises de décision, selon des règles de transparence et d'égalité. Principe fondateur de l'économie sociale et solidaire.",
+          "en": "A mode of organisational management that involves all stakeholders (members, staff, beneficiaries, partners) in decision-making, under rules of transparency and equality. A founding principle of the social and solidarity economy.",
+          "ar": "نمط إدارة لمؤسسة ما يُشرك جميع الأطراف المعنية (الأعضاء، الأجراء، المستفيدين، الشركاء) في اتخاذ القرار، وفق قواعد الشفافية والمساواة، ويُعد مبدأً مؤسِّسًا للاقتصاد الاجتماعي والتضامني."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Fonds d'innovation sociale",
+          "en": "Social innovation fund",
+          "ar": "صندوق الابتكار الاجتماعي"
+        },
+        "tag": {
+          "fr": "Mécanisme",
+          "en": "Mechanism",
+          "ar": "آلية"
+        },
+        "def": {
+          "fr": "Mécanisme de financement ciblant des projets ou idées socialement innovants portés par des individus ou des collectifs, accompagnant les porteurs de la phase d'idéation jusqu'à la création d'une structure, en combinant financement et appui technique.",
+          "en": "A funding mechanism targeting socially innovative projects or ideas led by individuals or groups, supporting them from the ideation phase through to the creation of a structure, combining financing with technical support.",
+          "ar": "آلية تمويل تستهدف مشاريع أو أفكارًا مبتكرة اجتماعيًا يحملها أفراد أو جماعات، وترافقهم من مرحلة بلورة الفكرة إلى تأسيس هيكل قانوني، وتجمع بين التمويل والدعم التقني."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Re-Fund Challenge",
+          "en": "Re-Fund Challenge",
+          "ar": "تحدي إعادة التمويل"
+        },
+        "tag": {
+          "fr": "Mécanisme",
+          "en": "Mechanism",
+          "ar": "آلية"
+        },
+        "def": {
+          "fr": "Mécanisme de financement et d'accompagnement conçu pour renforcer des organisations de l'économie sociale et solidaire déjà existantes mais fragilisées, combinant subvention, renforcement de capacités et incubation.",
+          "en": "A financing and support mechanism designed to strengthen existing but weakened social and solidarity economy organisations, combining grant funding, capacity building and incubation.",
+          "ar": "آلية تمويل ومرافقة صُممت لتعزيز مؤسسات قائمة تابعة للاقتصاد الاجتماعي والتضامني لكنها في وضع هش، وتجمع بين المنحة وتعزيز القدرات والاحتضان."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Market Fund",
+          "en": "Market fund",
+          "ar": "صندوق التسويق"
+        },
+        "tag": {
+          "fr": "Mécanisme",
+          "en": "Mechanism",
+          "ar": "آلية"
+        },
+        "def": {
+          "fr": "Mécanisme visant à renforcer les capacités commerciales et de mise en marché des organisations de l'économie sociale et solidaire, pour leur permettre d'accéder à de nouveaux marchés nationaux et internationaux.",
+          "en": "A mechanism aimed at strengthening the commercial and market-access capacities of social and solidarity economy organisations, enabling them to reach new national and international markets.",
+          "ar": "آلية تهدف إلى تعزيز القدرات التجارية والتسويقية لمؤسسات الاقتصاد الاجتماعي والتضامني، بما يمكّنها من الولوج إلى أسواق وطنية ودولية جديدة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Club ESS",
+          "en": "SSE club",
+          "ar": "نادي الاقتصاد الاجتماعي والتضامني"
+        },
+        "tag": {
+          "fr": "Mécanisme",
+          "en": "Mechanism",
+          "ar": "آلية"
+        },
+        "def": {
+          "fr": "Structure légère créée au sein d'un établissement scolaire, d'une structure de jeunesse ou d'une université pour initier les jeunes aux principes de l'économie sociale et solidaire et à l'entrepreneuriat collectif.",
+          "en": "A light-touch structure set up within a school, youth facility or university to introduce young people to the principles of the social and solidarity economy and collective entrepreneurship.",
+          "ar": "هيكل خفيف يُحدث داخل مؤسسة تربوية أو هيكل شبابي أو جامعة لتعريف الشباب بمبادئ الاقتصاد الاجتماعي والتضامني وريادة الأعمال الجماعية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Chaîne de valeur solidaire",
+          "en": "Solidarity-based value chain",
+          "ar": "سلسلة القيمة التضامنية"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Organisation d'une filière économique intégrant des acteurs de l'économie sociale et solidaire à différents niveaux (production, transformation, distribution), avec des principes de répartition équitable de la valeur ajoutée entre tous les maillons.",
+          "en": "The organisation of an economic sector integrating social and solidarity economy actors at different levels (production, processing, distribution), based on principles of fair distribution of added value across the chain.",
+          "ar": "تنظيم لسلسلة اقتصادية يُدمج فاعلين من الاقتصاد الاجتماعي والتضامني على مستويات مختلفة (الإنتاج، التحويل، التوزيع)، وفق مبادئ توزيع عادل للقيمة المضافة بين مختلف الحلقات."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "environnement",
+    "label": {
+      "fr": "Environnement & développement durable",
+      "en": "Environment & Sustainable Development",
+      "ar": "البيئة والتنمية المستدامة"
+    },
+    "color": "#3B6D11",
+    "entries": [
+      {
+        "term": {
+          "fr": "Économie verte",
+          "en": "Green economy",
+          "ar": "الاقتصاد الأخضر"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Modèle économique, défini par le PNUE, qui vise à améliorer le bien-être humain et l'équité sociale tout en réduisant significativement les risques environnementaux et la pénurie écologique, reposant sur trois piliers : faible émission de carbone, utilisation efficiente des ressources, inclusion sociale.",
+          "en": "An economic model, as defined by UNEP, that aims to improve human well-being and social equity while significantly reducing environmental risks and ecological scarcity, resting on three pillars: low carbon emissions, resource efficiency and social inclusion.",
+          "ar": "نموذج اقتصادي، وفق تعريف برنامج الأمم المتحدة للبيئة، يهدف إلى تحسين الرفاه البشري والإنصاف الاجتماعي مع الحد بشكل كبير من المخاطر البيئية والندرة الإيكولوجية، ويقوم على ثلاث ركائز: انخفاض انبعاثات الكربون، الاستخدام الرشيد للموارد، والإدماج الاجتماعي."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Économie circulaire",
+          "en": "Circular economy",
+          "ar": "الاقتصاد الدائري"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Modèle économique qui s'oppose au modèle linéaire (extraire-produire-jeter) en cherchant à maintenir les ressources, les produits et les matières dans le cycle économique le plus longtemps possible, en réduisant les déchets et en favorisant la réutilisation, la réparation et le recyclage.",
+          "en": "An economic model that stands in contrast to the linear model (take-make-dispose), seeking to keep resources, products and materials in the economic cycle for as long as possible by reducing waste and promoting reuse, repair and recycling.",
+          "ar": "نموذج اقتصادي يقابل النموذج الخطي (استخراج-إنتاج-تخلص)، ويسعى إلى إبقاء الموارد والمنتجات والمواد ضمن الدورة الاقتصادية لأطول مدة ممكنة، من خلال الحد من النفايات وتشجيع إعادة الاستخدام والإصلاح والتدوير."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Tourisme durable",
+          "en": "Sustainable tourism",
+          "ar": "السياحة المستدامة"
+        },
+        "tag": {
+          "fr": "Secteur",
+          "en": "Sector",
+          "ar": "قطاع"
+        },
+        "def": {
+          "fr": "Selon l'Organisation mondiale du tourisme (OMT), forme de tourisme qui prend pleinement en compte ses impacts économiques, sociaux et environnementaux actuels et futurs, en répondant aux besoins des visiteurs, des professionnels du secteur, de l'environnement et des communautés d'accueil.",
+          "en": "As defined by the World Tourism Organization (UNWTO), a form of tourism that fully accounts for its current and future economic, social and environmental impacts, addressing the needs of visitors, the industry, the environment and host communities.",
+          "ar": "وفق تعريف منظمة السياحة العالمية، شكل من أشكال السياحة يراعي بشكل كامل آثاره الاقتصادية والاجتماعية والبيئية الحالية والمستقبلية، ويستجيب لاحتياجات الزوار والمهنيين في القطاع والبيئة والمجتمعات المضيفة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Adaptation au changement climatique",
+          "en": "Climate change adaptation",
+          "ar": "التكيف مع تغير المناخ"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Ensemble des ajustements que les systèmes naturels, humains ou économiques doivent opérer pour répondre aux effets actuels ou attendus du changement climatique, se distinguant de l'atténuation (réduction des causes) et visant à réduire la vulnérabilité des populations et des écosystèmes.",
+          "en": "The set of adjustments that natural, human or economic systems must make in response to actual or expected effects of climate change, as distinct from mitigation (reducing causes), aiming to reduce the vulnerability of populations and ecosystems.",
+          "ar": "مجموع التعديلات التي يتعين على الأنظمة الطبيعية أو البشرية أو الاقتصادية إجراؤها للاستجابة للآثار الحالية أو المتوقعة لتغير المناخ، وتختلف عن التخفيف (الحد من الأسباب)، وتهدف إلى تقليص هشاشة السكان والنظم الإيكولوجية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Agriculture durable",
+          "en": "Sustainable agriculture",
+          "ar": "الفلاحة المستدامة"
+        },
+        "tag": {
+          "fr": "Secteur",
+          "en": "Sector",
+          "ar": "قطاع"
+        },
+        "def": {
+          "fr": "Pratiques agricoles qui satisfont les besoins alimentaires actuels sans compromettre la capacité des générations futures à satisfaire les leurs, intégrant les dimensions économique, sociale et environnementale (préservation des sols, de l'eau et de la biodiversité).",
+          "en": "Farming practices that meet current food needs without compromising the ability of future generations to meet theirs, integrating economic, social and environmental dimensions (soil, water and biodiversity conservation).",
+          "ar": "ممارسات فلاحية تلبّي الاحتياجات الغذائية الحالية دون المساس بقدرة الأجيال القادمة على تلبية احتياجاتها، وتدمج الأبعاد الاقتصادية والاجتماعية والبيئية (الحفاظ على التربة والماء والتنوع البيولوجي)."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Écotourisme",
+          "en": "Ecotourism",
+          "ar": "السياحة البيئية"
+        },
+        "tag": {
+          "fr": "Secteur",
+          "en": "Sector",
+          "ar": "قطاع"
+        },
+        "def": {
+          "fr": "Forme de tourisme responsable dans des zones naturelles qui contribue à la conservation de l'environnement, assure le bien-être des populations locales et implique une démarche d'interprétation et d'éducation, selon la définition de l'Union internationale pour la conservation de la nature.",
+          "en": "A form of responsible travel to natural areas that conserves the environment, sustains the well-being of local people, and involves interpretation and education, as defined by the International Union for Conservation of Nature.",
+          "ar": "شكل من أشكال السياحة المسؤولة في المناطق الطبيعية يساهم في الحفاظ على البيئة ويضمن رفاه السكان المحليين ويتضمن بُعدًا تفسيريًا وتربويًا، وفق تعريف الاتحاد الدولي لحفظ الطبيعة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Responsabilité sociale des entreprises (RSE)",
+          "en": "Corporate social responsibility (CSR)",
+          "ar": "المسؤولية الاجتماعية للمؤسسات"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Intégration volontaire par les entreprises de préoccupations sociales et environnementales dans leurs activités commerciales et dans leurs relations avec leurs parties prenantes, allant au-delà de la conformité légale pour englober des engagements éthiques et environnementaux.",
+          "en": "The voluntary integration by companies of social and environmental concerns into their business operations and their relations with stakeholders, going beyond legal compliance to encompass ethical and environmental commitments.",
+          "ar": "إدماج طوعي من قبل المؤسسات للاهتمامات الاجتماعية والبيئية في أنشطتها التجارية وعلاقاتها مع أصحاب المصلحة، بما يتجاوز الامتثال القانوني ليشمل التزامات أخلاقية وبيئية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "ODD (Objectifs de Développement Durable)",
+          "en": "SDGs (Sustainable Development Goals)",
+          "ar": "أهداف التنمية المستدامة"
+        },
+        "tag": {
+          "fr": "Cadre de référence",
+          "en": "Reference framework",
+          "ar": "إطار مرجعي"
+        },
+        "def": {
+          "fr": "Les 17 objectifs adoptés par l'ONU en 2015 dans le cadre de l'Agenda 2030, visant à éradiquer la pauvreté, protéger la planète et assurer la prospérité pour tous. Ils constituent le cadre de référence universel de la coopération internationale au développement.",
+          "en": "The 17 goals adopted by the UN in 2015 under the 2030 Agenda, aiming to end poverty, protect the planet and ensure prosperity for all. They constitute the universal reference framework for international development cooperation.",
+          "ar": "الأهداف السبعة عشر التي اعتمدتها الأمم المتحدة سنة 2015 في إطار خطة 2030، وتهدف إلى القضاء على الفقر وحماية كوكب الأرض وضمان الازدهار للجميع. تشكّل هذه الأهداف الإطار المرجعي العالمي للتعاون الدولي من أجل التنمية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "numerique",
+    "label": {
+      "fr": "Numérique, IA & données",
+      "en": "Digital, AI & Data",
+      "ar": "الرقمنة والذكاء الاصطناعي والبيانات"
+    },
+    "color": "#185FA5",
+    "entries": [
+      {
+        "term": {
+          "fr": "Transformation numérique",
+          "en": "Digital transformation",
+          "ar": "التحول الرقمي"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Processus d'intégration des technologies numériques dans l'ensemble des fonctions d'une organisation ou d'un service public, transformant fondamentalement la façon dont elle opère et délivre de la valeur — ne se réduisant pas à la seule informatisation des processus existants.",
+          "en": "The process of integrating digital technologies into all functions of an organisation or public service, fundamentally changing how it operates and delivers value — going beyond the mere digitisation of existing processes.",
+          "ar": "عملية دمج التقنيات الرقمية في جميع وظائف مؤسسة أو خدمة عمومية، بما يغيّر جذريًا طريقة عملها وتقديمها للقيمة، ولا تقتصر على مجرد رقمنة المسارات القائمة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Intelligence artificielle (IA)",
+          "en": "Artificial intelligence (AI)",
+          "ar": "الذكاء الاصطناعي"
+        },
+        "tag": {
+          "fr": "Technologie",
+          "en": "Technology",
+          "ar": "تكنولوجيا"
+        },
+        "def": {
+          "fr": "Ensemble de techniques permettant à des machines de simuler certaines fonctions de l'intelligence humaine : reconnaissance de formes, traitement du langage naturel, prise de décision, apprentissage automatique. L'IA générative, capable de produire du texte, des images ou du code, en représente la vague la plus récente.",
+          "en": "A set of techniques enabling machines to simulate certain functions of human intelligence: pattern recognition, natural language processing, decision-making, machine learning. Generative AI, capable of producing text, images or code, represents the most recent wave.",
+          "ar": "مجموعة من التقنيات التي تتيح للآلات محاكاة بعض وظائف الذكاء البشري: التعرف على الأنماط، معالجة اللغة الطبيعية، اتخاذ القرار، التعلم الآلي. ويمثّل الذكاء الاصطناعي التوليدي، القادر على إنتاج نصوص وصور وأكواد، أحدث موجاته."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Apprentissage automatique (machine learning)",
+          "en": "Machine learning",
+          "ar": "التعلم الآلي"
+        },
+        "tag": {
+          "fr": "Technologie",
+          "en": "Technology",
+          "ar": "تكنولوجيا"
+        },
+        "def": {
+          "fr": "Sous-domaine de l'intelligence artificielle dans lequel des algorithmes apprennent à partir de données pour améliorer leurs performances sans être explicitement programmés. Il sous-tend des applications comme la détection de fraude, la recommandation de contenu ou le profilage des demandeurs d'emploi.",
+          "en": "A subfield of artificial intelligence in which algorithms learn from data to improve their performance without being explicitly programmed. It underlies applications such as fraud detection, content recommendation and job-seeker profiling.",
+          "ar": "فرع من فروع الذكاء الاصطناعي تتعلم فيه الخوارزميات من البيانات لتحسين أدائها دون برمجة صريحة. ويقوم عليه تطبيقات مثل كشف الاحتيال، والتوصية بالمحتوى، وتصنيف الباحثين عن عمل."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Protection des données personnelles",
+          "en": "Personal data protection",
+          "ar": "حماية المعطيات الشخصية"
+        },
+        "tag": {
+          "fr": "Droit",
+          "en": "Law",
+          "ar": "قانون"
+        },
+        "def": {
+          "fr": "Ensemble des règles juridiques qui encadrent la collecte, le traitement, la conservation et la transmission de données à caractère personnel, c'est-à-dire toute information permettant d'identifier directement ou indirectement une personne physique.",
+          "en": "The set of legal rules governing the collection, processing, storage and transmission of personal data — i.e. any information enabling the direct or indirect identification of a natural person.",
+          "ar": "مجموعة من القواعد القانونية التي تُنظّم جمع البيانات ذات الطابع الشخصي ومعالجتها وحفظها ونقلها، أي كل معلومة تتيح التعرف بشكل مباشر أو غير مباشر على شخص طبيعي."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "RGPD / principes de protection des données",
+          "en": "GDPR / data protection principles",
+          "ar": "اللائحة العامة لحماية البيانات ومبادئها"
+        },
+        "tag": {
+          "fr": "Cadre réglementaire",
+          "en": "Regulatory framework",
+          "ar": "إطار تنظيمي"
+        },
+        "def": {
+          "fr": "Le Règlement Général sur la Protection des Données (RGPD) est le cadre européen de référence applicable au traitement des données personnelles. Ses principes fondamentaux — licéité, minimisation, finalité, intégrité, responsabilité — constituent un standard international de référence en la matière.",
+          "en": "The General Data Protection Regulation (GDPR) is the EU's reference framework for personal data processing. Its core principles — lawfulness, data minimisation, purpose limitation, integrity and accountability — serve as an international reference standard in this field.",
+          "ar": "اللائحة العامة لحماية البيانات هي الإطار الأوروبي المرجعي المطبق على معالجة البيانات الشخصية. وتشكّل مبادئها الأساسية — المشروعية، التقليص، تحديد الغرض، السلامة، المساءلة — معيارًا دوليًا مرجعيًا في هذا المجال."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Inclusion numérique",
+          "en": "Digital inclusion",
+          "ar": "الإدماج الرقمي"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Capacité pour tous les individus et groupes d'accéder aux technologies de l'information et de la communication (TIC) et de les utiliser de manière efficace pour participer à la vie économique, sociale et culturelle, supposant accès aux équipements, connectivité et compétences numériques.",
+          "en": "The ability of all individuals and groups to access and effectively use information and communication technologies (ICT) to participate in economic, social and cultural life, requiring access to equipment, connectivity and digital skills.",
+          "ar": "قدرة جميع الأفراد والفئات على الولوج إلى تكنولوجيا المعلومات والاتصال واستخدامها بفعالية للمشاركة في الحياة الاقتصادية والاجتماعية والثقافية، وهو ما يتطلب توفر التجهيزات والاتصال والمهارات الرقمية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Compétences numériques",
+          "en": "Digital skills",
+          "ar": "المهارات الرقمية"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Ensemble des aptitudes permettant à un individu d'utiliser les outils numériques de manière efficace, critique et sécurisée : bureautique, navigation web, communication en ligne, sécurité informatique, création de contenu. Le référentiel européen DigComp en définit cinq domaines.",
+          "en": "The set of abilities enabling an individual to use digital tools effectively, critically and safely: office software, web browsing, online communication, cybersecurity, content creation. The European DigComp framework defines five such domains.",
+          "ar": "مجموعة القدرات التي تمكّن الفرد من استخدام الأدوات الرقمية بفعالية وبروح نقدية وبأمان: المكتبية، التصفح، التواصل عبر الإنترنت، الأمن المعلوماتي، إنتاج المحتوى. ويحدد الإطار المرجعي الأوروبي DigComp خمسة مجالات لهذه المهارات."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Open data",
+          "en": "Open data",
+          "ar": "البيانات المفتوحة"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Principe selon lequel certaines données, notamment celles produites par des organismes publics, doivent être librement accessibles, réutilisables et redistribuables sans restriction, favorisant la transparence, l'innovation et la participation citoyenne.",
+          "en": "The principle that certain data, particularly that produced by public bodies, should be freely accessible, reusable and redistributable without restriction, fostering transparency, innovation and civic participation.",
+          "ar": "مبدأ يقضي بأن تكون بعض البيانات، لا سيما تلك الصادرة عن الهيئات العمومية، متاحة بحرية وقابلة لإعادة الاستخدام والتوزيع دون قيود، بما يعزز الشفافية والابتكار والمشاركة المواطنية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "culture",
+    "label": {
+      "fr": "Culture, sport & inclusion",
+      "en": "Culture, Sport & Inclusion",
+      "ar": "الثقافة والرياضة والإدماج"
+    },
+    "color": "#993556",
+    "entries": [
+      {
+        "term": {
+          "fr": "Culture et sport pour le développement",
+          "en": "Culture and sport for development",
+          "ar": "الثقافة والرياضة من أجل التنمية"
+        },
+        "tag": {
+          "fr": "Approche",
+          "en": "Approach",
+          "ar": "مقاربة"
+        },
+        "def": {
+          "fr": "Reconnaissance, promue notamment par l'UNESCO, du rôle de la pratique culturelle et sportive comme vecteurs d'inclusion sociale, de développement des compétences, de construction identitaire et de cohésion civique — la culture et le sport n'étant pas des accessoires mais des conditions fondamentales d'épanouissement.",
+          "en": "Recognition, notably promoted by UNESCO, of the role of cultural and sporting practice as vehicles for social inclusion, skills development, identity building and civic cohesion — culture and sport being fundamental conditions for human fulfilment rather than accessories.",
+          "ar": "إقرار، تروّج له منظمة اليونسكو خاصة، بدور الممارسة الثقافية والرياضية كأداتين للإدماج الاجتماعي وتنمية المهارات وبناء الهوية وتحقيق التماسك المدني، باعتبار الثقافة والرياضة شرطين أساسيين للازدهار الإنساني لا مجرد كماليات."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Gouvernance du sport",
+          "en": "Sport governance",
+          "ar": "حوكمة الرياضة"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Ensemble des principes, règles et mécanismes qui régissent le fonctionnement des institutions sportives (fédérations, clubs, structures publiques) : transparence, redevabilité, égalité d'accès, intégrité — conditions d'un développement équitable et durable du secteur.",
+          "en": "The set of principles, rules and mechanisms governing the functioning of sporting institutions (federations, clubs, public bodies): transparency, accountability, equal access, integrity — the conditions for equitable and sustainable development of the sector.",
+          "ar": "مجموع المبادئ والقواعد والآليات التي تحكم عمل المؤسسات الرياضية (جامعات، أندية، هياكل عمومية): الشفافية، المساءلة، تكافؤ الولوج، النزاهة، وهي شروط لتطور القطاع بشكل عادل ومستدام."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Sport alternatif",
+          "en": "Alternative sport",
+          "ar": "الرياضة البديلة"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Pratiques sportives en dehors des disciplines classiques institutionnalisées et fédérées : sports urbains (skateboard, parkour, BMX), sports de nature (randonnée, escalade), arts martiaux traditionnels et jeux traditionnels — souvent plus accessibles en termes d'équipements et de coûts.",
+          "en": "Sporting practices outside classic institutionalised and federated disciplines: urban sports (skateboarding, parkour, BMX), nature sports (hiking, climbing), traditional martial arts and traditional games — often more accessible in terms of equipment and cost.",
+          "ar": "ممارسات رياضية خارج الاختصاصات الكلاسيكية المهيكلة والمنضوية تحت جامعات: الرياضات الحضرية (التزلج، الباركور، الدراجات BMX)، رياضات الطبيعة (المشي، تسلق الصخور)، الفنون القتالية التقليدية والألعاب التراثية — وغالبًا ما تكون أقل تكلفة من حيث التجهيزات."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Jeux traditionnels",
+          "en": "Traditional games",
+          "ar": "الألعاب التقليدية"
+        },
+        "tag": {
+          "fr": "Culture",
+          "en": "Culture",
+          "ar": "ثقافة"
+        },
+        "def": {
+          "fr": "Pratiques ludiques et sportives transmises culturellement au sein d'une communauté, reflétant son histoire et ses valeurs, et constituant un élément du patrimoine culturel immatériel selon la Convention de l'UNESCO de 2003.",
+          "en": "Playful and sporting practices culturally transmitted within a community, reflecting its history and values, and forming part of the intangible cultural heritage under the 2003 UNESCO Convention.",
+          "ar": "ممارسات ترفيهية ورياضية تنتقل ثقافيًا داخل مجتمع معين، تعكس تاريخه وقيمه، وتُعد عنصرًا من عناصر التراث الثقافي غير المادي وفق اتفاقية اليونسكو لسنة 2003."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Médiation culturelle",
+          "en": "Cultural mediation",
+          "ar": "الوساطة الثقافية"
+        },
+        "tag": {
+          "fr": "Métier",
+          "en": "Profession",
+          "ar": "مهنة"
+        },
+        "def": {
+          "fr": "Activité professionnelle visant à faciliter la rencontre entre des publics — notamment éloignés de la culture institutionnelle — et des œuvres, pratiques ou lieux culturels. Le médiateur culturel traduit, explique, anime et crée des passerelles entre la création artistique et la vie quotidienne des citoyens.",
+          "en": "A professional activity aimed at facilitating encounters between audiences — particularly those distant from institutional culture — and cultural works, practices or venues. The cultural mediator translates, explains, animates and builds bridges between artistic creation and citizens' everyday lives.",
+          "ar": "نشاط مهني يهدف إلى تيسير اللقاء بين الجمهور — لا سيما من هم بعيدون عن الثقافة المؤسساتية — والأعمال أو الممارسات أو الفضاءات الثقافية. يقوم الوسيط الثقافي بالترجمة والشرح والتنشيط وبناء جسور بين الإبداع الفني والحياة اليومية للمواطنين."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Industries culturelles et créatives (ICC)",
+          "en": "Cultural and creative industries (CCI)",
+          "ar": "الصناعات الثقافية والإبداعية"
+        },
+        "tag": {
+          "fr": "Secteur",
+          "en": "Sector",
+          "ar": "قطاع"
+        },
+        "def": {
+          "fr": "Secteurs économiques, selon la définition de l'UNESCO, qui produisent des biens et services à fort contenu symbolique et créatif : musique, cinéma, arts de la scène, design, jeux vidéo, mode, architecture, artisanat d'art — filières d'emplois à forte valeur ajoutée.",
+          "en": "Economic sectors, as defined by UNESCO, that produce goods and services with strong symbolic and creative content: music, film, performing arts, design, video games, fashion, architecture, arts and crafts — high value-added employment sectors.",
+          "ar": "قطاعات اقتصادية، وفق تعريف اليونسكو، تنتج سلعًا وخدمات ذات محتوى رمزي وإبداعي عالٍ: الموسيقى، السينما، فنون الأداء، التصميم، ألعاب الفيديو، الأزياء، الهندسة المعمارية، الصناعات التقليدية الفنية — وهي مجالات تشغيل ذات قيمة مضافة عالية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Maison des Jeunes",
+          "en": "Youth centre",
+          "ar": "دار الشباب"
+        },
+        "tag": {
+          "fr": "Structure",
+          "en": "Facility",
+          "ar": "هيكل"
+        },
+        "def": {
+          "fr": "Structure de proximité de service public offrant des activités culturelles, sportives et éducatives aux jeunes, généralement implantée au niveau local dans le cadre des politiques publiques de jeunesse.",
+          "en": "A grassroots public-service facility offering cultural, sporting and educational activities to young people, typically established at local level as part of public youth policy.",
+          "ar": "هيكل عمومي قريب من المواطن يوفّر أنشطة ثقافية ورياضية وتربوية للشباب، وعادة ما يكون متواجدًا على المستوى المحلي في إطار السياسات العمومية للشباب."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Maison de la Culture",
+          "en": "Cultural centre",
+          "ar": "دار الثقافة"
+        },
+        "tag": {
+          "fr": "Structure",
+          "en": "Facility",
+          "ar": "هيكل"
+        },
+        "def": {
+          "fr": "Structure de proximité de service public dédiée à la diffusion et à la pratique artistique et culturelle, généralement implantée au niveau local dans le cadre des politiques publiques culturelles.",
+          "en": "A grassroots public-service facility dedicated to the dissemination and practice of art and culture, typically established at local level as part of public cultural policy.",
+          "ar": "هيكل عمومي قريب من المواطن مخصّص لنشر الممارسة الفنية والثقافية، وعادة ما يكون متواجدًا على المستوى المحلي في إطار السياسات الثقافية العمومية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "gouvernance",
+    "label": {
+      "fr": "Gouvernance & politiques publiques",
+      "en": "Governance & Public Policy",
+      "ar": "الحوكمة والسياسات العمومية"
+    },
+    "color": "#993C1D",
+    "entries": [
+      {
+        "term": {
+          "fr": "Gouvernance locale",
+          "en": "Local governance",
+          "ar": "الحوكمة المحلية"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Capacité des collectivités territoriales à gérer les affaires publiques de manière efficace, transparente et participative : planification des investissements, gestion des services publics, consultation citoyenne et coordination avec les acteurs locaux.",
+          "en": "The capacity of local authorities to manage public affairs effectively, transparently and participatively: investment planning, management of public services, citizen consultation and coordination with local actors.",
+          "ar": "قدرة الجماعات المحلية على تسيير الشأن العام بفعالية وشفافية وبروح تشاركية: التخطيط للاستثمار، إدارة الخدمات العمومية، التشاور مع المواطنين، والتنسيق مع الفاعلين المحليين."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Décentralisation",
+          "en": "Decentralisation",
+          "ar": "اللامركزية"
+        },
+        "tag": {
+          "fr": "Réforme",
+          "en": "Reform",
+          "ar": "إصلاح"
+        },
+        "def": {
+          "fr": "Transfert de compétences, de ressources et de responsabilités du niveau central vers les collectivités locales, permettant à ces dernières d'exercer des attributions relevant auparavant de l'administration centrale.",
+          "en": "The transfer of powers, resources and responsibilities from the central level to local authorities, enabling the latter to exercise functions previously held by central government.",
+          "ar": "نقل الصلاحيات والموارد والمسؤوليات من المستوى المركزي إلى الجماعات المحلية، بما يتيح لهذه الأخيرة ممارسة اختصاصات كانت من قبل من مشمولات الإدارة المركزية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Politique publique jeunesse",
+          "en": "Youth public policy",
+          "ar": "السياسة العمومية للشباب"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Ensemble des orientations, programmes et dispositifs mis en œuvre par les pouvoirs publics pour répondre aux besoins et aspirations des jeunes citoyens, dans les domaines de l'emploi, de la formation, de la culture, du sport et de la participation civique.",
+          "en": "The set of orientations, programmes and mechanisms implemented by public authorities to address the needs and aspirations of young citizens, in the fields of employment, training, culture, sport and civic participation.",
+          "ar": "مجموع التوجهات والبرامج والآليات التي تعتمدها السلطات العمومية للاستجابة لحاجيات وتطلعات المواطنين الشباب، في مجالات التشغيل والتكوين والثقافة والرياضة والمشاركة المدنية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Cadre de concertation interministériel",
+          "en": "Interministerial consultation framework",
+          "ar": "إطار التشاور بين الوزارات"
+        },
+        "tag": {
+          "fr": "Mécanisme",
+          "en": "Mechanism",
+          "ar": "آلية"
+        },
+        "def": {
+          "fr": "Instance de coordination réunissant les représentants de plusieurs ministères et institutions autour d'une politique ou d'un programme transversal, assurant le suivi conjoint et la cohérence de l'action publique entre les différents départements concernés.",
+          "en": "A coordination body bringing together representatives of several ministries and institutions around a cross-cutting policy or programme, ensuring joint monitoring and the coherence of public action across the departments concerned.",
+          "ar": "هيكل تنسيق يجمع ممثلي عدة وزارات ومؤسسات حول سياسة أو برنامج أفقي، ويضمن المتابعة المشتركة وانسجام العمل العمومي بين مختلف الإدارات المعنية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Plan d'investissement annuel (PIA)",
+          "en": "Annual investment plan (AIP)",
+          "ar": "خطة الاستثمار السنوية"
+        },
+        "tag": {
+          "fr": "Outil",
+          "en": "Tool",
+          "ar": "أداة"
+        },
+        "def": {
+          "fr": "Document de planification budgétaire élaboré par une collectivité locale pour programmer ses dépenses d'investissement sur l'année à venir. Il constitue l'un des principaux outils de planification financière des collectivités locales.",
+          "en": "A budgetary planning document prepared by a local authority to schedule its investment spending for the coming year. It is one of the main financial planning tools used by local authorities.",
+          "ar": "وثيقة تخطيط ميزانياتي تُعدّها جماعة محلية لبرمجة نفقاتها الاستثمارية للسنة القادمة، وتُعد من أبرز أدوات التخطيط المالي للجماعات المحلية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Stratégie locale jeunesse",
+          "en": "Local youth strategy",
+          "ar": "الاستراتيجية المحلية للشباب"
+        },
+        "tag": {
+          "fr": "Outil",
+          "en": "Tool",
+          "ar": "أداة"
+        },
+        "def": {
+          "fr": "Document de planification élaboré par une collectivité locale définissant ses priorités et actions en faveur des jeunes, en concertation avec les acteurs locaux (associations, clubs, écoles), traduisant l'engagement de la collectivité envers sa jeunesse en objectifs et activités concrètes.",
+          "en": "A planning document prepared by a local authority setting out its priorities and actions for young people, in consultation with local actors (associations, clubs, schools), translating the authority's commitment to its youth into concrete objectives and activities.",
+          "ar": "وثيقة تخطيط تُعدّها جماعة محلية تحدّد أولوياتها وأنشطتها لفائدة الشباب، بالتشاور مع الفاعلين المحليين (جمعيات، نوادٍ، مدارس)، وتترجم التزام الجماعة تجاه شبابها إلى أهداف وأنشطة ملموسة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Coordination interministérielle",
+          "en": "Interministerial coordination",
+          "ar": "التنسيق بين الوزارات"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Travail de mise en cohérence entre les actions de différents ministères agissant sur un même domaine ou une même population cible — un enjeu central pour les politiques transversales, qui relèvent simultanément de plusieurs départements sectoriels.",
+          "en": "The work of aligning the actions of different ministries operating in the same field or targeting the same population — a central challenge for cross-cutting policies, which fall simultaneously under several sectoral departments.",
+          "ar": "عمل يهدف إلى انسجام أنشطة مختلف الوزارات العاملة في مجال واحد أو تستهدف الفئة نفسها، وهو رهان محوري للسياسات الأفقية التي تندرج في آن واحد ضمن مشمولات عدة إدارات قطاعية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Redevabilité (accountability)",
+          "en": "Accountability",
+          "ar": "المساءلة"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Obligation pour les acteurs (gouvernements, organisations, individus) de rendre compte de leurs actions, décisions et performances à ceux qu'ils servent. Elle implique transparence, explication des choix et acceptation des conséquences en cas de manquements.",
+          "en": "The obligation of actors (governments, organisations, individuals) to answer for their actions, decisions and performance to those they serve. It involves transparency, explaining choices and accepting consequences in the event of shortcomings.",
+          "ar": "التزام يقع على عاتق الفاعلين (حكومات، مؤسسات، أفراد) بتقديم حساب عن أفعالهم وقراراتهم وأدائهم لمن يخدمونهم، ويستلزم الشفافية وتبرير الخيارات وتحمّل النتائج في حال حصول إخلالات."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "participation",
+    "label": {
+      "fr": "Participation & inclusion des jeunes",
+      "en": "Youth Participation & Inclusion",
+      "ar": "مشاركة الشباب وإدماجهم"
+    },
+    "color": "#7F77DD",
+    "entries": [
+      {
+        "term": {
+          "fr": "Participation des jeunes",
+          "en": "Youth participation",
+          "ar": "مشاركة الشباب"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Implication active des jeunes dans les processus de décision qui les concernent : conception de programmes, gouvernance locale, élaboration de politiques. Elle va au-delà de la simple consultation — les jeunes sont reconnus comme acteurs à part entière dont les contributions orientent réellement les décisions.",
+          "en": "The active involvement of young people in decision-making processes that affect them: programme design, local governance, policy-making. It goes beyond mere consultation — young people are recognised as full-fledged actors whose contributions genuinely shape decisions.",
+          "ar": "انخراط الشباب الفاعل في مسارات اتخاذ القرار التي تعنيهم: تصميم البرامج، الحوكمة المحلية، صياغة السياسات. وتتجاوز هذه المشاركة مجرد الاستشارة، إذ يُعترف بالشباب كفاعلين كاملي الأهلية تُوجّه إسهاماتهم القرارات فعليًا."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Inclusion sociale",
+          "en": "Social inclusion",
+          "ar": "الإدماج الاجتماعي"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Processus par lequel des individus ou groupes marginalisés accèdent progressivement aux ressources, droits et opportunités de la société, et participent pleinement à la vie sociale, économique et culturelle — à l'opposé de l'exclusion et de la marginalisation.",
+          "en": "The process by which marginalised individuals or groups progressively gain access to society's resources, rights and opportunities, and participate fully in social, economic and cultural life — the opposite of exclusion and marginalisation.",
+          "ar": "مسار يحصل من خلاله أفراد أو فئات مهمّشة بصفة تدريجية على موارد المجتمع وحقوقه وفرصه، ويشاركون بشكل كامل في الحياة الاجتماعية والاقتصادية والثقافية، على عكس الإقصاء والتهميش."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Jeune vulnérable",
+          "en": "Vulnerable young person",
+          "ar": "الشاب في وضعية هشاشة"
+        },
+        "tag": {
+          "fr": "Profil cible",
+          "en": "Target profile",
+          "ar": "الفئة المستهدفة"
+        },
+        "def": {
+          "fr": "Jeune cumulant plusieurs facteurs d'exclusion ou de fragilité : chômage, statut NEET, résidence dans une région défavorisée, situation de handicap, appartenance à un ménage à faibles revenus, faible niveau de qualification. Cette notion reconnaît que les vulnérabilités se cumulent et se renforcent mutuellement.",
+          "en": "A young person facing multiple factors of exclusion or fragility: unemployment, NEET status, residence in a disadvantaged area, disability, membership of a low-income household, low qualification level. This notion recognises that vulnerabilities accumulate and reinforce one another.",
+          "ar": "شاب تتراكم لديه عدة عوامل إقصاء أو هشاشة: البطالة، وضعية «نيت»، الإقامة في منطقة محرومة، الإعاقة، الانتماء إلى أسرة محدودة الدخل، ضعف مستوى التأهيل. ويقرّ هذا المفهوم بأن أوجه الهشاشة تتراكم ويعزّز بعضها بعضًا."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Forum des jeunes",
+          "en": "Youth forum",
+          "ar": "منتدى الشباب"
+        },
+        "tag": {
+          "fr": "Mécanisme",
+          "en": "Mechanism",
+          "ar": "آلية"
+        },
+        "def": {
+          "fr": "Espace de rencontre, d'expression et de délibération organisé pour permettre aux jeunes de formuler des propositions, d'échanger avec des décideurs et de contribuer à des processus de planification. Un outil de démocratie participative adapté aux jeunes.",
+          "en": "An organised space for meeting, expression and deliberation, enabling young people to make proposals, engage with decision-makers and contribute to planning processes. A tool of participatory democracy adapted to young people.",
+          "ar": "فضاء للقاء والتعبير والتداول يُنظَّم لتمكين الشباب من صياغة مقترحات والتحاور مع صنّاع القرار والمساهمة في مسارات التخطيط، وهو أداة من أدوات الديمقراطية التشاركية الموجهة للشباب."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Consultation participative",
+          "en": "Participatory consultation",
+          "ar": "التشاور التشاركي"
+        },
+        "tag": {
+          "fr": "Méthode",
+          "en": "Method",
+          "ar": "منهجية"
+        },
+        "def": {
+          "fr": "Processus structuré invitant des citoyens ou des parties prenantes à exprimer leurs besoins, aspirations et idées sur des questions qui les concernent, pour alimenter la conception de programmes ou de politiques. Elle se distingue de la simple information (sens unique) et de la co-décision.",
+          "en": "A structured process inviting citizens or stakeholders to express their needs, aspirations and ideas on issues that concern them, feeding into the design of programmes or policies. It is distinct from mere one-way information provision and from joint decision-making.",
+          "ar": "مسار منظّم يدعو المواطنين أو أصحاب المصلحة إلى التعبير عن حاجياتهم وتطلعاتهم وأفكارهم بشأن مسائل تعنيهم، لتغذية تصميم البرامج أو السياسات، ويختلف عن مجرد الإعلام أحادي الاتجاه وعن المشاركة في القرار."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Empowerment (autonomisation)",
+          "en": "Empowerment",
+          "ar": "التمكين"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Processus par lequel des individus ou des groupes développent les capacités, la confiance et les ressources pour prendre le contrôle de leur vie et exercer un pouvoir sur les décisions qui les affectent. L'autonomisation est à la fois un moyen et un objectif du développement.",
+          "en": "The process by which individuals or groups develop the capacities, confidence and resources to take control of their lives and exercise power over decisions affecting them. Empowerment is both a means and an end of development.",
+          "ar": "مسار يطوّر من خلاله أفراد أو جماعات قدراتهم وثقتهم بأنفسهم ومواردهم للتحكم في حياتهم وممارسة سلطة على القرارات التي تمسّهم. ويُعد التمكين وسيلة وغاية للتنمية في آن واحد."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Représentativité des jeunes",
+          "en": "Youth representativeness",
+          "ar": "التمثيلية الشبابية"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Présence effective des jeunes dans les instances de décision de manière significative, et pas seulement symbolique, supposant des mécanismes formels garantissant que la voix des jeunes influence réellement les décisions.",
+          "en": "The genuine — not merely symbolic — presence of young people in decision-making bodies, requiring formal mechanisms that ensure young people's voices actually influence decisions.",
+          "ar": "حضور فعلي للشباب داخل هياكل اتخاذ القرار بشكل ملموس لا رمزي فقط، وهو ما يستلزم آليات رسمية تضمن أن يكون لصوت الشباب تأثير حقيقي على القرارات."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Inclusion des personnes en situation de handicap",
+          "en": "Disability inclusion",
+          "ar": "إدماج الأشخاص في وضعية إعاقة"
+        },
+        "tag": {
+          "fr": "Concept",
+          "en": "Concept",
+          "ar": "مفهوم"
+        },
+        "def": {
+          "fr": "Ensemble des démarches, conformes à la Convention des Nations Unies relative aux droits des personnes handicapées, visant à garantir que les personnes vivant avec un handicap bénéficient des mêmes droits, opportunités et services que les autres citoyens, ce qui suppose l'adaptation des espaces, des outils et des programmes.",
+          "en": "The set of approaches, in line with the UN Convention on the Rights of Persons with Disabilities, aimed at ensuring that people living with disabilities enjoy the same rights, opportunities and services as other citizens, requiring the adaptation of spaces, tools and programmes.",
+          "ar": "مجموع المقاربات، المتماشية مع اتفاقية الأمم المتحدة لحقوق الأشخاص ذوي الإعاقة، الهادفة إلى ضمان تمتع الأشخاص في وضعية إعاقة بنفس الحقوق والفرص والخدمات المتاحة لبقية المواطنين، وهو ما يستوجب تكييف الفضاءات والأدوات والبرامج."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "acteurs",
+    "label": {
+      "fr": "Acteurs institutionnels",
+      "en": "Institutional Actors",
+      "ar": "الفاعلون المؤسساتيون"
+    },
+    "color": "#5F5E5A",
+    "entries": [
+      {
+        "term": {
+          "fr": "CILG-VNG International",
+          "en": "CILG-VNG International",
+          "ar": "المركز الدولي للحوكمة المحلية المبتكرة (CILG-VNG)"
+        },
+        "tag": {
+          "fr": "Institution",
+          "en": "Institution",
+          "ar": "مؤسسة"
+        },
+        "def": {
+          "fr": "Centre International de Développement pour la Gouvernance Locale Innovante, émanation de l'Association des Municipalités Néerlandaises (VNG), spécialisé dans la gouvernance locale, la décentralisation et le développement municipal dans les pays partenaires.",
+          "en": "The International Centre for Innovative Local Governance, an affiliate of the Association of Netherlands Municipalities (VNG), specialising in local governance, decentralisation and municipal development in partner countries.",
+          "ar": "مركز دولي للحوكمة المحلية المبتكرة، منبثق عن جمعية البلديات الهولندية (VNG)، متخصص في الحوكمة المحلية واللامركزية والتنمية البلدية في البلدان الشريكة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "BIT / OIT",
+          "en": "ILO (International Labour Organization)",
+          "ar": "منظمة العمل الدولية ومكتبها الدولي"
+        },
+        "tag": {
+          "fr": "Institution onusienne",
+          "en": "UN agency",
+          "ar": "وكالة أممية"
+        },
+        "def": {
+          "fr": "Le Bureau International du Travail (BIT) est la branche exécutive/secrétariat de l'Organisation Internationale du Travail (OIT), institution tripartite des Nations Unies (gouvernements, employeurs, travailleurs) dont le mandat est la promotion du travail décent, des droits au travail et de la protection sociale.",
+          "en": "The International Labour Office (ILO) is the executive arm/secretariat of the International Labour Organization, the UN's tripartite agency (governments, employers, workers) mandated to promote decent work, labour rights and social protection.",
+          "ar": "المكتب الدولي للعمل هو الجهاز التنفيذي/الأمانة العامة لمنظمة العمل الدولية، وهي وكالة أممية ثلاثية الأطراف (حكومات، أصحاب عمل، عمال) تتمثل مهمتها في النهوض بالعمل اللائق وحقوق العمل والحماية الاجتماعية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "CGDR",
+          "en": "CGDR (Regional Development Commission)",
+          "ar": "المندوبية العامة للتنمية الجهوية"
+        },
+        "tag": {
+          "fr": "Institution tunisienne",
+          "en": "Tunisian institution",
+          "ar": "مؤسسة تونسية"
+        },
+        "def": {
+          "fr": "Commissariat Général au Développement Régional : institution publique tunisienne chargée de la coordination et de la planification du développement régional, placée sous la tutelle du ministère en charge de l'Économie.",
+          "en": "The Regional Development Commission: a Tunisian public institution responsible for coordinating and planning regional development, under the supervision of the ministry in charge of the economy.",
+          "ar": "المندوبية العامة للتنمية الجهوية: مؤسسة عمومية تونسية مكلّفة بتنسيق التنمية الجهوية والتخطيط لها، تخضع لإشراف الوزارة المكلفة بالاقتصاد."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "ODR",
+          "en": "RDO (Regional Development Office)",
+          "ar": "مكتب التنمية الجهوية"
+        },
+        "tag": {
+          "fr": "Institution tunisienne",
+          "en": "Tunisian institution",
+          "ar": "مؤسسة تونسية"
+        },
+        "def": {
+          "fr": "Office de Développement Régional : structure publique tunisienne déployée au niveau régional pour coordonner et appuyer les initiatives de développement économique local.",
+          "en": "Regional Development Office: a Tunisian public body deployed at regional level to coordinate and support local economic development initiatives.",
+          "ar": "مكتب التنمية الجهوية: هيكل عمومي تونسي يتواجد على المستوى الجهوي لتنسيق مبادرات التنمية الاقتصادية المحلية ودعمها."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "ANETI",
+          "en": "ANETI (National Employment Agency)",
+          "ar": "الوكالة الوطنية للتشغيل والعمل المستقل"
+        },
+        "tag": {
+          "fr": "Institution tunisienne",
+          "en": "Tunisian institution",
+          "ar": "مؤسسة تونسية"
+        },
+        "def": {
+          "fr": "Agence Nationale pour l'Emploi et le Travail Indépendant : agence publique tunisienne gérant un réseau de bureaux de l'emploi et du travail indépendant (BETI) sur l'ensemble du territoire, principal opérateur public d'intermédiation sur le marché du travail.",
+          "en": "National Agency for Employment and Self-Employment: a Tunisian public agency managing a nationwide network of employment and self-employment offices (BETI), the main public labour-market intermediation operator.",
+          "ar": "الوكالة الوطنية للتشغيل والعمل المستقل: وكالة عمومية تونسية تسيّر شبكة من مكاتب التشغيل والعمل المستقل على كامل التراب الوطني، وهي المتدخل العمومي الرئيسي في الوساطة بسوق الشغل."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "ANPR",
+          "en": "ANPR (National Research Promotion Agency)",
+          "ar": "الوكالة الوطنية للنهوض بالبحث العلمي"
+        },
+        "tag": {
+          "fr": "Institution tunisienne",
+          "en": "Tunisian institution",
+          "ar": "مؤسسة تونسية"
+        },
+        "def": {
+          "fr": "Agence Nationale de Promotion de la Recherche : établissement public tunisien chargé de financer et de promouvoir la recherche scientifique et l'innovation.",
+          "en": "National Research Promotion Agency: a Tunisian public body responsible for financing and promoting scientific research and innovation.",
+          "ar": "الوكالة الوطنية للنهوض بالبحث العلمي: مؤسسة عمومية تونسية مكلّفة بتمويل البحث العلمي والابتكار والنهوض بهما."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "ONJ",
+          "en": "National Youth Observatory",
+          "ar": "المرصد الوطني للشباب"
+        },
+        "tag": {
+          "fr": "Institution tunisienne",
+          "en": "Tunisian institution",
+          "ar": "مؤسسة تونسية"
+        },
+        "def": {
+          "fr": "Observatoire National de la Jeunesse : structure publique tunisienne chargée de la collecte, de l'analyse et de la diffusion de données sur la situation de la jeunesse.",
+          "en": "National Youth Observatory: a Tunisian public body responsible for collecting, analysing and disseminating data on the situation of young people.",
+          "ar": "المرصد الوطني للشباب: هيكل عمومي تونسي مكلّف بجمع البيانات المتعلقة بوضعية الشباب وتحليلها ونشرها."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "MEP",
+          "en": "Ministry of Economy and Planning",
+          "ar": "وزارة الاقتصاد والتخطيط"
+        },
+        "tag": {
+          "fr": "Institution tunisienne",
+          "en": "Tunisian institution",
+          "ar": "مؤسسة تونسية"
+        },
+        "def": {
+          "fr": "Ministère de l'Économie et de la Planification : département ministériel tunisien en charge de la politique économique nationale et de la planification du développement.",
+          "en": "Ministry of Economy and Planning: the Tunisian ministerial department in charge of national economic policy and development planning.",
+          "ar": "وزارة الاقتصاد والتخطيط: قطاع وزاري تونسي مكلّف بالسياسة الاقتصادية الوطنية والتخطيط التنموي."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "MJS",
+          "en": "Ministry of Youth and Sports Affairs",
+          "ar": "وزارة الشباب والرياضة"
+        },
+        "tag": {
+          "fr": "Institution tunisienne",
+          "en": "Tunisian institution",
+          "ar": "مؤسسة تونسية"
+        },
+        "def": {
+          "fr": "Ministère des Affaires de la Jeunesse et des Sports : département ministériel tunisien en charge des politiques publiques relatives à la jeunesse et au sport.",
+          "en": "Ministry of Youth and Sports Affairs: the Tunisian ministerial department in charge of public policy on youth and sport.",
+          "ar": "وزارة الشباب والرياضة: قطاع وزاري تونسي مكلّف بالسياسات العمومية المتعلقة بالشباب والرياضة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "AECID",
+          "en": "AECID (Spanish Agency for International Development Cooperation)",
+          "ar": "الوكالة الإسبانية للتعاون الدولي من أجل التنمية"
+        },
+        "tag": {
+          "fr": "Institution",
+          "en": "Institution",
+          "ar": "مؤسسة"
+        },
+        "def": {
+          "fr": "Agence Espagnole pour la Coopération Internationale au Développement : organisme public espagnol chargé de la mise en œuvre de la politique de coopération internationale de l'Espagne.",
+          "en": "Spanish Agency for International Development Cooperation: a Spanish public body responsible for implementing Spain's international cooperation policy.",
+          "ar": "الوكالة الإسبانية للتعاون الدولي من أجل التنمية: هيئة عمومية إسبانية مكلّفة بتنفيذ سياسة التعاون الدولي لإسبانيا."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "EUNIC",
+          "en": "EUNIC (European Union National Institutes for Culture)",
+          "ar": "شبكة المعاهد الثقافية الوطنية للاتحاد الأوروبي"
+        },
+        "tag": {
+          "fr": "Réseau",
+          "en": "Network",
+          "ar": "شبكة"
+        },
+        "def": {
+          "fr": "Réseau des Instituts Culturels Nationaux de l'Union Européenne, regroupant les agences culturelles officielles des États membres afin de promouvoir la coopération culturelle européenne dans les pays tiers.",
+          "en": "The network of European Union National Institutes for Culture, bringing together the official cultural agencies of member states to promote European cultural cooperation in third countries.",
+          "ar": "شبكة المعاهد الثقافية الوطنية للاتحاد الأوروبي، تجمع الوكالات الثقافية الرسمية للدول الأعضاء بهدف تعزيز التعاون الثقافي الأوروبي في البلدان الثالثة."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "financement",
+    "label": {
+      "fr": "Financement & gestion de projet",
+      "en": "Financing & Project Management",
+      "ar": "التمويل وإدارة المشاريع"
+    },
+    "color": "#D85A30",
+    "entries": [
+      {
+        "term": {
+          "fr": "Appel à propositions (AAP)",
+          "en": "Call for proposals",
+          "ar": "دعوة لتقديم المشاريع"
+        },
+        "tag": {
+          "fr": "Mécanisme",
+          "en": "Mechanism",
+          "ar": "آلية"
+        },
+        "def": {
+          "fr": "Mécanisme de mise en compétition ouverte permettant à des organisations de soumettre des projets susceptibles de recevoir un financement, selon des critères d'éligibilité, de sélection et d'attribution précis. Le mode de distribution de fonds le plus courant dans la coopération internationale.",
+          "en": "An open competitive mechanism allowing organisations to submit projects for potential funding, based on defined eligibility, selection and award criteria. The most common method of distributing funds in international cooperation.",
+          "ar": "آلية تنافس مفتوحة تتيح للمنظمات تقديم مشاريع قابلة للحصول على تمويل، وفق معايير دقيقة للأهلية والانتقاء والإسناد، وهي الطريقة الأكثر شيوعًا لتوزيع الأموال في مجال التعاون الدولي."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Subvention",
+          "en": "Grant",
+          "ar": "المنحة"
+        },
+        "tag": {
+          "fr": "Instrument financier",
+          "en": "Financial instrument",
+          "ar": "أداة مالية"
+        },
+        "def": {
+          "fr": "Transfert financier à caractère non remboursable accordé à une organisation pour la mise en œuvre d'un projet ou d'une action spécifique, sous conditions d'éligibilité et de justification de l'utilisation des fonds. Elle se distingue du prêt (remboursable) et de l'investissement en capital.",
+          "en": "A non-repayable financial transfer granted to an organisation for the implementation of a specific project or action, subject to eligibility conditions and justification of fund use. It differs from a loan (repayable) and from equity investment.",
+          "ar": "تحويل مالي غير قابل للاسترداد يُمنح لمؤسسة ما لتنفيذ مشروع أو نشاط محدد، وفق شروط الأهلية ووجوب تبرير استخدام الأموال. وتختلف المنحة عن القرض (القابل للاسترداد) وعن الاستثمار في رأس المال."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Reporting / rapport d'activité",
+          "en": "Reporting / activity report",
+          "ar": "التقرير / تقرير النشاط"
+        },
+        "tag": {
+          "fr": "Outil de gestion",
+          "en": "Management tool",
+          "ar": "أداة تدبيرية"
+        },
+        "def": {
+          "fr": "Document produit régulièrement par un porteur de projet pour rendre compte à son bailleur de l'avancement des activités, des résultats atteints et de l'utilisation des fonds. Le principal outil de redevabilité dans la gestion de projets de coopération.",
+          "en": "A document produced regularly by a project holder to report to its funder on the progress of activities, results achieved and use of funds. The main accountability tool in cooperation project management.",
+          "ar": "وثيقة يعدّها منجز المشروع بانتظام لتقديم حساب للجهة المانحة عن تقدم الأنشطة والنتائج المحققة واستخدام الأموال، وتُعد الأداة الرئيسية للمساءلة في تسيير مشاريع التعاون."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Décaissement",
+          "en": "Disbursement",
+          "ar": "الصرف"
+        },
+        "tag": {
+          "fr": "Gestion financière",
+          "en": "Financial management",
+          "ar": "التدبير المالي"
+        },
+        "def": {
+          "fr": "Versement effectif de fonds par un bailleur à un bénéficiaire, généralement conditionné à la justification des dépenses passées et à l'atteinte de jalons prédéfinis, selon un calendrier défini dans la convention de financement.",
+          "en": "The actual transfer of funds from a donor to a beneficiary, generally conditional on the justification of past expenditure and the achievement of predefined milestones, following a schedule set out in the financing agreement.",
+          "ar": "الدفع الفعلي للأموال من الجهة المانحة إلى المستفيد، ويكون عادة مشروطًا بتبرير النفقات السابقة وبلوغ محطات محددة مسبقًا، وفق جدول زمني يُحدَّد في اتفاقية التمويل."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Audit",
+          "en": "Audit",
+          "ar": "التدقيق"
+        },
+        "tag": {
+          "fr": "Contrôle",
+          "en": "Control",
+          "ar": "رقابة"
+        },
+        "def": {
+          "fr": "Examen indépendant et systématique des comptes, des procédures et des activités d'une organisation ou d'un projet, visant à vérifier la conformité des dépenses avec les règles financières et la réalité des activités rapportées.",
+          "en": "An independent and systematic examination of an organisation's or project's accounts, procedures and activities, aimed at verifying that expenditure complies with financial rules and that reported activities are accurate.",
+          "ar": "فحص مستقل ومنهجي لحسابات مؤسسة أو مشروع ما وإجراءاته وأنشطته، يهدف إلى التحقق من مطابقة النفقات للقواعد المالية ومن واقعية الأنشطة المُبلغ عنها."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Visibilité (règles de visibilité)",
+          "en": "Visibility (donor visibility rules)",
+          "ar": "قواعد إبراز الهوية البصرية للممول"
+        },
+        "tag": {
+          "fr": "Communication",
+          "en": "Communication",
+          "ar": "تواصل"
+        },
+        "def": {
+          "fr": "Ensemble des obligations contractuelles imposées aux projets financés par un bailleur pour assurer la reconnaissance publique du financement : utilisation des logos, mentions sur les supports de communication, événements de lancement. Une condition de transparence et de redevabilité publique.",
+          "en": "The set of contractual obligations imposed on donor-funded projects to ensure public recognition of the funding: use of logos, mentions on communication materials, launch events. A condition for transparency and public accountability.",
+          "ar": "مجموعة الالتزامات التعاقدية المفروضة على المشاريع الممولة لضمان الاعتراف العلني بالتمويل: استخدام الشعارات، الإشارة إلى الممول في وسائل التواصل، تنظيم فعاليات الانطلاق، وهي شرط للشفافية والمساءلة العمومية."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      },
+      {
+        "term": {
+          "fr": "Gestion axée sur les résultats (GAR)",
+          "en": "Results-based management (RBM)",
+          "ar": "الإدارة القائمة على النتائج"
+        },
+        "tag": {
+          "fr": "Méthode",
+          "en": "Method",
+          "ar": "منهجية"
+        },
+        "def": {
+          "fr": "Approche de management qui structure la planification, le suivi et la redevabilité autour des résultats attendus plutôt que des activités réalisées, déplaçant le focus de la gestion de « ce qu'on fait » vers « ce qu'on change ».",
+          "en": "A management approach that structures planning, monitoring and accountability around expected results rather than activities carried out, shifting the management focus from \"what is done\" to \"what is changed\".",
+          "ar": "مقاربة تدبيرية تنظّم التخطيط والمتابعة والمساءلة حول النتائج المرتقبة عوضًا عن الأنشطة المنجزة، وتنقل محور التدبير من «ما الذي يُنجز» إلى «ما الذي يتغيّر»."
+        },
+        "ctx": {
+          "fr": "",
+          "en": "",
+          "ar": ""
+        }
+      }
+    ]
+  }
+]

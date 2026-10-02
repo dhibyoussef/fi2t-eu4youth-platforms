@@ -1,0 +1,263 @@
+import { writeFileSync } from 'node:fs'
+import { fileURLToPath } from 'node:url'
+import { dirname, join } from 'node:path'
+
+const root = dirname(fileURLToPath(import.meta.url))
+
+const narratives = {
+  'a-propos|pourquoi|body': {
+    en: `Tunisia is a young country. People under 35 represent more than half of the population. This demographic reality carries creative energy, a force for innovation and a desire to contribute that communities and the country as a whole have an interest in valuing.
+
+Young Tunisian women and men express strong aspirations for employment, participation, mobility, culture and engagement. Their initiatives, projects and ideas circulate in neighbourhoods, universities, associations and municipalities. They represent an essential resource for economic, social and territorial development.
+
+Yet not everyone has access to the same opportunities. Territories experience diverse dynamics: where one region has a dense labour market and accessible infrastructure, another may be far from training centres, have limited access to markets, or fewer cultural and sports spaces. These disparities are real and are lived differently depending on whether one grows up in Tunis or Kébili, in Sfax or Jendouba.
+
+On the labour market, transitions from training to employment remain a challenge for many young people, especially those facing several cumulative vulnerability factors: unemployment, precariousness, geographic distance, and a gap between skills and employers' needs. Young women, people in rural areas and persons with disabilities face specific barriers that require tailored responses.
+
+In culture, sport and civic participation, opportunities exist; cultural centres, sports clubs, associations and municipal structures are places of learning, encounter and expression. But these spaces need to be strengthened, accessible to all, and linked with municipalities and field actors.
+
+It is in this complex, living reality, rich in potential, that EU4Youth is rooted as an investment in the capacities of an entire generation of young people and in the territories that carry them.`,
+    ar: `تونس بلد شاب. يمثّل من هم دون 35 سنة أكثر من نصف السكان. وتحمل هذه الحقيقة الديموغرافية طاقة إبداعية وقوة ابتكار ورغبة في المساهمة من مصلحة المجتمعات والبلد بأسره أن يثمّنها.
+
+يعبّر الشبان والشابات التونسيون عن تطلعات قوية في مجالات التشغيل والمشاركة والتنقل والثقافة والانخراط. وتدور مبادراتهم ومشاريعهم وأفكارهم في الأحياء والجامعات والجمعيات والبلديات. وهم مورد أساسي للتنمية الاقتصادية والاجتماعية والترابية.
+
+ومع ذلك، لا يحصل الجميع على الفرص نفسها. وتعرف الأقاليم ديناميات مختلفة: فحيث تتوفر في جهة سوق شغل كثيفة وبنى تحتية ميسّرة، قد تعاني جهة أخرى من البعد عن مراكز التكوين، أو من محدودية الولوج إلى الأسواق، أو من ضعف حضور الفضاءات الثقافية والرياضية. وهذه التفاوتات حقيقية وتُعاش بشكل مختلف حسب ما إذا نشأ المرء في تونس أو في قبلي، في صفاقس أو في جندوبة.
+
+وعلى سوق الشغل، تبقى الانتقالات بين التكوين والتشغيل تحدياً لكثير من الشباب، لا سيما لمن يجمعون عدة عوامل هشاشة: البطالة، الهشاشة، البعد الجغرافي، والفجوة بين الكفاءات واحتياجات المشغّلين. وتواجه الشابات وسكان المناطق الريفية وذوو الإعاقة عقبات خاصة تستدعي إجابات ملائمة.
+
+وفي مجالات الثقافة والرياضة والمشاركة المدنية، توجد فرص؛ فدور الثقافة والنوادي الرياضية والجمعيات والهياكل البلدية أماكن للتعلم واللقاء والتعبير. لكن هذه الفضاءات تحتاج إلى التعزيز وإلى أن تكون في متناول الجميع، وبالارتباط مع البلديات وفاعلي الميدان.
+
+وفي هذه الحقيقة المعقّدة والحية والغنية بالإمكانات يندرج برنامج EU4Youth كاستثمار في قدرات جيل بأكمله وفي الأقاليم التي تحتضنه.`,
+  },
+  'a-propos|hero|body': {
+    en: `EU4Youth is the European Union's main support programme for Tunisian youth. Since 2019, it brings together six complementary projects that work together to strengthen opportunities in employment, entrepreneurship, culture, sport, science and civic participation for young people aged 18 to 35, in all regions of the country.
+
+EU4Youth is part of a cooperation dynamic between the European Union, Tunisian institutions and territorial actors so that every young person, wherever they are, can access resources, support and opportunities.`,
+    ar: `EU4Youth هو البرنامج الرئيسي للاتحاد الأوروبي لدعم الشباب التونسي. منذ 2019، يجمع ستة مشاريع متكاملة تعمل معاً لتعزيز فرص التشغيل وريادة الأعمال والثقافة والرياضة والعلوم والمشاركة المواطنية للشباب من 18 إلى 35 سنة، في كل جهات البلاد.
+
+يندرج EU4Youth في دينامية تعاون بين الاتحاد الأوروبي والمؤسسات التونسية وفاعلي الأقاليم حتى يتمكّن كل شاب وشابة، أينما كانوا، من الولوج إلى الموارد والدعم والفرص.`,
+  },
+  'a-propos|hero|title': {
+    en: `EU4Youth supports young Tunisian women and men\nin their paths, their projects and their engagement.`,
+    ar: `يرافق EU4Youth الشبان والشابات التونسيين\nفي مساراتهم ومشاريعهم وانخراطهم.`,
+  },
+  'a-propos|hero|badge': {
+    en: `Support programme for Tunisian youth`,
+    ar: `برنامج دعم الشباب التونسي`,
+  },
+  'a-propos|vision|body': {
+    en: `The programme is built on investing in capacities, opportunities and the conditions for empowerment and socio-economic integration in all territories of the country.
+
+This vision is expressed through seven cross-cutting principles that guide all projects:`,
+    ar: `يُبنى البرنامج على منطق الاستثمار في القدرات وفي الفرص وفي شروط التمكين والإدماج الاجتماعي والاقتصادي في كل أقاليم البلاد.
+
+وتتجسّد هذه الرؤية في سبعة مبادئ عرضية توجّه مجمل المشاريع:`,
+  },
+  'a-propos|vision|lead': {
+    en: `EU4Youth starts from a fundamental conviction: young Tunisian women and men are full actors of change.`,
+    ar: `ينطلق EU4Youth من قناعة أساسية: الشبان والشابات التونسيون فاعلون كاملون في التغيير.`,
+  },
+  'a-propos|vision|closing': {
+    en: `These principles are joined by cross-cutting commitments shared by all projects: systematic integration of the gender dimension, attention to the specific needs of young women, young people with disabilities and young people in rural or isolated areas, as well as the environment and sustainability dimension.
+
+EU4Youth supports the aspirations of young Tunisian women and men by strengthening the opportunities, partnerships and initiatives that contribute to the development of the territories.`,
+    ar: `تُضاف إلى هذه المبادئ التزامات عرضية مشتركة بين كل المشاريع: الإدماج المنهجي لبعد النوع الاجتماعي، والاهتمام بالاحتياجات الخاصة للشابات وللشباب ذوي الإعاقة وللشباب في المناطق الريفية أو المعزولة، وكذلك بعد البيئة والاستدامة.
+
+يرافق EU4Youth تطلعات الشبان والشابات التونسيين بتعزيز الفرص والشراكات والمبادرات التي تساهم في تنمية الأقاليم.`,
+  },
+  'a-propos|projets|body': {
+    en: `EU4Youth is organised in three thematic components carried by six complementary projects. Each project addresses a specific dimension of the inclusion of young Tunisian women and men. Together, they cover the full pathway: from employment and entrepreneurship to civic participation, including culture, sport and the sciences.`,
+    ar: `ينتظم EU4Youth في ثلاث مكونات موضوعية يحملها ستة مشاريع متكاملة. ويتدخل كل مشروع في بُعد محدد من إدماج الشبان والشابات التونسيين. ومعًا، يغطّون المسار بأكمله: من التشغيل وريادة الأعمال إلى المشاركة المواطنية، مروراً بالثقافة والرياضة والعلوم.`,
+  },
+  'a-propos|territoires|body': {
+    en: `From Bizerte to Ben Guerdane, from Jendouba to Tataouine, EU4Youth supports young Tunisian women and men in all 24 governorates of Tunisia.
+
+One of the programme's most distinctive features is its attachment to a territorial logic. EU4Youth does not only act on national policies: it seeks to understand and transform local dynamics by mobilising the actors present in each territory — municipalities, regional delegations, regional development offices, local associations and sports clubs.
+
+The selection of priority intervention areas takes into account regional development indices, unemployment and emigration rates, and the degree of vulnerability of young populations. The programme pays particular attention to the inland, Centre-West and southern governorates, where needs are greatest and where impact can be most transformative.
+
+But EU4Youth also acts at national scale, with projects that cover the whole territory and mechanisms that strengthen institutions at central level.
+
+Beyond formal institutions, EU4Youth seeks to stimulate the emergence of dynamic local ecosystems: networks of actors who know each other, cooperate and create opportunities for young people together. Once established, these ecosystems can produce lasting results well beyond the end of European funding.`,
+    ar: `من بنزرت إلى بن قردان، ومن جندوبة إلى تطاوين، يرافق EU4Youth الشبان والشابات التونسيين في الولايات الأربع والعشرين لتونس.
+
+ومن أبرز ما يميّز البرنامج ارتباطه بمنطق ترابي. فـ EU4Youth لا يكتفي بالعمل على السياسات الوطنية: بل يسعى إلى فهم الديناميات المحلية وتحويلها، بتعبئة الفاعلين الحاضرين في كل إقليم — البلديات، والمندوبيات الجهوية، ومكاتب التنمية الجهوية، والجمعيات المحلية، والنوادي الرياضية.
+
+وتأخذ عملية اختيار مناطق التدخل ذات الأولوية بعين الاعتبار مؤشرات التنمية الجهوية، ومعدلات البطالة والهجرة، ودرجة هشاشة الفئات الشابة. ويولي البرنامج اهتماماً خاصاً لولايات الداخل والوسط الغربي والجنوب، حيث الاحتياجات أكبر وحيث يمكن أن يكون الأثر أكثر تحويلاً.
+
+لكن EU4Youth يعمل أيضاً على المستوى الوطني، بمشاريع تمسّ كامل التراب وآليات تعزّز المؤسسات على المستوى المركزي.
+
+وإلى جانب المؤسسات الرسمية، يسعى EU4Youth إلى تحفيز بروز منظومات محلية ديناميكية: شبكات فاعلين يتعارفون ويتعاونون ويخلقون معاً فرصاً للشباب. ومتى تكوّنت هذه المنظومات، فإنها قادرة على إنتاج نتائج مستدامة تتجاوز بكثير نهاية التمويل الأوروبي.`,
+  },
+  'a-propos|territoires|legendNote': {
+    en: `SEVERAL PROJECTS TARGET SPECIFIC GOVERNORATES, CHOSEN ON THE BASIS OF VULNERABILITY AND LOCAL OPPORTUNITY INDICATORS:`,
+    ar: `تستهدف عدة مشاريع ولايات محددة، مختارة على أساس مؤشرات الهشاشة والفرص المحلية:`,
+  },
+  'a-propos|territoires|title': {
+    en: `ACTION IN THE TERRITORIES`,
+    ar: `عمل في الأقاليم`,
+  },
+  'a-propos|impact|body': {
+    en: `Since 2019, EU4Youth has mobilised hundreds of actors, in all regions of Tunisia, around a shared vision. Here are some figures that illustrate the scale and depth of this action.`,
+    ar: `منذ 2019، عبّأ EU4Youth مئات الفاعلين، في كل جهات تونس، حول رؤية مشتركة. إليكم بعض المعطيات التي تشهد على حجم هذا العمل وعمقه.`,
+  },
+  'a-propos|partners|body': {
+    en: `EU4Youth Tunisia mobilises a unique network of institutional partners, international organisations and field actors. This multidimensional partnership is the condition for the programme's success and sustainability.`,
+    ar: `يعبّئ EU4Youth تونس شبكة فريدة من الشركاء المؤسسيين والمنظمات الدولية وفاعلي الميدان. وهذه الشراكة متعددة الأبعاد شرط لنجاح البرنامج واستدامته.`,
+  },
+  'a-propos|avenir|body': {
+    en: `By 2027, EU4Youth leaves a legacy that goes beyond the funding period. What matters, beyond the figures, is the quality and sustainability of the transformations produced with and for young people.`,
+    ar: `في أفق 2027، يترك EU4Youth إرثاً يتجاوز مدة التمويل. وما يهم، إلى جانب الأرقام، هو جودة واستدامة التحولات المنجزة مع الشباب ومن أجلهم.`,
+  },
+  'a-propos|comment|lead': {
+    en: `EU4Youth does not act in silos. It covers three major complementary intervention axes, designed to reinforce one another and produce an impact greater than the sum of its parts.`,
+    ar: `لا يعمل EU4Youth في صوامع منفصلة. فهو يغطي ثلاثة محاور تدخل كبرى متكاملة، صُممت لتتدعم فيما بينها وتنتج أثراً يتجاوز مجموع أجزائها.`,
+  },
+  'a-propos|pourquoi|quote': {
+    en: `"EU4Youth is part of a cooperation dynamic between the European Union, Tunisian institutions and local actors in order to support young people's paths, initiatives and engagement."`,
+    ar: `«يندرج EU4Youth في دينامية تعاون بين الاتحاد الأوروبي والمؤسسات التونسية والفاعلين المحليين لدعم مسارات الشباب ومبادراتهم وانخراطهم.»`,
+  },
+  'contact|hero|body': {
+    en: `For a question about the programme, a project, a partnership or this site, write to us. The EU4Youth Tunisia team reviews every request and replies as soon as possible.`,
+    ar: `لسؤال حول البرنامج أو مشروع أو شراكة أو هذا الموقع، راسلونا. يراجع فريق EU4Youth تونس كل طلب ويردّ عليكم في أقرب الآجال.`,
+  },
+  'financement|hero|body': {
+    en: `EU4Youth is the support programme for Tunisian youth funded by the European Union and implemented in partnership with Tunisian institutions and national and international actors committed to young people.`,
+    ar: `EU4Youth هو برنامج دعم الشباب التونسي المموَّل من الاتحاد الأوروبي والمنفَّذ بالشراكة مع المؤسسات التونسية والفاعلين الوطنيين والدوليين المنخرطين لفائدة الشباب.`,
+  },
+  'financement|facts|intro': {
+    en: `With a budget of €60 million for 2019–2027, EU4Youth is the largest European envelope dedicated to Tunisian youth. The financing agreement was signed in June 2019.`,
+    ar: `بميزانية قدرها 60 مليون يورو للفترة 2019–2027، يُعدّ EU4Youth أكبر غلاف أوروبي مخصص للشباب التونسي. وقد وُقّعت اتفاقية التمويل في يونيو 2019.`,
+  },
+  'financement|projects|body': {
+    en: `Each project has its own budget, implementing partner and scope of action. The amounts below are the published envelopes; their sum alone does not reconstitute the overall programme budget.`,
+    ar: `لكل مشروع ميزانيته وشريكه للتنفيذ ونطاق عمله. والمبالغ أدناه هي الأغلفة المنشورة؛ ومجموعها وحده لا يعيد تكوين الميزانية الإجمالية للبرنامج.`,
+  },
+  'financement|purpose|title': {
+    en: `FUNDING\nIN SERVICE OF THE TERRITORIES`,
+    ar: `تمويل\nفي خدمة الأقاليم`,
+  },
+  'financement|structure|title': {
+    en: `HOW THE FUNDING IS ORGANISED`,
+    ar: `كيف يُنظَّم التمويل`,
+  },
+  'actualites|hero|body': {
+    en: `This section traces the progress, highlights and results of the EU4Youth ecosystem projects. Press releases, event reports, partnerships formed and field successes are gathered here as the programme is implemented, to show cooperation in motion rather than a simple stream of announcements.`,
+    ar: `تتبع هذه الروبريك تقدم مشاريع منظومة EU4Youth ومحطاتها البارزة ونتائجها. وتُجمع هنا البيانات الصحفية وتقارير الفعاليات والشراكات المبرمة ونجاحات الميدان مع تقدّم تنفيذ البرنامج، لإظهار تعاون حيّ لا مجرّد تدفق إعلانات.`,
+  },
+  'opportunites|hero|body': {
+    en: `This section gathers calls for projects, calls for applications, internship or job offers, scholarships and training opened by the EU4Youth ecosystem projects. Each opportunity specifies its promoter, target audience and deadline, so that young people, associations and partner structures can quickly identify the schemes they can apply for.`,
+    ar: `تجمع هذه الروبريك نداءات المشاريع ونداءات الترشح وعروض التربص أو الشغل والمنح والتكوينات التي تفتحها مشاريع منظومة EU4Youth. وتحدد كل فرصة حاملها وجمهورها المستهدف وتاريخها النهائي، حتى يتمكّن الشباب والجمعيات والهياكل الشريكة من التعرف بسرعة على الآليات التي يمكنهم الترشح إليها.`,
+  },
+  'publications|hero|body': {
+    en: `This section showcases the documentary production of the EU4Youth ecosystem projects: studies, methodological guides, technical sheets, reports and tools developed as the programme is implemented. It gives access to lessons and methods capitalised by the teams, in a logic of transmission rather than exhaustive archiving.`,
+    ar: `تُبرز هذه الروبريك الإنتاج الوثائقي لمشاريع منظومة EU4Youth: دراسات وأدلة منهجية وبطاقات تقنية وتقارير وأدوات أُعدت أثناء تنفيذ البرنامج. وتتيح الوصول إلى الدروس والأساليب التي رسّختها الفرق، بمنطق النقل لا الأرشفة الشاملة.`,
+  },
+  'glossaire|hero|body': {
+    en: `This glossary brings together the technical and institutional terms used by the EU4Youth ecosystem projects — international cooperation schemes, funding mechanisms, and concepts specific to youth policies. It aims to make the site's content easier to read for audiences who do not necessarily work in the world of international cooperation.`,
+    ar: `يجمع هذا المسرد المصطلحات التقنية والمؤسسية التي تستخدمها مشاريع منظومة EU4Youth — آليات التعاون الدولي، وآليات التمويل، والمفاهيم الخاصة بسياسات الشباب. ويهدف إلى تسهيل قراءة محتويات الموقع لجمهور لا يعمل بالضرورة في عالم التعاون الدولي.`,
+  },
+  'gouvernance|hero|body': {
+    en: `EU4Youth relies on partnership governance that links the European Union, Tunisian institutions, implementing partners and territorial actors around a shared vision for youth.`,
+    ar: `يرتكز EU4Youth على حوكمة شراكة تربط الاتحاد الأوروبي والمؤسسات التونسية وشركاء التنفيذ وفاعلي الأقاليم حول رؤية مشتركة للشباب.`,
+  },
+  'gouvernance|youth|body': {
+    en: `Involving young people in the design and implementation of the activities that concern them — not only as beneficiaries, but as actors — is a cross-cutting principle of the programme.
+
+EU4Youth builds lasting mechanisms for representation and participation in civic life and public action: local youth strategies, forums, consultations and spaces intended to become permanent in municipalities, steering committees and consultation processes.`,
+    ar: `إشراك الشباب في تصميم وتنفيذ الأنشطة التي تعنيهم — لا كمستفيدين فحسب، بل كفاعلين — مبدأ عرضي للبرنامج.
+
+يبني EU4Youth آليات دائمة للتمثيل والمشاركة في الحياة المواطنية والعمل العمومي: استراتيجيات شباب محلية، ومنتديات، واستشارات، وفضاءات يُراد لها أن تصبح دائمة في البلديات ولجان القيادة وعمليات التشاور.`,
+  },
+  'gouvernance|legacy|body': {
+    en: `The programme has built lasting foundations: an interministerial governance architecture that brings ministries and partners together, in a formal and regular framework, around youth issues. Strengthened capacities in dozens of organisations, institutions, municipalities and associations.`,
+    ar: `بنى البرنامج أسساً دائمة: هندسة حوكمة وزارية مشتركة تجمع، في إطار رسمي ومنتظم، الوزارات والشركاء حول قضايا الشباب. وقدرات معزّزة في عشرات المنظمات والمؤسسات والبلديات والجمعيات.`,
+  },
+  'gouvernance|framework|body': {
+    en: `EU4Youth governance mechanism bringing together representatives of the ministries concerned, the ONJ, partner agencies, the EU Delegation and the project team leaders. Chaired by the Ministry of Economy and Planning, it ensures programme monitoring and coordination at national level.
+
+The programme's six-monthly monitoring committees bring these actors together to share progress, good practices and synergies between projects.`,
+    ar: `آلية حوكمة EU4Youth تجمع ممثلي الوزارات المعنية والمرصد الوطني للشباب والوكالات الشريكة وبعثة الاتحاد الأوروبي ورؤساء فرق المشاريع. ويرأسها وزارة الاقتصاد والتخطيط، وتضمن متابعة البرنامج وتنسيقه على المستوى الوطني.
+
+وتجمع لجان المتابعة نصف السنوية للبرنامج هؤلاء الفاعلين لتقاسم التقدّم والممارسات الجيدة وأوجه التكامل بين المشاريع.`,
+  },
+  'gouvernance|eu|body': {
+    en: `EU4Youth is part of the EU–Tunisia Youth Partnership, announced jointly in December 2016. The European Union Delegation provides strategic steering and monitoring of the six projects.
+
+The financing agreement signed in June 2019 sets the programme's overall objectives, budget, duration and implementation conditions.`,
+    ar: `يندرج EU4Youth ضمن الشراكة بين الاتحاد الأوروبي وتونس من أجل الشباب، المعلن عنها بشكل مشترك في ديسمبر 2016. وتتولى بعثة الاتحاد الأوروبي القيادة الاستراتيجية ومتابعة المشاريع الستة.
+
+وتحدد اتفاقية التمويل الموقعة في يونيو 2019 الأهداف العامة والميزانية والمدة وشروط تنفيذ البرنامج.`,
+  },
+  'gouvernance|institutions|body': {
+    en: `Tunisian ministries and institutions are central partners of the programme. They chair consultation frameworks, support implementation and carry institutional ownership of the results.`,
+    ar: `الوزارات والمؤسسات التونسية شركاء مركزيون للبرنامج. فهي ترأس أطر التشاور، وترافق التنفيذ، وتحمل التملّك المؤسسي للمكتسبات.`,
+  },
+  'gouvernance|model|intro': {
+    en: `The programme coordinates six complementary projects through European strategic supervision, an interministerial consultation framework and operational partners rooted in the territories.`,
+    ar: `ينسّق البرنامج ستة مشاريع متكاملة عبر إشراف استراتيجي أوروبي، وإطار تشاور وزاري مشترك، وشركاء تشغيليين متجذرين في الأقاليم.`,
+  },
+  'gouvernance|implementation|body': {
+    en: `Each partner handles the operational management of a project: results, financial management and reporting to the EU Delegation.`,
+    ar: `يتولى كل شريك التسيير العملياتي لمشروع: النتائج والتسيير المالي والتقارير لدى بعثة الاتحاد الأوروبي.`,
+  },
+  'partenaires|hero|body': {
+    en: `EU4Youth Tunisia mobilises a unique network of institutional partners, international organisations and field actors. This multidimensional partnership is the condition for the programme's success and sustainability.`,
+    ar: `يعبّئ EU4Youth تونس شبكة فريدة من الشركاء المؤسسيين والمنظمات الدولية وفاعلي الميدان. وهذه الشراكة متعددة الأبعاد شرط لنجاح البرنامج واستدامته.`,
+  },
+  'partenaires|eu|body': {
+    en: `It provides strategic steering of the programme, monitoring of its implementation and dialogue with the Tunisian authorities.`,
+    ar: `تتولى القيادة الاستراتيجية للبرنامج ومتابعة تنفيذه والحوار مع السلطات التونسية.`,
+  },
+  'carte|hero|body': {
+    en: `From Bizerte to Ben Guerdane, from Jendouba to Tataouine, EU4Youth supports young Tunisian women and men in all 24 governorates of Tunisia.`,
+    ar: `من بنزرت إلى بن قردان، ومن جندوبة إلى تطاوين، يرافق EU4Youth الشبان والشابات التونسيين في الولايات الأربع والعشرين لتونس.`,
+  },
+  'carte|hero|badge': {
+    en: `MAPPING\nOF TERRITORIAL INTERVENTIONS`,
+    ar: `خريطة\nالتدخلات الترابية`,
+  },
+  'home|projets|body': {
+    en: `EU4Youth Tunisia is organised in three thematic components carried by six complementary projects. Each project addresses a specific dimension of the inclusion of young Tunisian women and men.`,
+    ar: `ينتظم EU4Youth تونس في ثلاث مكونات موضوعية يحملها ستة مشاريع متكاملة. ويتدخل كل مشروع في بُعد محدد من إدماج الشبان والشابات التونسيين.`,
+  },
+  'home|newsletter|body': {
+    en: `Subscribe to the programme newsletter and be the first to receive calls for projects, training, scholarships and events open to young Tunisian women and men.`,
+    ar: `اشتركوا في النشرة الإخبارية للبرنامج وتلقّوا مسبقاً نداءات المشاريع والتكوينات والمنح والفعاليات المفتوحة للشبان والشابات التونسيين.`,
+  },
+  'home|publications|body': {
+    en: `EU4Youth produces knowledge and makes it available to all. Monitoring reports, sectoral studies, practical guides: freely download the programme documents.`,
+    ar: `ينتج EU4Youth معارف ويضعها في متناول الجميع. تقارير المتابعة، والدراسات القطاعية، والأدلة العملية: حمّلوا بحرية وثائق البرنامج.`,
+  },
+  'global|footer|disclaimer': {
+    en: `This site was produced with the financial support of the European Union. Its content is the sole responsibility of the EU4Youth Tunisia programme and does not necessarily reflect the views of the European Union.`,
+    ar: `أُنتج هذا الموقع بدعم مالي من الاتحاد الأوروبي. ومحتواه من مسؤولية برنامج EU4Youth تونس وحده ولا يعكس بالضرورة آراء الاتحاد الأوروبي.`,
+  },
+  'eu-en-tunisie|intro|body': {
+    en: `The European Union supports Tunisia through cooperation covering a wide range of fields linked to the country's social, economic, territorial and environmental challenges. Its action is organised around complementary themes, from human rights and equality to employment, innovation, economic development, ecological transition and territorial development.
+
+Discover the European Union's main areas of intervention in Tunisia and explore the projects that contribute to these different dynamics.`,
+    ar: `يرافق الاتحاد الأوروبي تونس عبر تعاون يغطي مجالات متنوعة، مرتبطة بالتحديات الاجتماعية والاقتصادية والترابية والبيئية للبلاد. وتنتظم أعماله حول مواضيع متكاملة، من حقوق الإنسان والمساواة إلى التشغيل والابتكار والتنمية الاقتصادية والانتقال البيئي والتنمية الترابية.
+
+اكتشفوا مجالات تدخل الاتحاد الأوروبي الرئيسية في تونس واستكشفوا المشاريع التي تساهم في هذه الديناميات المختلفة.`,
+  },
+  'objectifs|hero|closing': {
+    en: `These principles are joined by cross-cutting commitments shared by all projects: systematic integration of the gender dimension, attention to the specific needs of young women, young people with disabilities and young people in rural or isolated areas, as well as the environment and sustainability dimension.
+
+EU4Youth supports the aspirations of young Tunisian women and men by strengthening the opportunities, partnerships and initiatives that contribute to the development of the territories.`,
+    ar: `تُضاف إلى هذه المبادئ التزامات عرضية مشتركة بين كل المشاريع: الإدماج المنهجي لبعد النوع الاجتماعي، والاهتمام بالاحتياجات الخاصة للشابات وللشباب ذوي الإعاقة وللشباب في المناطق الريفية أو المعزولة، وكذلك بعد البيئة والاستدامة.
+
+يرافق EU4Youth تطلعات الشبان والشابات التونسيين بتعزيز الفرص والشراكات والمبادرات التي تساهم في تنمية الأقاليم.`,
+  },
+  'objectifs|hero|visionBody': {
+    en: `The programme is built on investing in capacities, opportunities and the conditions for empowerment and socio-economic integration in all territories of the country.`,
+    ar: `يُبنى البرنامج على منطق الاستثمار في القدرات وفي الفرص وفي شروط التمكين والإدماج الاجتماعي والاقتصادي في كل أقاليم البلاد.`,
+  },
+  'objectifs|projets|body': {
+    en: `EU4Youth Tunisia is organised in three thematic components carried by six complementary projects. Each project addresses a specific dimension of the inclusion of young Tunisian women and men.`,
+    ar: `ينتظم EU4Youth تونس في ثلاث مكونات موضوعية يحملها ستة مشاريع متكاملة. ويتدخل كل مشروع في بُعد محدد من إدماج الشبان والشابات التونسيين.`,
+  },
+}
+
+writeFileSync(join(root, 'narratives.json'), JSON.stringify(narratives, null, 2))
+console.log('Wrote narratives.json', Object.keys(narratives).length)

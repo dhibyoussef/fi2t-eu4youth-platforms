@@ -1,0 +1,44 @@
+# FI2T root
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+.cursor/
+agent-tools/
+
+# Env secrets (keep *.example)
+.env
+.env.local
+.env.*.local
+**/.env
+!**/.env.example
+!deploy/env.*.example
+
+# Dependencies & builds
+**/node_modules/
+**/vendor/
+**/dist/
+**/public/build/
+**/public/hot/
+**/public/storage/
+**/.phpunit.cache/
+**/storage/*.key
+**/storage/pail/
+**/storage/logs/*
+!**/storage/logs/.gitignore
+
+# One-off maintenance (do not commit)
+backend/scripts/
+website/scripts/
+website/audit-out/
+website/scripts/audit-out/
+deploy-upload/
+backend/fi2t/
+**/tmp-*
+
+# Local junk
+Untitled (1)/
+css.css
+*.tmp
+*.bak

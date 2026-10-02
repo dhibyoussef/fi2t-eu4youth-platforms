@@ -1,0 +1,704 @@
+.page--stories {
+  --bleed: 0px;
+  --pad-x: 16rem;
+  background: var(--white);
+  overflow-x: clip;
+}
+
+.stories-hero {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  min-height: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: var(--white);
+  background: var(--pink-band);
+  padding: 40px max(var(--pad-x), 48px) 36px !important;
+}
+
+.stories-hero > img,
+.stories-hero > .cms-editable,
+.stories-hero__veil {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.stories-hero > img,
+.stories-hero > .cms-editable {
+  z-index: 0;
+}
+
+.stories-hero > img,
+.stories-hero > .cms-editable img {
+  object-fit: cover;
+  object-position: 18% center;
+  opacity: 0.28;
+}
+
+.stories-hero > .cms-editable {
+  display: block;
+}
+
+.stories-hero__veil {
+  z-index: 1;
+  background:
+    linear-gradient(
+      90deg,
+      rgb(186 25 89 / 94%) 0%,
+      rgb(186 25 89 / 88%) 36%,
+      rgb(204 38 102 / 62%) 62%,
+      rgb(204 38 102 / 28%) 82%,
+      transparent 100%
+    );
+}
+
+/* EU4Y monogram — full ball, vertically centered (same as Actualités). */
+.stories-hero__mark-slot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  height: 100%;
+  width: 42%;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.stories-hero__mark {
+  display: block;
+  box-sizing: border-box;
+  height: 100%;
+  width: auto;
+  max-width: none;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+  object-position: right center;
+  opacity: 0.22;
+  filter: brightness(0) invert(1);
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+  user-select: none;
+}
+
+.stories-hero__copy {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: min(720px, 58%);
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.stories-hero__badge,
+.stories-hero p.stories-hero__badge {
+  margin: 0 0 12px;
+  font-family: var(--font-ui);
+  font-size: 14px !important;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.2 !important;
+  text-align: center !important;
+  text-align-last: center !important;
+  text-transform: uppercase;
+}
+
+.stories-hero__copy > p:not(.stories-hero__lead):not(.stories-hero__badge) {
+  margin-bottom: 12px;
+  font-family: var(--font-ui);
+  font-size: 14px !important;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-align: center !important;
+  text-transform: uppercase;
+}
+
+.page--stories .stories-hero h1,
+.page--stories .stories-hero .stories-hero__title {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  width: auto;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  color: var(--white);
+  font-family: var(--font-display);
+  font-size: clamp(42px, 3.4vw, 56px) !important;
+  font-weight: 800;
+  letter-spacing: 0.02em !important;
+  line-height: 1.05 !important;
+  text-align: center !important;
+  text-transform: uppercase;
+  text-wrap: balance;
+}
+
+.page--stories .stories-hero p.stories-hero__lead,
+.page--stories .stories-hero .stories-hero__lead {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: min(640px, 100%);
+  margin: 20px auto 0 !important;
+  padding: 0;
+  color: var(--white);
+  font-size: clamp(14px, 0.95vw, 16px) !important;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.55 !important;
+  text-align: justify !important;
+  text-align-last: center !important;
+  text-justify: inter-word !important;
+  hyphens: none;
+}
+
+.stories-empty {
+  display: grid;
+  align-items: center;
+  grid-template-columns: minmax(96px, 140px) minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 56px);
+  padding: clamp(48px, 6vw, 80px) var(--pad-x);
+  background: var(--white);
+}
+
+.stories-empty__number {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--pink);
+}
+
+.stories-empty__number > span {
+  font-family: var(--font-display);
+  font-size: clamp(64px, 8vw, 104px);
+  font-weight: 700;
+  line-height: 0.85;
+  letter-spacing: -0.04em;
+}
+
+.stories-empty__eyebrow,
+.stories-projects header > p {
+  margin-bottom: 12px;
+  color: var(--pink);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.stories-empty h2 {
+  max-width: 36ch;
+  color: var(--eu-blue);
+  font-size: clamp(28px, 3.4vw, 40px);
+  line-height: 1.1;
+}
+
+.stories-empty h2 + p {
+  max-width: 54ch;
+  margin-top: 16px;
+  font-size: clamp(16px, 1.2vw, 18px);
+  line-height: 1.55;
+}
+
+.stories-empty__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.stories-empty .btn--solid-pink {
+  border-color: var(--pink);
+  color: var(--white);
+  background: var(--pink);
+}
+
+.stories-empty .btn--solid-pink:hover {
+  border-color: var(--eu-blue);
+  background: var(--eu-blue);
+}
+
+.stories-slots {
+  padding: clamp(48px, 6vw, 72px) var(--pad-x);
+  background: #faf7f8;
+}
+
+.stories-slots header {
+  margin-bottom: 36px;
+}
+
+.stories-slots header > p {
+  margin-bottom: 12px;
+  color: var(--pink);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.stories-slots h2 {
+  max-width: 28ch;
+  color: var(--eu-blue);
+  font-size: clamp(28px, 3.4vw, 40px);
+  line-height: 1.1;
+}
+
+.stories-slots ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.stories-slots article {
+  display: grid;
+  height: 100%;
+  border: 1px solid var(--grey-rule);
+  background: var(--white);
+  box-shadow: 0 4px 18px rgb(0 0 0 / 8%);
+}
+
+.stories-slots__media {
+  position: relative;
+  display: grid;
+  place-items: center;
+  min-height: 160px;
+  padding: 24px;
+  color: var(--white);
+  background:
+    linear-gradient(135deg, rgb(212 49 112 / 92%), rgb(126 18 62 / 88%)),
+    var(--pink-band);
+  text-align: center;
+}
+
+.stories-slots__media span {
+  position: absolute;
+  left: 16px;
+  top: 12px;
+  color: rgb(255 255 255 / 28%);
+  font-family: var(--font-display);
+  font-size: clamp(36px, 4vw, 52px);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stories-slots__media b {
+  position: relative;
+  z-index: 1;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.stories-slots__body {
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}
+
+.stories-slots__body > p {
+  color: var(--pink);
+  font-family: var(--font-ui);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.stories-slots__body h3 {
+  color: var(--eu-blue);
+  font-size: clamp(18px, 1.5vw, 22px);
+  line-height: 1.25;
+}
+
+.stories-slots__body span {
+  color: #596575;
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: start;
+  text-align-last: start;
+}
+
+.stories-live {
+  padding: 10rem var(--pad-x) 4rem;
+  background: var(--white);
+}
+
+.stories-live header > p {
+  margin-bottom: 1.5rem;
+  color: var(--pink);
+  font: 700 2rem var(--font-ui);
+  letter-spacing: 0.08em;
+}
+
+.stories-live h2 {
+  max-width: 90rem;
+  margin-bottom: 5rem;
+  color: var(--eu-blue);
+  font-size: 6rem;
+  line-height: 0.98;
+}
+
+.stories-live ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 2.5rem;
+}
+
+.stories-live article {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  border: 0.2rem solid var(--grey-rule);
+  background: var(--white);
+  box-shadow: 0 0.6rem 2.2rem rgb(0 0 0 / 9%);
+}
+
+.stories-live .stories-slots__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.stories-projects {
+  padding: 9rem var(--pad-x) 14rem;
+  background: #f2f3f4;
+}
+
+.stories-projects header {
+  margin-bottom: 5rem;
+}
+
+.stories-projects h2 {
+  color: var(--eu-blue);
+  font-size: 7rem;
+}
+
+.stories-projects ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.stories-projects li {
+  border: 0.2rem solid var(--grey-rule);
+  border-top: 0.8rem solid var(--pink);
+  background: var(--white);
+  box-shadow: 0 0.6rem 2.2rem rgb(0 0 0 / 9%);
+}
+
+.stories-projects a {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 6rem 15rem minmax(0, 1fr) auto;
+  gap: 2rem;
+  min-height: 18rem;
+  padding: 2.5rem 3rem;
+}
+
+.stories-projects a > span {
+  align-self: start;
+  color: #dce2e8;
+  font: 700 3.8rem var(--font-display);
+}
+
+.stories-projects img {
+  width: 14rem;
+  height: 9rem;
+  object-fit: contain;
+}
+
+.stories-projects strong {
+  color: var(--pink);
+  font: 700 2.5rem var(--font-ui);
+}
+
+.stories-projects div p {
+  margin-top: 0.8rem;
+  font-size: 3rem;
+  line-height: 1.55;
+}
+
+.stories-projects a > b {
+  color: var(--pink);
+  font: 400 4rem var(--font-ui);
+  transition: transform 160ms ease;
+}
+
+.stories-projects a:hover > b {
+  transform: translateX(0.8rem);
+}
+
+@media (max-width: 1099px) {
+  .page--stories {
+    --bleed: 0px;
+    --pad-x: var(--gutter);
+  }
+
+  .stories-hero__mark-slot {
+    display: none;
+  }
+
+  .stories-hero {
+    min-height: 0 !important;
+    padding: 36px var(--pad-x) 32px !important;
+  }
+
+  .stories-hero__copy {
+    max-width: min(640px, 92%);
+    align-items: center;
+    text-align: center;
+  }
+
+  .stories-hero h1,
+  .stories-hero__title {
+    font-size: clamp(32px, 7vw, 48px) !important;
+    letter-spacing: 0.015em !important;
+    line-height: 1.06 !important;
+    text-align: center !important;
+  }
+
+  .stories-hero p.stories-hero__lead,
+  .stories-hero__lead {
+    max-width: none;
+    font-size: clamp(17px, 3.4vw, 20px) !important;
+    text-align: justify !important;
+    text-align-last: center !important;
+  }
+
+  .stories-empty {
+    grid-template-columns: 1fr;
+    gap: 3.2rem;
+  }
+
+  .stories-empty__number > span {
+    font-size: clamp(6rem, 14vw, 9rem);
+    letter-spacing: -0.3rem;
+  }
+
+  .stories-slots ul {
+    grid-template-columns: 1fr;
+  }
+
+  .stories-live ul {
+    grid-template-columns: 1fr;
+  }
+
+  .stories-projects ul {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 599px) {
+  .page--stories {
+    --pad-x: var(--gutter);
+  }
+
+  .stories-hero {
+    min-height: 0 !important;
+    padding: 28px var(--pad-x) 26px !important;
+  }
+
+  .stories-hero > img,
+  .stories-hero > .cms-editable img {
+    object-position: 60% center;
+  }
+
+  .stories-hero__copy {
+    max-width: none;
+    padding-top: 0;
+  }
+
+  .stories-hero__badge,
+  .stories-hero p.stories-hero__badge,
+  .stories-hero__copy > p:not(.stories-hero__lead) {
+    max-width: none;
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+  }
+
+  .stories-hero p.stories-hero__lead,
+  .stories-hero__lead {
+    max-width: none;
+    margin-top: 14px;
+    font-size: clamp(16px, 4vw, 18px) !important;
+    line-height: 1.5 !important;
+  }
+
+  .stories-hero h1,
+  .stories-hero__title {
+    font-size: clamp(28px, 8.5vw, 36px) !important;
+    letter-spacing: 0.01em !important;
+  }
+
+  .stories-empty {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+    padding: 5.6rem var(--pad-x) 6.4rem;
+  }
+
+  .stories-empty__number {
+    font-size: clamp(4.8rem, 18vw, 7.2rem);
+  }
+
+  .stories-empty__number > span {
+    font-size: clamp(4.8rem, 18vw, 7.2rem);
+    letter-spacing: -0.2rem;
+    line-height: 0.9;
+  }
+
+  .stories-empty h2 {
+    font-size: clamp(2.4rem, 7vw, 3.2rem);
+  }
+
+  .stories-empty h2 + p {
+    font-size: 1.65rem;
+    line-height: 1.55;
+    max-width: 100%;
+  }
+
+  .stories-empty__actions {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    max-width: 100%;
+    gap: 1.2rem;
+  }
+
+  .stories-empty .btn,
+  .page--stories .stories-empty .btn {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    white-space: normal;
+    text-align: center;
+    padding-inline: 1.6rem;
+  }
+
+  .stories-slots h2 {
+    font-size: clamp(2.4rem, 7vw, 3.2rem);
+  }
+
+  .stories-slots__body h3 {
+    font-size: clamp(1.9rem, 5vw, 2.2rem);
+  }
+
+  .stories-slots__body span {
+    font-size: 1.55rem;
+    line-height: 1.55;
+  }
+
+  .stories-projects h2 {
+    font-size: clamp(2.4rem, 7vw, 3.2rem);
+  }
+
+  .stories-projects a {
+    grid-template-columns: 4rem minmax(0, 1fr);
+  }
+
+  .stories-projects a > b {
+    display: none;
+  }
+
+  .stories-projects strong {
+    font-size: 1.8rem;
+  }
+
+  .stories-projects div p {
+    font-size: 1.55rem;
+    line-height: 1.55;
+  }
+}
+
+/* .btn carries a variant's colour and type but not its size: the comp-positioned
+   buttons are each given the plate the PDF prints them on. This page is assembled
+   outside those states, so it states the size itself — without it the border was
+   drawn tight around the letters, with no room between the label and the edge. */
+.page--stories .btn {
+  min-height: 6rem;
+  padding-inline: 2.6rem;
+}
+
+.stories-title-row,
+.stories-btn-edit,
+.stories-edit-region {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 100%;
+}
+
+.page--stories .stories-list-cms {
+  display: contents;
+}
+
+.page--stories .cms-list-trigger {
+  white-space: nowrap;
+  width: max-content;
+  max-width: none;
+}
+
+body.cms-editing .page--stories .stories-edit-region {
+  outline: 1.5px dashed rgba(242, 168, 73, 0.85);
+  outline-offset: 8px;
+  margin: 0 0 1.2rem;
+}
+
+body.cms-editing .page--stories .stories-edit-region .cms-list-trigger-wrap {
+  position: static;
+  top: auto;
+  right: auto;
+  margin: 0 0 0.8rem auto;
+}
+
+.stories-filter-pencils {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+body:not(.cms-editing) .stories-filter-pencils {
+  display: none;
+}
+
+.page--stories .stories-pencil.cms-chip-only,
+.page--stories .stories-title-row .cms-chip-only,
+.page--stories .stories-btn-edit .cms-chip-only,
+.page--stories .stories-filter-pencils .cms-chip-only,
+.page--stories .stories-empty__eyebrow .cms-chip-only,
+.page--stories .stories-empty__number .cms-chip-only,
+.page--stories header p .cms-chip-only {
+  position: static;
+  display: inline-grid;
+  width: 26px;
+  height: 26px;
+  flex: none;
+  vertical-align: middle;
+  margin-left: 0.6rem;
+  font-size: 1.4rem;
+}

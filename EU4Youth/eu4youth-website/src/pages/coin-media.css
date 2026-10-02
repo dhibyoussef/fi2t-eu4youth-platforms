@@ -1,0 +1,628 @@
+.page--media {
+  --bleed: 0px;
+  --pad-x: 16rem;
+  background: var(--white);
+  overflow-x: clip;
+}
+
+.page--media .media-hero {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: none;
+  min-height: 240px !important;
+  padding: 40px var(--pad-x) 36px !important;
+  overflow: hidden;
+  color: var(--white);
+  background: var(--eu-blue);
+}
+
+.media-hero__copy {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: min(920px, 92%);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.media-hero__badge,
+.media-hero p.media-hero__badge,
+.media-hero__copy > p:not(.media-hero__lead) {
+  margin: 0 0 12px;
+  font-family: var(--font-ui);
+  font-size: 15px !important;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  line-height: 1.2 !important;
+  text-align: center !important;
+  text-align-last: center !important;
+  text-transform: uppercase;
+}
+
+.media-hero h1,
+.media-hero__title {
+  max-width: 100%;
+  margin: 0;
+  font-size: clamp(40px, 5.2vw, 60px) !important;
+  font-weight: 800;
+  letter-spacing: 0.02em !important;
+  line-height: 1.05 !important;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.media-hero p.media-hero__lead,
+.media-hero__lead {
+  position: relative;
+  z-index: 1;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: min(640px, 100%);
+  margin: 16px auto 0 !important;
+  padding: 0;
+  color: var(--white);
+  font-size: clamp(17px, 1.2vw, 20px) !important;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.55 !important;
+  text-align: center !important;
+}
+
+/* Same EU4Y monogram — full ball, vertically centered (Document1). */
+.media-hero__mark-slot {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  height: 100%;
+  width: 42%;
+  margin: 0;
+  padding: 0 0.5rem 0 0;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.media-hero__mark {
+  display: block;
+  box-sizing: border-box;
+  height: 100%;
+  width: auto;
+  max-width: none;
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: contain;
+  object-position: right center;
+  opacity: 0.22;
+  filter: brightness(0) invert(1);
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+  user-select: none;
+}
+
+.media-eyebrow {
+  margin-bottom: 1.3rem;
+  color: var(--orange);
+  font: 700 2.5rem var(--font-ui);
+  letter-spacing: 0.06em;
+}
+
+.media-access {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 8rem;
+  padding: 9rem var(--pad-x) 10rem;
+}
+
+.media-access h2,
+.media-news h2,
+.media-videos h2,
+.media-resources h2,
+.media-contact h2 {
+  color: var(--eu-blue);
+  font-size: 6.8rem;
+  line-height: 1.05;
+}
+
+.media-access nav {
+  border-top: 0.2rem solid var(--grey-rule);
+}
+
+.media-access nav a {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 6rem minmax(0, 1fr) auto;
+  gap: 2rem;
+  padding: 3.2rem 1rem;
+  border-bottom: 0.2rem solid var(--grey-rule);
+}
+
+.media-access nav span {
+  color: #ccd4de;
+  font: 700 3rem var(--font-display);
+}
+
+.media-access nav strong {
+  color: var(--eu-blue);
+  font: 700 3.3rem var(--font-ui);
+}
+
+.media-access nav b {
+  color: var(--orange);
+  font: 400 4rem var(--font-ui);
+  transition: transform 160ms ease;
+}
+
+.media-access nav a:hover b {
+  transform: translateX(0.8rem);
+}
+
+.media-news {
+  padding: 10rem var(--pad-x) 12rem;
+  background: #f1f3f5;
+}
+
+.media-news > header,
+.media-resources > header {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 4rem;
+  margin-bottom: 5rem;
+}
+
+.media-news > header > a,
+.media-resources > header > a,
+.media-news > header .media-btn-edit a,
+.media-resources > header .media-btn-edit a {
+  padding-bottom: 0.7rem;
+  border-bottom: 0.2rem solid var(--orange);
+  color: var(--orange);
+  font: 700 2.35rem var(--font-ui);
+}
+
+.media-news > ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4rem 5rem;
+}
+
+.media-news article {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 0.2rem solid var(--grey-rule);
+  background: var(--white);
+  box-shadow: 0 0.6rem 2.2rem rgb(0 0 0 / 9%);
+}
+
+.media-news article > img {
+  width: 100%;
+  height: 24rem;
+  object-fit: cover;
+}
+
+.media-news__body {
+  padding: 3rem;
+}
+
+.media-news__body > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  color: var(--orange);
+  font: 700 2.6rem var(--font-ui);
+}
+
+.media-news__body > small {
+  display: block;
+  margin-top: 2.5rem;
+  color: #dce1e7;
+  font: 700 5rem/1 var(--font-display);
+}
+
+.media-news h3 {
+  margin-top: 1rem;
+  font-size: 3.1rem !important;
+  line-height: 1.3 !important;
+}
+
+.media-news h3 a {
+  color: var(--eu-blue);
+}
+
+.media-news h3 a:hover {
+  color: var(--orange);
+}
+
+.media-news__body > p {
+  margin-top: 2rem;
+  font-size: 3.35rem;
+  line-height: 1.55;
+}
+
+.media-news time {
+  display: block;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 0.2rem solid var(--grey-rule);
+  color: var(--eu-blue);
+  font: 700 2.6rem var(--font-ui);
+}
+
+.media-resources {
+  padding: 11rem var(--pad-x) 13rem;
+}
+
+.media-videos {
+  padding: 2rem var(--pad-x) 11rem;
+}
+
+.media-videos header {
+  margin-bottom: 4rem;
+}
+
+.media-videos ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4rem 5rem;
+}
+
+.media-videos__frame {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #111;
+}
+
+.media-videos__frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.media-videos li p {
+  margin: 1.4rem 0 0.6rem;
+  color: var(--orange);
+  font: 700 1.5rem var(--font-ui);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.media-empty {
+  max-width: min(118rem, 100%);
+  margin: 0;
+  color: var(--ink);
+  font: 400 3rem/1.55 var(--font-body);
+  text-align: start;
+}
+
+.media-videos h3 {
+  color: var(--eu-blue);
+  font-size: 3.1rem;
+  line-height: 1.3;
+}
+
+.media-resources > ul {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 5rem 8.5rem;
+}
+
+.media-resources article {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-width: 0;
+  border: 0.2rem solid var(--grey-rule);
+  background: var(--white);
+  box-shadow: 0 0.6rem 2.2rem rgb(0 0 0 / 9%);
+}
+
+.media-resource__cover {
+  padding: 2.4rem 2.4rem 0;
+  background: var(--white);
+}
+
+.media-resource__cover img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: contain;
+  object-position: center top;
+  background: var(--grey-card);
+}
+
+.media-resource__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 2.8rem;
+  gap: 0.2rem;
+}
+
+.media-resource__meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.media-resource__meta p {
+  color: var(--orange);
+  font: 700 2.15rem var(--font-ui);
+  text-transform: uppercase;
+}
+
+.media-resource__meta b {
+  color: var(--eu-blue);
+  font: 700 2rem var(--font-ui);
+}
+
+.media-resource__body h3 {
+  margin-top: 1rem;
+  color: var(--eu-blue);
+  font-size: 3.1rem;
+  line-height: 1.3;
+}
+
+.media-resource__body > strong {
+  margin-top: 0.8rem;
+  color: var(--teal);
+  font: 700 2.5rem var(--font-ui);
+}
+
+.media-resource__body > span {
+  display: block;
+  margin-top: 1.5rem;
+  color: #5d6771;
+  font-size: 3.2rem;
+  line-height: 1.55;
+}
+
+.media-resource__body > a,
+.media-resource__body > em {
+  display: inline-block;
+  align-self: flex-start;
+  margin-top: 2rem;
+  padding: 1.1rem 1.5rem;
+  color: var(--white);
+  background: var(--orange);
+  font: 700 2.15rem var(--font-ui);
+  font-style: normal;
+}
+
+.media-resource__body > a {
+  margin-top: auto;
+}
+
+.media-resource__body > em {
+  color: #606872;
+  background: var(--grey-card);
+}
+
+.media-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6rem;
+  padding: 8rem var(--pad-x) 9rem;
+  color: var(--white);
+  background: var(--eu-blue);
+}
+
+.media-contact h2 {
+  color: var(--white);
+}
+
+.media-contact p {
+  margin-bottom: 1.2rem;
+  color: var(--orange);
+  font: 700 2rem var(--font-ui);
+}
+
+.media-contact span {
+  display: block;
+  max-width: 85rem;
+  margin-top: 2rem;
+  font-size: 3rem;
+  line-height: 1.55;
+}
+
+.media-contact > a {
+  flex: 0 0 auto;
+}
+
+@media (max-width: 1099px) {
+  .page--media {
+    --bleed: 0px;
+    --pad-x: var(--gutter);
+  }
+
+  .page--media .media-hero {
+    min-height: 200px !important;
+    padding: 32px var(--pad-x) 28px !important;
+  }
+
+  .media-hero h1,
+  .media-hero__title {
+    font-size: clamp(32px, 7vw, 48px) !important;
+    letter-spacing: 0.015em !important;
+    line-height: 1.06 !important;
+  }
+
+  .media-hero__mark-slot {
+    display: none;
+  }
+
+  .media-hero p.media-hero__lead,
+  .media-hero__lead {
+    max-width: min(520px, 94%);
+    margin-top: 12px !important;
+    font-size: clamp(14px, 2.4vw, 16px) !important;
+  }
+
+  .media-access {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+
+  .media-news > ul,
+  .media-resources > ul,
+  .media-videos ul {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .page--media {
+    --pad-x: var(--gutter);
+  }
+
+  .page--media .media-hero {
+    min-height: 180px !important;
+    padding: 28px var(--pad-x) 26px !important;
+  }
+
+  .media-hero__badge,
+  .media-hero p.media-hero__badge,
+  .media-hero__copy > p:not(.media-hero__lead) {
+    max-width: none;
+    font-size: 13px !important;
+    line-height: 1.3 !important;
+  }
+
+  .media-hero p.media-hero__lead,
+  .media-hero__lead {
+    max-width: min(480px, 96%);
+    margin-top: 10px !important;
+    font-size: clamp(12px, 3.2vw, 13px) !important;
+  }
+
+  .media-hero h1,
+  .media-hero__title {
+    font-size: clamp(28px, 8.5vw, 36px) !important;
+    letter-spacing: 0.01em !important;
+  }
+
+  .media-news > ul,
+  .media-resources > ul,
+  .media-videos ul {
+    grid-template-columns: 1fr;
+  }
+
+  .media-news > header,
+  .media-resources > header,
+  .media-contact {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .media-news article > img {
+    height: 22rem;
+  }
+
+  .media-news h3,
+  .media-videos h3,
+  .media-resource__body h3 {
+    font-size: clamp(1.9rem, 4.5vw, 2.2rem) !important;
+  }
+
+  .media-news__body > p,
+  .media-contact span,
+  .media-resource__body > span,
+  .media-empty {
+    font-size: 1.55rem;
+    line-height: 1.55;
+  }
+
+  .media-resource__cover img {
+    aspect-ratio: auto;
+    height: 28rem;
+  }
+}
+
+/* .btn carries a variant's colour and type but not its size: the comp-positioned
+   buttons are each given the plate the PDF prints them on. This page is assembled
+   outside those states, so it states the size itself — without it the border was
+   drawn tight around the letters, with no room between the label and the edge. */
+.page--media .btn {
+  min-height: 6rem;
+  padding-inline: 2.6rem;
+}
+
+.media-title-row,
+.media-btn-edit,
+.media-edit-region {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.2rem;
+  max-width: 100%;
+}
+
+.page--media .media-list-cms {
+  display: contents;
+}
+
+.page--media .cms-list-trigger {
+  white-space: nowrap;
+  width: max-content;
+  max-width: none;
+}
+
+body.cms-editing .page--media .media-edit-region {
+  outline: 1.5px dashed rgba(242, 168, 73, 0.85);
+  outline-offset: 8px;
+  margin: 0 0 1.2rem;
+}
+
+body.cms-editing .page--media .media-edit-region .cms-list-trigger-wrap {
+  position: static;
+  top: auto;
+  right: auto;
+  margin: 0 0 0.8rem auto;
+}
+
+.media-filter-pencils {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0 0 2rem;
+}
+
+body:not(.cms-editing) .media-filter-pencils {
+  display: none;
+}
+
+.page--media .media-pencil.cms-chip-only,
+.page--media .media-title-row .cms-chip-only,
+.page--media .media-btn-edit .cms-chip-only,
+.page--media .media-filter-pencils .cms-chip-only,
+.page--media .media-eyebrow .cms-chip-only,
+.page--media .media-contact p .cms-chip-only {
+  position: static;
+  display: inline-grid;
+  width: 26px;
+  height: 26px;
+  flex: none;
+  vertical-align: middle;
+  margin-left: 0.6rem;
+  font-size: 1.4rem;
+}

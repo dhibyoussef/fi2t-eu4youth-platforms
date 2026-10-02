@@ -1,0 +1,94 @@
+name: EU4Youth frontend quality
+
+on:
+  pull_request:
+    paths:
+      - "eu4youth-website/**"
+      - ".github/workflows/eu4youth-quality.yml"
+  push:
+    branches: [main, master]
+    paths:
+      - "eu4youth-website/**"
+      - ".github/workflows/eu4youth-quality.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: eu4youth-quality-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  build-and-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: eu4youth-website
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: eu4youth-website/package-lock.json
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Install browser engines
+        run: npx playwright install --with-deps chromium firefox webkit
+
+      - name: Build production bundle
+        run: npm run build
+
+      - name: Start production preview
+        run: npm run preview -- --host 127.0.0.1 --port 3010 > preview.log 2>&1 &
+
+      - name: Wait for preview
+        run: |
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:3010/ > /dev/null; then
+              exit 0
+            fi
+            sleep 1
+          done
+          cat preview.log
+          exit 1
+
+      - name: Audit routes and responsive layouts
+        run: npm run audit
+
+      - name: Audit navigation
+        run: npm run audit:nav
+
+      - name: Audit links and downloads
+        run: npm run audit:links
+
+      - name: Audit SEO and indexing
+        run: npm run audit:seo
+
+      - name: Audit site search
+        run: npm run audit:search
+
+      - name: Audit form safety
+        run: npm run audit:forms
+
+      - name: Audit Firefox and WebKit
+        run: npm run audit:browsers
+
+      - name: Upload visual evidence on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: eu4youth-frontend-audit-evidence
+          path: |
+            eu4youth-website/preview.log
+            eu4youth-website/tools/out/site-audit
+          if-no-files-found: ignore
+          retention-days: 14

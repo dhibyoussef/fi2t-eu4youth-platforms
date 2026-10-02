@@ -1,0 +1,19 @@
+entries-grid
+entry-body
+entry-context
+entry-def
+entry-head
+entry-tag
+entry-term
+gloss-header
+nav-tabs
+search-bar
+section-count
+section-dot
+section-header
+sr-only
+stat-pill
+stats-row
+tab-btn active
+ti ti-chevron-right entry-arrow
+ti ti-search

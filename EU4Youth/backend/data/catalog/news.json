@@ -1,0 +1,186 @@
+[
+  {
+    "id": "go4youth-nl11-avril-2026",
+    "slug": "go4youth-avancees-transformation-digitale-aneti-avril-2026",
+    "title": "Avancées majeures dans la transformation digitale de l’ANETI",
+    "type": "Vie du programme",
+    "summary": "Refonte du système d’information en cours d’évaluation, GEC/GED généralisé et 102 sites raccordés à la fibre optique.",
+    "publishedAt": "2026-04-01",
+    "dateLabel": "Avril 2026",
+    "project": "Go4Youth",
+    "projectSlug": "go4youth",
+    "themes": [
+      "Emploi et employabilité",
+      "Transformation digitale"
+    ],
+    "locations": [
+      "Présence nationale"
+    ],
+    "image": "/img/photo-entretien.webp",
+    "source": "ANETI Newsletter n°11 — Avril 2026",
+    "dataGaps": [
+      "Jour de publication non indiqué dans la newsletter ; date retenue : 1er du mois."
+    ]
+  },
+  {
+    "id": "go4youth-nl10-decembre-2025",
+    "slug": "go4youth-generalisation-matching-14-betis-decembre-2025",
+    "title": "Généralisation des services et préparation du matching dans 14 BETIs",
+    "type": "Résultat / succès de terrain",
+    "summary": "Inscription à distance et CIVP en ligne opérationnels dans 48 BETIs ; 116 990 comptes créés et 17 202 entreprises inscrites.",
+    "publishedAt": "2025-12-01",
+    "dateLabel": "Décembre 2025",
+    "project": "Go4Youth",
+    "projectSlug": "go4youth",
+    "themes": [
+      "Emploi et employabilité",
+      "Transformation digitale"
+    ],
+    "locations": [
+      "Présence nationale"
+    ],
+    "image": "/img/photo-celebration.webp",
+    "source": "ANETI Newsletter n°10 — Décembre 2025",
+    "dataGaps": [
+      "Jour de publication non indiqué dans la newsletter ; date retenue : 1er du mois."
+    ]
+  },
+  {
+    "id": "go4youth-nl8-mai-2025",
+    "slug": "go4youth-civp-inscription-19-betis-mai-2025",
+    "title": "CIVP et inscription en ligne déployés dans 19 BETIs supplémentaires",
+    "type": "Résultat / succès de terrain",
+    "summary": "Deux outils majeurs étendus le 10 avril puis le 8 mai 2025, portant à 25 le nombre de BETIs équipés après la phase pilote.",
+    "publishedAt": "2025-05-01",
+    "dateLabel": "Mai 2025",
+    "project": "Go4Youth",
+    "projectSlug": "go4youth",
+    "themes": [
+      "Emploi et employabilité",
+      "Transformation digitale"
+    ],
+    "locations": [
+      "Présence nationale",
+      "Grand Tunis"
+    ],
+    "image": "/img/photo-livres.webp",
+    "source": "ANETI Newsletter n°8 — Mai 2025",
+    "dataGaps": [
+      "Jour de publication non indiqué dans la newsletter ; date retenue : 1er du mois."
+    ]
+  },
+  {
+    "id": "go4youth-nl7-janvier-2025",
+    "slug": "go4youth-48-chefs-beti-tunis-decembre-2024",
+    "title": "48 chefs de BETIs réunis à Tunis pour lancer la généralisation",
+    "type": "Événement",
+    "summary": "Ateliers des 4 et 5 décembre 2024 réunissant les BETIs pilotes et ceux de la première phase de généralisation.",
+    "publishedAt": "2025-01-01",
+    "dateLabel": "Janvier 2025",
+    "project": "Go4Youth",
+    "projectSlug": "go4youth",
+    "themes": [
+      "Emploi et employabilité"
+    ],
+    "locations": [
+      "Tunis"
+    ],
+    "image": "/img/art-graffiti.webp",
+    "source": "ANETI Newsletter n°7 — Janvier 2025",
+    "dataGaps": [
+      "Jour de publication non indiqué dans la newsletter ; date retenue : 1er du mois."
+    ]
+  },
+  {
+    "id": "go4youth-nl6-septembre-2024",
+    "slug": "go4youth-41-beti-phase-generalisation-septembre-2024",
+    "title": "41 nouveaux BETIs sélectionnés pour la 1re phase de généralisation",
+    "type": "Résultat / succès de terrain",
+    "summary": "Après la phase pilote dans six bureaux, la couverture atteint 42 % du réseau national des BETIs.",
+    "publishedAt": "2024-09-01",
+    "dateLabel": "Septembre 2024",
+    "project": "Go4Youth",
+    "projectSlug": "go4youth",
+    "themes": [
+      "Emploi et employabilité"
+    ],
+    "locations": [
+      "Présence nationale"
+    ],
+    "image": "/img/photo-recyclage.webp",
+    "source": "ANETI Newsletter n°6 — Septembre 2024",
+    "dataGaps": [
+      "Jour de publication non indiqué dans la newsletter ; date retenue : 1er du mois."
+    ]
+  },
+  {
+    "id": "go4youth-nl5-juin-2024",
+    "slug": "go4youth-copil-entree-generalisation-juin-2024",
+    "title": "Le COPIL Go4Youth acte l’entrée en phase de généralisation",
+    "type": "Communiqué",
+    "summary": "Réuni le 7 juin 2024 sous la présidence du ministre Lotfi Dhiab, le comité valide le passage de la phase pilote à la généralisation.",
+    "publishedAt": "2024-06-07",
+    "dateLabel": "7 juin 2024",
+    "project": "Go4Youth",
+    "projectSlug": "go4youth",
+    "themes": [
+      "Emploi et employabilité",
+      "Gouvernance"
+    ],
+    "locations": [
+      "Tunis"
+    ],
+    "image": "/img/photo-elevage.webp",
+    "source": "ANETI Newsletter n°5 — Juin 2024"
+  },
+  {
+    "id": "go4youth-nl4-mars-2024",
+    "slug": "go4youth-refonte-outil-profilage-mars-2024",
+    "title": "L’outil de profilage ANETI est en cours de refonte",
+    "type": "Vie du programme",
+    "summary": "Après plusieurs mois d’expérimentation, plus de 40 % des segments sont corrigés en entretien ; une cellule d’amélioration continue est créée.",
+    "publishedAt": "2024-03-01",
+    "dateLabel": "Mars 2024",
+    "project": "Go4Youth",
+    "projectSlug": "go4youth",
+    "themes": [
+      "Emploi et employabilité",
+      "Transformation digitale"
+    ],
+    "locations": [
+      "Présence nationale"
+    ],
+    "image": "/img/photo-entretien.webp",
+    "source": "ANETI Newsletter n°4 — Mars 2024",
+    "dataGaps": [
+      "Jour de publication non indiqué dans la newsletter ; date retenue : 1er du mois."
+    ]
+  },
+  {
+    "id": "go4youth-nl2-juin-2023",
+    "slug": "go4youth-nouveaux-services-six-beti-pilotes-juin-2023",
+    "title": "Nouveaux services et outils dans six BETIs pilotes",
+    "type": "Résultat / succès de terrain",
+    "summary": "Expérimentation à Hammam Sousse, Gafsa, Le Kef, Charguia, Gabès et Fouchana, avec 118 maîtres formateurs préparés depuis octobre 2022.",
+    "publishedAt": "2023-06-01",
+    "dateLabel": "Juin 2023",
+    "project": "Go4Youth",
+    "projectSlug": "go4youth",
+    "themes": [
+      "Emploi et employabilité"
+    ],
+    "locations": [
+      "Hammam Sousse",
+      "Gafsa",
+      "Le Kef",
+      "Charguia",
+      "Gabès",
+      "Fouchana"
+    ],
+    "image": "/img/photo-celebration.webp",
+    "source": "ANETI Newsletter n°2 — Juin 2023",
+    "dataGaps": [
+      "Jour de publication non indiqué dans la newsletter ; date retenue : 1er du mois."
+    ]
+  }
+]

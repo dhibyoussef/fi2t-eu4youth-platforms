@@ -1,0 +1,149 @@
+
+## [Heading 1] Formulaire de contact – EU4Youth.org
+
+
+## [Heading 2] 1. Vos informations
+
+
+## [Heading 2] 2. Profil du demandeur
+
+
+## [Heading 3] Vous êtes... (liste déroulante)
+
+Jeune
+Association / Organisation de la société civile
+Collectivité locale
+Administration publique
+Entreprise / Secteur privé
+Université / Centre de recherche
+Média
+Partenaire technique ou financier
+Autre
+Obligatoire : Oui
+
+## [Heading 2] 3. Votre demande
+
+
+## [Heading 3] Projet concerné (liste déroulante)
+
+Programme EU4Youth
+Jeun'ESS
+Fe3il.a
+Maghroum'IN
+Swafy
+Irada4Youth
+GO4Youth
+Plusieurs projets
+Je ne sais pas
+Obligatoire : Oui
+
+## [Heading 3] Zone géographique concernée (liste déroulante)
+
+Nationale
+Ariana
+Béja
+Ben Arous
+Bizerte
+Gabès
+Gafsa
+Jendouba
+Kairouan
+Kasserine
+Kébili
+Le Kef
+Mahdia
+La Manouba
+Médenine
+Monastir
+Nabeul
+Sfax
+Sidi Bouzid
+Siliana
+Sousse
+Tataouine
+Tozeur
+Tunis
+Zaghouan
+Internationale
+Non concerné
+Obligatoire : Non
+
+## [Heading 3] Objet de la demande (liste déroulante)
+
+Demande d'information
+Demande de partenariat
+Proposition de projet / initiative
+Demande de sponsoring ou de mécénat
+Demande média / presse
+Invitation à un événement
+Opportunité de collaboration
+Réclamation
+Signalement d'un problème technique (site web)
+Autre
+Obligatoire : Oui
+
+## [Heading 3] Objet (titre de votre demande)
+
+Champ texte (100 caractères maximum)
+Exemple : « Demande d'information sur les appels à projets »
+Obligatoire : Oui
+
+## [Heading 3] Message
+
+Zone de texte (maximum 2 000 caractères)
+Placeholder :
+Décrivez votre demande de manière détaillée afin que nous puissions vous répondre dans les meilleurs délais.
+Obligatoire : Oui
+
+## [Heading 2] 4. Consentement
+
+☐ J'accepte que les informations renseignées dans ce formulaire soient utilisées uniquement pour le traitement de ma demande, conformément à la politique de confidentialité du site.
+Obligatoire : Oui
+
+## [Heading 1] Boutons
+
+Envoyer la demande
+Réinitialiser (optionnel)
+
+## [Heading 1] Comportement attendu
+
+
+## [Heading 3] Validation
+
+Vérification du format de l'adresse e-mail.
+Tous les champs obligatoires doivent être renseignés avant l'envoi.
+Protection anti-spam (Cloudflare Turnstile ou Google reCAPTCHA v3).
+
+## [Heading 3] Après l'envoi
+
+Afficher le message suivant :
+Merci ! Votre demande a bien été envoyée. Notre équipe  vous répondra dans les meilleurs délais.
+
+## [Heading 1] Informations à transmettre dans le back-office / par e-mail
+
+Date et heure de soumission
+Nom
+Prénom
+Organisation
+Fonction
+E-mail
+Téléphone
+Profil du demandeur
+Projet concerné
+Zone géographique
+Objet de la demande
+Titre de la demande
+Message
+Consentement RGPD (Oui/Non)
+Adresse IP (journalisation, optionnel)
+Référence unique de la demande (générée automatiquement)
+
+### TABLE 1
+
+Champ | Type | Obligatoire
+Nom | Texte | ✅
+Prénom | Texte | ✅
+Organisation / Structure | Texte | Non
+Fonction | Texte | Non
+Adresse e-mail | Email | ✅
+Téléphone | Téléphone | Non

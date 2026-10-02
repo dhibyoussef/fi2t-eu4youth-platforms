@@ -1,0 +1,84 @@
+Filtres  —  Filtres combinables construits sur des taxonomies structurées, complétés d'une liste cliquable d'accès rapide en bas de section, avec compteur de résultats en temps réel.
+## [Heading 2] 2.1 Barre de filtres combinables
+Composant unique décliné avec des jeux de filtres différents selon la page. Chaque filtre est un multi-select à valeurs contrôlées (taxonomie), jamais un champ texte libre.
+En bas de la section de filtres, chaque page affiche une liste cliquable de raccourcis reprenant les valeurs de son filtre de type le plus discriminant (type d'actualité, type d'opportunité, type de ressource, catégorie thématique pour le glossaire). Ce composant offre un accès en un clic aux catégories les plus consultées, sans nécessiter l'ouverture du panneau de filtres complet ; il fonctionne comme un raccourci vers le filtre correspondant, pas comme un système distinct.
+Chaque composant fonctionnel (carte, filtre, champ de recherche, bouton de pagination) doit implémenter, a minima, les états suivants. Les déclencheurs et comportements ci-dessous constituent la référence par défaut ; les particularités propres à une page sont précisées dans sa section.
+Recherche  —  Champ de recherche par mots-clés, en complément des filtres.
+Filtres  —  Voir tableau 3.4, complété de la liste cliquable d'accès rapide (voir 3.5).
+## [Heading 2] 3.4 Filtres et taxonomie
+Positionnée en bas de la section de filtres, reprend les valeurs du filtre « Type d'actualité » (voir composant transverse 2.2).
+Filtres  —  Voir tableau 4.4, complété de la liste cliquable d'accès rapide (voir 4.5).
+## [Heading 2] 4.4 Filtres et taxonomie
+Les opportunités clôturées restent accessibles à titre d'archive et de démonstration de la dynamique du programme, mais sont visuellement distinguées (badge « Clôturé », carte atténuée) et reléguées en fin de liste par défaut plutôt que masquées, sauf sélection explicite du filtre « Clôturé ».
+Positionnée en bas de la section de filtres, reprend les valeurs du filtre « Type d'opportunité » (voir composant transverse 2.2). Le statut « Ouvertes uniquement » reste, lui, piloté par le filtre rapide de statut plutôt que par cette liste, pour éviter toute redondance de logique.
+Le gabarit Glossaire adapte la logique générale : la « navigation » y prend la forme d'un index alphabétique plutôt que d'un simple fil de filtres, et les « filtres » se limitent à la catégorie thématique du terme.
+Filtres  —  Filtre par catégorie thématique du terme, complété de la liste cliquable d'accès rapide (voir 5.5).
+Positionnée en bas de la section de filtres, reprend les catégories thématiques les plus représentées dans le glossaire (les mêmes catégories que la taxonomie Thématique). Elle complète l'index alphabétique par une entrée conceptuelle, utile lorsque l'utilisateur connaît le sujet mais pas le terme exact recherché.
+Filtres  —  Voir tableau 6.4, complété de la liste cliquable d'accès rapide (voir 6.5).
+## [Heading 2] 6.4 Filtres et taxonomie
+Positionnée en bas de la section de filtres, reprend les valeurs du filtre « Type de ressource » (voir composant transverse 2.2).
+Ce positionnement a une conséquence directe sur la conception : la page suit la logique générale du site (hero → introduction → navigation → contenus → contenus associés → CTA), mais l'allège délibérément à chaque étape où un excès de composants fonctionnels (filtres denses, taxonomies visibles) romprait l'immersion narrative. La densité fonctionnelle cède ici le pas à la densité visuelle et éditoriale.
+Filtres  —  Filtres réduits au strict nécessaire (voir 7.4) et liste cliquable d'accès rapide (voir 7.5), sans barre de filtres dense.
+## [Heading 2] 7.4 Filtres et taxonomie
+Les filtres restent volontairement peu nombreux, pour ne pas transformer une expérience de découverte narrative en exercice de recherche documentaire.
+Positionnée sous la section de filtres allégée, reprend le filtre « Type de récit » (voir composant transverse 2.2), pour un accès en un clic sans passer par un panneau de filtres.
+Projet | Filtre et tag d'appartenance sur Actualité, Opportunité, Publication | 1 contenu → 1 ou plusieurs projets
+Thématique | Filtre transverse sur les 4 pages ; entrée de liaison avec le Glossaire | 1 contenu → plusieurs thématiques
+Localisation | Filtre sur Actualité, Opportunité, Publication (portée géographique) | 1 contenu → 1 ou plusieurs localisations
+Compteur de résultats | Mis à jour en temps réel à chaque changement de filtre, avant validation explicite si possible (filtrage instantané)
+Combinaison de filtres | Logique ET entre familles de filtres, logique OU à l'intérieur d'une même famille
+Réinitialisation | Bouton « Réinitialiser les filtres » visible dès qu'un filtre est actif
+Filtres actifs | Rappel sous forme de tags supprimables individuellement au-dessus des résultats
+Persistance | Filtres réinjectés dans l'URL (paramètres de requête) pour permettre le partage et le retour arrière navigateur
+Sélection | Un clic sur un item applique immédiatement le filtre correspondant, à l'identique de sa sélection dans le filtre complet
+État actif | L'item sélectionné reste visuellement marqué (fond plein) et reste combinable avec les autres filtres actifs par ailleurs
+Désélection | Un second clic sur l'item actif retire le filtre
+Compteur | Chaque item peut afficher, entre parenthèses, le nombre de contenus correspondants, mis à jour selon les autres filtres déjà actifs
+Responsive | Liste disposée en ligne sur desktop ; scrollable horizontalement sur tablette et mobile, sans passer par le drawer de filtres
+Actif / sélectionné | Filtre ou raccourci coché | Marquage visuel persistant distinct du hover
+Aucun résultat | Filtres ne retournant aucun contenu | Message contextuel + suggestion de réinitialisation ou de filtres proches
+Filtre | Source des valeurs | Type
+Thématique | Taxonomie Thématique (partagée avec Glossaire, Opportunités, Publications) | Multi-select
+Type d'actualité | Liste contrôlée : communiqué, événement, partenariat, résultat / succès de terrain, vie du programme | Multi-select
+Filtres | Barre horizontale persistante (sticky) sous le hero | Barre horizontale scrollable ou accordéon repliable | Bouton « Filtrer » ouvrant un drawer plein écran ; barre sticky de résultats en bas d'écran
+Liste cliquable d'accès rapide | Ligne unique sous les filtres | Ligne scrollable horizontalement | Ligne scrollable horizontalement, visible sans ouvrir le drawer
+Type d'actualité | Liste contrôlée | Filtre, badge, tri, liste cliquable
+Thématique(s) | Relation taxonomie (multi) | Filtre, relation
+Projet(s) associé(s) | Relation taxonomie (multi) | Filtre, relation, module associé
+Localisation(s) | Relation taxonomie (multi) | Filtre
+Date de publication | Date | Tri, affichage, filtre période
+Filtre | Source des valeurs | Type
+Type d'opportunité | Liste contrôlée : appel à projets, appel à candidatures, stage / emploi, bourse, formation | Multi-select
+Thématique | Taxonomie Thématique | Multi-select
+Filtres | Barre horizontale sticky, statut en filtre rapide toujours visible | Filtres principaux visibles, secondaires en accordéon | Drawer plein écran ; filtre statut en chips toujours visibles au-dessus de la liste
+Liste cliquable d'accès rapide | Ligne unique sous les filtres | Ligne scrollable horizontalement | Ligne scrollable horizontalement, au-dessus des chips de statut
+Type d'opportunité | Liste contrôlée | Filtre, badge, liste cliquable
+Statut | Calculé (non saisi manuellement) | Filtre, badge, tri par défaut
+Thématique(s) | Relation taxonomie (multi) | Filtre, relation
+Projet associé | Relation taxonomie | Filtre, relation, module associé
+Public cible | Liste contrôlée (multi) | Filtre
+Localisation d'éligibilité | Relation taxonomie (multi) | Filtre
+Liste cliquable d'accès rapide | Ligne unique sous le filtre thématique | Ligne scrollable horizontalement | Ligne scrollable horizontalement, sous l'index
+Catégorie thématique | Relation taxonomie | Filtre, relation, liste cliquable
+Filtre | Source des valeurs | Type
+Thématique | Taxonomie Thématique | Multi-select
+Filtres | Barre horizontale sticky | Accordéon repliable | Drawer plein écran
+Liste cliquable d'accès rapide | Ligne unique sous les filtres | Ligne scrollable horizontalement | Ligne scrollable horizontalement
+Type de ressource | Liste contrôlée | Filtre, badge, liste cliquable
+Thématique(s) | Relation taxonomie (multi) | Filtre, relation
+Projet(s) associé(s) | Relation taxonomie (multi) | Filtre, relation, module associé
+Langue(s) disponibles | Liste contrôlée (multi) | Filtre, état « indisponible »
+Format | Liste contrôlée | Filtre, affichage
+Date de publication | Date | Tri, filtre année
+Filtre | Source des valeurs | Type
+Thématique | Taxonomie Thématique | Multi-select
+Filtres et liste cliquable | Ligne unique, discrète, sous le hero | Ligne scrollable horizontalement | Ligne scrollable horizontalement, sans drawer dédié
+Type de récit | Liste contrôlée | Filtre, liste cliquable
+Format | Liste contrôlée | Filtre, badge carte
+Projet associé | Relation taxonomie | Filtre, relation, module associé
+Thématique(s) | Relation taxonomie (multi) | Filtre, relation
+Localisation | Relation taxonomie | Filtre, affichage
+Langue(s) disponibles | Liste contrôlée (multi) | Filtre, état « traduction indisponible »
+Navigation principale | Filtres + recherche | Filtres + recherche | Index A–Z + recherche | Filtres + recherche | Hero à la une + filtres allégés
+Filtre dominant | Type d'actualité | Statut (ouvert / clôturé) | Catégorie thématique | Type de ressource | Type de récit
+Liste cliquable d'accès rapide | Type d'actualité | Type d'opportunité | Catégorie thématique | Type de ressource | Type de récit

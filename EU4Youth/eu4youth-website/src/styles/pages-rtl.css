@@ -1,0 +1,1765 @@
+/* Site-wide Arabic page polish (non-home).
+   FR/EN stay on physical LTR comps. Only html[dir=rtl] is affected.
+   Home-specific mirrors live in home-rtl.css. */
+
+/* ---------- Shared reading alignment ---------- */
+html[dir='rtl'] .page :is(
+  h1, h2, h3, h4,
+  [class*='__title'],
+  [class*='__subtitle'],
+  [class*='__eyebrow'],
+  [class*='__badge'],
+  [class*='__label'],
+  [class*='__name'],
+  [class*='__lead'],
+  [class*='__excerpt'],
+  [class*='__desc'],
+  [class*='__copy'],
+  [class*='__body'],
+  [class*='__chapo'],
+  [class*='__meta'],
+  [class*='filter'],
+  label,
+  legend
+) {
+  text-align: start;
+  letter-spacing: 0;
+}
+
+/* Intentionally no broad [class*=hero] !important start rule — it false-positives
+   on wrappers like .obj-hero__copy. Centered heroes are listed below; other page
+   titles inherit the shared start alignment above. */
+
+/* Keep intentionally centered heroes centered in AR too */
+html[dir='rtl'] .page :is(
+  .news-hero__copy,
+  .op-hero__copy,
+  .agenda-hero__copy,
+  .pub-hero__copy,
+  .gloss-hero__copy,
+  .stories-hero__copy,
+  .media-hero__copy,
+  .search-page__hero,
+  .pj-hero--centered,
+  .partners-hero,
+  .mechanisms-hero,
+  .obj-hero__title,
+  .page--objectifs .obj-hero h1
+) {
+  text-align: center;
+}
+
+html[dir='rtl'] .page :is(
+  .news-hero h1,
+  .op-hero h1,
+  .agenda-hero h1,
+  .pub-hero h1,
+  .gloss-hero h1,
+  .stories-hero h1,
+  .media-hero h1,
+  .search-page__hero h1,
+  .pj-hero--centered .pj-hero__title,
+  .pj-hero--centered .pj-hero__line,
+  .pj-hero--centered .pj-hero__acronym,
+  .obj-hero h1,
+  .obj-hero__title
+) {
+  text-align: center !important;
+  text-align-last: center !important;
+}
+
+/* Listing heroes: watermark stays on physical extreme right (same as FR) */
+html[dir='rtl'] .page--opportunities .op-hero,
+html[dir='rtl'] .page--news .news-hero,
+html[dir='rtl'] .page--agenda .agenda-hero,
+html[dir='rtl'] .page--stories .stories-hero,
+html[dir='rtl'] .page--media .media-hero {
+  direction: ltr;
+}
+
+html[dir='rtl'] .page--opportunities .op-hero__copy,
+html[dir='rtl'] .page--news .news-hero__copy,
+html[dir='rtl'] .page--agenda .agenda-hero__copy,
+html[dir='rtl'] .page--stories .stories-hero__copy,
+html[dir='rtl'] .page--media .media-hero__copy {
+  direction: rtl;
+  text-align: center;
+}
+
+html[dir='rtl'] .page--opportunities .op-hero__mark-slot,
+html[dir='rtl'] .page--news .news-hero__mark-slot,
+html[dir='rtl'] .page--agenda .agenda-hero__mark-slot,
+html[dir='rtl'] .page--stories .stories-hero__mark-slot,
+html[dir='rtl'] .page--media .media-hero__mark-slot {
+  left: auto !important;
+  right: 0 !important;
+  inset-inline: auto 0 !important;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+html[dir='rtl'] .page--stories .stories-hero__badge,
+html[dir='rtl'] .page--stories .stories-hero__title,
+html[dir='rtl'] .page--stories .stories-empty__eyebrow,
+html[dir='rtl'] .page--stories .stories-slots header p,
+html[dir='rtl'] .page--stories .stories-slots__media b,
+html[dir='rtl'] .page--stories .stories-projects header p,
+html[dir='rtl'] .page--stories .stories-projects h2 {
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--stories .stories-projects a > b {
+  transform: scaleX(-1);
+}
+
+/* Publications watermark stays on the physical left edge. */
+html[dir='rtl'] .page--publications .pub-hero__mark-slot {
+  left: 0;
+  right: auto;
+  justify-content: flex-start;
+}
+
+html[dir='rtl'] .page--publications .pub-hero__mark {
+  object-position: left center;
+}
+
+html[dir='rtl'] .page--publications .pub-search > span,
+html[dir='rtl'] .page--publications .pub-hero__title,
+html[dir='rtl'] .page--publications .pub-card__meta,
+html[dir='rtl'] .page--publications .pub-quick {
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--publications .pub-search b {
+  right: auto;
+  left: auto;
+  inset-inline-end: 2rem;
+}
+
+html[dir='rtl'] .page--glossary .gloss-hero {
+  direction: ltr;
+}
+
+html[dir='rtl'] .page--glossary .gloss-hero__copy {
+  direction: rtl;
+  text-align: center;
+}
+
+html[dir='rtl'] .page--glossary .gloss-hero__mark-slot {
+  left: auto !important;
+  right: 0 !important;
+  inset-inline: auto 0 !important;
+  justify-content: flex-end;
+}
+
+html[dir='rtl'] .page--glossary .gloss-eyebrow,
+html[dir='rtl'] .page--glossary .gloss-hero__title {
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--glossary .gloss-entry > button b {
+  transform: scaleX(-1);
+}
+
+html[dir='rtl'] .page--glossary .gloss-entry.is-open > button b {
+  transform: none;
+}
+
+html[dir='rtl'] .page--glossary .gloss-search b {
+  right: auto;
+  left: auto;
+  inset-inline-end: 1.6rem;
+}
+
+html[dir='rtl'] .page--eu-tunisie .eu-tn-hero__title,
+html[dir='rtl'] .page--eu-tunisie .eu-tn-themes__head h2 {
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+/* Stars stay on the physical right edge (same crop as FR). */
+html[dir='rtl'] .page--eu-tunisie .eu-tn-hero__stars {
+  right: -16rem;
+  left: auto;
+}
+
+html[dir='rtl'] .page--eu-tunisie .eu-tn-chev {
+  transform: scaleX(-1);
+}
+
+/* Keep theme carousel LTR like FR: prev left, next right (no mirrored swap). */
+html[dir='rtl'] .page--eu-tunisie .eu-tn-themes__carousel {
+  direction: ltr;
+}
+
+html[dir='rtl'] .page--media .media-hero__badge,
+html[dir='rtl'] .page--media .media-hero__title,
+html[dir='rtl'] .page--media .media-eyebrow,
+html[dir='rtl'] .page--media .media-access h2,
+html[dir='rtl'] .page--media .media-news h2,
+html[dir='rtl'] .page--media .media-videos h2,
+html[dir='rtl'] .page--media .media-resources h2,
+html[dir='rtl'] .page--media .media-contact h2,
+html[dir='rtl'] .page--media .media-resource__meta,
+html[dir='rtl'] .page--media .media-news__body b {
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--media .media-access a > b {
+  transform: scaleX(-1);
+}
+
+html[dir='rtl'] .page--agenda .agenda-search > span,
+html[dir='rtl'] .page--agenda .agenda-filters__head h2,
+html[dir='rtl'] .page--agenda .agenda-empty small,
+html[dir='rtl'] .page--agenda .agenda-card__meta b {
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--agenda .agenda-card__summary {
+  text-align: start !important;
+  text-align-last: start !important;
+}
+
+html[dir='rtl'] .page--agenda .agenda-search b {
+  right: auto;
+  left: auto;
+  inset-inline-end: 2rem;
+}
+
+html[dir='rtl'] .page--news .news-hero h1,
+html[dir='rtl'] .page--news .news-hero__title {
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
+
+html[dir='rtl'] .page--news .news-card__summary {
+  text-align: start !important;
+  text-align-last: start !important;
+}
+
+html[dir='rtl'] .page--news .news-card__foot {
+  direction: rtl;
+}
+
+html[dir='rtl'] .page--news .news-pagination {
+  direction: rtl;
+}
+
+/* Objectifs hero title stays centered (beats generic RTL h1 start rules) */
+html[dir='rtl'] .page--objectifs .obj-hero h1.obj-hero__title {
+  text-align: center !important;
+  text-align-last: center !important;
+}
+
+/* ---------- Leftover inline style accents only ---------- */
+html[dir='rtl'] .page [style*='border-left'] {
+  border-left-width: 0 !important;
+  border-inline-start-width: 0.6rem;
+  border-inline-start-style: solid;
+}
+
+/* ---------- Listing filters / rails ---------- */
+html[dir='rtl'] .page :is(
+  .news-filter,
+  .op-filter,
+  .pub-filter,
+  .agenda-filter,
+  .ps-filters,
+  .gloss-filters,
+  .map-filters,
+  [class*='filter__']
+) {
+  text-align: start;
+}
+
+html[dir='rtl'] .page :is(
+  .news-filter__chev,
+  .op-filter__chev,
+  .pub-filter__chev,
+  .agenda-filter__chev,
+  .disclosure__chev,
+  .obj-objective__chevron
+) {
+  transform: scaleX(-1);
+}
+
+html[dir='rtl'] .page .disclosure__row--open .disclosure__chev {
+  transform: scaleX(-1) rotate(180deg);
+}
+
+/* ---------- Project detail ---------- */
+/* Arabic must not use Latin uppercase shaping */
+html[dir='rtl'] .page--projet .pj-hero__title,
+html[dir='rtl'] .page--projet .pj-hero__line,
+html[dir='rtl'] .page--projet .pj-hero__acronym {
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--projet .pj-hero__watermark,
+html[dir='rtl'] .page--projet .pj-hero .brand-filigrane {
+  right: auto;
+  left: max(0.8rem, calc(var(--pad-x) * 0.35));
+}
+
+html[dir='rtl'] .page--projet .pj-intro__copy,
+html[dir='rtl'] .page--projet .pj-fiche,
+html[dir='rtl'] .page--projet .pj-objectifs,
+html[dir='rtl'] .page--projet .pj-feeds {
+  text-align: start;
+}
+
+html[dir='rtl'] .page--projet .pj-feeds h2,
+html[dir='rtl'] .page--projet .pj-feeds h2 span {
+  text-align: start;
+  text-transform: none !important;
+  letter-spacing: 0;
+  overflow: visible;
+}
+
+/* Keep label on the inline-start; flip chevron to point toward reading end */
+html[dir='rtl'] .page--projet .pj-feeds__cta .chev2 {
+  transform: scaleX(-1);
+}
+
+/* Keep partner strip composition like FR: logos left, project mark right */
+html[dir='rtl'] .page--projet .pj-strip__inner {
+  direction: ltr;
+}
+
+html[dir='rtl'] .page--projet .pj-strip__caption,
+html[dir='rtl'] .page--projet .pj-strip__footnote {
+  direction: rtl;
+  unicode-bidi: plaintext;
+}
+
+/* Fiche values: RTL isolate keeps list order (AECID … FIIAPP), not plaintext LTR flip */
+html[dir='rtl'] .page--projet .pj-fiche dd {
+  text-align: start;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+/* Period: plaintext so "2022 – 2027" stays LTR while Arabic periods stay RTL */
+html[dir='rtl'] .page--projet .pj-fiche dl > div:nth-child(3) dd {
+  direction: rtl;
+  unicode-bidi: plaintext;
+  text-align: start;
+}
+
+/* Objectifs: title on the right, tabs on the left (natural RTL flex) */
+html[dir='rtl'] .page--projet .pj-objectifs h2,
+html[dir='rtl'] .page--projet .pj-panel h3,
+html[dir='rtl'] .page--projet .pj-panel > p,
+html[dir='rtl'] .page--projet .pj-panel__list {
+  text-align: start;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+html[dir='rtl'] .page--projet .pj-panel__list li {
+  flex-direction: row;
+  text-align: start;
+}
+
+/* Composantes: numbers must lead Arabic (1. on the right), not LTR plaintext */
+html[dir='rtl'] .page--projet .pj-composantes {
+  text-align: start;
+  unicode-bidi: isolate;
+}
+
+html[dir='rtl'] .page--projet .pj-composantes > h2 {
+  text-align: start;
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--projet .pj-pick__mark-text,
+html[dir='rtl'] .page--projet .pj-composantes__picks:not(.pj-composantes__picks--marks) .pj-pick {
+  direction: rtl;
+  unicode-bidi: isolate;
+  text-align: start;
+  text-align-last: start !important;
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--projet .pj-impact {
+  text-align: center;
+}
+
+html[dir='rtl'] .page--projet .pj-impact > h2 {
+  text-align: center !important;
+  text-transform: none !important;
+  letter-spacing: 0;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+/* Multi-KPI grid: labels stay centered under the value */
+html[dir='rtl'] .page--projet .pj-impact__grid:not(.pj-impact__grid--rows) .pj-impact__label {
+  text-align: center;
+  direction: rtl;
+  unicode-bidi: isolate;
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--projet .pj-impact__value {
+  direction: ltr;
+  unicode-bidi: isolate;
+  white-space: nowrap;
+}
+
+html[dir='rtl'] .page--projet .pj-impact__grid {
+  justify-items: center;
+  justify-content: center;
+}
+
+/*
+ * 1–2 KPI rows: mirror FR (number hugs label).
+ * Value column is on the right → align number to end (toward label).
+ * Label column is on the left → align text to start (toward number).
+ */
+html[dir='rtl'] .page--projet .pj-impact__grid.pj-impact__grid--rows {
+  text-align: start;
+  justify-items: stretch;
+}
+
+html[dir='rtl'] .page--projet .pj-impact__grid.pj-impact__grid--rows > li {
+  justify-items: stretch;
+}
+
+html[dir='rtl'] .page--projet .pj-impact__grid.pj-impact__grid--rows .pj-impact__value {
+  text-align: end;
+}
+
+html[dir='rtl'] .page--projet .pj-impact__grid.pj-impact__grid--rows .pj-impact__label {
+  text-align: start;
+  direction: rtl;
+  unicode-bidi: isolate;
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+/* Stories: shrink-wrap the stack so eyebrow / title / CTA share one RTL start edge */
+html[dir='rtl'] .page--projet-jeuness .pj-stories__copy {
+  align-items: stretch;
+  width: max-content;
+  max-width: min(103.15rem, calc(100% - 72rem - var(--pad-x)));
+  margin: 0 0 0 72rem;
+  padding: 15.95rem var(--pad-x) 8rem 2.7rem;
+  text-align: start;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+html[dir='rtl'] .page--projet-jeuness .pj-stories__eyebrow,
+html[dir='rtl'] .page--projet-jeuness .pj-stories h2,
+html[dir='rtl'] .page--projet-jeuness .pj-stories h2 span {
+  width: auto;
+  max-width: 100%;
+  margin-inline: 0;
+  text-align: start !important;
+  text-align-last: start !important;
+  text-transform: none !important;
+  letter-spacing: 0;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+html[dir='rtl'] .page--projet-jeuness .pj-stories .btn {
+  align-self: stretch;
+  justify-content: flex-start;
+  width: auto;
+  max-width: 100%;
+  text-align: start;
+}
+
+/* Resources: books on physical right; text block on physical left */
+html[dir='rtl'] .page--projet .pj-ressources {
+  direction: ltr;
+  padding-block: 6rem;
+  padding-inline-start: var(--pad-x);
+  padding-inline-end: 0;
+  grid-template-columns: minmax(0, 1.85fr) minmax(26rem, 0.75fr);
+}
+
+html[dir='rtl'] .page--projet .pj-ressources > div:first-child {
+  align-items: flex-start;
+  justify-content: center;
+  padding-inline-end: 2rem;
+  text-align: start;
+  direction: ltr;
+}
+
+html[dir='rtl'] .page--projet .pj-ressources h2,
+html[dir='rtl'] .page--projet .pj-ressources .btn {
+  align-self: flex-start;
+  text-align: start;
+  text-transform: none !important;
+  letter-spacing: 0;
+  direction: rtl;
+  unicode-bidi: isolate;
+}
+
+html[dir='rtl'] .page--projet .pj-ressources h2 {
+  overflow: visible;
+}
+
+html[dir='rtl'] .page--projet .pj-ressources img {
+  object-position: left center;
+  justify-self: end;
+}
+
+html[dir='rtl'] .page--projet .pj-fiche__row,
+html[dir='rtl'] .page--projet .pj-fiche dt,
+html[dir='rtl'] .page--projet .pj-fiche dd {
+  text-align: start;
+}
+
+/* ---------- Map hero: same physical layout as FR (art left, copy + watermark right) ---------- */
+html[dir='rtl'] .page--carte .map-hero {
+  direction: ltr; /* keep grid: empty/art column left, copy column right */
+}
+
+html[dir='rtl'] .page--carte .map-hero__mark-slot {
+  left: auto !important;
+  right: 0 !important;
+  inset-inline: auto 0 !important;
+  justify-content: flex-end;
+  width: 42%;
+}
+
+html[dir='rtl'] .page--carte .map-hero__mark {
+  object-position: right center;
+}
+
+html[dir='rtl'] .page--carte .map-hero__copy {
+  grid-column: 2;
+  direction: rtl; /* Arabic alignment inside the FR copy column */
+  text-align: start;
+  /*
+    FR text sits near the map (start of col 2). AR is inverted: still on the
+    right, shifted left into the empty orange band — map art untouched.
+  */
+  padding: 0 clamp(24px, 3vw, 56px) 0 0;
+  transform: translateX(clamp(-140px, -10vw, -72px));
+}
+
+html[dir='rtl'] .page--carte .map-hero__copy :is(
+  .map-hero__badge,
+  .map-hero__title,
+  h1,
+  .map-hero__body,
+  .map-hero__lead
+) {
+  text-align: start !important;
+  text-align-last: start !important;
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+/* Legend: swatch before label at inline-start; keep colour chips visible */
+html[dir='rtl'] .page--carte .map-legend li {
+  flex-direction: row;
+}
+
+html[dir='rtl'] .page--carte .map-legend span {
+  flex-shrink: 0;
+}
+
+/* Result cards — mirror logo / copy / + and drop Latin uppercase on AR chrome */
+html[dir='rtl'] .page--carte .map-results__grid button {
+  direction: rtl;
+  text-align: start;
+}
+
+html[dir='rtl'] .page--carte .map-results__grid button > div,
+html[dir='rtl'] .page--carte .map-results__grid p,
+html[dir='rtl'] .page--carte .map-results__grid h3,
+html[dir='rtl'] .page--carte .map-results__grid span {
+  text-align: start !important;
+}
+
+html[dir='rtl'] .page--carte .map-results__grid b {
+  margin-left: 0;
+  margin-inline-start: 0.8rem;
+}
+
+html[dir='rtl'] .page--carte .map-results__grid p {
+  text-transform: none;
+}
+
+html[dir='rtl'] .page--carte .map-page__label {
+  letter-spacing: 0;
+  font-size: max(11px, calc(var(--label-size, 1.12rem) * 1.05));
+}
+
+html[dir='rtl'] .page--carte .map-tooltip strong {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* ---------- Contact already uses logical borders; ensure start alignment ---------- */
+html[dir='rtl'] .page--contact .contact-field,
+html[dir='rtl'] .page--contact .contact-hero__copy,
+html[dir='rtl'] .page--contact label {
+  text-align: start;
+}
+
+/* Watermark behind the title (left in RTL), not behind the portrait */
+html[dir='rtl'] .page--contact .contact-hero__mark-slot {
+  right: auto;
+  left: 0;
+  justify-content: flex-start;
+  padding: 0 0 0 1rem;
+}
+
+html[dir='rtl'] .page--contact .contact-hero__mark {
+  object-position: left center;
+}
+
+/* Keep tel LTR while typing; show empty placeholder like other RTL fields */
+html[dir='rtl'] .page--contact .contact-field input[type='tel']:placeholder-shown {
+  direction: rtl;
+  text-align: start;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--contact .contact-field input[type='tel']:not(:placeholder-shown) {
+  direction: ltr;
+  text-align: start;
+  unicode-bidi: isolate;
+}
+
+/* ---------- Buttons / CTAs with chevrons ---------- */
+html[dir='rtl'] .page .btn .chev2,
+html[dir='rtl'] .page [class*='__cta'] .chev2,
+html[dir='rtl'] .page [class*='cta'] .chev2 {
+  transform: scaleX(-1);
+}
+
+html[dir='rtl'] .page :is(.btn, [class*='__cta'], [class*='cta']):not(.stream__cta) {
+  white-space: normal;
+}
+
+/* ---------- Cards / feeds ---------- */
+html[dir='rtl'] .page :is(
+  .card__title,
+  .card__excerpt,
+  .card__meta,
+  .card__btn,
+  .project-feed-card,
+  .ProjectFeedCard
+) {
+  text-align: start;
+  unicode-bidi: plaintext;
+}
+
+/* ---------- Forms / search ---------- */
+html[dir='rtl'] .page :is(input, textarea, select) {
+  text-align: start;
+  font-family: var(--font-arabic);
+}
+
+/* ---------- Avoid breaking LTR number rows / funder blocks ---------- */
+html[dir='rtl'] .page :is(.funder-flags, [dir='ltr'], .kpi__value, .CountUp) {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: center;
+}
+
+@media (max-width: 1099px) {
+  html[dir='rtl'] .page :is(
+    [class*='hero__copy'],
+    [class*='-hero__copy'],
+    .map-hero__copy
+  ) {
+    padding-inline: 0;
+    margin-inline: 0;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/* ===================== À PROPOS (AR) =====================
+   Same blocks / comps as FR & EN — only RTL reading + type scale.
+   Do not invent alternate layouts. */
+
+/* Carousel arrows */
+html[dir='rtl'] .page--apropos .carousel__arrow svg {
+  transform: scaleX(-1);
+}
+
+/* ---------- Hero: same structure as FR, packed to the right ---------- */
+html[dir='rtl'] .page--apropos .ap-hero--slider .ap-hero__copy {
+  /* Under RTL, flex-start = physical RIGHT (reading start) */
+  align-items: stretch;
+  width: min(116rem, calc(100% - 32rem));
+  margin: 10rem max(var(--gutter), 14rem) 11rem auto;
+}
+
+html[dir='rtl'] .page--apropos .ap-hero__intro {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: 114rem;
+  margin-inline-start: auto;
+}
+
+html[dir='rtl'] .page--apropos .ap-hero__badge {
+  width: fit-content;
+  max-width: 100%;
+  /* flex-start under RTL → physical right, flush with title start */
+  align-self: flex-start;
+  margin-bottom: 0.7rem;
+  padding: 1.25rem 2.4rem;
+  font-size: 4.2rem;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  white-space: normal;
+  text-transform: uppercase;
+}
+
+html[dir='rtl'] .page--apropos .ap-hero__title {
+  width: 100%;
+  max-width: none;
+  margin: 0 0 4.4rem;
+  font-size: 7.3rem;
+  line-height: 1.22;
+  text-align: start;
+}
+
+html[dir='rtl'] .page--apropos .ap-hero__title span {
+  display: block;
+  width: 100%;
+  text-align: start;
+  text-align-last: start;
+}
+
+html[dir='rtl'] .page--apropos .ap-hero__actions {
+  direction: rtl;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: stretch;
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 108rem;
+  margin-top: 3.2rem;
+  margin-inline-start: auto;
+}
+
+html[dir='rtl'] .page--apropos .ap-hero__actions .btn {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 7.6rem;
+  height: 100%;
+  padding: 1.4rem 1.6rem;
+  font-size: 2.85rem;
+  line-height: 1.25;
+  white-space: normal;
+  text-align: center;
+}
+
+/* ---------- Vision: same stack as FR; watermark flush left extremity ---------- */
+html[dir='rtl'] .page--apropos .ap-vision {
+  display: grid;
+  justify-items: stretch;
+  padding: 7.56rem var(--pad-x) 12.4rem 7.1rem;
+}
+
+html[dir='rtl'] .page--apropos .ap-vision__mark-slot {
+  right: auto;
+  left: 0;
+  width: min(48%, 88rem);
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+html[dir='rtl'] .page--apropos .ap-vision__mark {
+  object-position: left center;
+  height: 90%;
+  margin: 0;
+  opacity: 0.18;
+  mix-blend-mode: multiply;
+}
+
+html[dir='rtl'] .page--apropos .ap-vision__title {
+  position: relative;
+  z-index: 1;
+  width: calc(50% + (var(--pad-x, 16rem) - 7.1rem) / 2);
+  margin: 0 0 9.5rem auto;
+  text-align: start;
+  text-transform: none;
+  letter-spacing: 0;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--apropos .ap-vision__copy {
+  position: relative;
+  z-index: 1;
+  width: calc(50% + (var(--pad-x, 16rem) - 7.1rem) / 2);
+  max-width: none;
+  margin: 0 0 0 auto;
+  gap: 5rem;
+}
+
+html[dir='rtl'] .page--apropos .ap-vision__lead,
+html[dir='rtl'] .page--apropos .ap-vision__body {
+  text-align: start;
+  text-align-last: start;
+  letter-spacing: 0;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--apropos .ap-vision__copy > .readmore__toggle {
+  width: max-content;
+  justify-self: end;
+  margin-top: 6rem;
+}
+
+/* ---------- Axes: same grid as FR (title | tabs), RTL text ---------- */
+html[dir='rtl'] .page--apropos .ap-comment {
+  direction: ltr;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 4rem;
+  padding: 6rem calc(var(--bleed) + 7rem) 16rem calc(var(--bleed) + 8.88rem);
+}
+
+html[dir='rtl'] .page--apropos .ap-comment__title {
+  grid-area: 1 / 2;
+  justify-self: end;
+  align-self: start;
+  width: max-content;
+  max-width: 92rem;
+  margin: 0 0 1rem;
+  text-align: start;
+  direction: rtl;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--apropos .axes__tabs {
+  grid-area: 1 / 1;
+  direction: rtl;
+  justify-self: start;
+  align-self: end;
+  justify-content: flex-start;
+  z-index: 2;
+}
+
+html[dir='rtl'] .page--apropos .ap-comment__mark-slot {
+  right: auto;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: min(48%, 88rem);
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 0 0 1rem;
+  overflow: hidden;
+  z-index: 0;
+}
+
+html[dir='rtl'] .page--apropos .ap-comment__mark {
+  object-position: left center;
+  height: 86%;
+  opacity: 0.16;
+  filter: brightness(0) invert(1);
+  mix-blend-mode: soft-light;
+}
+
+html[dir='rtl'] .page--apropos .axes__panel {
+  grid-area: 2 / 1 / 3 / 3;
+  direction: rtl;
+  text-align: start;
+  padding: 6rem 5.5rem 5rem 7rem;
+}
+
+html[dir='rtl'] .page--apropos .axes__kicker,
+html[dir='rtl'] .page--apropos .axes__title,
+html[dir='rtl'] .page--apropos .axes__body {
+  text-align: start;
+  text-align-last: start;
+  unicode-bidi: plaintext;
+}
+
+/* ---------- Six projects: same band as FR ---------- */
+html[dir='rtl'] .page--apropos .ap-projets {
+  padding-inline: calc(var(--bleed) + 7.7rem) var(--pad-x);
+}
+
+html[dir='rtl'] .page--apropos .ap-projets__title,
+html[dir='rtl'] .page--apropos .ap-projets__subtitle,
+html[dir='rtl'] .page--apropos .ap-projets__body {
+  text-align: start;
+  text-align-last: start;
+  letter-spacing: 0;
+  unicode-bidi: plaintext;
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+
+html[dir='rtl'] .page--apropos .ap-projets__subtitle {
+  padding-inline-start: 0;
+  padding-inline-end: 3.6rem;
+}
+
+html[dir='rtl'] .page--apropos .ap-projets__logos,
+html[dir='rtl'] .page--apropos .ap-projets__logos li,
+html[dir='rtl'] .page--apropos .ap-logo,
+html[dir='rtl'] .page--apropos .ap-logo img {
+  transform: none !important;
+}
+
+/* ---------- Territoires: SAME columns as FR (text | map); shared half-cercle ---------- */
+html[dir='rtl'] .page--apropos .ap-territoires {
+  direction: ltr;
+  grid-template-columns: minmax(0, 72fr) minmax(0, 100fr);
+  grid-template-areas: 'main map';
+  column-gap: 6.5rem;
+  padding: 8rem 5rem 10rem 10.5rem;
+  overflow: visible;
+}
+
+html[dir='rtl'] .page--apropos .ap-territoires__main {
+  direction: rtl;
+  justify-content: center;
+  gap: 3.4rem;
+}
+
+html[dir='rtl'] .page--apropos .ap-territoires__title,
+html[dir='rtl'] .page--apropos .ap-territoires__copy,
+html[dir='rtl'] .page--apropos .ap-territoires__copy p {
+  direction: rtl;
+  text-align: start;
+  text-align-last: start;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--apropos .ap-territoires__copy > .readmore__toggle {
+  justify-self: end;
+}
+
+/* Use the shared Disque asset (not a separate AR-only ::before) */
+html[dir='rtl'] .page--apropos .ap-territoires__disque {
+  display: block;
+}
+
+html[dir='rtl'] .page--apropos .ap-map::before {
+  content: none !important;
+}
+
+html[dir='rtl'] .page--apropos .ap-map {
+  direction: ltr;
+  /* Same interior as FR: logos | map */
+  grid-template-columns: 22rem minmax(0, 1fr);
+  grid-template-areas:
+    'legend legend'
+    'picks plate';
+  column-gap: 4rem;
+  padding: 5.5rem 5.5rem 4.5rem 6.5rem;
+  overflow: visible;
+}
+
+html[dir='rtl'] .page--apropos .ap-map__legend {
+  direction: rtl;
+  padding-inline-end: 12rem;
+  padding-inline-start: 0;
+  text-align: start;
+}
+
+html[dir='rtl'] .page--apropos .ap-map__title,
+html[dir='rtl'] .page--apropos .ap-map__note {
+  text-align: start;
+  text-align-last: start;
+  overflow-wrap: normal;
+  letter-spacing: 0;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--apropos .ap-pick {
+  padding: 0.2rem 0.5rem 0.2rem 0;
+  border-left: 0;
+  border-right: 0.6rem solid transparent;
+}
+
+html[dir='rtl'] .page--apropos .ap-pick--on {
+  border-right-color: var(--eu-blue);
+  border-left-color: transparent;
+}
+
+html[dir='rtl'] .page--apropos .ap-pick img {
+  object-position: left center;
+  transform: none !important;
+}
+
+html[dir='rtl'] .page--apropos .ap-map__label {
+  direction: rtl;
+  unicode-bidi: plaintext;
+  letter-spacing: 0;
+  text-transform: none;
+  font-family: var(--font-arabic, var(--font-display));
+}
+
+/* ---------- Partners (keep prior EU card fixes) ---------- */
+html[dir='rtl'] .page--apropos .ap-partners__title {
+  text-align: start;
+  padding-inline: max(var(--pad-x), 9rem);
+}
+
+html[dir='rtl'] .page--apropos .ap-eu {
+  direction: ltr;
+}
+
+html[dir='rtl'] .page--apropos .ap-eu__copy,
+html[dir='rtl'] .page--apropos .ap-eu__copy h3,
+html[dir='rtl'] .page--apropos .ap-eu__copy p {
+  direction: rtl;
+  text-align: start;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--apropos .ap-eu__labels {
+  direction: ltr;
+}
+
+html[dir='rtl'] .page--apropos .ap-eu__label {
+  direction: rtl;
+  text-align: center;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--apropos .ap-impl {
+  direction: rtl;
+}
+
+html[dir='rtl'] .page--apropos .ap-impl__card,
+html[dir='rtl'] .page--apropos .ap-impl__org,
+html[dir='rtl'] .page--apropos .ap-impl__role {
+  text-align: start;
+  unicode-bidi: plaintext;
+}
+
+/* ---------- 4. Avenir: signpost far right; chevrons next to text; tighter spacing ---------- */
+html[dir='rtl'] .page--apropos .ap-avenir {
+  /* Full-width accordion left of signpost; hug both edges; close pink gap to art */
+  --avenir-art-gutter: 52rem;
+  padding: 3.6rem calc(var(--bleed) + var(--avenir-art-gutter)) 5.1rem calc(var(--bleed) + 2rem);
+}
+
+html[dir='rtl'] .page--apropos .ap-avenir__title,
+html[dir='rtl'] .page--apropos .ap-avenir__body {
+  text-align: start;
+  text-align-last: start;
+  unicode-bidi: plaintext;
+  max-width: none;
+  width: 100%;
+}
+
+html[dir='rtl'] .page--apropos .ap-avenir__body {
+  margin-bottom: 14rem; /* D3: more air before first accordion row */
+}
+
+html[dir='rtl'] .page--apropos .ap-avenir .disclosure {
+  margin-block-start: 0;
+  width: 100%;
+  max-width: none;
+}
+
+html[dir='rtl'] .page--apropos .ap-avenir .disclosure__head {
+  justify-content: flex-start;
+  gap: 1.6rem;
+  padding: 1.4rem 2rem 1.4rem 2.4rem;
+}
+
+html[dir='rtl'] .page--apropos .ap-avenir .disclosure__chev {
+  order: -1; /* under dir=rtl → first flex item sits on the right */
+  flex: 0 0 auto;
+  margin: 0;
+}
+
+html[dir='rtl'] .page--apropos .ap-avenir .disclosure__titles {
+  flex: 0 1 auto;
+  text-align: start;
+}
+
+html[dir='rtl'] .page--apropos .ap-avenir .disclosure__panel {
+  text-align: start;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--apropos .ap-avenir__art-slot {
+  inset-inline: auto;
+  left: auto;
+  right: calc(var(--bleed) + 0.6rem);
+  bottom: 0;
+  width: 50rem;
+  max-width: calc(100% - var(--bleed) - 3rem);
+  z-index: 1;
+}
+
+html[dir='rtl'] .page--apropos .ap-avenir__art {
+  margin-left: auto;
+  margin-right: 0;
+  width: 100%;
+}
+
+/* Footer band: SAME as FR — logo left, flags right (do not mirror) */
+html[dir='rtl'] .footer__home {
+  inset-inline-start: clamp(1.2rem, 1.8vw, 2.8rem) !important;
+  inset-inline-end: auto !important;
+  left: clamp(1.2rem, 1.8vw, 2.8rem) !important;
+  right: auto !important;
+}
+
+html[dir='rtl'] .footer .footer__funders,
+html[dir='rtl'] .footer .funder-flags {
+  left: auto !important;
+  right: clamp(1.2rem, 1.8vw, 2.8rem) !important;
+  inset-inline-start: auto;
+  inset-inline-end: clamp(1.2rem, 1.8vw, 2.8rem);
+}
+
+@media (min-width: 1100px) {
+  html[dir='rtl'] .footer .band__inner {
+    direction: ltr;
+    padding-inline: clamp(1.2rem, 1.8vw, 2.8rem);
+  }
+
+  html[dir='rtl'] .footer__home {
+    position: static !important;
+    justify-self: start; /* physical left */
+    width: max(14rem, 128px);
+    inset: auto !important;
+    left: auto !important;
+    right: auto !important;
+  }
+
+  html[dir='rtl'] .footer__funders,
+  html[dir='rtl'] .footer .funder-flags {
+    position: static !important;
+    justify-self: end; /* physical right */
+    left: auto !important;
+    right: auto !important;
+    inset: auto !important;
+  }
+}
+
+@media (max-width: 1099px) {
+  html[dir='rtl'] .page--apropos .ap-comment {
+    direction: rtl;
+    grid-template-columns: 1fr;
+  }
+
+  html[dir='rtl'] .page--apropos .ap-comment__title {
+    grid-area: auto;
+    justify-self: stretch;
+    max-width: 100%;
+    margin: 0 0 1rem;
+  }
+
+  html[dir='rtl'] .page--apropos .axes__tabs {
+    grid-area: auto;
+    justify-self: stretch;
+  }
+
+  html[dir='rtl'] .page--apropos .ap-avenir {
+    --avenir-art-gutter: 0rem;
+    padding: 3.2rem var(--gutter) 4rem;
+  }
+
+  html[dir='rtl'] .page--apropos .ap-avenir__art-slot {
+    position: relative;
+    right: auto;
+    left: auto;
+    width: min(48rem, 80%);
+    margin: 2rem auto 0;
+  }
+}
+
+/* ===================== OBJECTIFS (AR) =====================
+   Same blocks as FR/EN — RTL reading, type parity, no alternate comps. */
+
+/* --- Hero (pink): centered title like FR; badge/copy start; watermark left --- */
+html[dir='rtl'] .page--objectifs .obj-hero {
+  text-align: start;
+}
+
+html[dir='rtl'] .page--objectifs .obj-hero::before {
+  right: auto;
+  left: 0;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--objectifs .obj-hero__eyebrow {
+  display: inline-flex;
+  align-self: flex-start; /* under RTL → physical right (FR top-left mirror) */
+  width: fit-content;
+  max-width: 100%;
+  white-space: nowrap;
+  letter-spacing: 0;
+  text-transform: none;
+  float: none;
+}
+
+html[dir='rtl'] .page--objectifs .obj-hero__copy {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  clear: both;
+}
+
+html[dir='rtl'] .page--objectifs .obj-hero h1.obj-hero__title {
+  text-align: center !important;
+  text-align-last: center !important;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--objectifs .obj-hero h2.obj-hero__vision {
+  text-align: start;
+  text-transform: none;
+  letter-spacing: 0;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--objectifs .obj-hero__lead,
+html[dir='rtl'] .page--objectifs .obj-hero__body,
+html[dir='rtl'] .page--objectifs .obj-hero__closing,
+html[dir='rtl'] .page--objectifs .obj-hero__closing p,
+html[dir='rtl'] .page--objectifs .obj-hero__principles li {
+  text-align: start !important;
+  text-align-last: start !important;
+  unicode-bidi: plaintext;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--objectifs .obj-hero__principles {
+  direction: rtl;
+}
+
+/* Blue callout: keep FR width; under RTL it sits on the right (reading start) */
+html[dir='rtl'] .page--objectifs .obj-hero__closing {
+  margin-inline-start: 0;
+  margin-inline-end: auto;
+  border-inline-start-color: var(--orange);
+}
+
+html[dir='rtl'] .page--objectifs .obj-hero .brand-filigrane {
+  right: auto;
+  left: max(0.8rem, calc(var(--pad-x) * 0.35));
+}
+
+/* --- Accordion: under RTL, space-between → labels at start (right), chevron at end (left) --- */
+html[dir='rtl'] .page--objectifs .obj-objectives__heading {
+  flex-direction: row; /* icon first in DOM → physical right under RTL */
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+html[dir='rtl'] .page--objectifs .obj-objective__button {
+  justify-content: space-between;
+  gap: 2rem;
+  text-align: start;
+}
+
+html[dir='rtl'] .page--objectifs .obj-objective__chevron {
+  flex: 0 0 auto;
+  margin: 0;
+  order: 0; /* keep DOM order: labels then chevron → chevron on left under RTL */
+}
+
+html[dir='rtl'] .page--objectifs .obj-objective__labels {
+  flex: 1 1 auto;
+  text-align: start;
+  min-width: 0;
+}
+
+html[dir='rtl'] .page--objectifs .obj-objective__kicker,
+html[dir='rtl'] .page--objectifs .obj-objective__title {
+  text-align: start;
+  letter-spacing: 0;
+  text-transform: none;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--objectifs .obj-objective__panel {
+  text-align: start;
+  text-align-last: start;
+  unicode-bidi: plaintext;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--objectifs .obj-objective--open .obj-objective__chevron {
+  transform: scaleX(-1) rotate(180deg);
+}
+
+/* --- Axes: same FR grid (title | tabs), pack title toward tabs on the right --- */
+html[dir='rtl'] .page--objectifs .obj-action {
+  direction: ltr;
+  grid-template-columns: 1fr auto;
+  column-gap: 2rem;
+}
+
+html[dir='rtl'] .page--objectifs .obj-action > h2 {
+  grid-area: 1 / 1;
+  justify-self: end;
+  align-self: center;
+  width: max-content;
+  max-width: min(90rem, 100%);
+  margin: 0;
+  text-align: start;
+  direction: rtl;
+  unicode-bidi: plaintext;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+html[dir='rtl'] .page--objectifs .obj-axes__tabs {
+  grid-area: 1 / 2;
+  direction: rtl; /* 1 → 2 → 3 from the right */
+  justify-self: end;
+  align-self: end;
+  justify-content: flex-start;
+}
+
+html[dir='rtl'] .page--objectifs .obj-axes__panel {
+  grid-area: 2 / 1 / 3 / 3;
+  direction: rtl;
+  text-align: start;
+}
+
+html[dir='rtl'] .page--objectifs .obj-axes__kicker,
+html[dir='rtl'] .page--objectifs .obj-axes__panel h3,
+html[dir='rtl'] .page--objectifs .obj-axes__body {
+  text-align: start;
+  text-align-last: start;
+  unicode-bidi: plaintext;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* --- Projets band: same FR structure; C-codes at reading-start; CTA « --- */
+html[dir='rtl'] .page--objectifs .obj-projets__title,
+html[dir='rtl'] .page--objectifs .obj-projets__subtitle,
+html[dir='rtl'] .page--objectifs .obj-projets__body {
+  text-align: start;
+  text-align-last: start;
+  letter-spacing: 0;
+  text-transform: none;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--objectifs .obj-projets__logos,
+html[dir='rtl'] .page--objectifs .obj-projets__logos a,
+html[dir='rtl'] .page--objectifs .obj-logo,
+html[dir='rtl'] .page--objectifs .obj-logo img {
+  transform: none !important;
+}
+
+html[dir='rtl'] .page--objectifs .obj-composantes {
+  direction: rtl; /* C1 on the right, then C2, C3 */
+}
+
+html[dir='rtl'] .page--objectifs .obj-composante {
+  direction: rtl;
+  text-align: start;
+}
+
+html[dir='rtl'] .page--objectifs .obj-composante__code {
+  text-align: start;
+  letter-spacing: 0.02em;
+  direction: ltr; /* keep C1 readable LTR */
+  unicode-bidi: isolate;
+  display: block;
+  width: fit-content;
+  /* physical: direction:ltr on this node flips logical margins */
+  margin-left: auto;
+  margin-right: 0;
+}
+
+html[dir='rtl'] .page--objectifs .obj-composante h3,
+html[dir='rtl'] .page--objectifs .obj-composante a {
+  text-align: start;
+  letter-spacing: 0;
+}
+
+/* Latin project names: keep them parked on the reading-start edge (right) */
+html[dir='rtl'] .page--objectifs .obj-composante a {
+  direction: rtl;
+  unicode-bidi: isolate;
+  display: block;
+}
+
+html[dir='rtl'] .page--objectifs .obj-projets__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-inline-start: 0;
+  margin-inline-end: auto; /* pack to reading-start (right) */
+}
+
+html[dir='rtl'] .page--objectifs .obj-projets__cta > span[aria-hidden='true'] {
+  display: inline-block;
+  transform: scaleX(-1); /* » → « at the end (left under RTL) */
+  order: 0;
+}
+
+@media (max-width: 1099px) {
+  html[dir='rtl'] .page--objectifs .obj-action {
+    direction: rtl;
+    grid-template-columns: 1fr;
+  }
+
+  html[dir='rtl'] .page--objectifs .obj-action > h2,
+  html[dir='rtl'] .page--objectifs .obj-axes__tabs {
+    grid-area: auto;
+    justify-self: stretch;
+    max-width: 100%;
+  }
+
+  html[dir='rtl'] .page--objectifs .obj-hero__eyebrow {
+    float: none;
+  }
+}
+
+/* ===================== GOUVERNANCE (AR) =====================
+   Same blocks as FR/EN — RTL reading, type parity, no alternate comps. */
+
+html[dir='rtl'] .page--gouvernance .gov-hero::after {
+  right: auto;
+  left: 0;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-hero__eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  max-width: 100%;
+  letter-spacing: 0;
+  text-transform: none;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-hero h1,
+html[dir='rtl'] .page--gouvernance .gov-hero__title {
+  text-align: start !important;
+  text-align-last: start !important;
+  letter-spacing: 0;
+  text-transform: none;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-hero__copy > p:last-child {
+  text-align: start !important;
+  text-align-last: start !important;
+  letter-spacing: 0;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-hero__map,
+html[dir='rtl'] .page--gouvernance .gov-hero__map path {
+  transform: none !important;
+}
+
+/* Model: 01→04 from the right; type polish */
+html[dir='rtl'] .page--gouvernance .gov-model h2,
+html[dir='rtl'] .page--gouvernance .gov-model__intro,
+html[dir='rtl'] .page--gouvernance .gov-levels h3,
+html[dir='rtl'] .page--gouvernance .gov-levels p {
+  text-align: start !important;
+  text-align-last: start !important;
+  letter-spacing: 0;
+  text-transform: none;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-levels {
+  direction: rtl;
+}
+
+/* Map band: picks already start on the right via dir=rtl grid */
+html[dir='rtl'] .page--gouvernance .gov-map__head p,
+html[dir='rtl'] .page--gouvernance .gov-map__head h2,
+html[dir='rtl'] .page--gouvernance .gov-map__copy h3,
+html[dir='rtl'] .page--gouvernance .gov-map__copy > p,
+html[dir='rtl'] .page--gouvernance .gov-map__readout,
+html[dir='rtl'] .page--gouvernance .gov-pick__tab {
+  text-align: start !important;
+  text-align-last: start !important;
+  letter-spacing: 0;
+  text-transform: none;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-pick:hover {
+  transform: translateX(-0.6rem); /* nudge toward reading-start */
+}
+
+html[dir='rtl'] .page--gouvernance .gov-map__head h2,
+html[dir='rtl'] .page--gouvernance .gov-map__title {
+  white-space: normal;
+}
+
+/* Keep Arabic title on one visual line (no forced span break) */
+html[dir='rtl'] .page--gouvernance .gov-map__head h2 span:not(.cms-chip-only):not(.cms-pencil) {
+  display: inline;
+  color: var(--orange);
+}
+
+html[dir='rtl'] .page--gouvernance .gov-map__head h2 span:not(.cms-chip-only):not(.cms-pencil)::before {
+  content: ' ';
+}
+
+/* Picks: number on the physical LEFT (FR mirror of number-left) */
+html[dir='rtl'] .page--gouvernance .gov-pick {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  min-height: 8.8rem;
+  padding-block: 2.6rem;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-pick__number {
+  flex: none;
+}
+
+/* Info card: watermark parks on reading-end side (left in RTL) */
+html[dir='rtl'] .page--gouvernance .gov-map__number {
+  left: 2.4rem !important;
+  right: auto !important;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-map__legend li::before {
+  order: 0;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-map__plate,
+html[dir='rtl'] .page--gouvernance .gov-map__svg,
+html[dir='rtl'] .page--gouvernance .gov-map__gov {
+  transform: none !important;
+}
+
+/* EU band + framework members bullets */
+html[dir='rtl'] .page--gouvernance .gov-eu h2,
+html[dir='rtl'] .page--gouvernance .gov-eu__copy p,
+html[dir='rtl'] .page--gouvernance .gov-framework h2,
+html[dir='rtl'] .page--gouvernance .gov-framework__copy p,
+html[dir='rtl'] .page--gouvernance .gov-framework__members li {
+  text-align: start !important;
+  text-align-last: start !important;
+  letter-spacing: 0;
+  text-transform: none;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-framework__members li::before {
+  left: auto;
+  right: 0;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-eu__flags,
+html[dir='rtl'] .page--gouvernance .gov-eu__flags img,
+html[dir='rtl'] .page--gouvernance .gov-eu__flags .funder-flags__flag,
+html[dir='rtl'] .page--gouvernance .gov-institutions__grid img,
+html[dir='rtl'] .page--gouvernance .gov-projects img {
+  transform: none !important;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-eu__flags {
+  /* Outer edge of the left column (FR flags hug the outer right) */
+  justify-self: end;
+  justify-content: flex-end;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-eu__flags .funder-flags__item,
+html[dir='rtl'] .page--gouvernance .gov-eu__flags .funder-flags--footer .funder-flags__item {
+  width: 36rem;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-eu__flags .funder-flags__flag-wrap,
+html[dir='rtl'] .page--gouvernance .gov-eu__flags .funder-flags--footer .funder-flags__flag-wrap {
+  width: 26rem;
+  height: 13rem;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-eu__flags .funder-flags__caption {
+  letter-spacing: 0;
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+/* Institutions / implementation / accountability / youth / legacy */
+html[dir='rtl'] .page--gouvernance .gov-implementation h2,
+html[dir='rtl'] .page--gouvernance .gov-implementation__heading p,
+html[dir='rtl'] .page--gouvernance .gov-projects h3,
+html[dir='rtl'] .page--gouvernance .gov-projects p,
+html[dir='rtl'] .page--gouvernance .gov-projects span:not(.cms-pencil),
+html[dir='rtl'] .page--gouvernance .gov-accountability > h2,
+html[dir='rtl'] .page--gouvernance .gov-accountability__grid h3,
+html[dir='rtl'] .page--gouvernance .gov-accountability__grid p,
+html[dir='rtl'] .page--gouvernance .gov-youth h2,
+html[dir='rtl'] .page--gouvernance .gov-youth__copy p,
+html[dir='rtl'] .page--gouvernance .gov-legacy h2,
+html[dir='rtl'] .page--gouvernance .gov-legacy > p,
+html[dir='rtl'] .page--gouvernance .gov-cta h2 {
+  text-align: start !important;
+  text-align-last: start !important;
+  letter-spacing: 0;
+  text-transform: none;
+  unicode-bidi: plaintext;
+}
+
+/* Institutions: keep FR-style centered title + intro; only grid text-pills go RTL */
+html[dir='rtl'] .page--gouvernance .gov-institutions {
+  text-align: center;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-institutions > h2,
+html[dir='rtl'] .page--gouvernance .gov-institutions > p {
+  text-align: center !important;
+  text-align-last: center !important;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-institutions__text span {
+  text-align: start;
+  unicode-bidi: plaintext;
+}
+
+/* Project cards: logo column stays first in DOM → physical right under RTL */
+html[dir='rtl'] .page--gouvernance .gov-projects > li > a > div {
+  text-align: start;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-projects h3 {
+  /* keep Latin names readable without flipping text-align to physical left */
+  unicode-bidi: isolate;
+  text-align: start !important;
+}
+
+html[dir='rtl'] .page--gouvernance .gov-cta .btn > span[aria-hidden='true'] {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
+/* Financement: keep «60 M€» LTR; chevrons use locale glyph (no scaleX) */
+html[dir='rtl'] .page--financement .fin-hero__amount {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* Arabic unit is longer than «M€» — keep one line beside 60, slightly smaller */
+html[dir='rtl'] .page--financement .fin-hero__figure .fin-hero__amount strong {
+  font-size: clamp(3.2rem, 3.4vw, 4.8rem);
+  line-height: 1;
+  padding-bottom: 0.85rem;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+html[dir='rtl'] .page--financement .fin-hero__lead {
+  text-align: start;
+  text-wrap: pretty;
+  line-height: 1.55;
+  max-width: 100%;
+}
+
+@media (max-width: 1099px) {
+  html[dir='rtl'] .page--gouvernance .gov-map__number {
+    left: 1.6rem;
+    right: auto;
+  }
+}
+
+/* ===================== PARTENAIRES / MÉCANISMES (AR) ===================== */
+
+html[dir='rtl'] .page--partners .partners-figures dd,
+html[dir='rtl'] .page--partners .partners-cta p,
+html[dir='rtl'] .page--partners .partners-cta h2,
+html[dir='rtl'] .page--partners .partners-implementers span,
+html[dir='rtl'] .page--mechanisms .mechanisms-intro__count,
+html[dir='rtl'] .page--mechanisms .mechanisms-cta p,
+html[dir='rtl'] .page--mechanisms .mechanisms-cta h2 {
+  text-transform: none !important;
+  letter-spacing: 0;
+}
+
+html[dir='rtl'] .page--partners .partners-panel header p,
+html[dir='rtl'] .page--partners .partners-implementers p,
+html[dir='rtl'] .page--mechanisms .mechanisms-intro,
+html[dir='rtl'] .page--mechanisms .mechanism-card__body {
+  text-align: start;
+}
+
+html[dir='rtl'] .page--mechanisms .mechanism-card__results li::before {
+  inset-inline-start: 0;
+  left: auto;
+  right: auto;
+}
+
+html[dir='rtl'] .page--projets .ps-cta a > span[aria-hidden='true'],
+html[dir='rtl'] .page--projets .ps-card__more > span[aria-hidden='true'] {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
+html[dir='rtl'] .page--financement .fin-hero .brand-filigrane {
+  right: auto;
+  left: 1.2rem;
+}
+
+html[dir='rtl'] .page--apropos .fiche__cta > span[aria-hidden='true'] {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
+/* ---------- Content detail (opp / news / pub / event) ---------- */
+html[dir='rtl'] .content-detail__back,
+html[dir='rtl'] .content-detail__eyebrow,
+html[dir='rtl'] .content-detail__hero h1,
+html[dir='rtl'] .content-detail__lead,
+html[dir='rtl'] .content-detail__body,
+html[dir='rtl'] .content-detail__article > p,
+html[dir='rtl'] .content-detail__facts dt,
+html[dir='rtl'] .content-detail__facts dd,
+html[dir='rtl'] .content-detail__source h2,
+html[dir='rtl'] .content-detail__source p,
+html[dir='rtl'] .content-detail__related h2,
+html[dir='rtl'] .content-detail__related strong,
+html[dir='rtl'] .content-detail__related p,
+html[dir='rtl'] .content-detail__notice {
+  text-align: start;
+  unicode-bidi: plaintext;
+}
+
+html[dir='rtl'] .content-detail__meta {
+  justify-content: flex-start;
+}
+
+html[dir='rtl'] .content-detail__facts > div {
+  text-align: start;
+}
+
+html[dir='rtl'] .content-detail__source {
+  border-inline-start-width: 0.4rem;
+  border-inline-end-width: 0;
+}
+
+html[dir='rtl'] .content-detail .btn .chev2 {
+  transform: scaleX(-1);
+}
+

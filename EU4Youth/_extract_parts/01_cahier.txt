@@ -1,0 +1,736 @@
+PROGRAMME EU4YOUTH TUNISIE
+Cahier des charges
+Site web EU4Youth.org
+
+## [Heading 1] 1. Contexte et objectifs du document
+
+
+## [Heading 1] Ce document constitue le cahier des charges complet du site web EU4Youth.org (Tunisie). Il est destiné à guider l'ensemble des parties prenantes | équipes de développement web, designers UX/UI, chargés de communication et partenaires institutionnels | dans la conception, le développement et la maintenance de la plateforme.
+
+
+## [Heading 1] 1.1 Contexte:
+
+EU4Youth Tunisie est un programme financé par l'Union européenne dont l'objectif est d'appuyer la jeunesse tunisienne à travers six projets complémentaires :
+Jeun'ESS
+Fe3il.a
+Maghroum'in
+Swafy
+Go4Youth
+Irada4Youth
+Chaque projet dispose de son propre cadre logique, de ses acteurs de mise en œuvre, de ses bénéficiaires et de ses indicateurs de résultats. Le site web doit rendre cette complexité lisible et accessible à tous les publics.
+
+## [Heading 2] 1.2 Objectifs du site
+
+Centraliser l'ensemble des informations du programme EU4Youth Tunisie
+Présenter les 6 projets de manière claire, structurée et comparable
+Servir de mapping interactif national des initiatives jeunesse
+Valoriser les opportunités pour les jeunes (formations, bourses, stages, appels à projets)
+Documenter les mécanismes d'appui disponibles
+Diffuser publications, ressources documentaires et actualités
+Capitaliser sur les success stories (approche storytelling humain)
+Héberger les contenus médias (vidéos via YouTube)
+
+## [Heading 2] 1.3 Principes directeurs
+
+Design mobile-first, accessibilité WCAG 2.1 AA
+Multilingue : Français (langue principale), Arabe, Anglais
+Maintenance évolutive par les équipes programme sans compétences techniques avancées
+
+## [Heading 1] 2. Architecture du site | Sitemap détaillé
+
+L'arborescence est organisée selon trois niveaux de navigation. Elle suit une logique orientée utilisateur : les parcours sont distincts pour les différents publics.
+
+## [Heading 2] 2.1 Arborescence complète
+
+
+## [Heading 2] 2.2 Parcours utilisateurs (UX)
+
+
+## [Heading 3] Public jeune
+
+Point d'entrée : Accueil → Opportunités ou Mapping interactif ou Success stories
+Navigation : découverte des projets par zone géographique ou par type de soutien ou par bénéficiaire
+Conversion : prise de contact ou participation à une opportunité
+
+## [Heading 3] Partenaire institutionnel
+
+Point d'entrée : Accueil → Le Programme → Les Projets
+Navigation : consultation des cadres logiques, des partenaires et des résultats
+Conversion : téléchargement de publications, formulaire de contact
+
+## [Heading 3] Bailleur / Décideur
+
+Point d'entrée : Accueil → Le Programme → Publications et  ressources
+Navigation : chiffres clés agrégés, rapports, success stories
+Conversion : téléchargement de rapports, accès au mapping
+
+## [Heading 1] 3. Description détaillée des pages
+
+Chaque page est décrite selon un format standardisé : objectif, public cible, contenus, blocs, call-to-action et données requises.
+
+## [Heading 2] 3.1 Page d'accueil
+
+
+## [Heading 3] Détail des blocs | Accueil
+
+Hero banner : visuel plein écran, titre programme, slogan [à valider], boutons CTA principaux
+Chiffres clés : blocs visuels animés | nombre de bénéficiaires [à compléter], projets actifs (6), gouvernorats couverts [à compléter], organisations partenaires [à compléter]
+Cartes projets : 6 cartes avec logo, nom, résumé 2 lignes, lien vers page dédiée
+Opportunités en vedette : 3 dernières opportunités publiées avec tag projet, date limite
+Success story mise en avant : portrait en image, prénom, ville, projet
+
+## [Heading 2] 3.2 Le Programme EU4Youth
+
+
+## [Heading 2] 2.3 Page globale | Les Projets
+
+
+## [Heading 2] 3.4 Pages projets individuelles (×6)
+
+Un template unique et standardisé s'applique aux 6 projets. La structure est identique ; seuls les contenus varient.
+
+## [Heading 2] 3.5 Mapping interactif
+
+
+## [Heading 2] 3.6 Opportunités
+
+
+## [Heading 2] 3.7 Mécanismes d'appui
+
+
+## [Heading 2] 3.8 Publications et  ressources
+
+
+## [Heading 2] 3.9 Success stories
+
+
+## [Heading 2] 3.10 Actualités et  événements
+
+
+## [Heading 2] 3.11 Coin média
+
+
+## [Heading 2] 3.12 Glossaire
+
+
+## [Heading 2] 3.13 Partenaires
+
+
+## [Heading 2] 3.14 Contact
+
+
+## [Heading 1] 4. Focus | Mapping interactif national
+
+Le mapping interactif est une fonctionnalité centrale et différenciante du site. Il permet de visualiser, sur une carte de la Tunisie, l'ensemble des initiatives portées par les 6 projets EU4Youth.
+
+## [Heading 2] 4.1 Objectifs fonctionnels
+
+Donner une vision géographique de la couverture du programme
+Permettre à un jeune de trouver une initiative dans sa région
+Permettre à un partenaire de visualiser les zones d'intervention
+Rendre compte de la complémentarité des 6 projets sur le territoire
+
+## [Heading 2] 4.2 Fonctionnalités attendues
+
+Carte interactive de la Tunisie avec marqueurs pour chaque initiative
+Clustering des marqueurs par zoom (regroupement automatique)
+Popup d'information au clic sur un marqueur
+Panneau de filtres latéral ou supérieur
+Liste des initiatives synchronisée avec la carte
+Géolocalisation de l'utilisateur (optionnel)
+Export de la liste filtrée (PDF ou CSV) | optionnel
+
+## [Heading 2] 4.3 Filtres disponibles
+
+
+## [Heading 2] 4.4 Données affichées dans la popup d'initiative
+
+Nom de l'initiative
+Projet associé (badge coloré)
+Type d'initiative
+Gouvernorat / Localité
+Description courte (2-3 lignes)
+Bénéficiaires ciblés
+Statut et dates
+Lien vers la page du projet / l'opportunité associée
+
+## [Heading 2] 4.5 Expérience utilisateur cible
+
+Chargement rapide de la carte (< 3 secondes)
+Responsive : carte pleinement utilisable sur mobile
+Couleurs des marqueurs codées par projet (charte graphique cohérente avec le reste du site)
+Navigation intuitive sans formation préalable
+
+## [Heading 2] 4.6 Cas d'usage concrets
+
+Un jeune de Sfax cherche une initiative dans son gouvernorat : il filtre par gouvernorat et type « Formation »
+Une OSC à Tunis souhaite connaître les projets actifs dans son secteur : elle filtre par bénéficiaires « Associations »
+Un journaliste veut cartographier la présence du programme : il visualise tous les marqueurs sans filtre
+Un bailleur UE souhaite évaluer la complémentarité géographique des projets : il active/désactive les couches par projet
+
+## [Heading 2] 4.7 Technologies recommandées
+
+Librairie cartographique : Leaflet.js (open source) ou Mapbox GL JS
+Fond de carte : OpenStreetMap (Leaflet) ou Mapbox (si budget disponible)
+Données : API REST depuis le CMS, format GeoJSON
+Clustering : plugin Leaflet.markercluster ou Supercluster
+
+## [Heading 1] 5. Structuration des contenus par projet
+
+Chacun des six projets dispose d'un template de page standardisé. Les données ci-dessous reprennent les informations vérifiées disponibles. Les champs marqués [à compléter] doivent être renseignés par les équipes programme.
+
+## [Heading 2] 5.1 Jeun'ESS
+
+
+## [Heading 2] 5.2 Fe3il.a
+
+
+## [Heading 2] 5.3 Maghroum'in
+
+
+## [Heading 2] 5.4 Swafy
+
+
+## [Heading 2] 5.5 Go4Youth
+
+
+## [Heading 2] 5.6 Irada4Youth
+
+
+## [Heading 2] 5.7 Template de saisie des données (à renseigner par projet)
+
+Pour chaque projet, l'équipe programme devra fournir les éléments suivants dans le formulaire de saisie CMS :
+Texte de présentation (500 mots max., validé par le chef de file)
+Objectifs spécifiques (liste)
+Axes d'intervention (liste)
+Zones d'intervention avec coordonnées GPS pour le mapping
+Chiffres clés : nombre de bénéficiaires directs et indirects, budget, durée
+Logos des partenaires (format PNG transparent, fond blanc)
+Photos (minimum 5, haute résolution, droits cédés)
+Liens YouTube des vidéos associées
+Téléchargements associés (fiches, rapports)
+
+## [Heading 1] 6. Cahier des charges fonctionnel
+
+
+## [Heading 2] 6.1 Fonctionnalités principales
+
+
+## [Heading 2] 6.2 Système de gestion de contenu (CMS)
+
+CMS recommandé : WordPress (avec ACF Pro et WPBakery ou Elementor) ou Strapi (headless) | choix à valider selon les compétences de l'équipe
+Interface d'administration traduite en français
+Gestion des rôles : Administrateur · Éditeur · Contributeur (par projet)
+Workflow de validation avant publication
+Sauvegarde automatique et gestion des révisions
+Imports CSV pour les initiatives du mapping
+
+## [Heading 2] 6.3 Gestion multilingue
+
+Trois langues : Français (principale), Arabe, Anglais
+Plugin de traduction : WPML (WordPress) ou i18n natif (Strapi)
+Interface RTL complète pour la version arabe (layout miroir)
+Sélecteur de langue visible dans le header sur toutes les pages
+URL structurées : eu4youth.org/fr/ · eu4youth.org/ar/ · eu4youth.org/en/
+Traduction des contenus dynamiques (opportunités, initiatives) par champ
+
+## [Heading 2] 6.4 Moteur de recherche interne
+
+Recherche full-text sur tous types de contenus : pages, projets, opportunités, publications, stories
+Suggestions en temps réel (autocomplete)
+Résultats filtrables par type de contenu
+Support multilingue (recherche dans la langue active)
+Technologie : ElasticSearch ou Algolia (si budget) · WP Search (solution légère)
+
+## [Heading 2] 6.5 Intégration vidéo YouTube
+
+Intégration via YouTube Data API v3
+Récupération automatique des métadonnées (titre, miniature, durée)
+Lecture directement sur le site (iframe responsive)
+Organisation par playlist YouTube → mapping vers projet et thème
+Aucun téléchargement de vidéos sur le serveur | streaming YouTube uniquement
+
+## [Heading 2] 6.6 Accessibilité (WCAG 2.1 AA)
+
+Contraste de couleurs conforme (ratio minimum 4.5:1 pour le texte)
+Navigation complète au clavier
+Attributs ARIA sur tous les éléments interactifs
+Textes alternatifs sur toutes les images
+Sous-titres sur toutes les vidéos
+Focus visible sur tous les éléments interactifs
+Test avec lecteurs d'écran (NVDA, VoiceOver)
+
+## [Heading 1] 7. Cahier des charges technique
+
+
+## [Heading 2] 7.1 Architecture technique recommandée
+
+
+## [Heading 2] 7.2 Structure de la base de données (haut niveau)
+
+
+## [Heading 3] Tables principales
+
+
+## [Heading 2] 7.3 APIs nécessaires
+
+YouTube Data API v3 : récupération des métadonnées vidéo, intégration embed
+API cartographique : Leaflet.js (gratuit, OpenStreetMap) ou Mapbox API (payant, si budget)
+Google Analytics 4 ou Matomo : suivi des visites et comportements
+Service d'emailing : Mailchimp, Brevo (Sendinblue) ou SMTP propre pour les formulaires et newsletters
+Nominatim (OpenStreetMap) pour la géolocalisation inverse (optionnel)
+
+## [Heading 2] 7.4 Performance et  scalabilité
+
+Objectif : Score Google Lighthouse ≥ 85 (Performance, Accessibilité, SEO)
+Temps de chargement cible : < 3 secondes sur connexion 4G
+Images servies en format WebP avec lazy loading
+Minification CSS/JS et bundling
+Pagination des listes longues (opportunités, publications, initiatives)
+Mise en cache des résultats de l'API YouTube (TTL : 1 heure)
+
+## [Heading 2] 7.5 Sécurité
+
+HTTPS obligatoire sur l'ensemble du site (redirection HTTP → HTTPS)
+En-têtes de sécurité : CSP, X-Frame-Options, HSTS
+Protection anti-spam sur les formulaires : reCAPTCHA v3 ou honeypot
+Mises à jour régulières du CMS et des plugins (procédure documentée)
+Sauvegardes quotidiennes automatiques avec rétention 30 jours
+Conformité RGPD : bandeau de cookies, politique de confidentialité, données personnelles minimisées
+
+## [Heading 2] 7.6 SEO technique
+
+URLs lisibles et stables : /fr/projets/jeun-ess/
+Balises meta (titre, description) éditables depuis le CMS pour chaque page
+Données structurées JSON-LD : Organisation, Event, Article
+Sitemap XML généré automatiquement et soumis à Google Search Console
+Robots.txt configuré correctement
+Hreflang pour les 3 versions linguistiques
+Open Graph et Twitter Cards pour le partage sur les réseaux sociaux
+
+## [Heading 1] 8. Gouvernance et  mise à jour
+
+
+## [Heading 2] 8.1 Rôles éditoriaux
+
+
+## [Heading 2] 8.2 Fréquences de mise à jour
+
+
+## [Heading 2] 8.3 Workflow éditorial
+
+
+## [Heading 3] Cycle de publication standard
+
+Étape 1 | Rédaction : le contributeur projet crée le contenu dans le CMS (statut : Brouillon)
+Étape 2 | Révision : l'éditeur programme vérifie la qualité, la cohérence et la conformité (statut : En révision)
+Étape 3 | Traduction : le contenu est traduit dans les deux autres langues (ou placeholders temporaires si délai court)
+Étape 4 | Validation : l'éditeur valide le contenu finalisé
+Étape 5 | Publication : mise en ligne (statut : Publié), notification automatique par email
+
+## [Heading 3] Règles éditoriales fondamentales
+
+Aucun contenu publié sans validation de l'éditeur programme
+Les données chiffrées doivent être sourcées et vérifiées avant publication
+Les photos de bénéficiaires requièrent un formulaire de consentement signé
+Les traductions peuvent être provisoirement en français si l'arabe/anglais n'est pas encore disponible (mention explicite sur la page)
+
+## [Heading 1] 9. Ton et ligne éditoriale
+
+
+## [Heading 2] 9.1 Positionnement éditorial
+
+Le site EU4Youth.org occupe un espace rare : celui d'une plateforme institutionnelle qui doit aussi parler directement aux jeunes tunisiens. La ligne éditoriale doit réconcilier ces deux exigences sans sacrifier l'une à l'autre.
+
+## [Heading 2] 9.2 Registre de communication
+
+
+## [Heading 2] 9.3 Équilibre storytelling / données
+
+Les pages programme et projets s'appuient sur des données chiffrées pour crédibiliser
+Les success stories et actualités privilégient la narration humaine (personne réelle, situation concrète, changement vécu)
+Chaque page-projet combine : 1/3 de données factuelles, 2/3 de narration accessible
+Les titres et accroches évitent les formules génériques : préférer « Amira a créé son premier emploi à Sidi Bouzid » à « Un programme qui change des vies »
+
+## [Heading 2] 9.4 Bonnes pratiques rédactionnelles
+
+Phrases courtes (≤ 25 mots de préférence)
+Verbes actifs, voix directe
+Paragraphes courts (3-4 lignes maximum à l'écran)
+Un seul message principal par bloc ou section
+Titres informatifs (dire ce que contient la section, pas ce qu'elle est)
+Call-to-action clairs et spécifiques (éviter « En savoir plus » générique)
+Relecture systématique avant publication : orthographe, cohérence, exactitude des données
+
+## [Heading 2] 9.5. Charte graphique
+
+La charte graphique du site doit s'inscrire dans les normes de communication de l'Union européenne (guidelines UE) tout en intégrant une identité propre à EU4Youth Tunisie.
+Couleurs primaires : bleu UE (#003399) et jaune EU (#FFCC00) | obligatoires
+Couleurs secondaires : charte graphique EU4Youth avec un code couleur différenciant par projet
+Typographie : sans-serif lisible sur écran (ex. Inter, Source Sans Pro, ou équivalent)
+Logo EU4Youth Tunisie
+Logos de chaque projet
+Logo Union européenne)
+Drapeau Tunisien
+Logo de chacun des Ministères et structures publiques partenaires
+
+## [Heading 1] 9. Annexes
+
+
+## [Heading 2] Annexe A | Checklist de lancement
+
+Architecture validée par l'équipe programme
+Maquettes (wireframes) validées par les parties prenantes
+Contenus de base fournis pour les 6 projets
+Traductions FR/AR/EN disponibles pour les pages principales
+Base de données des initiatives peuplée (au moins 10 par projet)
+Vidéos YouTube intégrées et testées
+Mapping interactif fonctionnel avec données réelles
+Tests de performance (Lighthouse ≥ 85)
+Tests d'accessibilité (WCAG 2.1 AA)
+Tests cross-browser et mobile
+Formation des équipes CMS réalisée
+Documentation utilisateur CMS livrée
+Formulaires de contact testés et opérationnels
+Politique de confidentialité et bandeau cookies en place
+Google Analytics ou Matomo configuré
+Sitemap soumis à Google Search Console
+
+## [Heading 2] Annexe B | Données à collecter avant développement
+
+
+## [Heading 2] Annexe C | Glossaire des termes techniques utilisés dans ce document
+
+CMS (Content Management System) : système de gestion de contenu permettant de créer et modifier les pages du site sans coder
+WCAG (Web Content Accessibility Guidelines) : normes internationales d'accessibilité du web
+RTL (Right-to-Left) : sens de lecture de droite à gauche, requis pour l'arabe
+CDN (Content Delivery Network) : réseau de serveurs distribuant les fichiers statiques pour accélérer le site
+API (Application Programming Interface) : interface permettant à des applications de communiquer entre elles
+SEO (Search Engine Optimization) : optimisation pour les moteurs de recherche
+GeoJSON : format standard de données géographiques pour le mapping
+RGPD : Règlement Général sur la Protection des Données (règlement européen sur la vie privée)
+SLA (Service Level Agreement) : engagement contractuel sur la disponibilité du service
+CI/CD : intégration continue / déploiement continu | pratique de développement automatisant les mises en production
+
+### TABLE 1
+
+Niveau 1 | Niveau 2 | Niveau 3
+Accueil | | | |
+Le Programme | À propos d'EU4Youth | |
+ | Objectifs et résultats attendus | |
+ | Financement UE | |
+ | Gouvernance et pilotage | |
+Les Projets | Vue d'ensemble (6 projets) | |
+ | Jeun'ESS | Présentation · Axes · Chiffres · Partenaires · Médias
+ | Fe3il.a | Présentation · Axes · Chiffres · Partenaires · Médias
+ | Maghroum'in | Présentation · Axes · Chiffres · Partenaires · Médias
+ | Swafy | Présentation · Axes · Chiffres · Partenaires · Médias
+ | Go4Youth | Présentation · Axes · Chiffres · Partenaires · Médias
+ | Irada4Youth | Présentation · Axes · Chiffres · Partenaires · Médias
+Mapping interactif | Carte nationale des initiatives | Filtres : projet / région / type / bénéficiaires
+Opportunités | Formations | |
+ | Appels à projets | |
+ | Bourses et stages | |
+ | Événements et ateliers | |
+Mécanismes d'appui | Accompagnement | |
+ | Financement et subventions | |
+ | Renforcement de capacités | |
+Publications et ressources | Rapports et études | |
+ | Guides et outils pratiques | |
+ | Documents de référence UE | |
+Success stories | Portraits de bénéficiaires | |
+ | Projets accompagnés | |
+Actualités et événements | Actualités | |
+ | Agenda | |
+Coin média | Vidéothèque (YouTube) | Filtres par projet / thème
+ | Galerie photo | |
+Partenaires | Annuaire des partenaires | |
+Glossaire | Termes clés | |
+Contact | Formulaire de contact | |
+
+### TABLE 2
+
+Objectif | Orienter rapidement chaque visiteur vers la section qui le concerne. Donner une impression immédiate de crédibilité institutionnelle et d'accessibilité.
+Public cible | Tous publics (jeunes, partenaires, bailleurs, médias, grand public)
+Blocs principaux | Hero banner · Présentation programme · Chiffres clés agrégés · Les 6 projets (cartes) · Dernières opportunités · Dernières actualités · Dernières success stories · Coin média (1-2 vidéos) · Carte de localisation (aperçu mapping) · Partenaires (logos)
+Call-to-action | Découvrir les projets · Voir les opportunités · Explorer le mapping · Regarder nos vidéos
+Données requises | Chiffres clés du programme [à compléter] · Logos des 6 projets · Photos et vidéos représentatives · Texte de présentation validé
+
+### TABLE 3
+
+Objectif | Expliquer le programme dans sa globalité | origine, financement UE, ambition, résultats attendus, gouvernance.
+Public cible | Partenaires institutionnels, bailleurs, journalistes, grand public informé
+Blocs | Présentation narrative · Financement UE (montant [à compléter], durée [à compléter]) · Cadre stratégique · Schéma de gouvernance · Documents de référence téléchargeables · Chiffres clés agrégés
+Call-to-action | Télécharger la fiche programme · Découvrir les projets · Explorer le mapping
+Données requises | Texte institutionnel validé · Budget global [à compléter] · Dates de mise en œuvre [à compléter] · Schéma de gouvernance · Logos UE et organisations
+
+### TABLE 4
+
+Objectif | Permettre une lecture comparative des 6 projets. Orienter vers la page dédiée de chaque projet.
+Public cible | Tous publics
+Blocs | Introduction comparative · Grille de 6 cartes projet (filtres : région, thématique, bénéficiaires) · Tableau comparatif synthétique · Lien vers mapping
+Call-to-action | Voir le projet [nom] · Explorer sur la carte
+Filtres | Par région d'intervention · Par type de bénéficiaires · Par thématique (entrepreneuriat, emploi, ESS, accompagnement…)
+
+### TABLE 5
+
+Objectif | Présenter en profondeur un projet spécifique : acteurs, résultats, zones, opportunités associées.
+Public cible | Jeunes, partenaires locaux, bailleurs
+Blocs | Header projet (logo, nom, tagline) · Présentation et objectifs · Axes d'intervention · Chiffres clés · Zones d'intervention (mini-carte) · Partenaires · Initiatives associées (liées au mapping) · Opportunités liées · Vidéos liées · Success stories liées · Téléchargements
+Call-to-action | Postuler à une opportunité · Voir sur la carte · Télécharger la fiche projet · Contacter l'équipe
+Données requises | Fiche projet validée par le chef de file · Chiffres clés [à compléter projet par projet] · Carte des zones d'intervention · Logos partenaires · Vidéos YouTube associées
+
+### TABLE 6
+
+Objectif | Visualiser géographiquement l'ensemble des initiatives des 6 projets sur le territoire tunisien.
+Public cible | Jeunes, partenaires, institutionnels, journalistes
+Blocs | Carte interactive Tunisie · Panneau de filtres · Fiche d'initiative (popup) · Liste latérale des initiatives
+Call-to-action | Voir l'initiative · Lien vers le projet · Postuler
+Données requises | Base de données des initiatives avec coordonnées GPS, projet associé, type, bénéficiaires, statut
+
+### TABLE 7
+
+Objectif | Centraliser toutes les opportunités actives et passées pour les jeunes : formations, appels à projets, bourses, stages, événements.
+Public cible | Jeunes bénéficiaires potentiels
+Blocs | Moteur de recherche · Filtres (type, projet, région, date limite) · Cartes d'opportunités · Archive des opportunités passées
+Call-to-action | Postuler · En savoir plus · Partager
+Données requises | Base de données opportunités avec : titre, description, projet associé, type, région, date de clôture, lien de candidature, statut (ouvert/fermé)
+
+### TABLE 8
+
+Objectif | Expliquer concrètement comment EU4Youth soutient les jeunes : accompagnement, financement, renforcement de capacités.
+Public cible | Jeunes, porteurs de projets, OSC
+Blocs | Présentation narrative des mécanismes · Infographie des types d'appui · FAQ · Projets proposant chaque mécanisme Témoignages
+Call-to-action | Voir les opportunités Contacter l'équipe Télécharger le guide
+Données requises | Description des mécanismes validée FAQ Montants et conditions
+
+### TABLE 9
+
+Objectif | Référencer l'ensemble des documents produits par le programme : rapports, études, guides pratiques, documents UE.
+Public cible | Chercheurs, partenaires, bailleurs, équipes programmes
+Blocs | Moteur de recherche · Filtres (type, projet, date, langue) · Liste de publications (vignette, titre, résumé, lien téléchargement) · Mise en avant éditoriale
+Call-to-action | Télécharger · Partager · Voir toutes les publications
+Données requises | Fichiers PDF des publications · Métadonnées : titre, auteur, date, type, projet associé, langue, résumé
+
+### TABLE 10
+
+Objectif | Humaniser le programme à travers des portraits de bénéficiaires et des récits de projets accompagnés.
+Public cible | Grand public, médias, bailleurs (dimension storytelling)
+Blocs | Story du mois (mise en avant éditoriale) · Grille de stories (photo, prénom, ville, projet) · Pages story individuelles : portrait, récit, citation, vidéo, projet associé
+Call-to-action | Lire la story · Découvrir le projet · Voir d'autres témoignages
+Données requises | Photo du bénéficiaire (consentement requis) · Texte biographique · Citation · Projet associé · Vidéo YouTube (optionnel)
+
+### TABLE 11
+
+Objectif | Informer les publics des dernières nouvelles du programme et de l'agenda des événements.
+Public cible | Tous publics
+Blocs | Actualités récentes (liste filtrée par projet/thème/date) · Agenda (calendrier ou liste chronologique) · Fiches événement (lieu, date, programme, inscription)
+Call-to-action | Lire l'article · S'inscrire à l'événement · Partager
+Données requises | Articles rédigés · Photos · Données événements : titre, date, lieu, description, lien inscription
+
+### TABLE 12
+
+Objectif | Centraliser les contenus vidéo (via YouTube) et photos du programme.
+Public cible | Tous publics
+Blocs | Vidéo à la une (intégration YouTube) · Grille de vidéos filtrables (projet, thème) · Galerie photos · Téléchargements médias (logos, kit presse)
+Call-to-action | Voir la vidéo · Télécharger le kit presse · Voir toutes les photos
+Données requises | IDs YouTube des vidéos · Tags par projet et thème · Galerie photos (formats multiples) · Kit presse [à préparer]
+
+### TABLE 13
+
+Objectif | Définir les termes techniques et institutionnels du programme (ESS, OSC, cadre logique, etc.).
+Public cible | Grand public, nouveaux partenaires
+Blocs | Navigation alphabétique · Liste de termes avec définitions · Liens croisés vers pages pertinentes
+Données requises | Liste de termes et définitions [à rédiger]
+
+### TABLE 14
+
+Objectif | Présenter l'écosystème de partenaires institutionnels, de mise en œuvre et associés.
+Public cible | Partenaires potentiels, institutionnels, journalistes
+Blocs | Filtres (type de partenaire, projet associé) · Cartes partenaires (logo, nom, rôle, site web) · Partenaires UE mis en avant
+Call-to-action | Visiter le site · Contacter · Voir les projets associés
+Données requises | Nom, type, logo, description courte, site web, projet(s) associé(s) [à compléter par partenaire]
+
+### TABLE 15
+
+Objectif | Permettre aux visiteurs de prendre contact avec l'équipe programme.
+Public cible | Tous publics
+Blocs | Formulaire de contact (objet, message, coordonnées) · Informations de contact [à compléter] · Carte de localisation des bureaux · FAQ rapide
+Call-to-action | Envoyer le message · Appeler · Consulter la FAQ
+Données requises | Adresse(s) postale(s) [à compléter] · Email(s) de contact [à compléter] · Téléphone(s) [à compléter]
+
+### TABLE 16
+
+Filtre | Valeurs possibles
+Projet | Jeun'ESS · Fe3il.a · Maghroum'in · Swafy · Go4Youth · Irada4Youth · Tous
+Gouvernorat | 24 gouvernorats de Tunisie (liste déroulante)
+Type d'initiative | Formation · Incubation · Financement · Accompagnement · Événement · Sensibilisation · Autre
+Bénéficiaires ciblés | Jeunes (18-35 ans) · Femmes · Entrepreneurs · Associations · OSC · Porteurs de projets ESS
+Statut | En cours · Clôturée · À venir
+
+### TABLE 17
+
+Jeun'ESS (Jeun'ESS) | Jeun'ESS (Jeun'ESS)
+Organisme chef de file | à compléter
+Axes d'intervention | Entrepreneuriat social et solidaire (ESS) · Accompagnement de porteurs de projets · Renforcement des structures ESS
+Zones d'intervention | à compléter
+Partenaires | à compléter
+Bénéficiaires | [à compléter]
+Chiffres clés | [à compléter]
+Durée / Cycle | [à compléter]
+Budget UE | [à compléter]
+Initiatives liées (mapping) | [à renseigner dans la base de données]
+
+### TABLE 18
+
+Fe3il.a (Fe3il.a) | Fe3il.a (Fe3il.a)
+Organisme chef de file | à compléter
+Axes d'intervention | Employabilité des jeunes · Insertion professionnelle · Formation aux compétences du marché du travail
+Zones d'intervention | à compléter
+Partenaires | à compléter
+Bénéficiaires | [à compléter]
+Chiffres clés | [à compléter]
+Durée / Cycle | [à compléter]
+Budget UE | [à compléter]
+Initiatives liées (mapping) | [à renseigner dans la base de données]
+
+### TABLE 19
+
+Maghroum'in (Maghroum'in) | Maghroum'in (Maghroum'in)
+Organisme chef de file | à compléter
+Axes d'intervention | Entrepreneuriat jeune · Accompagnement à la création d'entreprise · Accès au financement
+Zones d'intervention | à compléter
+Partenaires | à compléter
+Bénéficiaires | [à compléter]
+Chiffres clés | [à compléter]
+Durée / Cycle | [à compléter]
+Budget UE | [à compléter]
+Initiatives liées (mapping) | [à renseigner dans la base de données]
+
+### TABLE 20
+
+Swafy (Swafy) | Swafy (Swafy)
+Organisme chef de file | à compléter
+Axes d'intervention | à compléter
+Zones d'intervention | à compléter
+Partenaires | à compléter
+Bénéficiaires | [à compléter]
+Chiffres clés | [à compléter]
+Durée / Cycle | [à compléter]
+Budget UE | [à compléter]
+Initiatives liées (mapping) | [à renseigner dans la base de données]
+
+### TABLE 21
+
+Go4Youth (Go4Youth) | Go4Youth (Go4Youth)
+Organisme chef de file | à compléter
+Axes d'intervention | Engagement civique et bénévolat · Leadership jeune · Mobilité et échanges
+Zones d'intervention | à compléter
+Partenaires | à compléter
+Bénéficiaires | [à compléter]
+Chiffres clés | [à compléter]
+Durée / Cycle | [à compléter]
+Budget UE | [à compléter]
+Initiatives liées (mapping) | [à renseigner dans la base de données]
+
+### TABLE 22
+
+Irada4Youth (Irada4Youth) | Irada4Youth (Irada4Youth)
+Organisme chef de file | à compléter
+Axes d'intervention | Accompagnement psychosocial · Résilience des jeunes · Prévention de la marginalisation
+Zones d'intervention | à compléter
+Partenaires | à compléter
+Bénéficiaires | [à compléter]
+Chiffres clés | [à compléter]
+Durée / Cycle | [à compléter]
+Budget UE | [à compléter]
+Initiatives liées (mapping) | [à renseigner dans la base de données]
+
+### TABLE 23
+
+Fonctionnalité | Description | Priorité
+Mapping interactif | Carte Tunisie avec filtres, popups, clustering | P1 | Essentiel
+Moteur de recherche | Recherche full-text sur tous les contenus du site | P1 | Essentiel
+Filtres dynamiques | Opportunités, publications, projets : filtres par projet, région, type | P1 | Essentiel
+Multilingue FR/AR/EN | Basculement de langue en un clic, interface RTL pour l'arabe | P1 | Essentiel
+Gestion CMS | Édition de tous les contenus sans code par l'équipe programme | P1 | Essentiel
+Intégration YouTube | Embed de vidéos via API YouTube, galerie filtrée | P1 | Essentiel
+Formulaire de contact | Formulaire avec validation, anti-spam, envoi email | P1 | Essentiel
+Base données initiatives | CRUD des initiatives pour le mapping | P1 | Essentiel
+Responsive mobile-first | Expérience optimale sur smartphone, tablette, desktop | P1 | Essentiel
+Newsletter | Inscription à la newsletter avec gestion des abonnés | P2 | Important
+Partage réseaux sociaux | Boutons de partage sur les articles, stories, opportunités | P2 | Important
+Export PDF | Export de fiche initiative ou de publications | P2 | Important
+Accessibilité WCAG 2.1 AA | Conformité aux standards d'accessibilité web internationaux | P1 | Essentiel
+Statistiques | Tableau de bord analytique (Google Analytics ou Matomo) | P2 | Important
+Géolocalisation utilisateur | Suggestions d'initiatives proches de l'utilisateur | P3 | Optionnel
+
+### TABLE 24
+
+Composant | Recommandation
+Architecture | CMS monolithique (WordPress) ou Headless CMS + frontend découplé (Strapi + Next.js)
+Hébergement | Serveur VPS dédié ou hébergement cloud (OVH, AWS, ou équivalent) | SLA 99.9%
+Serveur web | Nginx ou Apache avec HTTPS obligatoire (SSL/TLS)
+Base de données | MySQL / MariaDB (WordPress) ou PostgreSQL (Strapi)
+Cache | Redis ou Varnish pour la mise en cache des pages
+CDN | Cloudflare (recommandé) pour les assets statiques et la protection DDoS
+Environnements | Production · Préproduction (staging) · Développement
+Déploiement | CI/CD via GitHub Actions ou GitLab CI
+
+### TABLE 25
+
+Table / Collection | Champs principaux
+projects | id · slug · name_fr · name_ar · name_en · description_fr/ar/en · logo · color · status
+initiatives | id · project_id · name_fr/ar/en · type · lat · lng · governorate · beneficiaries · status · date_start · date_end · description_fr/ar/en
+opportunities | id · project_id · title_fr/ar/en · type · region · deadline · link · status · description_fr/ar/en
+publications | id · project_id · title_fr/ar/en · type · date · file_url · language · abstract_fr/ar/en
+stories | id · project_id · first_name · city · photo_url · text_fr/ar/en · quote · video_url · published
+news | id · project_id · title_fr/ar/en · content_fr/ar/en · date · photo_url · tags
+events | id · title_fr/ar/en · date · location · description_fr/ar/en · registration_link
+videos | id · project_id · youtube_id · title_fr/ar/en · theme · published_at
+partners | id · project_id · name · type · logo_url · website · description_fr/ar/en
+glossary | id · term_fr/ar/en · definition_fr/ar/en · related_pages
+
+### TABLE 26
+
+Rôle | Responsabilités | Accès CMS
+Administrateur site | Configuration technique, gestion des utilisateurs, mises à jour CMS | Accès complet
+Éditeur programme | Validation avant publication, cohérence éditoriale globale, multilingue | Publication · Suppression · Import
+Contributeur projet (×6) | Saisie des contenus de son projet : initiatives, opportunités, actualités, médias | Création · Modification (son projet uniquement)
+Responsable communication | Success stories, actualités transversales, ligne éditoriale | Création · Publication (types désignés)
+
+### TABLE 27
+
+Type de contenu | Fréquence minimale | Responsable
+Opportunités | Selon les cycles des projets (ouverture/clôture) | Contributeur projet
+Actualités | 2 fois par mois minimum | Éditeur programme
+Initiatives (mapping) | À chaque nouvelle initiative lancée | Contributeur projet
+Success stories | 1 par mois | Responsable communication
+Agenda événements | Avant chaque événement (J-15 minimum) | Contributeur projet
+Publications | À chaque nouvelle publication disponible | Contributeur projet
+Chiffres clés | Trimestriel | Éditeur programme
+Vidéos | À chaque nouvelle production | Contributeur projet
+
+### TABLE 28
+
+Dimension | Orientation
+Ton général | Clair, direct, bienveillant, professionnel
+Registre | Institutionnel accessible (ni trop formel, ni familier)
+Narration | Fondée sur les faits et les personnes réelles
+Complexité | Adapté au grand public (jeunes 18-35 ans)
+Chiffres | Utilisés pour ancrer, pas pour impressionner
+
+### TABLE 29
+
+Donnée requise | Source | Statut
+Textes de présentation des 6 projets (FR) | AISE | à collecter
+Chiffres clés par projet (bénéficiaires, budget, durée) | AISE / Délégation UE | à collecter
+Logos des 6 projets (PNG transparent) | AISE | à collecter
+Logos partenaires | Chaque partenaire | à collecter
+Zones d'intervention | AISE | à collecter
+Photos (minimum 5 par projet, droits cédés) | Équipes projet | à collecter
+IDs YouTube des vidéos existantes | Équipes communication | à collecter
+Fiches publications disponibles | AISE | à collecter
+Texte institutionnel du programme EU4Youth | Délégation UE / AISE | à collecter
+Formulaires de consentement bénéficiaires | Équipes projet | à collecter
+Adresses et contacts des bureaux | AISE | à collecter

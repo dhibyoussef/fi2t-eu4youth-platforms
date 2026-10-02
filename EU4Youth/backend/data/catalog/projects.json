@@ -1,0 +1,665 @@
+[
+  {
+    "slug": "jeuness",
+    "acronym": "Jeun'ESS",
+    "fullName": "Projet de promotion de l'économie sociale et solidaire et de création d'emplois décents pour la jeunesse tunisienne",
+    "tagline": "L'économie sociale et solidaire, un levier pour l'emploi décent des jeunes tunisiens.",
+    "composante": "Emploi, employabilité et entrepreneuriat",
+    "theme": "jeuness",
+    "budget": "9 millions d'euros",
+    "partner": "Organisation internationale du Travail (OIT)",
+    "territory": "5 gouvernorats dans la fiche projet : Jendouba, Le Kef, Kairouan, Sidi Bouzid, Kébili",
+    "period": "Septembre 2019 – Août 2024",
+    "sectors": "Économie sociale et solidaire, entrepreneuriat social, emploi des jeunes, développement territorial",
+    "beneficiaries": [
+      "Jeunes entrepreneurs",
+      "Structures ESS",
+      "Acteurs territoriaux"
+    ],
+    "presentation": [
+      "Le projet Jeun’ESS accompagne le développement d’un écosystème ESS structuré, inclusif et durable, afin de favoriser l’accès des jeunes à un emploi décent ancré dans les territoires.",
+      "Face aux défis persistants de l'inclusion économique des jeunes en Tunisie, notamment l'accès à l'emploi décent, les disparités territoriales et la nécessité de promouvoir des modèles économiques plus inclusifs et durables, l'économie sociale et solidaire (ESS) représente une opportunité majeure pour favoriser une croissance plus équitable."
+    ],
+    "governorates": [
+      "Jendouba",
+      "Le Kef",
+      "Kairouan",
+      "Sidi Bouzid",
+      "Kébili"
+    ],
+    "generalObjective": "Contribuer à la création d'emplois décents et durables pour les jeunes tunisiennes et tunisiens à travers le développement d'un écosystème inclusif et performant de l'économie sociale et solidaire.",
+    "specificObjectives": [
+      "Faciliter l'accès au financement des initiatives ESS",
+      "Soutenir la création et la consolidation d'activités économiques à impact social",
+      "Renforcer l'accès au marché des organisations ESS",
+      "Renforcer le rôle des acteurs territoriaux",
+      "Favoriser l'engagement des jeunes dans l'ESS"
+    ],
+    "kpis": [
+      {
+        "value": "304",
+        "label": "projets ESS soutenus"
+      },
+      {
+        "value": "186",
+        "label": "structures accompagnées"
+      },
+      {
+        "value": "3 721",
+        "label": "emplois soutenus"
+      },
+      {
+        "value": "765",
+        "label": "jeunes incubés"
+      },
+      {
+        "value": "373",
+        "label": "personnes formées à l'accompagnement ESS"
+      },
+      {
+        "value": "49",
+        "label": "clubs LIMITL'ESS créés"
+      },
+      {
+        "value": "87",
+        "label": "structures valorisées dans des salons et événements nationaux"
+      },
+      {
+        "value": "140",
+        "label": "produits ESS référencés"
+      }
+    ],
+    "components": [
+      {
+        "name": "Social Innovation Fund",
+        "tagline": "Financer l'innovation sociale territoriale",
+        "description": "Parcours complet d'incubation combinant formation, mentorat, accompagnement individuel et financement pour transformer des idées à impact social en activités économiques durables.",
+        "results": [
+          "369 projets sélectionnés",
+          "765 jeunes incubés",
+          "143 projets créés juridiquement",
+          "1 465 emplois directs créés",
+          "29 projets financés par la BTS dans 7 gouvernorats"
+        ],
+        "sectors": [
+          "Économie sociale et solidaire",
+          "Innovation sociale locale"
+        ]
+      },
+      {
+        "name": "Re-Fund Challenge",
+        "tagline": "Renforcer les organisations ESS fragilisées",
+        "description": "Mécanisme de financement et d'accompagnement conçu pour renforcer des organisations ESS existantes fragilisées, notamment par la crise Covid-19. Il combine subvention, renforcement de capacités et incubation.",
+        "results": [
+          "42 structures ESS consolidées",
+          "926 emplois créés ou consolidés",
+          "13 coopératives accompagnées",
+          "Plus de 350 bénéficiaires accompagnés"
+        ],
+        "sectors": [
+          "Économie sociale et solidaire"
+        ]
+      },
+      {
+        "name": "Market Fund",
+        "tagline": "Ouvrir de nouveaux marchés aux structures ESS",
+        "description": "Mécanisme visant à renforcer les capacités commerciales et de mise en marché des organisations ESS, pour leur permettre d'accéder à de nouveaux marchés nationaux et internationaux.",
+        "results": [
+          "40 structures accompagnées individuellement",
+          "5 structures de commercialisation renforcées",
+          "87 structures valorisées lors d’événements nationaux",
+          "Plus de 140 produits référencés"
+        ],
+        "sectors": [
+          "Commercialisation",
+          "Développement territorial"
+        ]
+      },
+      {
+        "name": "LIMITL'ESS Clubs – Enactus",
+        "tagline": "Développer l'entrepreneuriat social auprès des étudiants",
+        "description": "Développé avec Enactus Tunisie, ce dispositif sensibilise les étudiants à l'économie sociale et solidaire grâce à des formations, bootcamps, ateliers pratiques et compétitions.",
+        "results": [
+          "29 clubs Enactus LIMITL'ESS créés",
+          "528 jeunes adhérents",
+          "81 animateurs formés",
+          "18 idées de projets développées",
+          "3 bootcamps et 10 ateliers en ligne organisés"
+        ],
+        "sectors": [
+          "Agriculture et agroalimentaire",
+          "Technologies et innovation",
+          "Économie circulaire",
+          "Énergie verte",
+          "Tourisme durable"
+        ]
+      },
+      {
+        "name": "LIMITL'ESS Génération",
+        "tagline": "Encourager l'innovation sociale dans les espaces jeunesse et culturels",
+        "description": "Les clubs LIMITL'ESS Génération, implantés dans les Maisons de jeunes et les Maisons de culture, permettent aux jeunes de découvrir l'économie sociale et solidaire à travers une approche pratique et participative. Le dispositif combine sensibilisation, ateliers pratiques, accompagnement et développement de projets collectifs répondant aux besoins des territoires.",
+        "results": [
+          "14 clubs créés dans 7 régions",
+          "172 jeunes engagés",
+          "50 animateurs formés",
+          "16 projets retenus dans le cadre du Challenge LIMITL'ESS"
+        ],
+        "sectors": [
+          "Éducation et orientation",
+          "Médias et communication",
+          "Environnement et écologie",
+          "Arts visuels et design",
+          "Artisanat local",
+          "Agriculture et apiculture",
+          "Innovation sociale locale"
+        ]
+      },
+      {
+        "name": "Community Fund",
+        "tagline": "Soutenir les dynamiques collectives locales",
+        "description": "Renforcement des acteurs publics et territoriaux afin d'intégrer l'économie sociale et solidaire dans les politiques locales de développement.",
+        "results": [
+          "17 structures publiques formées",
+          "14 collectivités territoriales impliquées",
+          "72 initiatives territoriales soutenues",
+          "350 jeunes impliqués dans des activités communautaires",
+          "43 % des initiatives portées par des femmes"
+        ],
+        "sectors": [
+          "Développement territorial",
+          "Société civile"
+        ]
+      }
+    ],
+    "dataGaps": [
+      "Budget issu du glossaire / homepage, absent de la fiche projet dédiée.",
+      "La période spécifique de la fiche projet (Septembre 2019 – Août 2024) diffère de la période globale du programme EU4Youth.",
+      "Les cinq gouvernorats nommés viennent de la fiche projet détaillée, pas de la présentation dédiée courte.",
+      "La présentation dédiée parle de « cinq composantes » tout en listant six mécanismes ; la page conserve les six mécanismes documentés.",
+      "Indicateur global de 49 clubs LIMITL’ESS vs détail 29 Enactus + 14 Génération = 43 ; six clubs restent à expliquer.",
+      "Le classeur de cartographie recense aussi des interventions hors des cinq gouvernorats affichés dans la fiche projet."
+    ]
+  },
+  {
+    "slug": "go4youth",
+    "acronym": "GO4Youth",
+    "fullName": "Gates for Opportunities for Youth",
+    "tagline": "Renforcer les services d’emploi pour améliorer l’accès des jeunes à des opportunités professionnelles décentes.",
+    "composante": "Emploi, employabilité et entrepreneuriat",
+    "theme": "go4youth",
+    "budget": "10 millions d'euros",
+    "partner": "Banque mondiale et ANETI",
+    "territory": "Déploiement progressif dans les BETI concernés — 6 BETI pilotes puis 48 BETI sélectionnés",
+    "period": "Septembre 2021 – Juin 2027",
+    "fundingNote": "Projet financé par le Programme EU4Youth à travers le Fonds TERI de la Banque Mondiale",
+    "sectors": "Emploi, employabilité, transformation numérique, services publics d'intermédiation",
+    "beneficiaries": [
+      "Jeunes et populations vulnérables",
+      "Chercheurs d'emploi",
+      "Entreprises",
+      "Personnes en transition professionnelle",
+      "Acteurs privés de l'employabilité"
+    ],
+    "presentation": [
+      "GO4Youth vise à améliorer l’accès des jeunes et des populations vulnérables à des emplois de qualité en renforçant l’efficacité, l’accessibilité et la pertinence des services d’intermédiation sur le marché du travail tunisien.",
+      "Le projet accompagne l’ANETI dans la modernisation de ses services aux chercheurs d’emploi et aux entreprises, l’accélération de sa transformation digitale et le renforcement de l’écosystème de l’employabilité. GO4Youth ne crée pas directement des emplois."
+    ],
+    "governorates": [
+      "Présence nationale"
+    ],
+    "generalObjective": "Contribuer à améliorer l’accès des jeunes et des populations vulnérables à des emplois de qualité en renforçant l’efficacité, l’accessibilité et la pertinence des services d’intermédiation sur le marché du travail tunisien.",
+    "specificObjectives": [
+      "Améliorer les services de l’ANETI destinés aux chercheurs d’emploi.",
+      "Renforcer les services de l’ANETI destinés aux entreprises.",
+      "Accélérer la transformation digitale de l’ANETI.",
+      "Renforcer l’écosystème de l’employabilité."
+    ],
+    "kpis": [
+      {
+        "value": "6",
+        "label": "BETI pilotes pour le nouveau profilage"
+      },
+      {
+        "value": "48",
+        "label": "BETI sélectionnés pour la généralisation"
+      },
+      {
+        "value": "19",
+        "label": "spécifications de services numériques"
+      },
+      {
+        "value": "3",
+        "label": "services nouveaux ou améliorés (sur une cible de 8)"
+      }
+    ],
+    "components": [
+      {
+        "name": "Services aux chercheurs d’emploi",
+        "tagline": "Améliorer l’accompagnement public",
+        "description": "Modernisation des services ANETI destinés aux chercheurs d’emploi, notamment le profilage et l’accompagnement individualisé.",
+        "results": [
+          "Système de profilage opérationnel",
+          "Outils testés dans 6 BETI pilotes"
+        ],
+        "sectors": [
+          "Emploi",
+          "Services publics"
+        ]
+      },
+      {
+        "name": "Services aux entreprises",
+        "tagline": "Renforcer l’offre aux employeurs",
+        "description": "Renforcement des services ANETI destinés aux entreprises pour améliorer le rapprochement entre l’offre et la demande d’emploi.",
+        "results": [],
+        "sectors": [
+          "Emploi",
+          "Entreprises"
+        ]
+      },
+      {
+        "name": "Transformation digitale ANETI",
+        "tagline": "Accélérer la modernisation numérique",
+        "description": "Accélération de la transformation digitale de l’ANETI à travers des services numériques, des procédures digitalisées et des spécifications de services.",
+        "results": [
+          "19 spécifications de services numériques développées et en cours de déploiement",
+          "Extension vers 48 BETI sélectionnés"
+        ],
+        "sectors": [
+          "Numérique",
+          "Services publics"
+        ]
+      },
+      {
+        "name": "Écosystème d'employabilité",
+        "tagline": "Structurer l'accompagnement",
+        "description": "Renforcement de l’écosystème de l’employabilité autour de l’ANETI et des acteurs d’accompagnement.",
+        "results": [],
+        "sectors": [
+          "Société civile",
+          "Emploi"
+        ]
+      }
+    ],
+    "dataGaps": [
+      "Budget absent de la fiche projet dédiée ; valeur issue du glossaire / homepage (10 M€).",
+      "La mention Fonds TERI / Banque mondiale n’apparaît pas dans la présentation dédiée et reste à confirmer.",
+      "Le chiffre 125 BETI et les formulations « nouvelle plateforme / nouveau SI » dépassent la présentation dédiée ; ils restent documentés ailleurs et sont traités avec prudence.",
+      "La couverture nationale est une conséquence du déploiement progressif dans le réseau BETI, pas une affirmation contractuelle de couverture totale dans la présentation dédiée."
+    ]
+  },
+  {
+    "slug": "swafy",
+    "acronym": "SWAFY",
+    "fullName": "Science With And For Youth",
+    "tagline": "Renforcer la contribution de la recherche et de l’innovation au développement économique et social avec et pour les jeunes.",
+    "composante": "Emploi, employabilité et entrepreneuriat",
+    "theme": "swafy",
+    "budget": "9 millions d'euros",
+    "partner": "Agence Nationale de la Promotion de la Recherche Scientifique (ANPR)",
+    "territory": "Toutes les régions — objectif de diffusion inclusive de la culture scientifique",
+    "period": "Juin 2022 – Juin 2027",
+    "sectors": "Recherche, innovation, culture scientifique, entrepreneuriat, politiques Science-Technologie-Innovation",
+    "beneficiaries": [
+      "Doctorants et post-doctorants",
+      "Jeunes chercheurs",
+      "Associations",
+      "Start-ups",
+      "Acteurs publics",
+      "Institutions de recherche",
+      "Acteurs socio-économiques"
+    ],
+    "presentation": [
+      "SWAFY contribue au renforcement de la contribution de la recherche scientifique et de l’innovation au développement économique et social en Tunisie, en favorisant l’intégration des jeunes dans les écosystèmes scientifiques, technologiques et entrepreneuriaux.",
+      "Le projet combine des bourses de recherche partenariale, des actions de culture scientifique et un dialogue national jeunesse-science."
+    ],
+    "governorates": [
+      "Présence nationale"
+    ],
+    "generalObjective": "Contribuer au renforcement de la contribution de la recherche scientifique et de l’innovation au développement économique et social en Tunisie, en favorisant l’intégration des jeunes dans les écosystèmes scientifiques, technologiques et entrepreneuriaux.",
+    "specificObjectives": [
+      "Renforcer l’employabilité des jeunes chercheurs et chercheuses.",
+      "Développer la créativité et l’esprit entrepreneurial des jeunes.",
+      "Renforcer la participation des jeunes dans les politiques Science, Technologie et Innovation."
+    ],
+    "kpis": [
+      {
+        "value": "235",
+        "label": "bourses MOBIDOC doctorales et post-doctorales prévues"
+      },
+      {
+        "value": "3",
+        "label": "composantes structurantes"
+      }
+    ],
+    "components": [
+      {
+        "name": "MOBIDOC",
+        "tagline": "Bourses de recherche partenariale",
+        "description": "Financement de collaborations entre structures de recherche et environnement socio-économique pour renforcer l’employabilité des jeunes chercheurs et chercheuses.",
+        "results": [
+          "235 bourses doctorales et post-doctorales prévues"
+        ],
+        "sectors": [
+          "Recherche",
+          "Innovation"
+        ]
+      },
+      {
+        "name": "Jeunesse Créative",
+        "tagline": "Créativité et culture scientifique",
+        "description": "Actions de médiation, de vulgarisation scientifique et d’expérimentation pour développer la créativité et l’esprit entrepreneurial des jeunes.",
+        "results": [],
+        "sectors": [
+          "Culture scientifique",
+          "Éducation"
+        ]
+      },
+      {
+        "name": "Débat Jeunesse et Science",
+        "tagline": "Participation aux politiques STI",
+        "description": "Dialogue national jeunesse-science : analyses, recommandations, feuille de route et Congrès national Jeunesse–Science en appui à la stratégie nationale de la jeunesse 2035.",
+        "results": [],
+        "sectors": [
+          "Politiques publiques"
+        ]
+      }
+    ],
+    "dataGaps": [
+      "Budget issu du glossaire / homepage, absent de la fiche projet dédiée.",
+      "Résultats actuels non chiffrés pour Jeunesse Créative et Débat Jeunesse et Science.",
+      "La couverture nationale reste un objectif de diffusion inclusive, pas une cartographie de sites déjà déployés dans la présentation dédiée."
+    ]
+  },
+  {
+    "slug": "irada4youth",
+    "acronym": "IRADA4YOUTH",
+    "fullName": "Soutien au Développement Économique Durable Local pour l'Emploi des Jeunes",
+    "tagline": "Améliorer l’inclusion économique et sociale des jeunes par une approche conçue localement.",
+    "composante": "Emploi, employabilité et entrepreneuriat",
+    "theme": "irada4youth",
+    "budget": "5 millions d'euros",
+    "partner": "CGDR avec ODNO, ODCO et ODS",
+    "territory": "6 gouvernorats prioritaires",
+    "period": "2022 – 2027 · 60 mois",
+    "sectors": "Développement économique local, filières porteuses, agriculture, artisanat, tourisme durable",
+    "beneficiaries": [
+      "Diplômés du supérieur",
+      "Diplômés de la formation professionnelle",
+      "Jeunes demandeurs d’emploi",
+      "Porteurs de projets",
+      "Structures d'appui"
+    ],
+    "presentation": [
+      "IRADA4YOUTH contribue à l’amélioration de l’inclusion économique et sociale des jeunes en adoptant une approche conçue localement dans six gouvernorats prioritaires.",
+      "Le projet est géré directement par le CGDR, en partenariat avec l’ODNO, l’ODCO et l’ODS. Son mécanisme central est l’appel à propositions régional ciblant les filières porteuses locales."
+    ],
+    "governorates": [
+      "Zaghouan",
+      "Mahdia",
+      "Le Kef",
+      "Kairouan",
+      "Tozeur",
+      "Kébili"
+    ],
+    "generalObjective": "Contribuer à l’amélioration de l’inclusion économique et sociale des jeunes en adoptant une approche conçue localement.",
+    "specificObjectives": [
+      "Renforcer la capacité des jeunes tunisien(ne)s à porter, formuler, mettre en œuvre et pérenniser leurs projets de développement socio-économique.",
+      "Améliorer la mobilisation et la synergie de l’écosystème régional d’accompagnement du secteur privé et de l’entrepreneuriat en faveur des jeunes."
+    ],
+    "kpis": [
+      {
+        "value": "6",
+        "label": "gouvernorats prioritaires"
+      },
+      {
+        "value": "≥ 200",
+        "label": "projets sélectionnés et subventionnés (cible)"
+      },
+      {
+        "value": "≥ 1 000",
+        "label": "jeunes sensibilisés (cible)"
+      },
+      {
+        "value": "600",
+        "label": "dossiers de notes conceptuelles accompagnés (cible)"
+      },
+      {
+        "value": "300",
+        "label": "dossiers complets accompagnés (cible)"
+      },
+      {
+        "value": "15 %",
+        "label": "réduction des demandes d’emploi non satisfaites 20–40 ans (cible d’impact)"
+      }
+    ],
+    "components": [
+      {
+        "name": "Appels à propositions régionaux",
+        "tagline": "Financer les filières porteuses",
+        "description": "Appels ciblant les chaînes de valeur locales : plantes aromatiques et médicinales, agriculture biologique, oléiculture, arboriculture, tourisme rural/écologique, sous-produits oasiens, hydroponie, transformation alimentaire, élevage et artisanat de récupération.",
+        "results": [],
+        "sectors": [
+          "Agriculture",
+          "Artisanat",
+          "Tourisme durable",
+          "Transformation alimentaire"
+        ]
+      },
+      {
+        "name": "Sélection et suivi",
+        "tagline": "Accompagner jusqu’à la pérennisation",
+        "description": "Sélection en cascade et suivi rapproché des projets retenus, avec l’objectif que 100 % restent actifs 18 mois après la subvention.",
+        "results": [],
+        "sectors": [
+          "Développement économique local"
+        ]
+      },
+      {
+        "name": "Renforcement de l’écosystème",
+        "tagline": "Former et mobiliser les acteurs régionaux",
+        "description": "Formation et mobilisation de l’écosystème entrepreneurial régional, avec une cible d’au moins 600 participants et le soutien à la création de GIE portés par des jeunes.",
+        "results": [],
+        "sectors": [
+          "Gouvernance locale",
+          "Développement régional"
+        ]
+      }
+    ],
+    "dataGaps": [
+      "La présentation dédiée mélange un indicateur d’impact 20–40 ans et une exigence d’au moins 75 % de sensibilisés de moins de 35 ans ; ces deux cadrages restent affichés sans fusion.",
+      "Financement 100 % UE / 5 M€ confirmé dans la présentation dédiée.",
+      "Le second appel (juin 2026) et les rapports narratifs annuels viennent de sources hors présentation dédiée et restent publiés dans le catalogue publications.",
+      "Le classeur de mapping ne contient encore de lignes que pour Kébili, Le Kef, Zaghouan et Kairouan."
+    ]
+  },
+  {
+    "slug": "maghroumin",
+    "acronym": "Maghroum'IN",
+    "fullName": "Participation et inclusion des jeunes tunisien(ne)s à travers la création, l'accès à la culture et au sport",
+    "tagline": "Renforcer l’inclusion et la participation des jeunes tunisien.ne.s en situation de vulnérabilité à travers la création, la culture et le sport.",
+    "composante": "Culture et sport pour l'inclusion",
+    "theme": "maghroumin",
+    "budget": "15,46 millions d'euros",
+    "partner": "AECID – British Council – FIIAPP",
+    "territory": "Couverture nationale",
+    "period": "À partir du 1er janvier 2022 — 60 mois",
+    "sectors": "Culture, sport, création, inclusion",
+    "beneficiaries": [
+      "Femmes et hommes de moins de 35 ans en situation de vulnérabilité",
+      "Organisations de la société civile et acteurs indépendants",
+      "Structures publiques locales, régionales et déconcentrées",
+      "Ministères et organismes de tutelle"
+    ],
+    "presentation": [
+      "Maghroum’IN vise à renforcer l’inclusion et la participation des jeunes tunisien.ne.s en situation de vulnérabilité à travers la création, la culture et le sport.",
+      "Le projet combine le renforcement des services publics culturels et sportifs, le soutien aux dynamiques communautaires et l’inclusion économique des jeunes dans ces secteurs."
+    ],
+    "governorates": [
+      "Présence nationale"
+    ],
+    "generalObjective": "Renforcer l’inclusion et la participation des jeunes tunisien.ne.s en situation de vulnérabilité à travers la création, la culture et le sport.",
+    "specificObjectives": [
+      "Renforcer l’autonomie des jeunes dans les domaines du sport et de la culture.",
+      "Soutenir et encourager leur engagement durable en faveur du changement dans les domaines du sport et de la culture.",
+      "Favoriser leur représentation et veiller à ce qu’ils soient entendu.e.s dans les processus de prise de décision concernant leur vie culturelle et sportive."
+    ],
+    "kpis": [
+      {
+        "value": "3",
+        "label": "axes d'intervention"
+      },
+      {
+        "value": "60",
+        "label": "mois de mise en œuvre"
+      }
+    ],
+    "components": [
+      {
+        "name": "Services publics",
+        "tagline": "Initiatives locales et nationales",
+        "description": "Initiatives locales et nationales, assistance technique aux ministères et échanges entre pairs pour renforcer l’accès des jeunes aux services culturels et sportifs.",
+        "results": [],
+        "sectors": [
+          "Culture",
+          "Sport",
+          "Services publics"
+        ]
+      },
+      {
+        "name": "Dynamiques communautaires",
+        "tagline": "Engagement et apprentissage",
+        "description": "Soutien aux dynamiques communautaires via FESC, FAS, FOCUS, learning labs et Maghroum’IN Academy.",
+        "results": [],
+        "sectors": [
+          "Société civile",
+          "Inclusion"
+        ]
+      },
+      {
+        "name": "Inclusion économique",
+        "tagline": "Incubation et accélération",
+        "description": "Incubation de nouvelles initiatives portées par des jeunes et accélération / relance d’entreprises existantes dans les secteurs culturel et sportif.",
+        "results": [],
+        "sectors": [
+          "Entrepreneuriat",
+          "Industries créatives"
+        ]
+      }
+    ],
+    "dataGaps": [
+      "Budget issu du glossaire / homepage, absent de la fiche projet dédiée.",
+      "La présentation dédiée écrit « FIAP » ; la forme institutionnelle retenue ici reste FIIAPP, en attente de confirmation propriétaire.",
+      "Les mentions « première intervention UE dans le sport » et continuité Tfanen ne figurent pas dans la présentation dédiée et ont été retirées de la page projet.",
+      "Pas de liste contractuelle de gouvernorats dans la présentation dédiée ; le mapping montre une couverture multi-gouvernorats."
+    ]
+  },
+  {
+    "slug": "fe3ila",
+    "acronym": "Fe3il.a",
+    "fullName": "Politique jeunesse et participation des jeunes dans les politiques publiques en Tunisie",
+    "tagline": "Faire des jeunes des acteurs du changement dans leurs territoires.",
+    "composante": "Politiques publiques et participation des jeunes",
+    "theme": "fe3ila",
+    "budget": "9,1 millions d'euros",
+    "partner": "CILG-VNG International · Ministère de la Jeunesse et des Sports",
+    "territory": "8 communes partenaires",
+    "period": "2021 – 2026",
+    "fundingNote": "Projet financé par l'Union européenne avec la contribution du Royaume des Pays-Bas",
+    "sectors": "Gouvernance locale, participation des jeunes, entrepreneuriat et initiatives jeunes, engagement citoyen, espaces jeunesse",
+    "beneficiaries": [
+      "Jeunes tunisien·ne·s âgé·e·s de 18 à 35 ans",
+      "Communes",
+      "Associations"
+    ],
+    "presentation": [
+      "Fe3il.a (« acteur·rice » en arabe tunisien) vise à faire des jeunes des acteurs du changement dans leurs territoires, en renforçant leur participation aux politiques publiques et aux processus de développement local.",
+      "Communes partenaires : Agareb (Sfax), Ben Guerdane (Médenine), Chrayaa Machrek Shams (Kasserine), Djerba Ajim (Médenine), Douar Hicher (Manouba), El Aroussa (Siliana), Jemna (Kébili) et Medjez El Bab (Béja)."
+    ],
+    "governorates": [
+      "Sfax",
+      "Médenine",
+      "Kasserine",
+      "Manouba",
+      "Siliana",
+      "Kébili",
+      "Béja"
+    ],
+    "generalObjective": "Contribuer à l’amélioration de l’inclusion économique, sociale et politique des jeunes tunisien·ne·s en renforçant leur participation dans les politiques publiques et les processus de développement local.",
+    "specificObjectives": [
+      "Renforcer la participation des jeunes dans la gouvernance locale.",
+      "Favoriser l’autonomisation économique et sociale des jeunes.",
+      "Développer des politiques publiques plus inclusives et sensibles aux enjeux jeunesse."
+    ],
+    "kpis": [
+      {
+        "value": "151",
+        "label": "jeunes incubés"
+      },
+      {
+        "value": "123",
+        "label": "microprojets et initiatives jeunes soutenus"
+      },
+      {
+        "value": "61",
+        "label": "initiatives associatives"
+      },
+      {
+        "value": "8",
+        "label": "communes partenaires"
+      }
+    ],
+    "components": [
+      {
+        "name": "Gouvernance locale avec les jeunes",
+        "tagline": "Construire les politiques locales",
+        "description": "Renforcement de la participation des jeunes dans la gouvernance locale et dans la conception des politiques publiques territoriales.",
+        "results": [
+          "8 communes accompagnées"
+        ],
+        "sectors": [
+          "Gouvernance locale",
+          "Participation citoyenne"
+        ]
+      },
+      {
+        "name": "Entrepreneuriat et initiatives jeunes",
+        "tagline": "Soutenir l’action économique et sociale",
+        "description": "Soutien à l’entrepreneuriat et aux initiatives portées par des jeunes, notamment dans l’ESS, la culture et la création, l’environnement, les services de proximité et le sport communautaire.",
+        "results": [
+          "123 microprojets et initiatives jeunes soutenus"
+        ],
+        "sectors": [
+          "ESS",
+          "Culture",
+          "Environnement",
+          "Sport"
+        ]
+      },
+      {
+        "name": "Engagement citoyen et associations",
+        "tagline": "Appuyer les dynamiques associatives",
+        "description": "Soutien à l’engagement citoyen et aux associations qui accompagnent la participation des jeunes.",
+        "results": [
+          "61 initiatives associatives"
+        ],
+        "sectors": [
+          "Société civile"
+        ]
+      },
+      {
+        "name": "Espaces adaptés aux jeunes",
+        "tagline": "Créer et améliorer les lieux",
+        "description": "Création et amélioration d’espaces adaptés aux jeunes dans les territoires partenaires.",
+        "results": [],
+        "sectors": [
+          "Infrastructures jeunesse"
+        ]
+      }
+    ],
+    "dataGaps": [
+      "Le programme et certaines maquettes indiquent 9 M€ ; la fiche projet dédiée indique 9,1 M€ et prévaut ici.",
+      "Les formulations PIA, Forum des Jeunes et coordination interministérielle ne figurent pas dans la présentation dédiée ; elles ont été retirées de la structure publique jusqu’à attribution séparée.",
+      "Le classeur de mapping contient aussi des initiatives hors des 8 communes contractuelles ; elles ne remplacent pas ce périmètre officiel."
+    ]
+  }
+]

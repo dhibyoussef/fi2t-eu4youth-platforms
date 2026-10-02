@@ -1,0 +1,242 @@
+{
+  "slug": "go4youth",
+  "fr": {
+    "acronym": "GO4Youth",
+    "fullName": "Gates for Opportunities for Youth",
+    "tagline": "Renforcer les services d’emploi pour améliorer l’accès des jeunes à des opportunités professionnelles décentes",
+    "presentation": [
+      "GO4Youth vise à renforcer l’efficacité des services publics et privés d’accompagnement vers l’emploi afin d’offrir aux chercheurs d’emploi, en particulier aux jeunes et aux groupes vulnérables, un accompagnement plus personnalisé, plus accessible et davantage adapté aux évolutions du marché du travail.",
+      "Le projet accompagne notamment la réforme stratégique de l’Agence Nationale pour l’Emploi et le Travail Indépendant (ANETI) à travers la mise en œuvre de la Vision ANETI 2030, qui ambitionne de moderniser les services proposés aux chercheurs d’emploi et aux entreprises, tout en renforçant la digitalisation des processus internes.",
+      "GO4Youth contribue ainsi à l’objectif d’EU4Youth visant à améliorer l’inclusion économique et sociale des jeunes à travers le développement de l’employabilité, l’accès à l’emploi décent et le renforcement des services d’intermédiation sur le marché du travail."
+    ],
+    "generalObjective": "Contribuer à améliorer l’accès des jeunes et des populations vulnérables à des emplois de qualité en renforçant l’efficacité, l’accessibilité et la pertinence des services d’intermédiation sur le marché du travail tunisien.",
+    "specificObjectives": [
+      {
+        "title": "Améliorer les services de l’ANETI destinés aux chercheurs d’emploi",
+        "body": "Le projet accompagne la refonte de l’offre de services de l’ANETI afin de proposer un accompagnement plus personnalisé, basé sur le profil, les besoins et le parcours de chaque chercheur d’emploi. Les interventions portent notamment sur : la mise en place de systèmes de profilage des chercheurs d’emploi ; le développement de plans d’action personnalisés ; l’amélioration des services d’accompagnement à la recherche d’emploi ; le développement d’outils dédiés aux personnes en reconversion professionnelle."
+      },
+      {
+        "title": "Renforcer les services de l’ANETI destinés aux entreprises",
+        "body": "GO4Youth soutient le développement d’une approche davantage orientée vers les besoins des entreprises afin d’améliorer la mise en relation entre employeurs et chercheurs d’emploi. Les actions comprennent : l’analyse des besoins des entreprises tunisiennes ; l’amélioration des services de prospection et de gestion des offres d’emploi ; le développement d’outils facilitant l’accès des entreprises aux services de l’ANETI."
+      },
+      {
+        "title": "Accélérer la transformation digitale de l’ANETI",
+        "body": "Le projet accompagne la digitalisation progressive des services et processus internes afin d’améliorer l’efficacité opérationnelle de l’institution et l’expérience des utilisateurs. Cette transformation comprend : le développement de services numériques destinés aux chercheurs d’emploi et aux entreprises ; la dématérialisation des procédures internes ; la mise en place de cahiers des charges pour les futurs services digitaux."
+      },
+      {
+        "title": "Renforcer l’écosystème de l’employabilité",
+        "body": "GO4Youth contribue également à professionnaliser les acteurs privés intervenant dans l’accompagnement vers l’emploi et à développer des partenariats opérationnels avec l’ANETI. L’objectif est de favoriser une complémentarité entre services publics et privés afin d’élargir l’offre d’accompagnement disponible pour les jeunes."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "3",
+        "label": "nouveaux services créés ou améliorés (sur un objectif de 8)"
+      },
+      {
+        "value": "19",
+        "label": "cahiers des charges pour les services numériques développés et en cours de déploiement."
+      }
+    ],
+    "components": [
+      {
+        "name": "1. Refonte des services aux chercheurs d’emploi",
+        "description": "Élaboration d’une stratégie et d’une feuille de route pour la refonte des services de l’ANETI ;",
+        "bullets": [
+          "Objectif : Fournir de nouveaux services adaptés aux profils et besoins des chercheurs d’emploi.",
+          "Activités principales :",
+          "Développement d’un système de profilage des chercheurs d’emploi ;",
+          "Création de boîtes à outils pour :",
+          "les chercheurs d’emploi proches du marché du travail ;",
+          "les personnes en reconversion professionnelle ;",
+          "Développement de benchmarks internationaux sur les pratiques des services publics de l’emploi."
+        ]
+      },
+      {
+        "name": "2. Développement des services aux entreprises",
+        "description": "",
+        "bullets": []
+      },
+      {
+        "name": "3. Digitalisation des services et processus de l’ANETI",
+        "description": "",
+        "bullets": []
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "Septembre 2021 – Juin 2027",
+      "implementer": "Banque mondiale - ANETI",
+      "institutionalPartner": "Agence Nationale pour l’Emploi et le Travail Indépendant (ANETI)",
+      "targetGroup": "",
+      "funding": "Union européenne - ANETI"
+    }
+  },
+  "en": {
+    "acronym": "Gates for Opportunities for Youth",
+    "fullName": "Gates for Opportunities for Youth (GO4Youth)",
+    "tagline": "Strengthening employment services to improve young people's access to decent employment opportunities",
+    "presentation": [
+      "GO4Youth aims to enhance the effectiveness of public and private employment support services in order to provide jobseekers, particularly young people and vulnerable groups, with more personalised, accessible support that is better adapted to developments in the labour market.",
+      "The project notably supports the strategic reform of the National Employment and Self-Employment Agency (ANETI) through the implementation of the ANETI Vision 2030, which aims to modernise the services offered to jobseekers and businesses while strengthening the digitalisation of internal processes.",
+      "GO4Youth thus contributes to EU4Youth’s objective of improving the economic and social inclusion of young people through the development of employability, access to decent employment and the strengthening of labour market intermediation services."
+    ],
+    "generalObjective": "To contribute to improving access to quality employment for young people and vulnerable populations by strengthening the effectiveness, accessibility and relevance of labour market intermediation services in Tunisia.",
+    "specificObjectives": [
+      {
+        "title": "Improving ANETI services for jobseekers",
+        "body": "The project supports the redesign of ANETI’s service offering in order to provide more personalised support based on the profile, needs and pathway of each jobseeker. Interventions include: the introduction of jobseeker profiling systems; the development of personalised action plans; the improvement of job-search support services; the development of tools dedicated to people undergoing career transitions."
+      },
+      {
+        "title": "Strengthening ANETI services for businesses",
+        "body": "GO4Youth supports the development of an approach that is more responsive to the needs of businesses in order to improve matching between employers and jobseekers. Actions include: analysing the needs of Tunisian businesses; improving business outreach services and job vacancy management; developing tools to facilitate businesses’ access to ANETI services."
+      },
+      {
+        "title": "Accelerating ANETI’s digital transformation",
+        "body": "The project supports the gradual digitalisation of services and internal processes in order to improve the institution’s operational efficiency and user experience. This transformation includes: the development of digital services for jobseekers and businesses; the digitisation of internal procedures; the development of technical specifications for future digital services."
+      },
+      {
+        "title": "Strengthening the employability ecosystem",
+        "body": "GO4Youth also contributes to the professionalisation of private actors involved in employment support and to the development of operational partnerships with ANETI. The objective is to foster complementarity between public and private services in order to expand the range of support available to young people."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "3",
+        "label": "new or improved services created (out of a target of 8)"
+      },
+      {
+        "value": "19",
+        "label": "technical specifications for digital services developed and under deployment."
+      }
+    ],
+    "components": [
+      {
+        "name": "1. Redesigning services for jobseekers",
+        "description": "Developing a strategy and roadmap for redesigning ANETI services;",
+        "bullets": [
+          "Objective: To provide new services tailored to the profiles and needs of jobseekers.",
+          "Developing a jobseeker profiling system;",
+          "Creating toolkits for:",
+          "jobseekers who are close to the labour market;",
+          "people undergoing career transitions;",
+          "Developing international benchmarks on public employment service practices."
+        ]
+      },
+      {
+        "name": "2. Developing services for businesses",
+        "description": "Assessing the needs of Tunisian businesses;",
+        "bullets": [
+          "Developing a new strategy for employer services;",
+          "Improving management tools for active labour market programmes;",
+          "Producing analyses of labour market skills needs."
+        ]
+      },
+      {
+        "name": "3. Digitalising ANETI services and processes",
+        "description": "Defining an institutional digital strategy;",
+        "bullets": [
+          "Identifying priority services for digitalisation;",
+          "Developing technical specifications;",
+          "Supporting ANETI in the implementation of digital solutions."
+        ]
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "September 2021 – June 2027",
+      "implementer": "World Bank - ANETI",
+      "institutionalPartner": "National Employment and Self-Employment Agency (ANETI)",
+      "targetGroup": "",
+      "funding": "European Union - ANETI"
+    }
+  },
+  "ar": {
+    "acronym": "بوابات الفرص للشباب",
+    "fullName": "Gates for Opportunities for Youth (GO4Youth)",
+    "tagline": "تعزيز خدمات التشغيل لتحسين وصول الشباب إلى فرص عمل لائقة",
+    "presentation": [
+      "يهدف مشروع GO4Youth إلى تعزيز فعالية خدمات المرافقة نحو التشغيل التي يقدمها القطاعان العام والخاص، بما يتيح للباحثين عن عمل، ولا سيما الشباب والفئات الهشة، مرافقة أكثر تخصيصًا، وأكثر سهولة في الوصول، وأكثر ملاءمة للتطورات التي يشهدها سوق العمل.",
+      "ويدعم المشروع، على وجه الخصوص، الإصلاح الاستراتيجي للوكالة الوطنية للتشغيل والعمل المستقل (ANETI)، من خلال تنفيذ رؤية ANETI 2030، التي تهدف إلى تحديث الخدمات المقدمة للباحثين عن عمل وللمؤسسات، مع تعزيز رقمنة الإجراءات الداخلية.",
+      "وبذلك، يساهم GO4Youth في تحقيق هدف EU4Youth الرامي إلى تعزيز الإدماج الاقتصادي والاجتماعي للشباب من خلال تطوير قابلية التشغيل، وتحسين الوصول إلى العمل اللائق، وتعزيز خدمات الوساطة في سوق العمل."
+    ],
+    "generalObjective": "المساهمة في تحسين وصول الشباب والفئات الهشة إلى وظائف ذات جودة، من خلال تعزيز فعالية خدمات الوساطة في سوق العمل التونسي، وإمكانية الوصول إليها، ومدى ملاءمتها للاحتياجات.",
+    "specificObjectives": [
+      {
+        "title": "تحسين خدمات ANETI الموجهة للباحثين عن عمل",
+        "body": "يدعم المشروع إعادة تصميم باقة الخدمات التي تقدمها ANETI، بهدف توفير مرافقة أكثر تخصيصًا، تستند إلى ملف كل باحث عن عمل واحتياجاته ومساره. وتشمل التدخلات، على وجه الخصوص: إرساء أنظمة لتحديد ملفات الباحثين عن عمل؛ تطوير خطط عمل مخصصة؛ تحسين خدمات المرافقة في البحث عن عمل؛ تطوير أدوات مخصصة للأشخاص الذين يمرون بمرحلة إعادة توجيه مهني."
+      },
+      {
+        "title": "تعزيز خدمات ANETI الموجهة للمؤسسات",
+        "body": "يدعم GO4Youth تطوير مقاربة أكثر استجابة لاحتياجات المؤسسات، بهدف تحسين الربط بين المشغلين والباحثين عن عمل. وتشمل الأنشطة: تحليل احتياجات المؤسسات التونسية؛ تحسين خدمات استقطاب المؤسسات وإدارة عروض الشغل؛ تطوير أدوات تسهّل وصول المؤسسات إلى خدمات ANETI."
+      },
+      {
+        "title": "تسريع التحول الرقمي للـ ANETI",
+        "body": "يدعم المشروع الرقمنة التدريجية للخدمات والإجراءات الداخلية، بهدف تحسين الفعالية التشغيلية للمؤسسة وتجربة المستخدمين. ويشمل هذا التحول: تطوير خدمات رقمية موجهة للباحثين عن عمل والمؤسسات؛ رقمنة الإجراءات الداخلية؛ إعداد كراسات الشروط الخاصة بالخدمات الرقمية المستقبلية."
+      },
+      {
+        "title": "تعزيز منظومة قابلية التشغيل",
+        "body": "يساهم GO4Youth أيضًا في تطوير قدرات الفاعلين من القطاع الخاص المتدخلين في مرافقة الباحثين عن عمل، وفي تطوير شراكات عملية مع ANETI. ويتمثل الهدف في تعزيز التكامل بين الخدمات العامة والخاصة، من أجل توسيع عرض خدمات المرافقة المتاحة للشباب."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "3",
+        "label": "إحداث أو تحسين خدمات جديدة (من أصل هدف يبلغ 8 خدمات)؛"
+      },
+      {
+        "value": "6",
+        "label": "اختبار أدوات المرافقة في مكاتب للتشغيل والعمل المستقل (BETI)"
+      },
+      {
+        "value": "19",
+        "label": "إعداد كراس شروط للخدمات الرقمية، وهي بصدد التنفيذ"
+      }
+    ],
+    "components": [
+      {
+        "name": "1. إعادة تصميم الخدمات الموجهة للباحثين عن عمل",
+        "description": "إعداد استراتيجية وخارطة طريق لإعادة تصميم خدمات ANETI؛",
+        "bullets": [
+          "الهدف: توفير خدمات جديدة تتلاءم مع ملفات الباحثين عن عمل واحتياجاتهم.",
+          "تطوير نظام لتحديد ملفات الباحثين عن عمل؛",
+          "إعداد حزم من الأدوات لفائدة:",
+          "الباحثين عن عمل القريبين من سوق العمل؛",
+          "الأشخاص الذين يمرون بمرحلة إعادة توجيه مهني؛",
+          "تطوير مقارنات مرجعية دولية حول ممارسات خدمات التشغيل العمومية."
+        ]
+      },
+      {
+        "name": "2. تطوير الخدمات الموجهة للمؤسسات",
+        "description": "تشخيص احتياجات المؤسسات التونسية؛",
+        "bullets": [
+          "تطوير استراتيجية جديدة للخدمات الموجهة للمشغلين؛",
+          "تحسين أدوات إدارة برامج التشغيل النشطة؛",
+          "إعداد تحاليل حول احتياجات سوق العمل من المهارات."
+        ]
+      },
+      {
+        "name": "3. رقمنة خدمات وإجراءات ANETI",
+        "description": "تحديد استراتيجية رقمية للمؤسسة؛",
+        "bullets": [
+          "تحديد الخدمات ذات الأولوية للرقمنة؛",
+          "إعداد كراسات الشروط الفنية؛",
+          "مرافقة ANETI في تنفيذ الحلول الرقمية."
+        ]
+      },
+      {
+        "name": "GO4Youth",
+        "description": "",
+        "bullets": []
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "سبتمبر 2021 – يونيو 2027",
+      "implementer": "",
+      "institutionalPartner": "الوكالة الوطنية للتشغيل والعمل المستقل (ANETI)",
+      "targetGroup": "",
+      "funding": "الاتحاد الأوروبي - ANETI"
+    }
+  }
+}

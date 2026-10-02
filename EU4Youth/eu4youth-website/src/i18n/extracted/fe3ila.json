@@ -1,0 +1,306 @@
+{
+  "slug": "fe3ila",
+  "fr": {
+    "acronym": "Fe3il.a",
+    "fullName": "Politique jeunesse et participation des jeunes dans les politiques publiques en Tunisie",
+    "tagline": "Politique jeunesse et participation des jeunes dans les politiques publiques en Tunisie",
+    "presentation": [
+      "Fe3il.a vise à renforcer la prise en compte des jeunes et des enjeux liés à la jeunesse dans les politiques publiques, aux niveaux local et national. Le projet accompagne les acteurs publics, les collectivités locales, les organisations de la société civile et les jeunes dans le développement de mécanismes de participation, de concertation et d’action adaptés aux réalités des territoires.",
+      "Une attention particulière est accordée à la participation des jeunes en situation de vulnérabilité et/ou de marginalisation, ainsi qu’à leur inclusion dans les dynamiques de développement local et socio-économique."
+    ],
+    "generalObjective": "Améliorer l’inclusion des jeunes dans les processus de décision et dans les politiques publiques qui les concernent, aux niveaux local et national, en renforçant leur participation et la prise en compte de leurs besoins dans les dynamiques de gouvernance et de développement.",
+    "specificObjectives": [
+      {
+        "title": "Participation et prise en compte de la jeunesse au niveau local",
+        "body": "Les jeunes et les problématiques liées à la jeunesse sont inclus dans la conception et la mise en œuvre des initiatives et politiques publiques locales, en cohérence avec la planification municipale, identifiés et mis en œuvre en concertation avec les organisations de la société civile de la commune."
+      },
+      {
+        "title": "Prise en compte de la jeunesse dans les politiques publiques et la gouvernance",
+        "body": "Les jeunes et les problématiques liées à la jeunesse sont inclus dans les politiques nationales et les systèmes de gouvernance régionaux et locaux de mise en œuvre de dites politiques."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "24",
+        "label": "gouvernorats couverts"
+      },
+      {
+        "value": "61",
+        "label": "initiatives associatives soutenues"
+      },
+      {
+        "value": "113",
+        "label": "micro-projets portés par des jeunes"
+      },
+      {
+        "value": "11",
+        "label": "projets sportifs accompagnés"
+      },
+      {
+        "value": "8",
+        "label": "communes accompagnées"
+      },
+      {
+        "value": "8",
+        "label": "forums des jeunes créés"
+      },
+      {
+        "value": "8",
+        "label": "plateformes intersectorielles d’intégration des jeunes créées"
+      },
+      {
+        "value": "8",
+        "label": "PDL sensibles à la jeunesse accompagnés"
+      },
+      {
+        "value": "47",
+        "label": "associations sportives bénéficiaires de matériel sportif"
+      }
+    ],
+    "components": [
+      {
+        "name": "1. Participation des jeunes et gouvernance locale",
+        "description": "Appui aux municipalités dans les processus de planification et de programmation locale, avec la participation des jeunes aux processus de décision et la prise en compte de leurs besoins spécifiques dans la programmation territoriale.",
+        "bullets": [
+          "Appui financier et technique à des actions et projets bénéficiant directement aux jeunes, notamment ceux issus de groupes vulnérables et/ou marginalisés, prévus dans la programmation issue du processus de planification locale.",
+          "Accompagnement et renforcement des dispositifs participatifs de gouvernance locale et de représentation des jeunes.",
+          "Capitalisation et diffusion des processus de planification jeunesse et de gouvernance locale auprès des instances décisionnelles."
+        ]
+      },
+      {
+        "name": "2. Jeunesse dans les politiques publiques nationales",
+        "description": "Renforcement des mécanismes de coordination et de concertation multipartite.",
+        "bullets": [
+          "Renforcement de la place des jeunes dans les politiques nationales.",
+          "Appui à l’administration pour renforcer son expertise en matière de jeunesse et l’inclusion des jeunes."
+        ]
+      },
+      {
+        "name": "3. Mobilisation et renforcement des organisations de la société civile",
+        "description": "Appui financier et technique aux associations mobilisant des jeunes pour leur participation à la vie publique locale.",
+        "bullets": [
+          "Mise à disposition de matériels et d’équipements sportifs au profit des organisations de la société civile."
+        ]
+      },
+      {
+        "name": "4. Autonomisation et intégration socio-économique des jeunes",
+        "description": "Soutien à des micro-projets d’insertion socio-économique.",
+        "bullets": [
+          "Soutien aux jeunes professeurs d’éducation physique et entraîneurs sportifs.",
+          "Mise en fonctionnement du terrain de mini-foot dans la commune de Smar, à Tataouine."
+        ]
+      }
+    ],
+    "heritage": [
+      "Au-delà des résultats directs, Fe3il.a contribue à développer des modèles et mécanismes reproductibles pour renforcer durablement la participation des jeunes dans les politiques publiques.",
+      "En mettant l’accent sur la co-construction, l’accompagnement des initiatives locales et la coopération entre jeunes, institutions et société civile, le projet contribue à faire émerger des territoires plus inclusifs, participatifs et capables de répondre aux aspirations de leur jeunesse."
+    ],
+    "keyInfo": {
+      "period": "2021–2026",
+      "implementer": "CILG-VNG International et VNG International",
+      "institutionalPartner": "Ministère de la Jeunesse et des Sports",
+      "targetGroup": "Jeunes de 18 à 35 ans",
+      "funding": ""
+    }
+  },
+  "en": {
+    "acronym": "Fe3il.a",
+    "fullName": "Youth Policy and Youth Participation in Public Policies in Tunisia",
+    "tagline": "Youth Policy and Youth Participation in Public Policies in Tunisia",
+    "presentation": [
+      "Fe3il.a works to strengthen the inclusion of young people and youth-related issues in public policies at both local and national levels. The project supports public institutions, local authorities, civil society organisations and young people in developing participatory, consultative and action-oriented mechanisms that respond to local realities.",
+      "Particular attention is given to the participation of young people in vulnerable and/or marginalised situations, and to their inclusion in local and socio-economic development processes."
+    ],
+    "generalObjective": "To improve the inclusion of young people in decision-making processes and in the public policies that affect them, at local and national levels, by strengthening their participation and ensuring that their needs are taken into account in governance and development processes.",
+    "specificObjectives": [
+      {
+        "title": "Youth participation and inclusion at local level",
+        "body": "Young people and youth-related issues are integrated into the design and implementation of local initiatives and public policies, in line with municipal planning processes and developed and implemented in consultation with civil society organisations at municipal level."
+      },
+      {
+        "title": "Youth inclusion in public policies and governance",
+        "body": "Young people and youth-related issues are integrated into national policies and into regional and local governance systems responsible for implementing these policies."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "24",
+        "label": "governorates covered"
+      },
+      {
+        "value": "61",
+        "label": "civil society initiatives supported"
+      },
+      {
+        "value": "113",
+        "label": "youth-led micro-projects supported"
+      },
+      {
+        "value": "11",
+        "label": "sports projects supported"
+      },
+      {
+        "value": "8",
+        "label": "municipalities supported"
+      },
+      {
+        "value": "8",
+        "label": "youth forums established"
+      },
+      {
+        "value": "8",
+        "label": "cross-sectoral platforms for youth inclusion established"
+      },
+      {
+        "value": "8",
+        "label": "youth-sensitive Local Development Plans (LDPs) supported"
+      },
+      {
+        "value": "47",
+        "label": "sports associations provided with sports equipment"
+      }
+    ],
+    "components": [
+      {
+        "name": "1. Youth participation and local governance",
+        "description": "Supporting municipalities in local planning and programming processes, promoting young people's participation in decision-making and ensuring that their specific needs are reflected in territorial planning.",
+        "bullets": [
+          "Providing financial and technical support for actions and projects directly benefiting young people, particularly those from vulnerable and/or marginalised groups, identified through local planning processes.",
+          "Supporting and strengthening participatory local governance mechanisms and youth representation.",
+          "Documenting and sharing youth planning and local governance approaches with decision-making stakeholders."
+        ]
+      },
+      {
+        "name": "2. Youth in national public policies",
+        "description": "Strengthening multi-stakeholder coordination and consultation mechanisms.",
+        "bullets": [
+          "Strengthening the place of young people in national policies.",
+          "Supporting public administrations in strengthening their expertise on youth issues and youth inclusion."
+        ]
+      },
+      {
+        "name": "3. Mobilising and strengthening civil society organisations",
+        "description": "Providing financial and technical support to associations engaging young people in local public life.",
+        "bullets": [
+          "Providing sports equipment and materials to civil society organisations."
+        ]
+      },
+      {
+        "name": "4. Youth empowerment and socio-economic inclusion",
+        "description": "Supporting micro-projects promoting socio-economic inclusion.",
+        "bullets": [
+          "Supporting young physical education teachers and sports coaches.",
+          "Supporting the operation of the mini-football pitch in the municipality of Smar, in Tataouine."
+        ]
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "2021–2026",
+      "implementer": "CILG-VNG International and VNG International",
+      "institutionalPartner": "Ministry of Youth and Sports",
+      "targetGroup": "Young people aged 18 to 35",
+      "funding": ""
+    }
+  },
+  "ar": {
+    "acronym": "فاعل.ة",
+    "fullName": "سياسة الشباب ومشاركة الشباب في السياسات العمومية في تونس",
+    "tagline": "سياسة الشباب ومشاركة الشباب في السياسات العمومية في تونس",
+    "presentation": [
+      "يهدف مشروع فاعل.ة إلى تعزيز إدماج الشباب والقضايا المرتبطة بهم في السياسات العمومية على المستويين المحلي والوطني. ويرافق المشروع المؤسسات العمومية والجماعات المحلية ومنظمات المجتمع المدني والشباب في تطوير آليات للمشاركة والتشاور والعمل، بما يستجيب لخصوصيات وواقع مختلف المناطق.",
+      "ويولي المشروع اهتماماً خاصاً بمشاركة الشباب الذين يعيشون أوضاع هشاشة و/أو تهميش، وبإدماجهم في مسارات التنمية المحلية والاقتصادية والاجتماعية."
+    ],
+    "generalObjective": "تعزيز إدماج الشباب في مسارات اتخاذ القرار وفي السياسات العمومية التي تعنيهم، على المستويين المحلي والوطني، من خلال دعم مشاركتهم وضمان مراعاة احتياجاتهم ضمن مسارات الحوكمة والتنمية.",
+    "specificObjectives": [
+      {
+        "title": "الهدف الأول — مشاركة الشباب وإدماج قضاياهم على المستوى المحلي",
+        "body": "إدماج الشباب والقضايا المرتبطة بهم في تصميم وتنفيذ المبادرات والسياسات العمومية المحلية، بما ينسجم مع مسارات التخطيط البلدي، وبالتشاور مع منظمات المجتمع المدني على المستوى المحلي."
+      },
+      {
+        "title": "الهدف الثاني — إدماج الشباب في السياسات العمومية والحوكمة",
+        "body": "إدماج الشباب والقضايا المرتبطة بهم في السياسات الوطنية وفي منظومات الحوكمة الجهوية والمحلية المكلفة بتنفيذ هذه السياسات."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "24",
+        "label": "ولاية مشمولة بالمشروع"
+      },
+      {
+        "value": "61",
+        "label": "مبادرة جمعياتية تم دعمها"
+      },
+      {
+        "value": "113",
+        "label": "مشروعاً مصغراً يقوده شباب"
+      },
+      {
+        "value": "11",
+        "label": "مشروعاً رياضياً تمت مرافقتها"
+      },
+      {
+        "value": "8",
+        "label": "بلديات تمت مرافقتها"
+      },
+      {
+        "value": "8",
+        "label": "منتديات للشباب تم إحداثها"
+      },
+      {
+        "value": "8",
+        "label": "منصات متعددة القطاعات لإدماج الشباب تم إحداثها"
+      },
+      {
+        "value": "8",
+        "label": "مخططات للتنمية المحلية تراعي قضايا الشباب تمت مرافقتها"
+      },
+      {
+        "value": "47",
+        "label": "جمعية رياضية انتفعت بمعدات وتجهيزات رياضية"
+      }
+    ],
+    "components": [
+      {
+        "name": "1. مشاركة الشباب والحوكمة المحلية",
+        "description": "مرافقة البلديات في مسارات التخطيط والبرمجة المحلية، بما يعزز مشاركة الشباب في اتخاذ القرار ويضمن مراعاة احتياجاتهم الخاصة ضمن التخطيط والتنمية الترابية.",
+        "bullets": [
+          "تقديم دعم مالي وتقني للأنشطة والمشاريع التي تعود بالنفع المباشر على الشباب، ولا سيما الشباب في وضعيات هشاشة و/أو تهميش، والمندرجة ضمن البرامج الناتجة عن مسارات التخطيط المحلي.",
+          "مرافقة وتعزيز آليات الحوكمة المحلية التشاركية وآليات تمثيل الشباب.",
+          "توثيق ونشر التجارب والمقاربات المتعلقة بتخطيط سياسات الشباب والحوكمة المحلية لدى الجهات المعنية باتخاذ القرار."
+        ]
+      },
+      {
+        "name": "2. الشباب في السياسات العمومية الوطنية",
+        "description": "تعزيز آليات التنسيق والتشاور متعددة الأطراف.",
+        "bullets": [
+          "تعزيز حضور الشباب ومكانتهم ضمن السياسات الوطنية.",
+          "دعم الإدارات العمومية لتعزيز خبراتها في مجال قضايا الشباب وإدماجهم."
+        ]
+      },
+      {
+        "name": "3. تعبئة وتعزيز قدرات منظمات المجتمع المدني",
+        "description": "تقديم دعم مالي وتقني للجمعيات التي تعمل على تعزيز مشاركة الشباب في الحياة العامة على المستوى المحلي.",
+        "bullets": [
+          "توفير المعدات والتجهيزات الرياضية لفائدة منظمات المجتمع المدني."
+        ]
+      },
+      {
+        "name": "4. تمكين الشباب وإدماجهم اقتصادياً واجتماعياً",
+        "description": "دعم المشاريع المصغرة التي تساهم في الإدماج الاقتصادي والاجتماعي للشباب.",
+        "bullets": [
+          "دعم مدرّسي التربية البدنية الشباب والمدربين الرياضيين.",
+          "دعم استغلال وتشغيل ملعب كرة القدم المصغرة في بلدية الصمار بولاية تطاوين."
+        ]
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "2021–2026",
+      "implementer": "المركز الدولي للتنمية المحلية والحكم الرشيد CILG-VNG International وVNG International",
+      "institutionalPartner": "وزارة الشباب والرياضة",
+      "targetGroup": "الشباب من 18 إلى 35 سنة",
+      "funding": ""
+    }
+  }
+}

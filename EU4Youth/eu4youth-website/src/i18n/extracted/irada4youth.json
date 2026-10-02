@@ -1,0 +1,250 @@
+{
+  "slug": "irada4youth",
+  "fr": {
+    "acronym": "IRADA4YOUTH",
+    "fullName": "IRADA4YOUTH en chiffres",
+    "tagline": "Soutenir le développement économique local pour l’emploi et l’entrepreneuriat des jeunes",
+    "presentation": [
+      "IRADA4YOUTH contribue à un développement économique endogène, durable et inclusif dans des gouvernorats tunisiens prioritaires. En s’appuyant sur la valorisation des ressources et des potentialités économiques locales, le projet vise à stimuler l’entrepreneuriat des jeunes, renforcer leur employabilité et favoriser la création d’emplois durables et décents.",
+      "Le projet accompagne également le développement d’un écosystème régional d’appui aux jeunes entrepreneurs et encourage les synergies entre les acteurs publics et privés. Une attention particulière est accordée aux transitions énergétique, écologique et numérique, ainsi qu’à l’innovation et à la valorisation des ressources locales."
+    ],
+    "generalObjective": "IRADA4YOUTH contribue au développement endogène durable et inclusif dans des territoires tunisiens prioritaires. Le projet vise à impulser l’entrepreneuriat des jeunes et à améliorer leur employabilité à travers la valorisation du potentiel économique local de chaque gouvernorat cible. Il entend notamment : valoriser le potentiel économique endogène des gouvernorats ciblés ; mettre en place un écosystème régional performant d’appui aux jeunes entrepreneurs, notamment par le renforcement des capacités des acteurs locaux ; favoriser l’inclusion socio-économique des jeunes et des catégories fragiles ; promouvoir des pratiques favorisant la résilience locale ; encourager l’émergence d’un tissu de micro et petites entreprises dans les territoires ciblés.",
+    "specificObjectives": [
+      {
+        "title": "Renforcer la contribution du secteur privé à la création de richesses",
+        "body": "Le projet vise à renforcer la contribution du secteur privé à la création de richesses au niveau local et à améliorer la dynamique de développement interne des régions ciblées."
+      },
+      {
+        "title": "Créer des emplois durables et décents",
+        "body": "IRADA4YOUTH contribue à la création d’emplois décents dans les territoires ciblés, notamment à travers l’appui à des projets économiques portés par des jeunes."
+      },
+      {
+        "title": "Améliorer l’employabilité des jeunes",
+        "body": "Le projet vise à améliorer l’employabilité des jeunes de 35 ans et moins, en renforçant leurs capacités et en facilitant leur accès à des opportunités économiques et entrepreneuriales."
+      },
+      {
+        "title": "Promouvoir des initiatives entrepreneuriales innovantes",
+        "body": "IRADA4YOUTH encourage les jeunes à développer de nouvelles idées d’investissement et à créer leurs propres projets, notamment dans des domaines innovants."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "6",
+        "label": "gouvernorats ciblés"
+      },
+      {
+        "value": "50",
+        "label": "projets soutenus"
+      }
+    ],
+    "components": [
+      {
+        "name": "1. Valoriser le potentiel économique local",
+        "description": "Le projet s’appuie sur les ressources, les spécificités et les potentialités économiques propres à chaque territoire.",
+        "bullets": [
+          "Cette approche vise à favoriser un développement économique fondé sur les ressources locales et à encourager l’émergence d’activités adaptées aux réalités et aux opportunités de chaque gouvernorat.",
+          "Les financements et les initiatives soutenus s’inscrivent notamment dans des thématiques liées :",
+          "aux transitions énergétique, écologique et numérique ;",
+          "à la valorisation des ressources naturelles locales ;",
+          "à l’accès aux outils numériques ;",
+          "à l’innovation ;",
+          "et à l’entrepreneuriat social."
+        ]
+      },
+      {
+        "name": "2. Stimuler l’entrepreneuriat des jeunes",
+        "description": "IRADA4YOUTH encourage l’auto-entrepreneuriat et le développement de l’initiative privée chez les jeunes.",
+        "bullets": [
+          "Le projet accompagne les jeunes dans la transformation de leurs idées en projets concrets et favorise l’émergence d’initiatives entrepreneuriales innovantes dans les territoires ciblés.",
+          "L’intervention contribue ainsi au développement d’un tissu de micro et petites entreprises susceptibles de générer de la valeur, de l’activité économique et des emplois au niveau local."
+        ]
+      },
+      {
+        "name": "3. Renforcer l’écosystème régional d’appui",
+        "description": "Le projet accompagne la mise en place et le renforcement d’un écosystème régional performant en faveur des jeunes entrepreneurs.",
+        "bullets": [
+          "Il s’appuie sur les acteurs locaux et régionaux de l’accompagnement afin de renforcer leurs capacités et d’améliorer les services proposés aux jeunes porteurs d’idées et de projets.",
+          "Cette dynamique vise également à favoriser les synergies entre les acteurs publics et privés au sein des gouvernorats ciblés."
+        ]
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "2022–2027",
+      "implementer": "Commissariat Général au Développement Régional (CGDR), en partenariat avec l’Office de Développement du Nord-Ouest (ODNO), l’Office de Développement du Centre-Ouest (ODCO) et l’Office de Développement du Sud (ODS)",
+      "institutionalPartner": "",
+      "targetGroup": "Zaghouan, Mahdia, Le Kef, Kairouan, Kébili et Tozeur",
+      "funding": ""
+    }
+  },
+  "en": {
+    "acronym": "IRADA4YOUTH in figures",
+    "fullName": "Components and areas of intervention",
+    "tagline": "Supporting local economic development, youth employment and entrepreneurship",
+    "presentation": [
+      "IRADA4YOUTH contributes to sustainable and inclusive endogenous economic development in priority regions of Tunisia. By building on local resources and economic potential, the project aims to stimulate youth entrepreneurship, strengthen young people's employability and promote the creation of sustainable and decent jobs.",
+      "The project also supports the development of a strong regional ecosystem for young entrepreneurs and encourages synergies between public and private stakeholders. Particular attention is given to the energy, ecological and digital transitions, as well as to innovation and the valorisation of local resources."
+    ],
+    "generalObjective": "IRADA4YOUTH contributes to sustainable and inclusive endogenous development in priority regions of Tunisia. The project aims to stimulate youth entrepreneurship and improve young people's employability by harnessing the local economic potential of each target governorate. More specifically, it seeks to: harness the endogenous economic potential of the target governorates; establish a strong regional ecosystem to support young entrepreneurs, including through capacity building for local stakeholders; promote the socio-economic inclusion of young people and vulnerable groups; promote practices that strengthen local resilience; encourage the emergence of a network of micro and small enterprises in the target territories.",
+    "specificObjectives": [
+      {
+        "title": "Strengthening the private sector's contribution to wealth creation",
+        "body": "The project aims to strengthen the contribution of the private sector to local wealth creation and improve internal development dynamics in the target regions."
+      },
+      {
+        "title": "Creating sustainable and decent jobs",
+        "body": "IRADA4YOUTH contributes to the creation of decent jobs in the target territories, particularly through support for economic projects led by young people."
+      },
+      {
+        "title": "Improving young people's employability",
+        "body": "The project aims to improve the employability of young people aged 35 and under by strengthening their capacities and facilitating their access to economic and entrepreneurial opportunities."
+      },
+      {
+        "title": "Promoting innovative entrepreneurial initiatives",
+        "body": "IRADA4YOUTH encourages young people to develop new investment ideas and create their own projects, particularly in innovative fields."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "6",
+        "label": "governorates targeted"
+      },
+      {
+        "value": "50",
+        "label": "economic projetcs"
+      }
+    ],
+    "components": [
+      {
+        "name": "1. Harnessing local economic potential",
+        "description": "The project builds on the resources, specific characteristics and economic potential of each territory.",
+        "bullets": [
+          "This approach aims to promote economic development based on local resources and encourage the emergence of activities adapted to the realities and opportunities of each governorate.",
+          "The funding and initiatives supported focus in particular on areas related to:",
+          "the energy, ecological and digital transitions;",
+          "the valorisation of local natural resources;",
+          "access to digital tools;",
+          "innovation;",
+          "and social entrepreneurship."
+        ]
+      },
+      {
+        "name": "2. Stimulating youth entrepreneurship",
+        "description": "IRADA4YOUTH promotes self-employment and the development of private initiative among young people.",
+        "bullets": [
+          "The project supports young people in turning their ideas into concrete projects and encourages the emergence of innovative entrepreneurial initiatives in the target territories.",
+          "The intervention therefore contributes to the development of a network of micro and small enterprises capable of generating value, economic activity and employment at the local level."
+        ]
+      },
+      {
+        "name": "3. Strengthening the regional support ecosystem",
+        "description": "The project supports the establishment and strengthening of an effective regional ecosystem for young entrepreneurs.",
+        "bullets": [
+          "It works with local and regional support stakeholders to strengthen their capacities and improve the services available to young people with project ideas and initiatives.",
+          "This dynamic also aims to foster synergies between public and private stakeholders within the target governorates."
+        ]
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "2022–2027",
+      "implementer": "2022–2027",
+      "institutionalPartner": "",
+      "targetGroup": "Zaghouan, Mahdia, Le Kef, Kairouan, Kébili and Tozeur",
+      "funding": ""
+    }
+  },
+  "ar": {
+    "acronym": "IRADA4YOUTH بالأرقام",
+    "fullName": "دعم التنمية الاقتصادية المحلية المستدامة من أجل تشغيل الشباب",
+    "tagline": "دعم التنمية الاقتصادية المحلية وتشغيل الشباب وريادة الأعمال",
+    "presentation": [
+      "يساهم مشروع IRADA4YOUTH في تحقيق تنمية اقتصادية محلية ذاتية ومستدامة وشاملة في عدد من المناطق ذات الأولوية في تونس. ومن خلال تثمين الموارد والإمكانات الاقتصادية المحلية، يهدف المشروع إلى دعم ريادة الأعمال لدى الشباب، وتعزيز قابليتهم للتشغيل، والمساهمة في إحداث مواطن شغل مستدامة ولائقة.",
+      "كما يدعم المشروع تطوير منظومة جهوية فعّالة لمرافقة الشباب أصحاب المشاريع، ويشجع على تعزيز التكامل بين مختلف الفاعلين من القطاعين العام والخاص. ويولي المشروع اهتمامًا خاصًا بالتحولات الطاقية والبيئية والرقمية، إلى جانب الابتكار وتثمين الموارد المحلية."
+    ],
+    "generalObjective": "يساهم مشروع IRADA4YOUTH في تحقيق تنمية ذاتية ومستدامة وشاملة في مناطق تونسية ذات أولوية. ويهدف المشروع إلى دعم ريادة الأعمال لدى الشباب وتحسين قابليتهم للتشغيل، من خلال تثمين الإمكانات الاقتصادية المحلية في كل ولاية مستهدفة. ويسعى المشروع، على وجه الخصوص، إلى: تثمين الإمكانات الاقتصادية الذاتية للولايات المستهدفة؛ إرساء منظومة جهوية فعّالة لمرافقة الشباب أصحاب المشاريع، بما في ذلك من خلال تعزيز قدرات الفاعلين المحليين؛ تعزيز الإدماج الاجتماعي والاقتصادي للشباب والفئات الهشة؛ تشجيع الممارسات التي تعزز القدرة على الصمود على المستوى المحلي؛ دعم نشأة نسيج من المؤسسات الصغرى والمؤسسات الصغيرة في المناطق المستهدفة.",
+    "specificObjectives": [
+      {
+        "title": "تعزيز مساهمة القطاع الخاص في خلق الثروة",
+        "body": "يهدف المشروع إلى تعزيز مساهمة القطاع الخاص في خلق الثروة على المستوى المحلي وتحسين ديناميكيات التنمية الداخلية في المناطق المستهدفة."
+      },
+      {
+        "title": "إحداث مواطن شغل مستدامة ولائقة",
+        "body": "يساهم IRADA4YOUTH في إحداث مواطن شغل لائقة في المناطق المستهدفة، ولا سيما من خلال دعم المشاريع الاقتصادية التي يقودها الشباب."
+      },
+      {
+        "title": "تحسين قابلية الشباب للتشغيل",
+        "body": "يهدف المشروع إلى تحسين قابلية الشباب الذين تبلغ أعمارهم 35 سنة أو أقل للتشغيل، من خلال تعزيز قدراتهم وتسهيل وصولهم إلى الفرص الاقتصادية والريادية."
+      },
+      {
+        "title": "دعم المبادرات الريادية المبتكرة",
+        "body": "يشجع IRADA4YOUTH الشباب على تطوير أفكار استثمارية جديدة وإطلاق مشاريعهم الخاصة، ولا سيما في المجالات المبتكرة."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "6",
+        "label": "ولايات مستهدفة"
+      },
+      {
+        "value": "5",
+        "label": "سنوات من التدخل"
+      },
+      {
+        "value": "60",
+        "label": "شهرًا من التنفيذ"
+      },
+      {
+        "value": "3",
+        "label": "دعوات لتقديم مقترحات مبرمجة"
+      },
+      {
+        "value": "4",
+        "label": "أهداف خاصة"
+      },
+      {
+        "value": "3",
+        "label": "شركاء للتنمية الجهوية: ODNO وODCO وODS"
+      }
+    ],
+    "components": [
+      {
+        "name": "1. تثمين الإمكانات الاقتصادية المحلية",
+        "description": "يرتكز المشروع على الموارد والخصوصيات والإمكانات الاقتصادية التي تتميز بها كل منطقة.",
+        "bullets": [
+          "وتهدف هذه المقاربة إلى دعم تنمية اقتصادية تقوم على الموارد المحلية وتشجيع نشأة أنشطة تتلاءم مع واقع وفرص كل ولاية.",
+          "وتركز المبادرات والتمويلات المدعومة، على وجه الخصوص، على المجالات المرتبطة بـ:",
+          "التحولات الطاقية والبيئية والرقمية؛",
+          "تثمين الموارد الطبيعية المحلية؛",
+          "النفاذ إلى الأدوات الرقمية؛",
+          "الابتكار؛",
+          "وريادة الأعمال الاجتماعية."
+        ]
+      },
+      {
+        "name": "2. دعم ريادة الأعمال لدى الشباب",
+        "description": "يشجع IRADA4YOUTH العمل الحر وتنمية المبادرة الخاصة لدى الشباب.",
+        "bullets": [
+          "ويرافق المشروع الشباب في تحويل أفكارهم إلى مشاريع ملموسة، ويدعم بروز مبادرات ريادية مبتكرة في المناطق المستهدفة.",
+          "وبذلك يساهم التدخل في تطوير نسيج من المؤسسات الصغرى والمؤسسات الصغيرة القادرة على خلق القيمة والنشاط الاقتصادي وفرص العمل على المستوى المحلي."
+        ]
+      },
+      {
+        "name": "3. تعزيز المنظومة الجهوية للدعم",
+        "description": "يدعم المشروع إرساء وتعزيز منظومة جهوية فعّالة لمرافقة الشباب أصحاب المشاريع.",
+        "bullets": [
+          "ويعتمد على الفاعلين المحليين والجهويين في مجال المرافقة من أجل تعزيز قدراتهم وتحسين الخدمات المتاحة للشباب أصحاب الأفكار والمبادرات.",
+          "كما تهدف هذه الديناميكية إلى تعزيز التكامل بين الفاعلين من القطاعين العام والخاص داخل الولايات المستهدفة."
+        ]
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "2022–2027",
+      "implementer": "المندوبية العامة للتنمية الجهوية (CGDR)، بالشراكة مع ديوان تنمية الشمال الغربي (ODNO)، وديوان تنمية الوسط الغربي (ODCO)، وديوان تنمية الجنوب (ODS)",
+      "institutionalPartner": "",
+      "targetGroup": "زغوان، المهدية، الكاف، القيروان، قبلي وتوزر",
+      "funding": ""
+    }
+  }
+}

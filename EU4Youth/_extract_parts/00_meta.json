@@ -1,0 +1,294 @@
+{
+  "targets": {
+    "01_cahier": {
+      "file": "EU4Youth org - Cahier des charges 2026 (2).docx",
+      "chars": 34203,
+      "out": "c:\\Users\\youss\\OneDrive\\Attachments\\Desktop\\fi2t-live-editor\\EU4Youth\\_extract_parts\\01_cahier.txt"
+    },
+    "02_cadrage_uxui": {
+      "file": "Cadrage_UXUI_Actualites_Opportunites_Glossaire_Publications (2).docx",
+      "chars": 39292,
+      "out": "c:\\Users\\youss\\OneDrive\\Attachments\\Desktop\\fi2t-live-editor\\EU4Youth\\_extract_parts\\02_cadrage_uxui.txt"
+    },
+    "03_homepage": {
+      "file": "EU4Youth - Homepage fr.docx",
+      "chars": 23053,
+      "out": "c:\\Users\\youss\\OneDrive\\Attachments\\Desktop\\fi2t-live-editor\\EU4Youth\\_extract_parts\\03_homepage.txt"
+    },
+    "04_a_propos": {
+      "file": "eu4youth à propos.docx",
+      "chars": 28176,
+      "out": "c:\\Users\\youss\\OneDrive\\Attachments\\Desktop\\fi2t-live-editor\\EU4Youth\\_extract_parts\\04_a_propos.txt"
+    },
+    "05_contact": {
+      "file": "Formulaire de contact – EU4Youth.docx",
+      "chars": 2909,
+      "out": "c:\\Users\\youss\\OneDrive\\Attachments\\Desktop\\fi2t-live-editor\\EU4Youth\\_extract_parts\\05_contact.txt"
+    },
+    "06_programme": {
+      "file": "PROGRAMME EU4YOUTH TUNISIE (2).docx",
+      "chars": 27897,
+      "out": "c:\\Users\\youss\\OneDrive\\Attachments\\Desktop\\fi2t-live-editor\\EU4Youth\\_extract_parts\\06_programme.txt"
+    },
+    "07_sans_titre": {
+      "file": "Document sans titre.docx",
+      "chars": 1208,
+      "out": "c:\\Users\\youss\\OneDrive\\Attachments\\Desktop\\fi2t-live-editor\\EU4Youth\\_extract_parts\\07_sans_titre.txt"
+    },
+    "08_ue_tunisie": {
+      "file": "L’Union européenne en Tunisie (2).docx",
+      "chars": 5034,
+      "out": "c:\\Users\\youss\\OneDrive\\Attachments\\Desktop\\fi2t-live-editor\\EU4Youth\\_extract_parts\\08_ue_tunisie.txt"
+    }
+  },
+  "ui": {
+    "a propos.pdf": {
+      "pages": 4,
+      "chars": 12627
+    },
+    "Accueil.pdf": {
+      "pages": 4,
+      "chars": 5082
+    },
+    "Actualité.pdf": {
+      "pages": 3,
+      "chars": 6496
+    },
+    "BUTTON GUIDLINE.pdf": {
+      "pages": 1,
+      "chars": 268
+    },
+    "carte v2.pdf": {
+      "pages": 7,
+      "chars": 4836
+    },
+    "COLOR GUIDLINE.pdf": {
+      "pages": 1,
+      "chars": 39
+    },
+    "Contact.pdf": {
+      "pages": 4,
+      "chars": 4509
+    },
+    "Glossaire.pdf": {
+      "pages": 2,
+      "chars": 4176
+    },
+    "opportunités.pdf": {
+      "pages": 3,
+      "chars": 5487
+    },
+    "Page Publications & Ressources.pdf": {
+      "pages": 2,
+      "chars": 3275
+    },
+    "projet banner.pdf": {
+      "pages": 6,
+      "chars": 773
+    },
+    "projet.pdf": {
+      "pages": 2,
+      "chars": 5814
+    }
+  },
+  "projects": [
+    {
+      "folder": "Fe3il.a",
+      "doc": "Présentation Fe3ila.docx",
+      "first": "Fe3il.a (« acteur·rice » en arabe tunisien) est un projet visant à renforcer l’inclusion économique, sociale et politique des jeunes tunisien·ne·s à travers une approche territoriale fondée sur la participation, la co-construction et le développement local.",
+      "para": "Fe3il.a (« acteur·rice » en arabe tunisien) est un projet visant à renforcer l’inclusion économique, sociale et politique des jeunes tunisien·ne·s à travers une approche territoriale fondée sur la participation, la co-construction et le développement local.",
+      "lines": [
+        "Fe3il.a (« acteur·rice » en arabe tunisien) est un projet visant à renforcer l’inclusion économique, sociale et politique des jeunes tunisien·ne·s à travers une approche territoriale fondée sur la participation, la co-construction et le développement local.",
+        "Mis en œuvre par CILG-VNG International, avec l’appui du Ministère de la Jeunesse et des Sports, le projet accompagne les jeunes, les collectivités locales, les structures publiques et les organisations de la société civile afin de créer des mécanismes durables favorisant la participation des jeunes dans les politiques publiques et les dynamiques locales.",
+        "À travers des démarches participatives, des actions de renforcement des capacités et un soutien aux initiatives locales, Fe3il.a contribue à faire émerger une nouvelle génération de jeunes acteurs engagés dans le développement de leurs communautés.",
+        "Objectif général",
+        "Contribuer à l’amélioration de l’inclusion économique, sociale et politique des jeunes tunisien·ne·s en renforçant leur participation dans les politiques publiques et les processus de développement local.",
+        "Le projet vise à promouvoir une approche où les jeunes ne sont plus uniquement considérés comme des bénéficiaires, mais comme des partenaires et acteurs à part entière dans la conception et la mise en œuvre des solutions répondant aux défis de leurs territoires.",
+        "Objectifs spécifiques",
+        "Fe3il.a accompagne les acteurs territoriaux dans la mise en place de mécanismes favorisant le dialogue entre jeunes, institutions publiques et société civile.",
+        "Le projet soutient l’intégration des besoins et aspirations des jeunes dans les processus de planification locale, notamment à travers des démarches participatives associant les différentes parties prenantes au niveau territorial.",
+        "Favoriser l’autonomisation économique et sociale des jeunes",
+        "À travers des parcours d’accompagnement et de soutien aux initiatives, Fe3il.a encourage les jeunes à transformer leurs idées en projets concrets et à développer des solutions adaptées aux besoins de leurs communautés.",
+        "Le projet contribue ainsi au renforcement des capacités entrepreneuriales, organisationnelles et citoyennes des jeunes.",
+        "Développer des politiques publiques plus inclusives et sensibles aux enjeux jeunesse",
+        "Fe3il.a accompagne les acteurs institutionnels et locaux dans l’intégration des dimensions liées à la jeunesse, à la participation citoyenne et à l’égalité entre les jeunes femmes et les jeunes hommes dans leurs interventions.",
+        "Axes d’intervention",
+        "Fe3il.a adopte une approche participative visant à rapprocher les jeunes des processus décisionnels locaux.",
+        "À travers l’accompagnement des municipalités partenaires, le projet contribue à développer des mécanismes permettant :",
+        "d’identifier les besoins prioritaires des jeunes au niveau local ;",
+        "de renforcer le dialogue entre jeunes et institutions ;",
+        "d’intégrer les perspectives jeunesse dans les stratégies territoriales ;",
+        "de favoriser une gouvernance locale plus inclusive.",
+        "Cette approche repose sur la mobilisation conjointe des collectivités locales, des structures publiques déconcentrées, des organisations de la société civile et des jeunes eux-mêmes.",
+        "2. Soutien à l’entrepreneuriat et aux initiatives portées par les jeunes",
+        "Fe3il.a accompagne les jeunes dans la création et le développement d’initiatives économiques, sociales et citoyennes répondant aux enjeux de leurs territoires.",
+        "À travers des mécanismes d’accompagnement, de formation et d’appui à la mise en œuvre, le projet a permis de soutenir :"
+      ]
+    },
+    {
+      "folder": "Go4Youth",
+      "doc": "Présentation - GO4Youth – Gates for Opportunities for Youth.docx",
+      "first": "Face aux défis persistants du marché du travail tunisien, notamment le chômage des jeunes, l’inadéquation entre les compétences disponibles et les besoins des entreprises, ainsi que les difficultés d’accès à un emploi décent, le projet GO4Youth (Gates for Opportunities for Youth) accompagne la transformation du système d’intermédiation de l’emploi en Tunisie.",
+      "para": "Face aux défis persistants du marché du travail tunisien, notamment le chômage des jeunes, l’inadéquation entre les compétences disponibles et les besoins des entreprises, ainsi que les difficultés d’accès à un emploi décent, le projet GO4Youth (Gates for Opportunities for Youth) accompagne la trans",
+      "lines": [
+        "Face aux défis persistants du marché du travail tunisien, notamment le chômage des jeunes, l’inadéquation entre les compétences disponibles et les besoins des entreprises, ainsi que les difficultés d’accès à un emploi décent, le projet GO4Youth (Gates for Opportunities for Youth) accompagne la transformation du système d’intermédiation de l’emploi en Tunisie.",
+        "Financé par l’Union européenne dans le cadre du programme EU4Youth, et mis en œuvre avec l’appui de la Banque mondiale, GO4Youth vise à renforcer l’efficacité des services publics et privés d’accompagnement vers l’emploi afin d’offrir aux chercheurs d’emploi, en particulier aux jeunes et aux groupes vulnérables, un accompagnement plus personnalisé, plus accessible et davantage adapté aux évolutions du marché du travail.",
+        "Le projet accompagne notamment la réforme stratégique de l’Agence Nationale pour l’Emploi et le Travail Indépendant (ANETI) à travers la mise en œuvre de la Vision ANETI 2030, qui ambitionne de moderniser les services proposés aux chercheurs d’emploi et aux entreprises, tout en renforçant la digitalisation des processus internes.",
+        "GO4Youth contribue ainsi à l’objectif d’EU4Youth visant à améliorer l’inclusion économique et sociale des jeunes à travers le développement de l’employabilité, l’accès à l’emploi décent et le renforcement des services d’intermédiation sur le marché du travail.",
+        "Contribuer à améliorer l’accès des jeunes et des populations vulnérables à des emplois de qualité en renforçant l’efficacité, l’accessibilité et la pertinence des services d’intermédiation sur le marché du travail tunisien.",
+        "Le projet GO4Youth poursuit quatre objectifs complémentaires :",
+        "Le projet accompagne la refonte de l’offre de services de l’ANETI afin de proposer un accompagnement plus personnalisé, basé sur le profil, les besoins et le parcours de chaque chercheur d’emploi.",
+        "Les interventions portent notamment sur :",
+        "la mise en place de systèmes de profilage des chercheurs d’emploi ;",
+        "le développement de plans d’action personnalisés ;",
+        "l’amélioration des services d’accompagnement à la recherche d’emploi ;",
+        "le développement d’outils dédiés aux personnes en reconversion professionnelle.",
+        "GO4Youth soutient le développement d’une approche davantage orientée vers les besoins des entreprises afin d’améliorer la mise en relation entre employeurs et chercheurs d’emploi.",
+        "Les actions comprennent :",
+        "l’analyse des besoins des entreprises tunisiennes ;",
+        "l’amélioration des services de prospection et de gestion des offres d’emploi ;",
+        "le développement d’outils facilitant l’accès des entreprises aux services de l’ANETI.",
+        "Le projet accompagne la digitalisation progressive des services et processus internes afin d’améliorer l’efficacité opérationnelle de l’institution et l’expérience des utilisateurs.",
+        "Cette transformation comprend :",
+        "le développement de services numériques destinés aux chercheurs d’emploi et aux entreprises ;",
+        "la dématérialisation des procédures internes ;",
+        "la mise en place de cahiers des charges pour les futurs services digitaux.",
+        "GO4Youth contribue également à professionnaliser les acteurs privés intervenant dans l’accompagnement vers l’emploi et à développer des partenariats opérationnels avec l’ANETI.",
+        "L’objectif est de favoriser une complémentarité entre services publics et privés afin d’élargir l’offre d’accompagnement disponible pour les jeunes.",
+        "À travers ses différentes composantes, GO4Youth ambitionne de :"
+      ]
+    },
+    {
+      "folder": "Irada4Youth",
+      "doc": "Présentation  IRADA4YOUTH.docx",
+      "first": "IRADA4YOUTH s'impose comme un levier stratégique pour l'avenir socio-économique de la jeunesse tunisienne. En capitalisant sur les acquis de l'Initiative Régionale d'Appui au Développement Durable (IRADA), ce projet place les potentialités locales et l'écosystème entrepreneurial au service de l'inclusion et de la création d'emplois décents.",
+      "para": "IRADA4YOUTH s'impose comme un levier stratégique pour l'avenir socio-économique de la jeunesse tunisienne. En capitalisant sur les acquis de l'Initiative Régionale d'Appui au Développement Durable (IRADA), ce projet place les potentialités locales et l'écosystème entrepreneurial au service de l'incl",
+      "lines": [
+        "IRADA4YOUTH s'impose comme un levier stratégique pour l'avenir socio-économique de la jeunesse tunisienne. En capitalisant sur les acquis de l'Initiative Régionale d'Appui au Développement Durable (IRADA), ce projet place les potentialités locales et l'écosystème entrepreneurial au service de l'inclusion et de la création d'emplois décents.",
+        "Nom complet du projet : Soutien au Développement Économique Durable Local pour l'Emploi des Jeunes (acronyme : IRADA4YOUTH).",
+        "Durée d'intervention : 60 mois (5 ans), pour la période 2022-2027.",
+        "Financement : Contrat de subvention financé à 100 % par l'Union européenne à hauteur de 5 000 000 €.",
+        "Partenaires de mise en œuvre : Projet géré en gestion directe par le Commissariat Général au Développement Régional (CGDR, demandeur principal), en partenariat avec l'Office de Développement du Nord-Ouest (ODNO), l'Office de Développement du Centre-Ouest (ODCO) et l'Office de Développement du Sud (ODS).",
+        "Régions d'intervention : Le projet se déploie au sein de 6 gouvernorats cibles, sélectionnés selon des critères stricts (Indice de Développement Régional faible, taux de chômage élevé chez les jeunes et rythme limité de création d'entreprises) afin de couvrir une diversité de régions économiques :",
+        "Mahdia (Région Centre-Est)",
+        "Zaghouan (Région Nord-Est)",
+        "Kairouan (Région Centre-Est)",
+        "Le Kef (Région Nord-Ouest)",
+        "Kébili (Région Sud)",
+        "Tozeur (Région Sud)",
+        "Le projet vise à contribuer à l’amélioration de l’inclusion économique et sociale des jeunes en adoptant une approche conçue localement. Cette ambition globale se traduit par un objectif d'impact majeur sur le marché du travail local : réduire de 15 % les demandes d'emplois non satisfaites pour la tranche d'âge des 20-40 ans au sein des gouvernorats d'intervention.",
+        "Cette stratégie repose sur deux piliers :",
+        "La création d’emplois durables et décents en faveur des jeunes, en accordant une attention particulière aux catégories fragilisées et primo-demandeurs d'emploi.",
+        "La promotion des potentialités locales à travers le soutien financier et technique d'idées de projets innovants, exploitant des filières économiques spécifiques et porteuses dans chaque région.",
+        "Pour atteindre cette vision, l'action s'articule autour de deux objectifs opérationnels complémentaires :",
+        "Renforcer la capacité des jeunes tunisien(ne)s à porter, formuler, mettre en œuvre et pérenniser leurs projets de développement socio-économique.",
+        "Améliorer la mobilisation et la synergie de l’écosystème régional d’accompagnement du secteur privé et de l'entrepreneuriat en faveur des jeunes.",
+        "Le projet se fixe des cibles quantitatives et qualitatives ambitieuses pour dynamiser le tissu économique local :",
+        "1. Une mobilisation massive de la jeunesse et des financements directs :",
+        "Sensibilisation : Au moins 1 000 jeunes sont sensibilisés et identifiés. Parmi eux, au moins 75 % doivent avoir moins de 35 ans.",
+        "Accompagnement en sélection : Au moins 600 porteurs d'idées de projets bénéficient d'un accompagnement lors de la formulation des notes succinctes, puis 300 jeunes sont accompagnés pour la soumission de leur demande complète.",
+        "Financement et pérennité : Au moins 200 projets de jeunes sont sélectionnés et subventionnés directement, avec l'objectif que 100 % des projets financés demeurent en activité 18 mois après la fin de la subvention.",
+        "Effet de levier : Au moins 10 projets visent à mobiliser d'autres sources de financement complémentaires post-création."
+      ]
+    },
+    {
+      "folder": "Jeun_ESS",
+      "doc": "Présentation Jeun’ESS.docx",
+      "first": "Face aux défis persistants de l’inclusion économique des jeunes en Tunisie, notamment l’accès à l’emploi décent, les disparités territoriales et la nécessité de promouvoir des modèles économiques plus inclusifs et durables, l’économie sociale et solidaire (ESS) représente une opportunité majeure pour favoriser une croissance plus équitable et ancrée dans les territoires.",
+      "para": "Face aux défis persistants de l’inclusion économique des jeunes en Tunisie, notamment l’accès à l’emploi décent, les disparités territoriales et la nécessité de promouvoir des modèles économiques plus inclusifs et durables, l’économie sociale et solidaire (ESS) représente une opportunité majeure pou",
+      "lines": [
+        "Face aux défis persistants de l’inclusion économique des jeunes en Tunisie, notamment l’accès à l’emploi décent, les disparités territoriales et la nécessité de promouvoir des modèles économiques plus inclusifs et durables, l’économie sociale et solidaire (ESS) représente une opportunité majeure pour favoriser une croissance plus équitable et ancrée dans les territoires.",
+        "Le projet Jeun’ESS – Promotion de l’économie sociale et solidaire et création d’emplois décents pour la jeunesse tunisienne accompagne le développement d’un écosystème ESS structuré, inclusif et durable en plaçant les jeunes au cœur des dynamiques économiques et sociales.",
+        "À travers une approche territoriale et participative, Jeun’ESS soutient les jeunes porteurs de projets, les organisations de l’économie sociale et solidaire existantes ainsi que les acteurs publics et privés impliqués dans l’écosystème.",
+        "Le projet agit sur plusieurs leviers complémentaires : accès au financement, accompagnement entrepreneurial, renforcement des capacités, accès aux marchés, engagement des jeunes et intégration de l’ESS dans les dynamiques locales de développement.",
+        "Financé par l’Union européenne dans le cadre du programme EU4Youth et mis en œuvre par l’Organisation internationale du Travail (OIT), Jeun’ESS contribue à renforcer l’emploi décent des jeunes et à promouvoir un modèle économique fondé sur la solidarité, la coopération et l’impact social.",
+        "L’économie sociale et solidaire constitue un modèle économique alternatif qui place l’utilité sociale, la coopération et l’ancrage territorial au centre des activités économiques.",
+        "En Tunisie, malgré un potentiel important, les initiatives ESS font face à plusieurs défis : difficultés d’accès au financement, besoin de structuration, manque d’accompagnement spécialisé, accès limité aux marchés et nécessité d’une meilleure coordination entre les acteurs publics, privés et associatifs.",
+        "Jeun’ESS répond à ces défis en renforçant les capacités des acteurs de l’écosystème et en développant des mécanismes adaptés pour accompagner la création, la consolidation et la valorisation des initiatives ESS portées par les jeunes et les communautés locales.",
+        "Contribuer à la création d’emplois décents et durables pour les jeunes tunisiennes et tunisiens à travers le développement d’un écosystème inclusif et performant de l’économie sociale et solidaire.",
+        "Le projet Jeun’ESS vise à :",
+        "Développer des mécanismes financiers adaptés aux besoins des jeunes entrepreneurs sociaux et des organisations ESS.",
+        "Accompagner les initiatives nouvelles et existantes afin de renforcer leur viabilité économique et leur impact territorial.",
+        "Améliorer la visibilité, la commercialisation et la compétitivité des produits et services issus de l’économie sociale et solidaire.",
+        "Mobiliser les collectivités locales et les structures publiques afin d’intégrer l’ESS dans les stratégies locales de développement.",
+        "Sensibiliser et accompagner les jeunes dans la conception d’initiatives collectives répondant aux besoins de leurs communautés.",
+        "Le projet repose sur cinq composantes complémentaires :",
+        "Social Innovation Fund",
+        "Re-Fund Challenge",
+        "Market Fund",
+        "LIMITL’ESS Clubs – Enactus",
+        "LIMITL’ESS Génération",
+        "Community Fund",
+        "Le Social Innovation Fund soutient les jeunes porteurs de projets à fort impact social à travers un parcours complet d’incubation combinant formation, mentorat, accompagnement individuel et financement.",
+        "L’objectif est de transformer des idées innovantes en initiatives économiques structurées capables de générer des emplois durables dans les régions prioritaires.",
+        "369 projets sélectionnés ;"
+      ]
+    },
+    {
+      "folder": "Maghroum_IN",
+      "doc": "MAGHROUM IN - intro.docx",
+      "first": "MAGHROUM IN",
+      "para": "PARTICIPATION ET INCLUSION DES JEUNES TUNISIEN(NE)S À TRAVERS LA CRÉATION, L'ACCÈS À LA CULTURE ET AU SPORT",
+      "lines": [
+        "MAGHROUM IN",
+        "PARTICIPATION ET INCLUSION DES JEUNES TUNISIEN(NE)S À TRAVERS LA CRÉATION, L'ACCÈS À LA CULTURE ET AU SPORT",
+        "Maghroum'IN est un projet de renforcement de l'inclusion et de la participation des jeunes tunisien.ne.s en situations de vulnérabilité dans la vie publique à travers la création, la culture et le sport tout en prenant en considération les différentes formes d'exclusion.",
+        "Il est mis en œuvre par l'Agence Espagnole pour la Coopération Internationale au Développement (AECID), le British Council (BC) et la Fondation pour l'Internationalisation des Administrations Publiques (FIAP), en partenariat avec le Ministère de la Jeunesse et des Sports et le Ministère des Affaires Culturelles.",
+        "Début du projet : 01/01/2022",
+        "Durée : 60 mois",
+        "Maghroum'IN vise l'inclusion des jeunes tunisien.ne.s en situation de vulnérabilité à travers 3 objectifs spécifiques :",
+        "1- Renforcer leur autonomie dans les domaines du sport et de la culture.",
+        "2- Soutenir et encourager leur engagement durable en faveur du changement dans les domaines du sport et de la culture.",
+        "3- Favoriser leur représentation et veiller à ce qu'ils soient entendu.e.s dans les processus de prise de décision concernant leur vie culturelle et sportive.",
+        "Jeunes femmes et hommes, en particulier les plus désavantagés, âgé.e.s de moins de 35 ans.",
+        "Organisations de la société civile, acteurs indépendants, structures privées dans les domaines sportifs et culturels.",
+        "Structures publiques locales, régionales et décentralisées dans les domaines de la jeunesse, du sport et de la culture (maisons de jeunes, maisons de culture, complexes sportifs et culturels, bibliothèques, directions régionales).",
+        "Les Ministères et les organisations de tutelle au niveau central.",
+        "Pour réaliser ses objectifs, Maghroum'IN s'articule autour de trois axes :",
+        "Axe 1 - Services Publics : L'offre de services publics culture et sport est plus attractive et inclusive.",
+        "Axe 2 - Dynamiques communautaires : L'engagement des jeunes est favorisé par leur autonomisation et l'appui de dynamiques communautaires.",
+        "Axe 3 - Inclusion économique : Les opportunités d'inclusion économique des jeunes dans les filières sport et culture sont augmentées.",
+        "1- Services publics",
+        "Appui aux initiatives locales et nationales d'amélioration de l'offre publique sportive et culturelle pour les jeunes initiées par les acteurs publics.",
+        "Assistance technique : Appui technique aux ministères pour faciliter la mise en pratique de leurs stratégies en lien avec la jeunesse, la culture et le sport.",
+        "Programme d'échange entre pairs.",
+        "2- Dynamiques Communautaires",
+        "Fonds de subvention et Appui technique :",
+        "Fonds d'Engagement Sportif et Culturel (FESC)"
+      ]
+    },
+    {
+      "folder": "SWAFY",
+      "doc": "swafy - présentation générale.docx",
+      "first": "Période de mise en œuvre : 06/2022 – 06/2027",
+      "para": "Le projet Science With And For Youth (SWAFY) vise à renforcer le rôle de la recherche scientifique, de l’innovation et de la créativité dans le développement économique et social en Tunisie, en plaçant les jeunes au cœur des dynamiques scientifiques et technologiques.",
+      "lines": [
+        "Période de mise en œuvre : 06/2022 – 06/2027",
+        "Durée : 5 ans",
+        "Le projet Science With And For Youth (SWAFY) vise à renforcer le rôle de la recherche scientifique, de l’innovation et de la créativité dans le développement économique et social en Tunisie, en plaçant les jeunes au cœur des dynamiques scientifiques et technologiques.",
+        "Le projet contribue à améliorer l’employabilité des jeunes chercheurs et chercheuses, à promouvoir l’entrepreneuriat scientifique et à favoriser une meilleure connexion entre les établissements de recherche, les acteurs socio-économiques et les besoins de la société.",
+        "À travers une approche inclusive et territoriale, SWAFY soutient également la diffusion de la culture scientifique, l’accès équitable aux opportunités liées aux sciences et technologies, ainsi que la participation active des jeunes à la définition des politiques publiques dans les domaines de la science, de la technologie et de l’innovation.",
+        "Contribuer au renforcement de la contribution de la recherche scientifique et de l’innovation au développement économique et social en Tunisie, en favorisant l’intégration des jeunes dans les écosystèmes scientifiques, technologiques et entrepreneuriaux.",
+        "Objectif spécifique 1 : Renforcer l’employabilité des jeunes chercheurs et chercheuses",
+        "Favoriser une recherche partenariale active, inclusive et structurée, répondant aux besoins de la société et du monde socio-économique, à travers le développement de collaborations entre les institutions de recherche et les acteurs économiques.",
+        "Objectif spécifique 2 : Développer la créativité et l’esprit entrepreneurial des jeunes",
+        "Améliorer l’adéquation entre les profils des jeunes, leurs parcours de formation et les opportunités professionnelles, tout en renforçant leurs capacités en matière de créativité, d’innovation et d’entrepreneuriat, avec une attention particulière portée à l’égalité entre les femmes et les hommes.",
+        "Objectif spécifique 3 : Renforcer la participation des jeunes dans les politiques Science, Technologie et Innovation",
+        "Accroître le rôle des jeunes dans la définition des orientations publiques en matière de science, technologie et innovation, tout en dynamisant le tissu associatif et les initiatives favorisant les liens entre jeunesse et science.",
+        "La composante MOBIDOC soutient la mobilité et l’insertion professionnelle des jeunes chercheurs et chercheuses à travers des collaborations entre les structures de recherche et le milieu socio-économique.",
+        "Elle prévoit le financement de 235 bourses doctorales et postdoctorales permettant aux bénéficiaires de développer des travaux de recherche appliquée répondant aux besoins des entreprises, des institutions et des acteurs du développement.",
+        "Mise en place de bourses doctorales et postdoctorales ;",
+        "Développement de partenariats entre chercheurs, établissements académiques et acteurs socio-économiques ;",
+        "Valorisation des résultats de recherche et accompagnement vers l’innovation.",
+        "La composante Jeunesse Créative vise à renforcer la culture scientifique auprès des jeunes et à soutenir les acteurs engagés dans la diffusion des sciences, de l’innovation et de la créativité.",
+        "Elle accompagne les structures publiques, associatives et entrepreneuriales actives dans ce domaine afin de développer des initiatives favorisant l’appropriation des sciences par les jeunes.",
+        "Soutien aux initiatives de médiation et de vulgarisation scientifique ;",
+        "Accompagnement des associations, start-up et acteurs publics engagés dans la culture scientifique ;",
+        "Développement d’activités favorisant la créativité, l’innovation et l’expérimentation scientifique auprès des jeunes.",
+        "La composante Débat Jeunesse et Science vise à créer un espace de dialogue entre les jeunes, les institutions, les chercheurs et les acteurs de l’écosystème scientifique.",
+        "Elle contribue à renforcer la place des jeunes dans les réflexions stratégiques liées à la science, à la technologie et à l’innovation.",
+        "Cette activité vise à :"
+      ]
+    }
+  ]
+}

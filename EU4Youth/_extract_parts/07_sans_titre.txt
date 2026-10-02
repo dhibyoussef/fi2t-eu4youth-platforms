@@ -1,0 +1,31 @@
+Inverser drapeaux
+Inverser drapeaux
+Page Projet : Garder le header sticky du nom/logo de projet
+Diminuer les marges/padding
+verfier maquette colors/
+voir les opportunités / Explorer la carte ( supprimer dernier mot)
+Justify text :  EU4Youth accompagne les jeunes dans leurs parcours, leurs projets et leur engagement.
+Delete any budget
+Reduire hauteur de bloc
+Reduire hauteur de bloc et padding
+fix button center and change the png image
+title font size should be unique in all titles same as EU4YOUTH EN CHIFFRES
+delete the second row
+delete accueil and add sticky menu
+Menu add lang selector top
+Page programme
+https://preprod2026.prodexo.agency/eu4youth/programme/a-propos
+Verifier la maquette new design in images folder
+same as home page slider bloc delete last word and transparent BG buttons
+second text : interligne a augmenter
+BG a verf9eir maquette
+delete the quote
+delete this part
+this bloc position after POURQUOI EU4YOUTH ? ( thord bloc)
+switch Aneti with MESRS
+Page carte:
+https://preprod2026.prodexo.agency/eu4youth/carte
+BG a voir
+delete the word EXPLORER LE PROGRAMME FILTRER LA CARTE and check the colors of filters maquette
+Pages media
+delete the png logo and glossaire bg color same blue

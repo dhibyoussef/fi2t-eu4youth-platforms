@@ -1,0 +1,592 @@
+/* Footer — Accueil.pdf p1, band 9480-10344 (864 design px tall).
+   Absolute coordinates below match the plate at a fixed 86.4rem height[cite: 10].
+   From 1100px up we switch to a fluid full-bleed grid so the band fills the
+   viewport (the plate layout only occupied ~1920 design px and left empty blue)[cite: 10]. */
+
+.footer {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 86.4rem;
+  background-color: var(--eu-blue-deep);
+  background-image: linear-gradient(
+    180deg,
+    var(--eu-blue-edge) 0%,
+    var(--eu-blue-deep) 52%,
+    var(--eu-blue-deep) 100%
+  );
+  color: var(--white);
+  overflow-x: clip;
+}
+
+.footer.band,
+.footer .band__inner {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Plate ink box: x 68-182, y 32-104[cite: 10]. */
+.footer__home {
+  position: absolute;
+  display: block;
+  inset-inline-start: 6.8rem;
+  top: 3.2rem;
+  width: 11.5rem;
+}
+
+.footer__home img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.footer__col {
+  position: absolute;
+  top: 23.54rem;
+}
+
+.footer__nav {
+  position: static;
+}
+
+.footer__col h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+.footer__col ul {
+  margin-top: 1.6rem;
+}
+
+.footer__col li {
+  height: 5.2rem;
+}
+
+.footer__col a {
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 1.35;
+  white-space: nowrap;
+}
+
+.footer__col a:hover,
+.footer__col a:focus-visible {
+  color: var(--orange);
+  outline-offset: 0.3rem;
+}
+
+.footer__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.8rem;
+  margin-top: 4rem;
+}
+
+.footer__col--legal .footer__meta {
+  position: static;
+}
+
+.footer__col--legal .footer__social,
+.footer__col--legal .footer__locales {
+  position: static;
+  left: auto;
+  top: auto;
+  margin: 0;
+}
+
+.footer__disclaimer {
+  position: absolute;
+  inset-inline-start: 102.34rem;
+  top: 69.39rem;
+  width: 78.9rem;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.9rem;
+  line-height: 1.5;
+  text-align: end;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__social li {
+  height: auto;
+}
+
+.footer__social-btn {
+  display: grid;
+  place-items: center;
+  width: 5.2rem;
+  height: 5.2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 1rem;
+  background: transparent;
+  color: var(--white);
+  cursor: pointer;
+  transition: color 0.18s ease, transform 0.18s ease;
+}
+
+.footer__social-btn svg {
+  display: block;
+  width: 4.4rem;
+  height: 4.4rem;
+}
+
+.footer__social-btn:hover,
+.footer__social-btn:focus-visible {
+  color: var(--orange);
+  outline: none;
+  transform: translateY(-0.15rem);
+}
+
+.footer__social-btn:focus-visible {
+  box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 45%);
+}
+
+.footer__locales {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 3.6rem;
+  line-height: 1;
+}
+
+.footer__locales li {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  height: auto;
+}
+
+.footer__locale {
+  color: inherit;
+  cursor: pointer;
+  opacity: 0.55;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+}
+
+.footer__locale--current {
+  color: var(--white);
+  opacity: 1;
+  font-weight: 700;
+}
+
+.footer__locale--pending {
+  cursor: not-allowed;
+}
+
+.footer__locale--pending:disabled {
+  opacity: 0.45;
+}
+
+.footer .logos__cell:focus-visible {
+  outline-color: var(--white);
+}
+
+/* ==========================================================================
+   Project Logo Grayscale to Color Animation & Base Fitting[cite: 10]
+   ========================================================================== */
+
+.footer .logos__cell img,
+.footer .logos img,
+.footer .ap-logo img {
+  filter: grayscale(100%) brightness(1.2) contrast(0.9);
+  opacity: 0.75;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 85%;
+  object-fit: contain;
+  transition: filter 0.25s ease, opacity 0.25s ease, transform 0.25s ease;
+}
+
+.footer .logos--footer img,
+.footer .logos--footer .logos__footer {
+  filter: none;
+  max-height: none;
+  transition: opacity 200ms ease;
+}
+
+.footer .logos--footer .logos__footer--rest {
+  opacity: 0.95;
+}
+
+.footer .logos--footer .logos__footer--colour {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.footer .logos--footer .logos__cell:hover .logos__footer--colour,
+.footer .logos--footer .logos__cell:focus-visible .logos__footer--colour {
+  opacity: 1;
+  filter: none;
+}
+
+.footer .logos--footer .logos__cell:hover .logos__footer--rest,
+.footer .logos--footer .logos__cell:focus-visible .logos__footer--rest {
+  opacity: 0;
+}
+
+/* Dual image overlay setup (if using separate grey/colour img tags)[cite: 10] */
+.footer .logos__cell .ap-logo__grey,
+.footer .ap-logo .ap-logo__grey {
+  opacity: 0.75;
+  filter: grayscale(100%);
+  transition: opacity 0.25s ease;
+}
+
+.footer .logos__cell .ap-logo__colour,
+.footer .ap-logo .ap-logo__colour {
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.footer .logos__cell:hover .ap-logo__colour,
+.footer .logos__cell:focus-visible .ap-logo__colour,
+.footer .ap-logo:hover .ap-logo__colour,
+.footer .ap-logo:focus-visible .ap-logo__colour {
+  opacity: 1;
+}
+
+.footer .logos__cell:hover .ap-logo__grey,
+.footer .logos__cell:focus-visible .ap-logo__grey,
+.footer .ap-logo:hover .ap-logo__grey,
+.footer .ap-logo:focus-visible .ap-logo__grey {
+  opacity: 0;
+}
+
+/* Footer project logos: rise-in + float, nudged right of the left edge. */
+.footer .logos--footer {
+  padding-left: clamp(16px, 2.2vw, 40px);
+  margin-left: clamp(12px, 1.5vw, 28px);
+}
+
+.footer .logos--footer > li {
+  opacity: 0;
+  transform: translate3d(-1.2rem, 1.1rem, 0);
+  will-change: transform, opacity;
+}
+
+.footer .logos--footer.logos--inview > li .logos__footer {
+  animation: none;
+}
+
+.footer .logos--footer.logos--inview > li {
+  animation:
+    footer-logo-rise 780ms cubic-bezier(0.22, 1, 0.36, 1) both,
+    footer-logo-float 3.4s ease-in-out 900ms infinite;
+}
+
+.footer .logos--footer.logos--inview > li:nth-child(1) { animation-delay: 0ms, 900ms; }
+.footer .logos--footer.logos--inview > li:nth-child(2) { animation-delay: 80ms, 980ms; }
+.footer .logos--footer.logos--inview > li:nth-child(3) { animation-delay: 160ms, 1060ms; }
+.footer .logos--footer.logos--inview > li:nth-child(4) { animation-delay: 240ms, 1140ms; }
+.footer .logos--footer.logos--inview > li:nth-child(5) { animation-delay: 320ms, 1220ms; }
+.footer .logos--footer.logos--inview > li:nth-child(6) { animation-delay: 400ms, 1300ms; }
+
+/* Full-bleed fluid footer — desktop grid system[cite: 10] */
+@media (min-width: 1100px) {
+  /* Tuned for ~1660-wide: dense enough to feel solid, without a blue void. */
+  .footer {
+    height: auto;
+    min-height: 0;
+    padding: max(3.6rem, 36px) clamp(3.2rem, 3.5vw, 5.5rem) max(3.8rem, 36px);
+    box-sizing: border-box;
+  }
+
+  .footer .band__inner {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    display: grid;
+    /* Same 3 tracks as the nav columns so logos / disclaimer line up with them */
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-areas:
+      'home . funders'
+      'nav nav nav'
+      'logos logos disclaimer';
+    column-gap: clamp(2rem, 3vw, 4rem);
+    row-gap: max(2rem, 18px);
+    align-items: start;
+  }
+
+  .footer__home {
+    position: static;
+    left: auto;
+    top: auto;
+    grid-area: home;
+    justify-self: start;
+    width: max(14rem, 128px);
+  }
+
+  .footer__funders,
+  .footer .funder-flags {
+    position: static;
+    right: auto;
+    top: auto;
+    grid-area: funders;
+    justify-self: end;
+    align-self: start;
+    z-index: 4;
+    width: auto;
+    max-width: 100%;
+    margin-top: -0.6rem;
+  }
+
+  .footer .funder-flags {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    overflow: visible;
+    gap: 1.6rem;
+  }
+
+  .footer .funder-flags__item--tn {
+    order: 0;
+  }
+
+  .footer .funder-flags__item--eu {
+    order: 0;
+  }
+
+  .footer__nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: clamp(2rem, 3vw, 4rem);
+    row-gap: max(2rem, 16px);
+    width: 100%;
+    padding-top: max(2.4rem, 22px);
+  }
+
+  .footer__col {
+    position: static;
+    left: auto !important;
+    top: auto;
+    min-width: 0;
+    max-width: none;
+  }
+
+  .footer__col:last-child {
+    max-width: none;
+  }
+
+  .footer__col h2 {
+    font-size: max(4.4rem, 26px);
+    white-space: nowrap;
+    text-align: start;
+    text-justify: auto;
+  }
+
+  .footer__col a {
+    font-size: max(3.6rem, 20px);
+    white-space: nowrap;
+    text-align: start;
+  }
+
+  .footer__col ul {
+    margin-top: max(1.2rem, 10px);
+    padding: 0;
+    text-align: start;
+  }
+
+  .footer__col li {
+    height: auto;
+    min-height: max(3.8rem, 28px);
+    padding: 0.2rem 0;
+    text-align: start;
+  }
+
+  .footer__meta {
+    gap: max(2rem, 14px);
+    margin-top: max(2.4rem, 20px);
+  }
+
+  .footer__locales {
+    font-size: max(3.6rem, 20px);
+  }
+
+  .footer__social-btn {
+    width: max(5.2rem, 32px);
+    height: max(5.2rem, 32px);
+  }
+
+  .footer__social-btn svg {
+    width: max(4.4rem, 26px);
+    height: max(4.4rem, 26px);
+  }
+
+  /* Packed Flex layout — project logos under programme / explorer */
+  .footer .logos {
+    position: relative;
+    grid-area: logos;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: clamp(1.4rem, 1.8vw, 2.8rem);
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    min-height: max(6rem, 52px);
+    align-self: start;
+    justify-self: start;
+    padding: 0;
+    /* Lower a bit + slide right (six project logos) */
+    margin: max(4.2rem, 44px) 0 0 max(3.2rem, 36px);
+    box-sizing: border-box;
+  }
+
+  .footer .logos > li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    height: max(6.4rem, 56px);
+  }
+
+  .footer .logos__cell {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    display: block !important;
+    width: auto !important;
+    height: max(5.8rem, 52px) !important;
+    margin: 0;
+    padding: 0;
+    background: transparent !important;
+    overflow: visible !important;
+  }
+
+  /* One size slot: rest + colour stacked, so dual-layer hover does not grow the row. */
+  .footer .logos__cell img,
+  .footer .logos__footer {
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    right: auto !important;
+    bottom: auto !important;
+    inset: auto !important;
+    display: block;
+    width: auto !important;
+    height: max(5.6rem, 48px) !important;
+    max-width: 14rem;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+    filter: none;
+  }
+
+  .footer .logos--footer .logos__footer--rest {
+    opacity: 0.95;
+  }
+
+  .footer .logos--footer .logos__footer--colour {
+    opacity: 0;
+  }
+
+  .footer .logos__cell:hover,
+  .footer .logos__cell:focus-visible {
+    background: transparent !important;
+  }
+
+  .footer .logos--footer .logos__cell:hover .logos__footer--colour,
+  .footer .logos--footer .logos__cell:focus-visible .logos__footer--colour {
+    opacity: 1;
+  }
+
+  .footer .logos--footer .logos__cell:hover .logos__footer--rest,
+  .footer .logos--footer .logos__cell:focus-visible .logos__footer--rest {
+    opacity: 0;
+  }
+
+  .footer .logos > li:nth-child(1) { width: max(9.6rem, 88px); }
+  .footer .logos > li:nth-child(2) { width: max(6.4rem, 58px); }
+  .footer .logos > li:nth-child(3) { width: max(8rem, 72px); }
+  .footer .logos > li:nth-child(4) { width: max(10.4rem, 96px); }
+  .footer .logos > li:nth-child(5) { width: max(8.8rem, 80px); }
+  .footer .logos > li:nth-child(6) { width: max(12.4rem, 112px); }
+
+  .footer .logos > li:nth-child(1) .logos__cell,
+  .footer .logos > li:nth-child(1) img { height: max(4.8rem, 44px) !important; }
+  .footer .logos > li:nth-child(2) .logos__cell,
+  .footer .logos > li:nth-child(2) img { height: max(5.4rem, 50px) !important; }
+  .footer .logos > li:nth-child(3) .logos__cell,
+  .footer .logos > li:nth-child(3) img { height: max(5.8rem, 54px) !important; }
+  .footer .logos > li:nth-child(4) .logos__cell,
+  .footer .logos > li:nth-child(4) img { height: max(4.2rem, 40px) !important; }
+  .footer .logos > li:nth-child(5) .logos__cell,
+  .footer .logos > li:nth-child(5) img { height: max(5.2rem, 48px) !important; }
+  .footer .logos > li:nth-child(6) .logos__cell,
+  .footer .logos > li:nth-child(6) img {
+    height: max(4rem, 38px) !important;
+    max-width: 16rem;
+  }
+
+  .footer__disclaimer {
+    position: static;
+    left: auto;
+    top: auto;
+    grid-area: disclaimer;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+    justify-self: stretch;
+    align-self: start;
+    margin: max(4.2rem, 44px) 0 0;
+    font-size: max(1.8rem, 12px);
+    line-height: 1.45;
+    /* Left-aligned block sitting under INFORMATIONS LÉGALES (matches reference) */
+    text-align: start;
+    overflow-wrap: break-word;
+    hyphens: none;
+  }
+}
+
+@keyframes footer-logo-rise {
+  from {
+    opacity: 0;
+    transform: translate3d(-1.2rem, 1.1rem, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes footer-logo-float {
+  0%,
+  100% { transform: translateY(0); }
+  50% { transform: translateY(-0.35rem); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .footer .logos > li,
+  .footer .logos .logos__footer {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* Safety net: never leave footer project logos permanently invisible. */
+.footer .logos--footer:not(.logos--inview) > li {
+  animation: footer-logo-rise 500ms ease 1.2s both;
+}

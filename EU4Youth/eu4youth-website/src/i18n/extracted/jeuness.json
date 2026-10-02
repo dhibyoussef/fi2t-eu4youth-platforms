@@ -1,0 +1,518 @@
+{
+  "slug": "jeuness",
+  "fr": {
+    "acronym": "Jeun’ESS",
+    "fullName": "Jeun’ESS en chiffres",
+    "tagline": "Projet de promotion de l’économie sociale et solidaire et de création d’emplois décents pour la jeunesse tunisienne",
+    "presentation": [
+      "Jeun’ESS accompagne le développement d’un écosystème ESS structuré, inclusif et durable en plaçant les jeunes au cœur des dynamiques économiques et sociales.",
+      "À travers une approche territoriale et participative, Jeun’ESS soutient les jeunes porteurs de projets, les organisations de l’économie sociale et solidaire existantes ainsi que les acteurs publics et privés impliqués dans l’écosystème.",
+      "Le projet agit sur plusieurs leviers complémentaires : accès au financement, accompagnement entrepreneurial, renforcement des capacités, accès aux marchés, engagement des jeunes et intégration de l’ESS dans les dynamiques locales de développement."
+    ],
+    "generalObjective": "Contribuer à la création d’emplois décents et durables pour les jeunes tunisiennes et tunisiens à travers le développement d’un écosystème inclusif et performant de l’économie sociale et solidaire.",
+    "specificObjectives": [
+      {
+        "title": "Faciliter l’accès au financement des initiatives ESS",
+        "body": "Développer des mécanismes financiers adaptés aux besoins des jeunes entrepreneurs sociaux et des organisations ESS."
+      },
+      {
+        "title": "Soutenir la création et la consolidation d’activités économiques à impact social",
+        "body": "Accompagner les initiatives nouvelles et existantes afin de renforcer leur viabilité économique et leur impact territorial."
+      },
+      {
+        "title": "Renforcer l’accès au marché des organisations ESS",
+        "body": "Améliorer la visibilité, la commercialisation et la compétitivité des produits et services issus de l’économie sociale et solidaire."
+      },
+      {
+        "title": "Renforcer le rôle des acteurs territoriaux",
+        "body": "Mobiliser les collectivités locales et les structures publiques afin d’intégrer l’ESS dans les stratégies locales de développement."
+      },
+      {
+        "title": "Favoriser l’engagement des jeunes dans l’ESS",
+        "body": "Sensibiliser et accompagner les jeunes dans la conception d’initiatives collectives répondant aux besoins de leurs communautés."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "304",
+        "label": "projets ESS soutenus"
+      },
+      {
+        "value": "186",
+        "label": "structures accompagnées"
+      },
+      {
+        "value": "3 721",
+        "label": "emplois soutenus"
+      },
+      {
+        "value": "765",
+        "label": "jeunes incubés"
+      },
+      {
+        "value": "373",
+        "label": "personnes formées à l’accompagnement ESS"
+      },
+      {
+        "value": "49",
+        "label": "clubs LIMITL’ESS créés"
+      },
+      {
+        "value": "87",
+        "label": "structures valorisées dans des salons et événements nationaux"
+      }
+    ],
+    "components": [
+      {
+        "name": "Social Innovation Fund (SIF)",
+        "description": "Le Social Innovation Fund soutient les jeunes porteurs de projets à fort impact social à travers un parcours complet d’incubation combinant formation, mentorat, accompagnement individuel et financement.",
+        "bullets": [
+          "L’objectif est de transformer des idées innovantes en initiatives économiques structurées capables de générer des emplois durables dans les régions prioritaires.",
+          "Agriculture et transformation agroalimentaire ;",
+          "Artisanat ;",
+          "Tourisme durable et écotourisme ;",
+          "Services numériques à impact social ;",
+          "Économie circulaire ;",
+          "Culture et éducation ;",
+          "Environnement ;",
+          "Santé et bien-être communautaire."
+        ]
+      },
+      {
+        "name": "Re-Fund Challenge",
+        "description": "Le Re-Fund Challenge accompagne les structures ESS existantes affectées par la crise de la COVID-19 afin de renforcer leur résilience économique, préserver les emplois et soutenir leur développement.",
+        "bullets": [
+          "Le dispositif repose sur un parcours combinant diagnostic, accompagnement technique, renforcement des capacités et financement.",
+          "Agriculture et agroalimentaire ;",
+          "Artisanat traditionnel ;",
+          "Apiculture ;",
+          "Tapis et tissage ;",
+          "Produits naturels ;",
+          "Commerce équitable ;",
+          "Services liés à l’autonomie économique des femmes rurales."
+        ]
+      },
+      {
+        "name": "Market Fund",
+        "description": "Le Market Fund accompagne les organisations soutenues par Jeun’ESS dans l’amélioration de leurs performances commerciales et leur accès aux marchés.",
+        "bullets": [
+          "Il intervient notamment sur :",
+          "le développement des stratégies commerciales ;",
+          "l’amélioration de la visibilité des produits ESS ;",
+          "le référencement des produits ;",
+          "la mise en réseau avec les distributeurs ;",
+          "le développement de solutions de commercialisation physiques et digitales.",
+          "Agroalimentaire ;",
+          "Artisanat et design local ;",
+          "Cosmétique naturelle ;",
+          "Mode éthique ;",
+          "Produits écologiques ;",
+          "Tourisme responsable ;",
+          "Commerce électronique solidaire."
+        ]
+      },
+      {
+        "name": "Limitl’ESS",
+        "description": "",
+        "bullets": []
+      },
+      {
+        "name": "1- Clubs Enactus Limitl’ESS",
+        "description": "Développé en partenariat avec Enactus Tunisie, le dispositif vise à sensibiliser les étudiants à l’économie sociale et solidaire et à renforcer leurs compétences entrepreneuriales.",
+        "bullets": [
+          "À travers des formations, des bootcamps, des ateliers pratiques et des compétitions, les étudiants développent des projets collectifs à impact social et environnemental.",
+          "Agriculture et agroalimentaire ;",
+          "Technologies et innovation ;",
+          "Cosmétique naturelle ;",
+          "Économie circulaire ;",
+          "Énergie verte ;",
+          "Tourisme durable ;",
+          "Artisanat et textile ;",
+          "Éducation et formation."
+        ]
+      },
+      {
+        "name": "LIMITL’ESS Génération",
+        "description": "Les clubs LIMITL’ESS Génération, implantés dans les Maisons de jeunes et les Maisons de culture, permettent aux jeunes de découvrir l’économie sociale et solidaire à travers une approche pratique et participative.",
+        "bullets": [
+          "Le dispositif combine sensibilisation, ateliers pratiques, accompagnement et développement de projets collectifs répondant aux besoins des territoires.",
+          "Le parcours se conclut par le Challenge LIMITL’ESS, qui accompagne les initiatives les plus prometteuses à travers un coaching personnalisé et un appui matériel.",
+          "Éducation et orientation ;",
+          "Médias et communication ;",
+          "Environnement et écologie ;",
+          "Arts visuels et design ;",
+          "Artisanat local ;",
+          "Agriculture et apiculture ;",
+          "Innovation sociale locale."
+        ]
+      },
+      {
+        "name": "Community Fund",
+        "description": "Le Community Fund vise à renforcer les capacités des acteurs publics et territoriaux afin d’intégrer l’économie sociale et solidaire dans les politiques locales de développement.",
+        "bullets": [
+          "Il repose sur :",
+          "la formation des Comités Régionaux d’Appui ;",
+          "le développement d’outils méthodologiques ;",
+          "la création d’espaces de dialogue multi-acteurs ;",
+          "l’accompagnement d’initiatives territoriales."
+        ]
+      },
+      {
+        "name": "Jeun’ESS",
+        "description": "",
+        "bullets": []
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "Septembre 2019 – Août 2024",
+      "implementer": "Organisation internationale du Travail (OIT)",
+      "institutionalPartner": "",
+      "targetGroup": "Jendouba, le Kef, Kairouan, Kasserine, Sidi Bouzid, Gabès, Kébili",
+      "funding": ""
+    }
+  },
+  "en": {
+    "acronym": "Jeun’ESS in figures",
+    "fullName": "Project to promote the social and solidarity economy and create decent jobs for young people in Tunisia",
+    "tagline": "Project to promote the social and solidarity economy and create decent jobs for young people in Tunisia",
+    "presentation": [
+      "Jeun’ESS supports the development of a structured, inclusive and sustainable social and solidarity economy (SSE) ecosystem, placing young people at the centre of economic and social dynamics.",
+      "Through a territorial and participatory approach, Jeun’ESS supports young people developing projects, existing social and solidarity economy organisations, as well as public and private stakeholders involved in the ecosystem.",
+      "The project acts through several complementary levers: access to finance, entrepreneurial support, capacity building, access to markets, youth engagement, and the integration of SSE into local development dynamics."
+    ],
+    "generalObjective": "To contribute to the creation of decent and sustainable jobs for young women and men in Tunisia through the development of an inclusive and high-performing social and solidarity economy ecosystem.",
+    "specificObjectives": [
+      {
+        "title": "Facilitate access to finance for SSE initiatives",
+        "body": "Develop financial mechanisms adapted to the needs of young social entrepreneurs and SSE organisations."
+      },
+      {
+        "title": "Support the creation and consolidation of economic activities with social impact",
+        "body": "Support new and existing initiatives in order to strengthen their economic viability and territorial impact."
+      },
+      {
+        "title": "Strengthen market access for SSE organisations",
+        "body": "Improve the visibility, marketing and competitiveness of products and services from the social and solidarity economy."
+      },
+      {
+        "title": "Strengthen the role of territorial stakeholders",
+        "body": "Mobilise local authorities and public institutions to integrate SSE into local development strategies."
+      },
+      {
+        "title": "Promote youth engagement in the SSE",
+        "body": "Raise young people’s awareness and support them in designing collective initiatives that respond to the needs of their communities."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "304",
+        "label": "SSE projects supported"
+      },
+      {
+        "value": "186",
+        "label": "organisations supported"
+      },
+      {
+        "value": "3,721",
+        "label": "jobs supported"
+      },
+      {
+        "value": "765",
+        "label": "young people incubated"
+      },
+      {
+        "value": "373",
+        "label": "people trained in SSE support and assistance"
+      },
+      {
+        "value": "49",
+        "label": "LIMITL’ESS clubs established"
+      },
+      {
+        "value": "87",
+        "label": "organisations showcased at national fairs and events"
+      }
+    ],
+    "components": [
+      {
+        "name": "Social Innovation Fund (SIF)",
+        "description": "The Social Innovation Fund supports young people developing high-impact social projects through a comprehensive incubation pathway combining training, mentoring, individual support and financing.",
+        "bullets": [
+          "The objective is to turn innovative ideas into structured economic initiatives capable of generating sustainable employment in priority regions.",
+          "Agriculture and agri-food processing;",
+          "Handicrafts;",
+          "Sustainable tourism and ecotourism;",
+          "Digital services with social impact;",
+          "Circular economy;",
+          "Culture and education;",
+          "Environment;",
+          "Community health and well-being."
+        ]
+      },
+      {
+        "name": "Re-Fund Challenge",
+        "description": "The Re-Fund Challenge supports existing SSE organisations affected by the COVID-19 crisis in order to strengthen their economic resilience, safeguard jobs and support their development.",
+        "bullets": [
+          "The scheme combines diagnosis, technical support, capacity building and financing.",
+          "Agriculture and agri-food;",
+          "Traditional handicrafts;",
+          "Beekeeping;",
+          "Carpets and weaving;",
+          "Natural products;",
+          "Fair trade;",
+          "Services supporting the economic empowerment of rural women."
+        ]
+      },
+      {
+        "name": "Market Fund",
+        "description": "The Market Fund supports organisations backed by Jeun’ESS in improving their commercial performance and access to markets.",
+        "bullets": [
+          "It focuses in particular on:",
+          "developing commercial strategies;",
+          "improving the visibility of SSE products;",
+          "product listing and referencing;",
+          "networking with distributors;",
+          "developing physical and digital marketing and sales solutions.",
+          "Agri-food;",
+          "Handicrafts and local design;",
+          "Natural cosmetics;",
+          "Ethical fashion;",
+          "Eco-friendly products;",
+          "Responsible tourism;",
+          "Solidarity-based e-commerce."
+        ]
+      },
+      {
+        "name": "LIMITL’ESS",
+        "description": "",
+        "bullets": []
+      },
+      {
+        "name": "1. Enactus LIMITL’ESS Clubs",
+        "description": "Developed in partnership with Enactus Tunisia, this initiative aims to raise students’ awareness of the social and solidarity economy and strengthen their entrepreneurial skills.",
+        "bullets": [
+          "Through training sessions, bootcamps, practical workshops and competitions, students develop collective projects with social and environmental impact.",
+          "Agriculture and agri-food;",
+          "Technology and innovation;",
+          "Natural cosmetics;",
+          "Circular economy;",
+          "Green energy;",
+          "Sustainable tourism;",
+          "Handicrafts and textiles;",
+          "Education and training."
+        ]
+      },
+      {
+        "name": "LIMITL’ESS Génération",
+        "description": "The LIMITL’ESS Génération clubs, established in youth centres (Maisons de jeunes) and cultural centres (Maisons de culture), enable young people to discover the social and solidarity economy through a practical and participatory approach.",
+        "bullets": [
+          "The initiative combines awareness-raising, practical workshops, support and the development of collective projects responding to local needs.",
+          "The programme concludes with the LIMITL’ESS Challenge, which provides the most promising initiatives with tailored coaching and material support.",
+          "Education and career guidance;",
+          "Media and communication;",
+          "Environment and ecology;",
+          "Visual arts and design;",
+          "Local handicrafts;",
+          "Agriculture and beekeeping;",
+          "Local social innovation."
+        ]
+      },
+      {
+        "name": "Community Fund",
+        "description": "The Community Fund aims to strengthen the capacities of public and territorial stakeholders to integrate the social and solidarity economy into local development policies.",
+        "bullets": [
+          "It focuses on:",
+          "training Regional Support Committees;",
+          "developing methodological tools;",
+          "creating multi-stakeholder dialogue spaces;",
+          "supporting territorial initiatives."
+        ]
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "September 2019 – August 2024",
+      "implementer": "International Labour Organization (ILO)",
+      "institutionalPartner": "",
+      "targetGroup": "Jendouba, Le Kef, Kairouan, Kasserine, Sidi Bouzid, Gabès, Kebili",
+      "funding": ""
+    }
+  },
+  "ar": {
+    "acronym": "Jeun’ESS بالأرقام",
+    "fullName": "مشروع للنهوض بالاقتصاد الاجتماعي والتضامني وإحداث مواطن شغل لائق للشباب التونسي",
+    "tagline": "النهوض بالاقتصاد الاجتماعي والتضامني وإحداث مواطن شغل لائق للشباب التونسي",
+    "presentation": [
+      "يساهم مشروع Jeun’ESS في دعم تطوير منظومة منظمة وشاملة ومستدامة للاقتصاد الاجتماعي والتضامني، من خلال وضع الشباب في صميم الديناميكيات الاقتصادية والاجتماعية.",
+      "ومن خلال مقاربة ترابية وتشاركية، يدعم المشروع الشباب أصحاب المشاريع، والمنظمات الناشطة في مجال الاقتصاد الاجتماعي والتضامني، إلى جانب الفاعلين العموميين والخواص المنخرطين في هذه المنظومة.",
+      "ويعمل المشروع عبر مجموعة من المحاور المتكاملة، تشمل النفاذ إلى التمويل، والمرافقة في مجال ريادة الأعمال، وبناء القدرات، والنفاذ إلى الأسواق، وتعزيز انخراط الشباب، وإدماج الاقتصاد الاجتماعي والتضامني في ديناميكيات التنمية المحلية."
+    ],
+    "generalObjective": "المساهمة في إحداث مواطن شغل لائق ومستدام للشابات والشبان في تونس، من خلال تطوير منظومة شاملة وفعالة للاقتصاد الاجتماعي والتضامني.",
+    "specificObjectives": [
+      {
+        "title": "تيسير النفاذ إلى التمويل لفائدة مبادرات الاقتصاد الاجتماعي والتضامني",
+        "body": "تطوير آليات تمويل تتلاءم مع احتياجات رواد الأعمال الاجتماعيين الشباب والمنظمات الناشطة في مجال الاقتصاد الاجتماعي والتضامني."
+      },
+      {
+        "title": "دعم إحداث وتعزيز الأنشطة الاقتصادية ذات الأثر الاجتماعي",
+        "body": "مرافقة المبادرات الجديدة والقائمة بهدف تعزيز استدامتها الاقتصادية وأثرها على المستوى الترابي."
+      },
+      {
+        "title": "تعزيز نفاذ منظمات الاقتصاد الاجتماعي والتضامني إلى الأسواق",
+        "body": "تحسين التعريف بمنتجات وخدمات الاقتصاد الاجتماعي والتضامني وتسويقها وقدرتها التنافسية."
+      },
+      {
+        "title": "تعزيز دور الفاعلين على المستوى الترابي",
+        "body": "تعبئة الجماعات المحلية والهياكل العمومية من أجل إدماج الاقتصاد الاجتماعي والتضامني ضمن استراتيجيات التنمية المحلية."
+      },
+      {
+        "title": "تعزيز انخراط الشباب في الاقتصاد الاجتماعي والتضامني",
+        "body": "تحسيس الشباب ومرافقتهم في تصميم مبادرات جماعية تستجيب لاحتياجات مجتمعاتهم المحلية."
+      }
+    ],
+    "kpis": [
+      {
+        "value": "304",
+        "label": "دعم مشاريع في مجال الاقتصاد الاجتماعي والتضامني؛"
+      },
+      {
+        "value": "186",
+        "label": "مرافقة مؤسسة وهيكلاً؛"
+      },
+      {
+        "value": "3,721",
+        "label": "دعم موطن شغل؛"
+      },
+      {
+        "value": "765",
+        "label": "احتضان شاباً وشابة؛"
+      },
+      {
+        "value": "373",
+        "label": "تكوين شخصاً في مجال مرافقة الاقتصاد الاجتماعي والتضامني؛"
+      },
+      {
+        "value": "49",
+        "label": "إحداث نادياً لـ LIMITL’ESS؛"
+      },
+      {
+        "value": "87",
+        "label": "التعريف بـمؤسسة وهيكلاً خلال صالونات وتظاهرات وطنية؛"
+      },
+      {
+        "value": "140",
+        "label": "إدراج أكثر من منتجاً من منتجات الاقتصاد الاجتماعي والتضامني"
+      }
+    ],
+    "components": [
+      {
+        "name": "Social Innovation Fund (SIF)",
+        "description": "يدعم Social Innovation Fund الشباب أصحاب المشاريع ذات الأثر الاجتماعي من خلال مسار متكامل للاحتضان يجمع بين التكوين والتوجيه والمرافقة الفردية والتمويل.",
+        "bullets": [
+          "ويهدف الصندوق إلى تحويل الأفكار المبتكرة إلى مبادرات اقتصادية منظمة وقادرة على إحداث مواطن شغل مستدامة في الجهات ذات الأولوية.",
+          "الفلاحة وتحويل المنتجات الفلاحية والغذائية؛",
+          "الصناعات التقليدية؛",
+          "السياحة المستدامة والسياحة البيئية؛",
+          "الخدمات الرقمية ذات الأثر الاجتماعي؛",
+          "الاقتصاد الدائري؛",
+          "الثقافة والتعليم؛",
+          "البيئة؛",
+          "الصحة والرفاه المجتمعي."
+        ]
+      },
+      {
+        "name": "Re-Fund Challenge",
+        "description": "يعمل Re-Fund Challenge على مرافقة هياكل الاقتصاد الاجتماعي والتضامني القائمة والمتضررة من أزمة كوفيد-19، بهدف تعزيز قدرتها على الصمود الاقتصادي، والحفاظ على مواطن الشغل ودعم تطورها.",
+        "bullets": [
+          "ويعتمد هذا البرنامج على مسار يجمع بين التشخيص، والمرافقة الفنية، وبناء القدرات والتمويل.",
+          "الفلاحة والصناعات الغذائية؛",
+          "الصناعات التقليدية؛",
+          "تربية النحل؛",
+          "صناعة الزرابي والنسيج؛",
+          "المنتجات الطبيعية؛",
+          "التجارة العادلة؛",
+          "الخدمات المرتبطة بالتمكين الاقتصادي للنساء في المناطق الريفية."
+        ]
+      },
+      {
+        "name": "Market Fund",
+        "description": "يدعم Market Fund المنظمات المستفيدة من مشروع Jeun’ESS في تحسين أدائها التجاري وتعزيز نفاذها إلى الأسواق.",
+        "bullets": [
+          "ويشمل تدخله خصوصاً:",
+          "تطوير الاستراتيجيات التجارية؛",
+          "تحسين التعريف بمنتجات الاقتصاد الاجتماعي والتضامني؛",
+          "إدراج المنتجات والتعريف بها ضمن قنوات التسويق والتوزيع؛",
+          "ربط شبكات مع الموزعين؛",
+          "تطوير حلول التسويق والترويج والبيع عبر القنوات الحضورية والرقمية.",
+          "الصناعات الغذائية؛",
+          "الصناعات التقليدية والتصميم المحلي؛",
+          "مستحضرات التجميل الطبيعية؛",
+          "الأزياء المسؤولة؛",
+          "المنتجات الصديقة للبيئة؛",
+          "السياحة المسؤولة؛",
+          "التجارة الإلكترونية التضامنية."
+        ]
+      },
+      {
+        "name": "LIMITL’ESS",
+        "description": "",
+        "bullets": []
+      },
+      {
+        "name": "1. نوادي Enactus LIMITL’ESS",
+        "description": "تم تطوير هذا البرنامج بالشراكة مع Enactus Tunisie، ويهدف إلى تحسيس الطلبة بالاقتصاد الاجتماعي والتضامني وتعزيز مهاراتهم في مجال ريادة الأعمال.",
+        "bullets": [
+          "ومن خلال دورات التكوين، ومخيمات التدريب المكثف، وورشات العمل التطبيقية والمسابقات، يطوّر الطلبة مشاريع جماعية ذات أثر اجتماعي وبيئي.",
+          "الفلاحة والصناعات الغذائية؛",
+          "التكنولوجيا والابتكار؛",
+          "مستحضرات التجميل الطبيعية؛",
+          "الاقتصاد الدائري؛",
+          "الطاقة الخضراء؛",
+          "السياحة المستدامة؛",
+          "الصناعات التقليدية والنسيج؛",
+          "التعليم والتكوين."
+        ]
+      },
+      {
+        "name": "LIMITL’ESS Génération",
+        "description": "تتيح نوادي LIMITL’ESS Génération، المنتصبة في دور الشباب ودور الثقافة، للشباب اكتشاف الاقتصاد الاجتماعي والتضامني من خلال مقاربة عملية وتشاركية.",
+        "bullets": [
+          "ويجمع هذا البرنامج بين التوعية، وورشات العمل التطبيقية، والمرافقة، وتطوير مشاريع جماعية تستجيب لاحتياجات الجهات.",
+          "ويُختتم المسار بتنظيم تحدي LIMITL’ESS، الذي يتيح للمبادرات الواعدة الاستفادة من مرافقة مخصصة ودعم مادي.",
+          "التعليم والتوجيه؛",
+          "الإعلام والاتصال؛",
+          "البيئة والإيكولوجيا؛",
+          "الفنون البصرية والتصميم؛",
+          "الصناعات التقليدية المحلية؛",
+          "الفلاحة وتربية النحل؛",
+          "الابتكار الاجتماعي المحلي."
+        ]
+      },
+      {
+        "name": "Community Fund",
+        "description": "يهدف Community Fund إلى تعزيز قدرات الفاعلين العموميين والترابيين بما يمكّن من إدماج الاقتصاد الاجتماعي والتضامني في سياسات التنمية المحلية.",
+        "bullets": [
+          "ويرتكز الصندوق على:",
+          "تكوين لجان الدعم الجهوية؛",
+          "تطوير أدوات ومنهجيات العمل؛",
+          "إحداث فضاءات للحوار متعددة الأطراف؛",
+          "مرافقة المبادرات المحلية ."
+        ]
+      },
+      {
+        "name": "Jeun’ESS",
+        "description": "",
+        "bullets": []
+      }
+    ],
+    "heritage": [],
+    "keyInfo": {
+      "period": "",
+      "implementer": "منظمة العمل الدولية (OIT)",
+      "institutionalPartner": "",
+      "targetGroup": "جندوبة، الكاف، القيروان، القصرين، سيدي بوزيد، قابس، قبلي",
+      "funding": ""
+    }
+  }
+}

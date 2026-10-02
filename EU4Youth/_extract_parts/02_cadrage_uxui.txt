@@ -1,0 +1,621 @@
+EU4YOUTH.ORG
+Cadrage UX/UI — Pages éditoriales et fonctionnelles
+Actualités — Opportunités — Glossaire — Publications & Ressources
+Document de conception à destination de l'équipe UX/UI et développement
+Version 2 — inclut les textes d'introduction proposés et les listes cliquables d'accès rapide par page.
+Sommaire
+
+## [Heading 1] 1. Rappel du cadrage général
+
+Le présent document décline, pour quatre pages du site eu4youth.org — Actualités, Opportunités, Glossaire, Publications & Ressources —, les principes de conception définis dans le prompt global de cadrage UX/UI : architecture de composants cohérente, système de contenu interconnecté, filtrage combinable, design responsive, gestion exhaustive des états et structuration des métadonnées pour le back-office.
+La page d'accueil du site étant déjà conçue, elle sert de référence pour la charte graphique, les composants de navigation principale et le ton éditorial. Les quatre pages traitées ici s'y articulent sans redondance.
+Conformément à la contrainte de périmètre, eu4youth.org ne reproduit pas les cartographies et bases de données déjà disponibles sur la plateforme EU4Youth Tunisie. Le site joue un rôle de vitrine éditoriale, de valorisation et d'orientation ; lorsqu'une fonctionnalité avancée existe déjà sur une plateforme spécialisée, la page renvoie vers celle-ci plutôt que de la dupliquer.
+
+## [Heading 2] 1.1 Logique de gabarit commune
+
+Hero  —  Bandeau d'ouverture identifiant la rubrique (titre, chapeau, fil d'ariane, visuel).
+Introduction  —  Court texte de cadrage situant la rubrique dans l'écosystème EU4Youth (2 à 4 lignes).
+Recherche / navigation  —  Barre de recherche par mots-clés et, le cas échéant, navigation secondaire (ex. index alphabétique).
+Filtres  —  Filtres combinables construits sur des taxonomies structurées, complétés d'une liste cliquable d'accès rapide en bas de section, avec compteur de résultats en temps réel.
+Contenus  —  Grille ou liste de cartes de contenu, triable, avec pagination ou chargement progressif.
+Contenus associés  —  Modules de découverte transversale reliant l'entité consultée à d'autres entités du site.
+CTA  —  Appel à l'action de sortie de page (vers une plateforme spécialisée, une inscription, un contact, une autre rubrique).
+
+## [Heading 2] 1.2 Entités et relations mobilisées
+
+Les quatre pages s'appuient sur le même socle d'entités interconnectées. Une entité de contenu peut être associée à plusieurs autres entités simultanément ; cette relation multiple est ce qui alimente les modules « Contenus associés ».
+
+## [Heading 1] 2. Composants transverses réutilisables
+
+Les composants suivants sont mutualisés entre les quatre pages afin de garantir la cohérence de langage visuel demandée dans le cadrage général. Ils sont décrits une fois ici et référencés dans chaque section de page.
+
+## [Heading 2] 2.1 Barre de filtres combinables
+
+Composant unique décliné avec des jeux de filtres différents selon la page. Chaque filtre est un multi-select à valeurs contrôlées (taxonomie), jamais un champ texte libre.
+
+## [Heading 2] 2.2 Liste cliquable de catégories (accès rapide)
+
+En bas de la section de filtres, chaque page affiche une liste cliquable de raccourcis reprenant les valeurs de son filtre de type le plus discriminant (type d'actualité, type d'opportunité, type de ressource, catégorie thématique pour le glossaire). Ce composant offre un accès en un clic aux catégories les plus consultées, sans nécessiter l'ouverture du panneau de filtres complet ; il fonctionne comme un raccourci vers le filtre correspondant, pas comme un système distinct.
+
+## [Heading 2] 2.3 Carte de contenu générique
+
+Gabarit de carte commun, avec un jeu de champs affichés qui varie selon le type d'entité (voir sections dédiées).
+Vignette / visuel (ratio fixe, image de repli si absente)
+Badge de type de contenu (couleur dédiée par type)
+Titre (troncature à 2 lignes)
+Chapeau ou résumé court (troncature à 2–3 lignes)
+Tags de thématique(s) et projet(s) associé(s)
+Métadonnée contextuelle (date, localisation ou statut selon le type)
+Zone cliquable étendue à l'ensemble de la carte
+
+## [Heading 2] 2.4 États UX — matrice commune
+
+Chaque composant fonctionnel (carte, filtre, champ de recherche, bouton de pagination) doit implémenter, a minima, les états suivants. Les déclencheurs et comportements ci-dessous constituent la référence par défaut ; les particularités propres à une page sont précisées dans sa section.
+
+## [Heading 2] 2.5 Principe de métadonnées structurées
+
+Conformément à la contrainte de back-office, tout champ mobilisé pour la recherche, le filtrage, le tri, les relations ou l'affichage automatique est saisi en base sous forme contrôlée (taxonomie, liste de choix, date, relation à une autre entité) et non en texte libre. Le texte libre reste réservé aux champs strictement éditoriaux (titre, chapeau, corps de texte).
+
+## [Heading 1] 3. Page Actualités
+
+
+## [Heading 2] 3.1 Objectif
+
+Donner à voir la dynamique de l'écosystème EU4Youth dans la durée : avancées de projets, événements, partenariats, succès de terrain. La page fonctionne à deux niveaux : une page de liste filtrable et une fiche détail par actualité.
+
+## [Heading 2] 3.2 Texte d'introduction proposé
+
+Texte destiné au chapeau du hero, sous le titre « Actualités ». À valider et ajuster éditorialement.
+Cette rubrique retrace les avancées, les temps forts et les résultats des projets de l'écosystème EU4Youth. Communiqués, comptes rendus d'événements, partenariats noués et succès de terrain y sont rassemblés au fil de la mise en œuvre du programme, pour donner à voir une coopération en mouvement plutôt qu'un simple flux d'annonces.
+
+## [Heading 2] 3.3 Structure de la page liste
+
+Hero  —  Titre « Actualités », visuel de bandeau, fil d'ariane, texte d'introduction (voir 3.2).
+Recherche  —  Champ de recherche par mots-clés, en complément des filtres.
+Filtres  —  Voir tableau 3.4, complété de la liste cliquable d'accès rapide (voir 3.5).
+Contenus  —  Grille de cartes actualité, triable, avec chargement progressif.
+Contenus associés  —  Non applicable en page liste (réservé à la fiche détail, voir 3.7).
+CTA  —  « S'abonner aux actualités » ou lien vers les réseaux du programme, en pied de page.
+
+## [Heading 2] 3.4 Filtres et taxonomie
+
+Tri disponible
+Plus récentes (par défaut), plus consultées, pertinence (si recherche mots-clés active).
+Pagination
+Chargement progressif par lot de 12 cartes (« Charger plus »), préféré au scroll infini pour préserver la prévisibilité de navigation et l'accessibilité au clavier.
+
+## [Heading 2] 3.5 Liste cliquable d'accès rapide
+
+Positionnée en bas de la section de filtres, reprend les valeurs du filtre « Type d'actualité » (voir composant transverse 2.2).
+
+## [Heading 2] 3.6 Carte actualité — champs affichés
+
+Vignette (image de couverture de l'actualité)
+Badge type d'actualité
+Titre
+Chapeau (2 lignes)
+Date de publication
+Tags thématique(s) et projet associé
+Localisation si pertinente
+
+## [Heading 2] 3.7 Fiche détail actualité — contenus associés
+
+La fiche détail applique la logique éditoriale de découverte transversale demandée dans le cadrage général, sous forme de modules en pied d'article :
+« Projet associé » — bandeau de rappel du ou des projets liés, avec lien vers leur page
+« Médias associés » — galerie ou lecteur intégré si l'actualité référence des médias
+« Actualités associées » — 3 cartes sélectionnées par recoupement de thématique et de projet
+« À découvrir également » — module mixte pouvant inclure une opportunité ou une ressource liée à la même thématique
+
+## [Heading 2] 3.8 Comportement responsive
+
+
+## [Heading 2] 3.9 Métadonnées back-office — entité Actualité
+
+
+## [Heading 1] 4. Page Opportunités
+
+
+## [Heading 2] 4.1 Objectif
+
+Centraliser les appels à candidatures, appels à projets, offres de stage ou d'emploi, bourses et formations ouverts par les projets de l'écosystème EU4Youth, avec un traitement rigoureux du statut temporel (ouvert, à venir, clôturé) qui conditionne fortement l'expérience utilisateur de cette page.
+
+## [Heading 2] 4.2 Texte d'introduction proposé
+
+Texte destiné au chapeau du hero, sous le titre « Opportunités ». À valider et ajuster éditorialement.
+Cette rubrique rassemble les appels à projets, appels à candidatures, offres de stage ou d'emploi, bourses et formations ouverts par les projets de l'écosystème EU4Youth. Chaque opportunité précise son porteur, son public cible et sa date limite, pour permettre aux jeunes, aux associations et aux structures partenaires d'identifier rapidement les dispositifs auxquels ils peuvent prétendre.
+
+## [Heading 2] 4.3 Structure de la page liste
+
+Hero  —  Titre « Opportunités », chapeau (voir 4.2), fil d'ariane.
+Recherche  —  Champ mots-clés (intitulé, mot-clé de secteur).
+Filtres  —  Voir tableau 4.4, complété de la liste cliquable d'accès rapide (voir 4.5).
+Contenus  —  Liste de cartes opportunité, triée par défaut par proximité de date limite pour les opportunités ouvertes.
+Contenus associés  —  Sur la fiche détail uniquement (voir 4.7).
+CTA  —  « Postuler » ou « Voir l'appel complet », pouvant renvoyer vers une plateforme externe de candidature.
+
+## [Heading 2] 4.4 Filtres et taxonomie
+
+Tri disponible
+Date limite la plus proche (par défaut, opportunités ouvertes en tête), plus récentes, pertinence.
+Traitement des opportunités clôturées
+Les opportunités clôturées restent accessibles à titre d'archive et de démonstration de la dynamique du programme, mais sont visuellement distinguées (badge « Clôturé », carte atténuée) et reléguées en fin de liste par défaut plutôt que masquées, sauf sélection explicite du filtre « Clôturé ».
+
+## [Heading 2] 4.5 Liste cliquable d'accès rapide
+
+Positionnée en bas de la section de filtres, reprend les valeurs du filtre « Type d'opportunité » (voir composant transverse 2.2). Le statut « Ouvertes uniquement » reste, lui, piloté par le filtre rapide de statut plutôt que par cette liste, pour éviter toute redondance de logique.
+
+## [Heading 2] 4.6 Carte opportunité — champs affichés
+
+Badge type d'opportunité et badge statut (ouvert / à venir / clôturé)
+Titre de l'appel
+Chapeau synthétique (objet, public cible)
+Date limite de candidature, mise en évidence si proche (moins de 7 jours)
+Projet et thématique associés
+Localisation d'éligibilité
+
+## [Heading 2] 4.7 Fiche détail opportunité — contenus associés
+
+« Projet associé » — présentation courte du projet porteur avec lien
+« Documents liés » — cahier des charges, formulaire, guide du candidat (entité Publication / Ressource)
+« Actualités associées » — actualités de lancement ou de résultats de l'appel
+« Autres opportunités du même projet » ou « de la même thématique »
+Bloc FAQ ou contact dédié si fourni par le porteur
+
+## [Heading 2] 4.8 États UX spécifiques
+
+
+## [Heading 2] 4.9 Comportement responsive
+
+
+## [Heading 2] 4.10 Métadonnées back-office — entité Opportunité
+
+
+## [Heading 1] 5. Page Glossaire
+
+
+## [Heading 2] 5.1 Objectif
+
+Rendre accessible le vocabulaire institutionnel et technique du programme (coopération internationale, développement, dispositifs EU4Youth) à des publics variés, en assurant la cohérence terminologique entre toutes les pages du site par un système de liaison croisée plutôt qu'une simple liste statique.
+
+## [Heading 2] 5.2 Texte d'introduction proposé
+
+Texte destiné au chapeau du hero, sous le titre « Glossaire ». À valider et ajuster éditorialement.
+Ce glossaire réunit les termes techniques et institutionnels mobilisés par les projets de l'écosystème EU4Youth — dispositifs de coopération internationale, mécanismes de financement, notions propres aux politiques de jeunesse. Il vise à faciliter la lecture des contenus du site pour des publics qui n'évoluent pas nécessairement dans l'univers de la coopération internationale.
+
+## [Heading 2] 5.3 Structure de la page
+
+Le gabarit Glossaire adapte la logique générale : la « navigation » y prend la forme d'un index alphabétique plutôt que d'un simple fil de filtres, et les « filtres » se limitent à la catégorie thématique du terme.
+Hero  —  Titre « Glossaire », chapeau (voir 5.2).
+Recherche / navigation  —  Champ de recherche mots-clés et index alphabétique (A–Z) toujours visible.
+Filtres  —  Filtre par catégorie thématique du terme, complété de la liste cliquable d'accès rapide (voir 5.5).
+Contenus  —  Liste de termes groupés par lettre, ou résultats de recherche à plat.
+Contenus associés  —  Sur la fiche terme : contenus liés au terme (voir 5.6).
+CTA  —  Suggestion d'ajout de terme ou lien vers un lexique institutionnel externe si pertinent.
+
+## [Heading 2] 5.4 Comportement de recherche et navigation
+
+Recherche instantanée dès la première frappe, avec surlignage du terme dans les résultats
+Index alphabétique sticky en haut de liste (desktop et tablette) ou en bandeau horizontal scrollable (mobile)
+Une lettre sans terme associé reste visible mais désactivée dans l'index, plutôt que masquée, pour préserver la lisibilité de l'alphabet complet
+Chaque terme est ancré (URL directe) pour permettre le lien profond depuis les autres pages du site
+
+## [Heading 2] 5.5 Liste cliquable d'accès rapide
+
+Positionnée en bas de la section de filtres, reprend les catégories thématiques les plus représentées dans le glossaire (les mêmes catégories que la taxonomie Thématique). Elle complète l'index alphabétique par une entrée conceptuelle, utile lorsque l'utilisateur connaît le sujet mais pas le terme exact recherché.
+
+## [Heading 2] 5.6 Fiche terme — structure et contenus associés
+
+Terme et définition courte (registre accessible, non technique)
+Acronyme ou équivalent en langue source si pertinent (ex. sigles institutionnels)
+Catégorie thématique de rattachement
+« Projets associés » — projets de l'écosystème où ce terme est particulièrement mobilisé
+« Contenus associés » — actualités, publications ou opportunités mentionnant ce terme
+« Termes liés » — renvoi vers d'autres entrées du glossaire par proximité conceptuelle
+
+## [Heading 2] 5.7 Principe d'info-bulle transverse
+
+Conformément à la logique de navigation transversale du cadrage général, tout terme du glossaire identifié dans le corps d'une actualité, d'une opportunité ou d'une publication peut être signalé par un discret marqueur typographique, avec info-bulle affichant la définition courte au survol ou au tap, et lien vers la fiche complète. Ce comportement reste sobre pour ne pas alourdir la lecture éditoriale.
+
+## [Heading 2] 5.8 États UX spécifiques
+
+
+## [Heading 2] 5.9 Comportement responsive
+
+
+## [Heading 2] 5.10 Métadonnées back-office — entité Terme du glossaire
+
+
+## [Heading 1] 6. Page Publications & Ressources
+
+
+## [Heading 2] 6.1 Objectif
+
+Valoriser la production documentaire du programme (études, guides, fiches techniques, rapports, livres blancs, outils méthodologiques) et en faciliter le repérage par type, thématique et projet, dans un rôle de vitrine de capitalisation plutôt que de bibliothèque exhaustive gérée par une base spécialisée.
+
+## [Heading 2] 6.2 Texte d'introduction proposé
+
+Texte destiné au chapeau du hero, sous le titre « Publications & Ressources ». À valider et ajuster éditorialement.
+Cette rubrique valorise la production documentaire des projets de l'écosystème EU4Youth : études, guides méthodologiques, fiches techniques, rapports et outils élaborés au fil de la mise en œuvre du programme. Elle donne accès aux enseignements et aux méthodes capitalisés par les équipes, dans une logique de transmission plutôt que d'archivage exhaustif.
+
+## [Heading 2] 6.3 Structure de la page liste
+
+Hero  —  Titre « Publications & Ressources », chapeau (voir 6.2).
+Recherche  —  Champ mots-clés (titre, mots-clés documentaires).
+Filtres  —  Voir tableau 6.4, complété de la liste cliquable d'accès rapide (voir 6.5).
+Contenus  —  Grille de cartes ressource, triable, avec chargement progressif.
+Contenus associés  —  Sur la fiche détail (voir 6.7).
+CTA  —  « Consulter d'autres ressources sur [thématique] » ou renvoi vers une plateforme documentaire externe si existante.
+
+## [Heading 2] 6.4 Filtres et taxonomie
+
+Tri disponible
+Plus récentes (par défaut), plus téléchargées / consultées, pertinence.
+
+## [Heading 2] 6.5 Liste cliquable d'accès rapide
+
+Positionnée en bas de la section de filtres, reprend les valeurs du filtre « Type de ressource » (voir composant transverse 2.2).
+
+## [Heading 2] 6.6 Carte ressource — champs affichés
+
+Vignette (couverture du document ou visuel générique par type)
+Badge type de ressource et badge langue
+Titre
+Chapeau synthétique
+Projet et thématique associés
+Format et poids de fichier si téléchargement direct
+
+## [Heading 2] 6.7 Fiche détail ressource — contenus associés
+
+Bouton de téléchargement ou de consultation en ligne, avec mention du format et de la langue
+« Projet associé » — présentation courte avec lien
+« Autres ressources sur cette thématique »
+« Actualités associées » — actualité de publication ou de diffusion de la ressource
+« Opportunités associées » si la ressource sert de document de référence à un appel en cours
+
+## [Heading 2] 6.8 États UX spécifiques
+
+
+## [Heading 2] 6.9 Comportement responsive
+
+
+## [Heading 2] 6.10 Métadonnées back-office — entité Publication / Ressource
+
+
+## [Heading 1] 7. Page Youth Stories
+
+
+## [Heading 2] 7.1 Objectif et positionnement éditorial
+
+Cette page occupe une place à part dans l'architecture du site. Là où les autres rubriques informent, celle-ci raconte : elle donne à voir, en images et en récits, ce que l'accompagnement des projets de l'écosystème EU4Youth change concrètement pour des jeunes et pour des initiatives soutenues. C'est ici que se joue le lien émotionnel avec le visiteur, avant tout retour vers un registre institutionnel.
+Ce positionnement a une conséquence directe sur la conception : la page suit la logique générale du site (hero → introduction → navigation → contenus → contenus associés → CTA), mais l'allège délibérément à chaque étape où un excès de composants fonctionnels (filtres denses, taxonomies visibles) romprait l'immersion narrative. La densité fonctionnelle cède ici le pas à la densité visuelle et éditoriale.
+
+## [Heading 2] 7.2 Texte d'introduction proposé
+
+Texte destiné au chapeau du hero, sous le titre « Youth Stories ». Registre volontairement plus incarné que sur les autres pages, à valider éditorialement.
+Derrière chaque projet, il y a des parcours. Cette rubrique donne la parole aux jeunes accompagnés par l'écosystème EU4Youth et aux initiatives qu'ils ont portées — en photos, en vidéos, en récits à la première personne.
+
+## [Heading 2] 7.3 Structure de la page
+
+Hero  —  Bandeau immersif plein cadre mettant en avant un récit à la une (photo ou vidéo), avec accroche courte et CTA direct vers ce récit — plutôt qu'un hero générique de rubrique.
+Introduction  —  Chapeau de rubrique (voir 7.2), positionné sous ou à côté du récit à la une, en retrait visuel par rapport à celui-ci.
+Navigation  —  Recherche mots-clés discrète, sans occuper la position centrale qu'elle a sur les autres pages.
+Filtres  —  Filtres réduits au strict nécessaire (voir 7.4) et liste cliquable d'accès rapide (voir 7.5), sans barre de filtres dense.
+Contenus  —  Grille ou carrousel de récits à fort poids visuel, chargement progressif.
+Contenus associés  —  Sur la fiche récit : projet, autres parcours, actualités et ressources liés (voir 7.8).
+CTA  —  « Partager une histoire » ou « Proposer un témoignage » — CTA de contribution plutôt que de simple sortie de page, cohérent avec la vocation participative de la rubrique.
+
+## [Heading 2] 7.4 Filtres et taxonomie
+
+Les filtres restent volontairement peu nombreux, pour ne pas transformer une expérience de découverte narrative en exercice de recherche documentaire.
+Tri disponible
+Mis en avant / à la une (par défaut, piloté éditorialement plutôt que par un algorithme de fraîcheur pure), plus récents, plus consultés.
+
+## [Heading 2] 7.5 Liste cliquable d'accès rapide
+
+Positionnée sous la section de filtres allégée, reprend le filtre « Type de récit » (voir composant transverse 2.2), pour un accès en un clic sans passer par un panneau de filtres.
+
+## [Heading 2] 7.6 Carte récit — champs affichés
+
+La carte se distingue des autres gabarits de contenu par une part beaucoup plus large laissée au visuel.
+Visuel plein cadre (photo, ou vignette vidéo avec icône de lecture et mention de durée superposées)
+Badge de format (photo-récit / vidéo / article)
+Titre du récit — le prénom du bénéficiaire ou le nom de l'initiative, associé à une accroche courte, plutôt qu'un titre institutionnel
+Chapeau à la première personne (1 à 2 lignes, citation ou résumé incarné)
+Projet et localisation associés, en discret sous le visuel
+
+## [Heading 2] 7.7 Fiche détail récit — structure éditoriale
+
+Gabarit long format distinct des fiches détail institutionnelles des autres pages, pensé pour la lecture immersive :
+Hero plein écran : photo ou vidéo (lecture au tap sur mobile, autoplay muet avec contrôle visible sur desktop)
+Citation forte du bénéficiaire mise en exergue, immédiatement sous le hero
+Corps du récit en alternance texte / visuels, avec citations secondaires mises en exergue au fil de la lecture
+Galerie photo ou lecteur vidéo intégré si plusieurs médias disponibles
+Bloc de repères factuels sobre si pertinent (ex. projet, durée d'accompagnement, localisation), sans jamais transformer le récit en fiche statistique
+
+## [Heading 2] 7.8 Contenus associés
+
+« Projet associé » — présentation courte du projet ayant accompagné ce parcours, avec lien
+« D'autres parcours du même projet » — 2 à 3 récits liés
+« Actualités associées » — actualité ayant couvert l'initiative ou l'événement mentionné
+« Ressources associées » — publication ou fiche méthodologique en lien avec le dispositif évoqué dans le récit
+
+## [Heading 2] 7.9 États UX spécifiques
+
+
+## [Heading 2] 7.10 Comportement responsive
+
+
+## [Heading 2] 7.11 Métadonnées back-office — entité Récit (Youth Story)
+
+
+## [Heading 2] 7.12 Point de vigilance éditorial
+
+Le champ de consentement et de droit à l'image mérite un traitement à part dans le back-office : il conditionne la publication elle-même et non un simple attribut d'affichage. Une attention particulière est nécessaire lorsque le bénéficiaire est mineur ou appartient à un public vulnérable, avec un circuit de validation dédié avant mise en ligne, distinct du circuit éditorial standard des autres pages.
+
+## [Heading 1] 8. Tableau de synthèse comparatif
+
+Ce tableau récapitule, pour arbitrage rapide en atelier de conception, les principaux paramètres différenciant les quatre pages.
+
+## [Heading 2] 8.1 Points de vigilance pour la suite
+
+Valider éditorialement les cinq textes d'introduction proposés (3.2, 4.2, 5.2, 6.2, 7.2) : ils constituent une base rédactionnelle, pas un texte final.
+Confirmer avec l'équipe technique la disponibilité d'un moteur de recherche à facettes pour supporter le filtrage combinable sur les pages concernées sans latence perceptible.
+Arbitrer, pour la page Opportunités, la source de vérité du statut (calcul automatique côté back-office recommandé plutôt que saisie manuelle, pour éviter les décalages).
+Valider le nombre de langues actives dès la phase de maquette, la page Glossaire et la page Publications & Ressources étant les plus sensibles à la gestion de la disponibilité linguistique.
+Cadrer, pour Youth Stories, le circuit de collecte et de validation du consentement / droit à l'image en amont de la conception du back-office, avant même le maquettage des écrans de saisie.
+Vérifier, pour chaque page, la liste exacte des plateformes spécialisées existantes vers lesquelles renvoyer, afin de ne pas dupliquer de fonctionnalité déjà couverte côté EU4Youth Tunisie.
+
+### TABLE 1
+
+Entité | Rôle dans les 4 pages traitées | Cardinalité typique
+Projet | Filtre et tag d'appartenance sur Actualité, Opportunité, Publication | 1 contenu → 1 ou plusieurs projets
+Thématique | Filtre transverse sur les 4 pages ; entrée de liaison avec le Glossaire | 1 contenu → plusieurs thématiques
+Localisation | Filtre sur Actualité, Opportunité, Publication (portée géographique) | 1 contenu → 1 ou plusieurs localisations
+Organisation / structure bénéficiaire | Association possible sur Actualité et Opportunité (porteur, partenaire) | 1 contenu → 0 à n organisations
+Terme du glossaire | Entité propre à la page Glossaire ; référencée en info-bulle depuis les autres pages | 1 terme → plusieurs contenus liés
+Média | Illustration de carte, galerie associée en fiche détail | 1 contenu → 0 à n médias
+Événement | Association possible sur Actualité et Opportunité (ex. webinaire de lancement d'un appel) | 0 à 1 événement lié
+Récit (Youth Story) | Entité propre à la page Youth Stories ; peut être référencée en contenu associé depuis Projet, Actualité et Publication | 1 récit → 1 projet, plusieurs thématiques
+
+### TABLE 2
+
+Élément | Comportement
+Compteur de résultats | Mis à jour en temps réel à chaque changement de filtre, avant validation explicite si possible (filtrage instantané)
+Combinaison de filtres | Logique ET entre familles de filtres, logique OU à l'intérieur d'une même famille
+Réinitialisation | Bouton « Réinitialiser les filtres » visible dès qu'un filtre est actif
+Filtres actifs | Rappel sous forme de tags supprimables individuellement au-dessus des résultats
+Persistance | Filtres réinjectés dans l'URL (paramètres de requête) pour permettre le partage et le retour arrière navigateur
+
+### TABLE 3
+
+Élément | Comportement
+Sélection | Un clic sur un item applique immédiatement le filtre correspondant, à l'identique de sa sélection dans le filtre complet
+État actif | L'item sélectionné reste visuellement marqué (fond plein) et reste combinable avec les autres filtres actifs par ailleurs
+Désélection | Un second clic sur l'item actif retire le filtre
+Compteur | Chaque item peut afficher, entre parenthèses, le nombre de contenus correspondants, mis à jour selon les autres filtres déjà actifs
+Responsive | Liste disposée en ligne sur desktop ; scrollable horizontalement sur tablette et mobile, sans passer par le drawer de filtres
+
+### TABLE 4
+
+État | Déclencheur | Comportement attendu
+Normal | Affichage par défaut | Rendu standard du composant
+Hover | Survol pointeur (desktop) | Changement de fond ou d'ombre léger, curseur pointeur
+Focus | Navigation clavier (Tab) | Contour de focus visible, conforme WCAG (contraste ≥ 3:1)
+Actif / sélectionné | Filtre ou raccourci coché | Marquage visuel persistant distinct du hover
+Loading | Chargement de résultats ou pagination progressive | Squelettes de carte (skeleton) plutôt que spinner plein écran
+Aucun résultat | Filtres ne retournant aucun contenu | Message contextuel + suggestion de réinitialisation ou de filtres proches
+Contenu indisponible | Contenu dépublié ou en cours de traduction dans la langue active | Carte masquée de la liste ou message de repli sur la fiche détail
+Contenu expiré | Date de clôture dépassée (surtout Opportunités) | Badge « Clôturé », carte grisée, tri automatique en fin de liste
+Erreur | Échec de chargement (API, réseau) | Message d'erreur non technique + bouton de nouvelle tentative
+
+### TABLE 5
+
+Filtre | Source des valeurs | Type
+Thématique | Taxonomie Thématique (partagée avec Glossaire, Opportunités, Publications) | Multi-select
+Projet associé | Taxonomie Projet | Multi-select
+Localisation | Taxonomie Localisation (pays / région) | Multi-select
+Type d'actualité | Liste contrôlée : communiqué, événement, partenariat, résultat / succès de terrain, vie du programme | Multi-select
+Période | Sélecteur de plage de dates ou raccourcis (30 derniers jours, cette année…) | Plage de dates
+
+### TABLE 6
+
+Toutes | Communiqués | Événements | Partenariats | Résultats de terrain | Vie du programme
+
+### TABLE 7
+
+Composant | Desktop | Tablette | Mobile
+Filtres | Barre horizontale persistante (sticky) sous le hero | Barre horizontale scrollable ou accordéon repliable | Bouton « Filtrer » ouvrant un drawer plein écran ; barre sticky de résultats en bas d'écran
+Liste cliquable d'accès rapide | Ligne unique sous les filtres | Ligne scrollable horizontalement | Ligne scrollable horizontalement, visible sans ouvrir le drawer
+Grille de cartes | 3 colonnes | 2 colonnes | 1 colonne, cartes empilées
+Recherche | Champ visible en permanence dans le hero | Champ visible en permanence | Icône de recherche repliée, champ en overlay au clic
+Contenus associés | 3 cartes en ligne | 2 cartes en ligne, 3e en dessous | Carrousel horizontal swipable
+
+### TABLE 8
+
+Champ | Type | Usage
+Titre | Texte | Affichage
+Chapeau | Texte court | Affichage carte
+Corps de l'article | Texte enrichi | Affichage fiche détail
+Type d'actualité | Liste contrôlée | Filtre, badge, tri, liste cliquable
+Thématique(s) | Relation taxonomie (multi) | Filtre, relation
+Projet(s) associé(s) | Relation taxonomie (multi) | Filtre, relation, module associé
+Localisation(s) | Relation taxonomie (multi) | Filtre
+Date de publication | Date | Tri, affichage, filtre période
+Statut de publication | Liste contrôlée (brouillon / publié / archivé) | Visibilité, état « indisponible »
+Médias liés | Relation entité Média (multi) | Module associé
+Organisation(s) liée(s) | Relation entité Organisation (multi, optionnel) | Relation, affichage
+Visuel de couverture | Média (image) | Affichage carte et hero de fiche
+
+### TABLE 9
+
+Filtre | Source des valeurs | Type
+Type d'opportunité | Liste contrôlée : appel à projets, appel à candidatures, stage / emploi, bourse, formation | Multi-select
+Statut | Calculé automatiquement à partir des dates : ouvert, à venir, clôturé | Single-select, ouvert par défaut
+Thématique | Taxonomie Thématique | Multi-select
+Projet associé | Taxonomie Projet | Multi-select
+Localisation / éligibilité géographique | Taxonomie Localisation | Multi-select
+Public cible | Liste contrôlée (jeunes, associations, entreprises, structures publiques…) | Multi-select
+
+### TABLE 10
+
+Toutes | Appels à projets | Appels à candidatures | Stages / emplois | Bourses | Formations
+
+### TABLE 11
+
+État | Comportement
+Opportunité à venir | Badge distinct « Ouverture prochaine », date d'ouverture affichée, candidature désactivée
+Opportunité expirée | Badge « Clôturé », CTA de candidature remplacé par une mention explicite et, si disponible, un lien vers les résultats
+Deadline imminente | Mise en avant visuelle (compte à rebours ou mention « Clôture dans X jours ») sans créer d'urgence trompeuse
+
+### TABLE 12
+
+Composant | Desktop | Tablette | Mobile
+Filtres | Barre horizontale sticky, statut en filtre rapide toujours visible | Filtres principaux visibles, secondaires en accordéon | Drawer plein écran ; filtre statut en chips toujours visibles au-dessus de la liste
+Liste cliquable d'accès rapide | Ligne unique sous les filtres | Ligne scrollable horizontalement | Ligne scrollable horizontalement, au-dessus des chips de statut
+Liste de cartes | Liste ou grille 2 colonnes selon densité d'information | 1 à 2 colonnes | 1 colonne, carte compacte avec date limite en évidence
+Fiche détail | CTA de candidature sticky dans la colonne latérale | CTA sticky en bas de la zone de contenu | CTA fixe en bas d'écran (barre persistante)
+
+### TABLE 13
+
+Champ | Type | Usage
+Titre de l'appel | Texte | Affichage
+Type d'opportunité | Liste contrôlée | Filtre, badge, liste cliquable
+Date d'ouverture | Date | Calcul du statut, tri
+Date limite | Date | Calcul du statut, tri, mise en évidence
+Statut | Calculé (non saisi manuellement) | Filtre, badge, tri par défaut
+Thématique(s) | Relation taxonomie (multi) | Filtre, relation
+Projet associé | Relation taxonomie | Filtre, relation, module associé
+Public cible | Liste contrôlée (multi) | Filtre
+Localisation d'éligibilité | Relation taxonomie (multi) | Filtre
+Documents liés | Relation entité Publication / Ressource (multi) | Module associé, téléchargement
+Lien de candidature externe | URL | CTA
+
+### TABLE 14
+
+Toutes | Coopération internationale | Financement | Politiques de jeunesse | Suivi-évaluation | Gouvernance
+
+### TABLE 15
+
+État | Comportement
+Recherche sans résultat | Message « Aucun terme ne correspond » + suggestion de termes proches (correction orthographique tolérante)
+Lettre vide dans l'index | Lettre visible mais non cliquable, sans rupture visuelle de l'alphabet
+Terme sans contenu associé | Module « Contenus associés » masqué plutôt qu'affiché vide
+
+### TABLE 16
+
+Composant | Desktop | Tablette | Mobile
+Index alphabétique | Colonne latérale sticky | Bandeau horizontal sticky sous la recherche | Bandeau horizontal scrollable, lettre active mise en évidence
+Liste cliquable d'accès rapide | Ligne unique sous le filtre thématique | Ligne scrollable horizontalement | Ligne scrollable horizontalement, sous l'index
+Liste de termes | 2 colonnes groupées par lettre | 1 à 2 colonnes | 1 colonne, groupement par lettre avec en-tête sticky
+Fiche terme | Modules associés en colonne latérale | Modules associés sous la définition | Modules associés en accordéon sous la définition
+
+### TABLE 17
+
+Champ | Type | Usage
+Terme | Texte | Affichage, index alphabétique (dérivé de la 1ère lettre)
+Définition courte | Texte enrichi | Affichage fiche et info-bulle
+Acronyme / équivalent | Texte court (optionnel) | Affichage
+Catégorie thématique | Relation taxonomie | Filtre, relation, liste cliquable
+Projets associés | Relation taxonomie (multi, optionnel) | Relation, module associé
+Termes liés | Relation entité Terme (multi, optionnel) | Module associé
+
+### TABLE 18
+
+Filtre | Source des valeurs | Type
+Type de ressource | Liste contrôlée : étude, guide méthodologique, fiche technique, rapport, livre blanc, outil / template | Multi-select
+Thématique | Taxonomie Thématique | Multi-select
+Projet associé | Taxonomie Projet | Multi-select
+Langue | Liste contrôlée (FR / AR / EN) | Multi-select
+Format | Liste contrôlée (PDF, vidéo, page web, tableur…) | Multi-select
+Année de publication | Dérivée de la date de publication | Single ou plage
+
+### TABLE 19
+
+Toutes | Études | Guides méthodologiques | Fiches techniques | Rapports | Livres blancs | Outils
+
+### TABLE 20
+
+État | Comportement
+Traduction indisponible | Mention explicite « Non disponible en [langue] » plutôt que masquage silencieux, avec proposition des langues disponibles
+Téléchargement en cours | Indicateur de progression sur le bouton, sans bloquer la navigation
+Lien externe (plateforme spécialisée) | Mention visuelle « Ressource hébergée sur [nom de la plateforme] » avant redirection
+
+### TABLE 21
+
+Composant | Desktop | Tablette | Mobile
+Filtres | Barre horizontale sticky | Accordéon repliable | Drawer plein écran
+Liste cliquable d'accès rapide | Ligne unique sous les filtres | Ligne scrollable horizontalement | Ligne scrollable horizontalement
+Grille de cartes | 3 colonnes | 2 colonnes | 1 colonne
+Fiche détail | Bloc de téléchargement en colonne latérale sticky | Bloc de téléchargement sous le résumé | Bouton de téléchargement fixe en bas d'écran
+
+### TABLE 22
+
+Champ | Type | Usage
+Titre | Texte | Affichage
+Chapeau | Texte court | Affichage carte
+Type de ressource | Liste contrôlée | Filtre, badge, liste cliquable
+Thématique(s) | Relation taxonomie (multi) | Filtre, relation
+Projet(s) associé(s) | Relation taxonomie (multi) | Filtre, relation, module associé
+Langue(s) disponibles | Liste contrôlée (multi) | Filtre, état « indisponible »
+Format | Liste contrôlée | Filtre, affichage
+Date de publication | Date | Tri, filtre année
+Fichier ou lien source | Fichier ou URL | Téléchargement / redirection
+Visuel de couverture | Média (image, optionnel) | Affichage carte
+
+### TABLE 23
+
+Filtre | Source des valeurs | Type
+Type de récit | Liste contrôlée : portrait individuel, initiative soutenue, témoignage collectif | Multi-select
+Format | Liste contrôlée : photo-récit, vidéo, article long format | Multi-select
+Projet associé | Taxonomie Projet | Multi-select
+Thématique | Taxonomie Thématique | Multi-select
+Localisation | Taxonomie Localisation | Multi-select
+
+### TABLE 24
+
+Tous les récits | Portraits | Vidéos | Initiatives soutenues
+
+### TABLE 25
+
+État | Comportement
+Vidéo en chargement | Image de repli (poster) affichée immédiatement, indicateur de chargement discret, jamais d'écran vide
+Vidéo indisponible | Repli automatique sur la version texte et photo du récit, sans message d'erreur intrusif
+Récit dépublié ou consentement retiré | Retrait complet du récit (liste et fiche), sans page fantôme ni message expliquant la raison du retrait
+Traduction indisponible | Mention « Ce récit est disponible en [langue] » avec proposition des langues existantes
+
+### TABLE 26
+
+Composant | Desktop | Tablette | Mobile
+Hero à la une | Plein cadre, texte en surimpression, vidéo en autoplay muet | Plein cadre, hauteur réduite | Format vertical recadré, vidéo en lecture au tap (pas d'autoplay, pour la donnée mobile)
+Filtres et liste cliquable | Ligne unique, discrète, sous le hero | Ligne scrollable horizontalement | Ligne scrollable horizontalement, sans drawer dédié
+Grille de récits | 3 colonnes, tailles de carte variables selon mise en avant éditoriale | 2 colonnes | 1 colonne, cartes pleine largeur
+Lecteur vidéo (fiche détail) | Format 16:9 centré dans la colonne de contenu | Format 16:9 | Support du format vertical si le média source est natif mobile
+
+### TABLE 27
+
+Champ | Type | Usage
+Titre / accroche | Texte | Affichage carte et hero de fiche
+Prénom ou nom de l'initiative | Texte | Affichage (anonymisation possible selon consentement)
+Type de récit | Liste contrôlée | Filtre, liste cliquable
+Format | Liste contrôlée | Filtre, badge carte
+Citation mise en exergue | Texte court | Affichage fiche détail
+Corps du récit | Texte enrichi | Affichage fiche détail
+Médias (photo / vidéo) | Relation entité Média (multi) | Hero, galerie, lecteur
+Projet associé | Relation taxonomie | Filtre, relation, module associé
+Thématique(s) | Relation taxonomie (multi) | Filtre, relation
+Localisation | Relation taxonomie | Filtre, affichage
+Consentement / droit à l'image | Champ structuré obligatoire (accord signé, référence, portée de diffusion) | Gouvernance de publication — condition bloquante à la mise en ligne
+Mise en avant éditoriale | Booléen / rang | Sélection du récit affiché en hero à la une
+Statut de publication | Liste contrôlée | Visibilité, retrait en cas de consentement retiré
+Langue(s) disponibles | Liste contrôlée (multi) | Filtre, état « traduction indisponible »
+
+### TABLE 28
+
+Paramètre | Actualités | Opportunités | Glossaire | Publications & Ress. | Youth Stories
+Navigation principale | Filtres + recherche | Filtres + recherche | Index A–Z + recherche | Filtres + recherche | Hero à la une + filtres allégés
+Filtre dominant | Type d'actualité | Statut (ouvert / clôturé) | Catégorie thématique | Type de ressource | Type de récit
+Liste cliquable d'accès rapide | Type d'actualité | Type d'opportunité | Catégorie thématique | Type de ressource | Type de récit
+Tri par défaut | Plus récentes | Date limite la plus proche | Alphabétique | Plus récentes | Mis en avant (éditorial)
+État temporel critique | Non | Oui (ouvert / à venir / clôturé) | Non | Secondaire (traduction) | Non
+Pagination | Chargement progressif | Chargement progressif | Groupement par lettre | Chargement progressif | Chargement progressif
+CTA de sortie type | Abonnement / réseaux | Candidature externe | Lien profond autres pages | Téléchargement / externe | Partager une histoire
